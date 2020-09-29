@@ -14,5 +14,9 @@ func main() {
 	factory := bone.NewFactory()
 	factory.LoadDragonBonesData(bFile, "", 1.0)
 	factory.LoadTextureAtlasData(tFile, "", 1.0)
+	log.Println("LoadCompleted")
+	factory.BuildArmatureDisplay("mecha_1002_101d", "mecha_1002_101d_show")
+	log.Println("BuildCompleted")
+	// display.GetAnimation().Play("idle")
 	log.Println("load Finish")
 }

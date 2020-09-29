@@ -15,6 +15,8 @@ type DragonBoneFactoryFace interface {
 
 type DragonBoneFactory struct {
 	wrapper.BaseFactory
+
+	basePath string
 }
 
 func (s *DragonBoneFactory) deleteFactory() {
@@ -53,8 +55,8 @@ func (factory *DragonBoneFactory) LoadTextureAtlasData(reader io.Reader, name st
 	factory.ParseTextureAtlasData(string(bytes), uintptr(0), name, scale)
 }
 
-func DeleteSlot(s DragonBoneFactoryFace) {
-	s.deleteFactory()
+func (factory *DragonBoneFactory) BuildArmatureDisplay(args ...interface{}) wrapper.Armature {
+	return factory.BuildArmature(args...)
 }
 
 type overwrittenMethodsOnFactory struct {
@@ -69,4 +71,19 @@ func (om *overwrittenMethodsOnFactory) X_buildTextureAtlasData(data wrapper.Text
 		log.Println(data.GetImagePath())
 	}
 	return data
+}
+
+func (om *overwrittenMethodsOnFactory) X_buildArmature(dataPackage wrapper.BuildArmaturePackage) wrapper.Armature {
+	log.Println("BuildArmature")
+	a := wrapper.BaseObjectBorrowArmatureObject()
+	armatureDisplay := NewArmatureDisplay()
+	a.Init(dataPackage.GetArmature(), armatureDisplay, armatureDisplay.Swigcptr(), wrapper.SwigcptrDragonBones(0))
+	return a
+}
+
+func (om *overwrittenMethodsOnFactory) X_buildSlot(dataPackage wrapper.BuildArmaturePackage, slotData wrapper.DragonBones_SlotData, armature wrapper.Armature) wrapper.Slot {
+	slot := NewSlot()
+	slot.Init(slotData, armature, uintptr(0), uintptr(0))
+	log.Println("BuildSlot", slot.Swigcptr())
+	return slot
 }

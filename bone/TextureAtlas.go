@@ -25,6 +25,7 @@ func NewTextureAtlasData() *TextureAtlasDataImpl {
 	om := &overwrittenMethodsOnTextureAtlasData{}
 
 	face := wrapper.NewDirectorTextureAtlasData(om)
+	wrapper.DirectorTextureAtlasDataX_onClear(face)
 	om.base = face
 
 	return &TextureAtlasDataImpl{TextureAtlasData: face}

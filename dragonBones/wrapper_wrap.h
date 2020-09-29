@@ -181,6 +181,26 @@ class SwigDirector_BaseFactory : public dragonBones::BaseFactory
   Swig_memory *swig_mem;
 };
 
+class SwigDirector_IArmatureProxy : public dragonBones::IArmatureProxy
+{
+ public:
+  SwigDirector_IArmatureProxy(int swig_p);
+  virtual ~SwigDirector_IArmatureProxy();
+  virtual bool hasDBEventListener(std::string const &etype) const;
+  virtual void dispatchDBEvent(std::string const &etype, dragonBones::EventObject *value);
+  virtual void addDBEventListener(std::string const &etype, std::function< void (dragonBones::EventObject *) > const &listener);
+  virtual void removeDBEventListener(std::string const &etype, std::function< void (dragonBones::EventObject *) > const &listener);
+  virtual void dbInit(dragonBones::Armature *armature);
+  virtual void dbClear();
+  virtual void dbUpdate();
+  virtual void dispose(bool disposeProxy);
+  virtual dragonBones::Armature *getArmature() const;
+  virtual dragonBones::Animation *getAnimation() const;
+ private:
+  intgo go_val;
+  Swig_memory *swig_mem;
+};
+
 class SwigDirector_Slot : public dragonBones::Slot
 {
  public:
