@@ -46,15 +46,20 @@ func (om *overwrittenMethodsOnSlot) X_initDisplay(value uintptr, isRetain bool) 
 }
 
 func (om *overwrittenMethodsOnSlot) X_disposeDisplay(value uintptr, isRetain bool) {
-
+	log.Println("Dispose Display", value, isRetain)
 }
 
 func (om *overwrittenMethodsOnSlot) X_onUpdateDisplay() {
-
+	display := om.slot.GetDisplay()
+	if display == 0 {
+		display = om.slot.GetRawDisplay()
+	}
+	log.Println("Update Display", display)
 }
 
 func (om *overwrittenMethodsOnSlot) X_addDisplay() {
-
+	display := boneObjectLookup(om.slot.GetX_armature().GetDisplay()).(*ArmatureDisplay)
+	log.Println("Add Display", display)
 }
 
 func (om *overwrittenMethodsOnSlot) X_replaceDisplay(value uintptr, isArmatureDisplay bool) {

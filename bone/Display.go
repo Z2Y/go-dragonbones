@@ -13,6 +13,7 @@ type ArmatureDisplayFace interface {
 
 type ArmatureDisplay struct {
 	wrapper.IArmatureProxy
+	om *overwrittenMethodsOnArmatureDisplay
 }
 
 func (a *ArmatureDisplay) IsIArmatureProxy() {}
@@ -27,19 +28,33 @@ func NewArmatureDisplay() *ArmatureDisplay {
 	face := wrapper.NewDirectorIArmatureProxy(om)
 	om.base = face
 
-	return &ArmatureDisplay{IArmatureProxy: face}
+	return &ArmatureDisplay{IArmatureProxy: face, om: om}
 }
 
 type overwrittenMethodsOnArmatureDisplay struct {
 	base wrapper.IArmatureProxy
+
+	armature wrapper.Armature
 }
 
 func (om *overwrittenMethodsOnArmatureDisplay) DbInit(armature wrapper.Armature) {
 	log.Println("DbInit")
+	om.armature = armature
+}
+
+func (om *overwrittenMethodsOnArmatureDisplay) DbClear() {
+	om.armature = nil
 }
 
 func (om *overwrittenMethodsOnArmatureDisplay) DbUpdate() {
 	log.Println("DbUpdate")
+}
+
+func (om *overwrittenMethodsOnArmatureDisplay) Dispose(bool) {
+	if om.armature != nil {
+		om.armature.Dispose()
+		om.armature = nil
+	}
 }
 
 func (om *overwrittenMethodsOnArmatureDisplay) HasDBEventListener(name string) bool {

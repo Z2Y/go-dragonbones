@@ -6,6 +6,17 @@
 #include "DragonBonesHeaders.h"
 %}
 
+%include "std_string.i"
+
+%typemap(freearg) const char *rawData "";
+
+/*%typemap(in) const char *rawData
+%{
+  printf("%llu\n", &$input);
+  $1 = ($1_ltype)$input.p;
+%}
+*/
+
 %rename(opLess) operator <;
 
 %feature("director") Slot;
@@ -14,12 +25,9 @@
 %feature("director") TextureAtlasData;
 %feature("director") IArmatureProxy;
 
-%include "std_string.i"
-
 %include "DragonBones.h"
 %include "BaseObject.h"
 %include "Animation.h"
-%include "BaseFactory.h"
 %include "TransformObject.h"
 %include "IEventDispatcher.h"
 %include "IArmatureProxy.h"
@@ -28,8 +36,7 @@
 %include "Armature.h"
 %include "DragonBonesData.h"
 %include "TextureAtlasData.h"
-%include "DataParser.h"
-%include "JSONDataParser.h"
+%include "BaseFactory.h"
 
 %inline %{
 template<class T>

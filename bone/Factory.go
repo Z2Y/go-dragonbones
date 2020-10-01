@@ -1,14 +1,20 @@
 package bone
 
+import "C"
+
 import (
 	wrapper "dragonBones/dragonBones"
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
+	"runtime"
+	"unsafe"
 )
 
 type DragonBoneFactoryFace interface {
 	wrapper.BaseFactory
+
 	deleteFactory()
 	IsFactory()
 }
@@ -26,9 +32,10 @@ func (s *DragonBoneFactory) deleteFactory() {
 func (s *DragonBoneFactory) IsFactory() {}
 
 func NewFactory() *DragonBoneFactory {
-	om := &overwrittenMethodsOnFactory{}
+	om := &overwrittenMethodsOnFactory{dragonBones: wrapper.NewDragonBones(NewArmatureDisplay())}
 
 	factoryFace := wrapper.NewDirectorBaseFactory(om)
+	// wrapper.DirectorBaseFactoryX_onClear(factoryFace)
 	om.base = factoryFace
 
 	factory := &DragonBoneFactory{BaseFactory: factoryFace}
@@ -41,7 +48,9 @@ func (factory *DragonBoneFactory) LoadDragonBonesData(reader io.Reader, name str
 	if err != nil {
 		return nil, err
 	}
-	data := factory.ParseDragonBonesData(string(bytes), name, scale)
+
+	runtime.SetFinalizer(&bytes, func(*[]uint8) { fmt.Printf("bytes final.\n") })
+	data := factory.ParseDragonBonesData(*(*string)(unsafe.Pointer(&bytes)), name, scale)
 	return data, nil
 }
 
@@ -61,6 +70,8 @@ func (factory *DragonBoneFactory) BuildArmatureDisplay(args ...interface{}) wrap
 
 type overwrittenMethodsOnFactory struct {
 	base wrapper.BaseFactory
+
+	dragonBones wrapper.DragonBones
 }
 
 func (om *overwrittenMethodsOnFactory) X_buildTextureAtlasData(data wrapper.TextureAtlasData, textureAtlas uintptr) wrapper.TextureAtlasData {
@@ -77,7 +88,8 @@ func (om *overwrittenMethodsOnFactory) X_buildArmature(dataPackage wrapper.Build
 	log.Println("BuildArmature")
 	a := wrapper.BaseObjectBorrowArmatureObject()
 	armatureDisplay := NewArmatureDisplay()
-	a.Init(dataPackage.GetArmature(), armatureDisplay, armatureDisplay.Swigcptr(), wrapper.SwigcptrDragonBones(0))
+	boneObjectAdd(armatureDisplay.Swigcptr(), armatureDisplay)
+	a.Init(dataPackage.GetArmature(), armatureDisplay, armatureDisplay.Swigcptr(), om.dragonBones)
 	return a
 }
 

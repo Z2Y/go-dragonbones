@@ -15,6 +15,90 @@
 
 class Swig_memory;
 
+class SwigDirector_IArmatureProxy : public dragonBones::IArmatureProxy
+{
+ public:
+  SwigDirector_IArmatureProxy(int swig_p);
+  virtual ~SwigDirector_IArmatureProxy();
+  virtual bool hasDBEventListener(std::string const &etype) const;
+  virtual void dispatchDBEvent(std::string const &etype, dragonBones::EventObject *value);
+  virtual void addDBEventListener(std::string const &etype, std::function< void (dragonBones::EventObject *) > const &listener);
+  virtual void removeDBEventListener(std::string const &etype, std::function< void (dragonBones::EventObject *) > const &listener);
+  virtual void dbInit(dragonBones::Armature *armature);
+  virtual void dbClear();
+  virtual void dbUpdate();
+  virtual void dispose(bool disposeProxy);
+  virtual dragonBones::Armature *getArmature() const;
+  virtual dragonBones::Animation *getAnimation() const;
+ private:
+  intgo go_val;
+  Swig_memory *swig_mem;
+};
+
+class SwigDirector_Slot : public dragonBones::Slot
+{
+ public:
+  SwigDirector_Slot(int swig_p);
+  virtual ~SwigDirector_Slot();
+  void _swig_upcall__onClear() {
+    dragonBones::Slot::_onClear();
+  }
+  virtual void _onClear();
+  virtual std::size_t getClassTypeIndex() const;
+  virtual void _initDisplay(void *value, bool isRetain);
+  virtual void _disposeDisplay(void *value, bool isRelease);
+  virtual void _onUpdateDisplay();
+  virtual void _addDisplay();
+  virtual void _replaceDisplay(void *value, bool isArmatureDisplay);
+  virtual void _removeDisplay();
+  virtual void _updateZOrder();
+  virtual void _updateFrame();
+  virtual void _updateMesh();
+  virtual void _updateTransform();
+  virtual void _identityTransform();
+  virtual void _updateVisible();
+  virtual void _updateBlendMode();
+  virtual void _updateColor();
+ private:
+  intgo go_val;
+  Swig_memory *swig_mem;
+};
+
+class SwigDirector_TextureAtlasData : public dragonBones::TextureAtlasData
+{
+ public:
+  SwigDirector_TextureAtlasData(int swig_p);
+  virtual ~SwigDirector_TextureAtlasData();
+  void _swig_upcall__onClear() {
+    dragonBones::TextureAtlasData::_onClear();
+  }
+  virtual void _onClear();
+  virtual std::size_t getClassTypeIndex() const;
+  virtual dragonBones::TextureData *createTexture() const;
+  void _swig_upcall_addTexture(dragonBones::TextureData *value) {
+    dragonBones::TextureAtlasData::addTexture(value);
+  }
+  virtual void addTexture(dragonBones::TextureData *value);
+ private:
+  intgo go_val;
+  Swig_memory *swig_mem;
+};
+
+class SwigDirector_TextureData : public dragonBones::TextureData
+{
+ public:
+  SwigDirector_TextureData(int swig_p);
+  virtual ~SwigDirector_TextureData();
+  void _swig_upcall__onClear() {
+    dragonBones::TextureData::_onClear();
+  }
+  virtual void _onClear();
+  virtual std::size_t getClassTypeIndex() const;
+ private:
+  intgo go_val;
+  Swig_memory *swig_mem;
+};
+
 class SwigDirector_BaseFactory : public dragonBones::BaseFactory
 {
  public:
@@ -176,90 +260,6 @@ class SwigDirector_BaseFactory : public dragonBones::BaseFactory
     return dragonBones::BaseFactory::replaceAnimation(armature,armatureData);
   }
   virtual bool replaceAnimation(dragonBones::Armature *armature, dragonBones::ArmatureData *armatureData) const;
- private:
-  intgo go_val;
-  Swig_memory *swig_mem;
-};
-
-class SwigDirector_IArmatureProxy : public dragonBones::IArmatureProxy
-{
- public:
-  SwigDirector_IArmatureProxy(int swig_p);
-  virtual ~SwigDirector_IArmatureProxy();
-  virtual bool hasDBEventListener(std::string const &etype) const;
-  virtual void dispatchDBEvent(std::string const &etype, dragonBones::EventObject *value);
-  virtual void addDBEventListener(std::string const &etype, std::function< void (dragonBones::EventObject *) > const &listener);
-  virtual void removeDBEventListener(std::string const &etype, std::function< void (dragonBones::EventObject *) > const &listener);
-  virtual void dbInit(dragonBones::Armature *armature);
-  virtual void dbClear();
-  virtual void dbUpdate();
-  virtual void dispose(bool disposeProxy);
-  virtual dragonBones::Armature *getArmature() const;
-  virtual dragonBones::Animation *getAnimation() const;
- private:
-  intgo go_val;
-  Swig_memory *swig_mem;
-};
-
-class SwigDirector_Slot : public dragonBones::Slot
-{
- public:
-  SwigDirector_Slot(int swig_p);
-  virtual ~SwigDirector_Slot();
-  void _swig_upcall__onClear() {
-    dragonBones::Slot::_onClear();
-  }
-  virtual void _onClear();
-  virtual std::size_t getClassTypeIndex() const;
-  virtual void _initDisplay(void *value, bool isRetain);
-  virtual void _disposeDisplay(void *value, bool isRelease);
-  virtual void _onUpdateDisplay();
-  virtual void _addDisplay();
-  virtual void _replaceDisplay(void *value, bool isArmatureDisplay);
-  virtual void _removeDisplay();
-  virtual void _updateZOrder();
-  virtual void _updateFrame();
-  virtual void _updateMesh();
-  virtual void _updateTransform();
-  virtual void _identityTransform();
-  virtual void _updateVisible();
-  virtual void _updateBlendMode();
-  virtual void _updateColor();
- private:
-  intgo go_val;
-  Swig_memory *swig_mem;
-};
-
-class SwigDirector_TextureAtlasData : public dragonBones::TextureAtlasData
-{
- public:
-  SwigDirector_TextureAtlasData(int swig_p);
-  virtual ~SwigDirector_TextureAtlasData();
-  void _swig_upcall__onClear() {
-    dragonBones::TextureAtlasData::_onClear();
-  }
-  virtual void _onClear();
-  virtual std::size_t getClassTypeIndex() const;
-  virtual dragonBones::TextureData *createTexture() const;
-  void _swig_upcall_addTexture(dragonBones::TextureData *value) {
-    dragonBones::TextureAtlasData::addTexture(value);
-  }
-  virtual void addTexture(dragonBones::TextureData *value);
- private:
-  intgo go_val;
-  Swig_memory *swig_mem;
-};
-
-class SwigDirector_TextureData : public dragonBones::TextureData
-{
- public:
-  SwigDirector_TextureData(int swig_p);
-  virtual ~SwigDirector_TextureData();
-  void _swig_upcall__onClear() {
-    dragonBones::TextureData::_onClear();
-  }
-  virtual void _onClear();
-  virtual std::size_t getClassTypeIndex() const;
  private:
   intgo go_val;
   Swig_memory *swig_mem;
