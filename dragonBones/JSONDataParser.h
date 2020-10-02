@@ -20,7 +20,7 @@ public:
 
 class JSONDataParser : public DataParser
 {
-    DRAGONBONES_DISALLOW_COPY_AND_ASSIGN(JSONDataParser)
+    // DRAGONBONES_DISALLOW_COPY_AND_ASSIGN(JSONDataParser)
 
 protected:
     inline static bool _getBoolean(const rapidjson::Value& rawData, const char* key, bool defaultValue)

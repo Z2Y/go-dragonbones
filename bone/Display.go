@@ -1,62 +1,77 @@
 package bone
 
-import (
-	wrapper "dragonBones/dragonBones"
-	"log"
-)
+import "github.com/EngoEngine/gl"
 
-type ArmatureDisplayFace interface {
-	wrapper.IArmatureProxy
-	deleteIArmatureProxy()
-	IsIArmatureProxy()
+type IDisplay interface {
+	GetParent() IDisplay
+	SetParent(IDisplay)
+	AddChild(IDisplay)
+	RemoveChild(IDisplay)
+	GetChildren() []IDisplay
+	RemoveFromParent()
+
+	Texture() *gl.Texture
+	Width() float32
+	Height() float32
+	View() (float32, float32, float32, float32)
+	Close()
 }
 
-type ArmatureDisplay struct {
-	wrapper.IArmatureProxy
-	om *overwrittenMethodsOnArmatureDisplay
+type Display struct {
+	Parent   IDisplay
+	Children []IDisplay
 }
 
-func (a *ArmatureDisplay) IsIArmatureProxy() {}
-
-func (a *ArmatureDisplay) deleteIArmatureProxy() {
-	wrapper.DeleteDirectorIArmatureProxy(a.IArmatureProxy)
+func (d *Display) GetParent() IDisplay {
+	return d.Parent
 }
 
-func NewArmatureDisplay() *ArmatureDisplay {
-	om := &overwrittenMethodsOnArmatureDisplay{}
-
-	face := wrapper.NewDirectorIArmatureProxy(om)
-	om.base = face
-
-	return &ArmatureDisplay{IArmatureProxy: face, om: om}
+func (d *Display) SetParent(p IDisplay) {
+	d.Parent = p
 }
 
-type overwrittenMethodsOnArmatureDisplay struct {
-	base wrapper.IArmatureProxy
-
-	armature wrapper.Armature
+func (d *Display) AddChild(child IDisplay) {
+	child.SetParent(d)
+	d.Children = append(d.Children, child)
 }
 
-func (om *overwrittenMethodsOnArmatureDisplay) DbInit(armature wrapper.Armature) {
-	log.Println("DbInit")
-	om.armature = armature
+func (d *Display) RemoveChild(child IDisplay) {
+	delete := -1
+	for idx, c := range d.Children {
+		if c == child {
+			delete = idx
+			break
+		}
+	}
+	d.Children = append(d.Children[:delete], d.Children[delete+1:]...)
 }
 
-func (om *overwrittenMethodsOnArmatureDisplay) DbClear() {
-	om.armature = nil
+func (d *Display) GetChildren() []IDisplay {
+	return d.Children
 }
 
-func (om *overwrittenMethodsOnArmatureDisplay) DbUpdate() {
-	log.Println("DbUpdate")
-}
-
-func (om *overwrittenMethodsOnArmatureDisplay) Dispose(bool) {
-	if om.armature != nil {
-		om.armature.Dispose()
-		om.armature = nil
+func (d *Display) RemoveFromParent() {
+	if d.Parent != nil {
+		d.Parent.RemoveChild(d)
+		d.Parent = nil
 	}
 }
 
-func (om *overwrittenMethodsOnArmatureDisplay) HasDBEventListener(name string) bool {
-	return false
+func (d *Display) Width() float32 {
+	return 0
+}
+
+func (d *Display) Height() float32 {
+	return 0
+}
+
+func (d *Display) Texture() *gl.Texture {
+	return nil
+}
+
+func (d *Display) View() (float32, float32, float32, float32) {
+	return 0, 0, 1, 1
+}
+
+func (d *Display) Close() {
 }

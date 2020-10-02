@@ -59,6 +59,28 @@ class SwigDirector_Slot : public dragonBones::Slot
   virtual void _updateVisible();
   virtual void _updateBlendMode();
   virtual void _updateColor();
+    using dragonBones::Slot::_displayDirty;
+    using dragonBones::Slot::_zOrderDirty;
+    using dragonBones::Slot::_visibleDirty;
+    using dragonBones::Slot::_blendModeDirty;
+    using dragonBones::Slot::_transformDirty;
+    using dragonBones::Slot::_visible;
+    using dragonBones::Slot::_displayIndex;
+    using dragonBones::Slot::_animationDisplayIndex;
+    using dragonBones::Slot::_cachedFrameIndex;
+    using dragonBones::Slot::_localMatrix;
+    using dragonBones::Slot::_displayDatas;
+    using dragonBones::Slot::_displayList;
+    using dragonBones::Slot::_rawDisplayDatas;
+    using dragonBones::Slot::_boundingBoxData;
+    using dragonBones::Slot::_textureData;
+    using dragonBones::Slot::_display;
+    using dragonBones::Slot::_childArmature;
+    using dragonBones::Slot::_parent;
+    using dragonBones::Slot::_getDefaultRawDisplayData;
+    using dragonBones::Slot::_updateDisplay;
+    using dragonBones::Slot::_updateDisplayData;
+    using dragonBones::Slot::_updateGlobalTransformMatrix;
  private:
   intgo go_val;
   Swig_memory *swig_mem;
@@ -260,6 +282,12 @@ class SwigDirector_BaseFactory : public dragonBones::BaseFactory
     return dragonBones::BaseFactory::replaceAnimation(armature,armatureData);
   }
   virtual bool replaceAnimation(dragonBones::Armature *armature, dragonBones::ArmatureData *armatureData) const;
+    using dragonBones::BaseFactory::_jsonParser;
+    using dragonBones::BaseFactory::_binaryParser;
+    using dragonBones::BaseFactory::_dragonBonesDataMap;
+    using dragonBones::BaseFactory::_textureAtlasDataMap;
+    using dragonBones::BaseFactory::_dragonBones;
+    using dragonBones::BaseFactory::_dataParser;
  private:
   intgo go_val;
   Swig_memory *swig_mem;

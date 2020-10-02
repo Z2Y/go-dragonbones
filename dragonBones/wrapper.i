@@ -1,4 +1,4 @@
-%module(directors="1") wrapper
+%module(directors="1", allprotected="1") wrapper
 
 #define final
 
@@ -7,6 +7,8 @@
 %}
 
 %include "std_string.i"
+%include "std_vector.i"
+%include "wrapper_map.i"
 
 %typemap(freearg) const char *rawData "";
 
@@ -18,6 +20,7 @@
 */
 
 %rename(opLess) operator <;
+%rename(opEqual) operator =;
 
 %feature("director") Slot;
 %feature("director") BaseFactory;
@@ -37,6 +40,10 @@
 %include "DragonBonesData.h"
 %include "TextureAtlasData.h"
 %include "BaseFactory.h"
+%include "Rectangle.h"
+%include "Transform.h"
+%include "Matrix.h"
+%include "WorldClock.h"
 
 %inline %{
 template<class T>
@@ -50,3 +57,7 @@ std::size_t getTypeIndex(T*) {
 %template(getTextureAtlasDataTypeIndex) getTypeIndex<SwigDirector_TextureAtlasData>;
 
 %template(borrowArmatureObject) dragonBones::BaseObject::borrowObject<dragonBones::Armature>;
+
+%template(mapStringToTextureData) std::map< std::string,dragonBones::TextureData *,std::less< std::string > >;
+%template(vectorString) std::vector<std::string>;
+%template(vectorTextureData) std::vector<dragonBones::TextureData *>;

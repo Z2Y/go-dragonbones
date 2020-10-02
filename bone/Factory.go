@@ -8,8 +8,13 @@ import (
 	"io"
 	"io/ioutil"
 	"log"
+	"path/filepath"
 	"runtime"
 	"unsafe"
+)
+
+var (
+	Factory = NewFactory()
 )
 
 type DragonBoneFactoryFace interface {
@@ -21,8 +26,6 @@ type DragonBoneFactoryFace interface {
 
 type DragonBoneFactory struct {
 	wrapper.BaseFactory
-
-	basePath string
 }
 
 func (s *DragonBoneFactory) deleteFactory() {
@@ -40,6 +43,10 @@ func NewFactory() *DragonBoneFactory {
 
 	factory := &DragonBoneFactory{BaseFactory: factoryFace}
 	return factory
+}
+
+func (factory *DragonBoneFactory) SetAssetPath(base string) {
+	factory.DirectorInterface().(*overwrittenMethodsOnFactory).basePath = base
 }
 
 func (factory *DragonBoneFactory) LoadDragonBonesData(reader io.Reader, name string, scale float32) (wrapper.DragonBonesData, error) {
@@ -64,22 +71,43 @@ func (factory *DragonBoneFactory) LoadTextureAtlasData(reader io.Reader, name st
 	factory.ParseTextureAtlasData(string(bytes), uintptr(0), name, scale)
 }
 
-func (factory *DragonBoneFactory) BuildArmatureDisplay(args ...interface{}) wrapper.Armature {
-	return factory.BuildArmature(args...)
+func (factory *DragonBoneFactory) BuildArmatureDisplay(args ...interface{}) *ArmatureDisplay {
+	armature := factory.BuildArmature(args...)
+	if armature.Swigcptr() != 0 {
+		factory.dragonBonesInstance().GetClock().Add(armature)
+		return boneObjectLookup(armature.GetDisplay()).(*ArmatureDisplay)
+	}
+	return nil
+}
+
+func (factory *DragonBoneFactory) dragonBonesInstance() wrapper.DragonBones {
+	return factory.DirectorInterface().(*overwrittenMethodsOnFactory).dragonBones
+}
+
+func (factory *DragonBoneFactory) Update(dt float32) {
+	factory.dragonBonesInstance().AdvanceTime(dt)
 }
 
 type overwrittenMethodsOnFactory struct {
 	base wrapper.BaseFactory
 
 	dragonBones wrapper.DragonBones
+	basePath    string
 }
 
 func (om *overwrittenMethodsOnFactory) X_buildTextureAtlasData(data wrapper.TextureAtlasData, textureAtlas uintptr) wrapper.TextureAtlasData {
 	log.Println("build texture", data.Swigcptr(), textureAtlas)
 	if data.Swigcptr() == 0 {
-		return NewTextureAtlasData()
+		textureAtlasData := NewTextureAtlasData()
+		return textureAtlasData
 	} else {
-		log.Println(data.GetImagePath())
+		textureAtlasData := boneObjectLookup(data.Swigcptr()).(*TextureAtlasDataImpl)
+		texture, err := LoadTextureAtlas(filepath.Join(om.basePath, textureAtlasData.GetImagePath()))
+		if err != nil {
+			log.Println("TextureLoaded Error", err)
+		} else {
+			textureAtlasData.setRenderTexture(texture)
+		}
 	}
 	return data
 }
@@ -88,14 +116,15 @@ func (om *overwrittenMethodsOnFactory) X_buildArmature(dataPackage wrapper.Build
 	log.Println("BuildArmature")
 	a := wrapper.BaseObjectBorrowArmatureObject()
 	armatureDisplay := NewArmatureDisplay()
-	boneObjectAdd(armatureDisplay.Swigcptr(), armatureDisplay)
 	a.Init(dataPackage.GetArmature(), armatureDisplay, armatureDisplay.Swigcptr(), om.dragonBones)
 	return a
 }
 
 func (om *overwrittenMethodsOnFactory) X_buildSlot(dataPackage wrapper.BuildArmaturePackage, slotData wrapper.DragonBones_SlotData, armature wrapper.Armature) wrapper.Slot {
 	slot := NewSlot()
-	slot.Init(slotData, armature, uintptr(0), uintptr(0))
+	sprite := NewSprite()
+	boneObjectAdd(uintptr(unsafe.Pointer(sprite)), sprite)
+	slot.Init(slotData, armature, uintptr(unsafe.Pointer(sprite)), uintptr(unsafe.Pointer(sprite)))
 	log.Println("BuildSlot", slot.Swigcptr())
 	return slot
 }

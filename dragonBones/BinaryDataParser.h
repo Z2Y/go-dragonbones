@@ -32,7 +32,7 @@ DRAGONBONES_NAMESPACE_BEGIN
  */
 class BinaryDataParser : public JSONDataParser
 {
-    DRAGONBONES_DISALLOW_COPY_AND_ASSIGN(BinaryDataParser)
+    // DRAGONBONES_DISALLOW_COPY_AND_ASSIGN(BinaryDataParser)
 
 private:
     unsigned _binaryOffset;
