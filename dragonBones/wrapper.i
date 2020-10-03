@@ -39,6 +39,7 @@
 %include "Armature.h"
 %include "DragonBonesData.h"
 %include "TextureAtlasData.h"
+%include "ArmatureData.h"
 %include "BaseFactory.h"
 %include "Rectangle.h"
 %include "Transform.h"
@@ -51,6 +52,12 @@ std::size_t getTypeIndex(T*) {
     return typeid(T).hash_code();
 }
 %}
+
+%extend dragonBones::WorldClock {
+  void addArmature(dragonBones::Armature* value) {
+    $self->add(value);
+  }
+}
 
 %template(getSlotTypeIndex) getTypeIndex<SwigDirector_Slot>;
 

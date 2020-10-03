@@ -1,6 +1,10 @@
 package bone
 
-import "github.com/EngoEngine/gl"
+import (
+	"github.com/EngoEngine/engo"
+	"github.com/EngoEngine/engo/common"
+	"github.com/EngoEngine/gl"
+)
 
 type IDisplay interface {
 	GetParent() IDisplay
@@ -9,6 +13,8 @@ type IDisplay interface {
 	RemoveChild(IDisplay)
 	GetChildren() []IDisplay
 	RemoveFromParent()
+	UpdateTransform(force bool)
+	GetGlobalTransform() *engo.Matrix
 
 	Texture() *gl.Texture
 	Width() float32
@@ -20,6 +26,12 @@ type IDisplay interface {
 type Display struct {
 	Parent   IDisplay
 	Children []IDisplay
+
+	common.RenderComponent
+	common.SpaceComponent
+	transformMatrix *engo.Matrix
+	globalTransform *engo.Matrix
+	transformDirty  bool
 }
 
 func (d *Display) GetParent() IDisplay {
@@ -55,6 +67,32 @@ func (d *Display) RemoveFromParent() {
 		d.Parent.RemoveChild(d)
 		d.Parent = nil
 	}
+}
+
+func (d *Display) SetTransform(transformMatrix *engo.Matrix) {
+	// log.Println("SetTransform", transformMatrix)
+	d.transformMatrix = transformMatrix
+	d.transformDirty = true
+}
+
+func (d *Display) GetGlobalTransform() *engo.Matrix {
+	return d.globalTransform
+}
+
+func (d *Display) UpdateTransform(force bool) {
+	if d.Parent == nil {
+		d.globalTransform = engo.IdentityMatrix().Translate(d.Position.X, d.Position.Y).Rotate(d.Rotation)
+	} else if d.transformMatrix != nil && (d.transformDirty || force) {
+		d.globalTransform = engo.IdentityMatrix().Set(d.Parent.GetGlobalTransform().Val[:]).Multiply(d.transformMatrix)
+
+		d.SpaceComponent.Position.X, d.SpaceComponent.Position.Y = d.globalTransform.TranslationComponent()
+		d.SpaceComponent.Rotation = d.globalTransform.RotationComponent()
+	}
+
+	for _, child := range d.Children {
+		child.UpdateTransform(true)
+	}
+	d.transformDirty = false
 }
 
 func (d *Display) Width() float32 {

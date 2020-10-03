@@ -2,7 +2,6 @@ package bone
 
 import (
 	"image/color"
-	"log"
 	"unsafe"
 
 	"github.com/EngoEngine/engo"
@@ -19,8 +18,6 @@ type Texture struct {
 
 type Sprite struct {
 	Display
-	common.RenderComponent
-	common.SpaceComponent
 
 	spriteFrame *common.TextureResource
 }
@@ -42,7 +39,6 @@ func (sprite *Sprite) setSpriteFrame(textureData *common.TextureResource) {
 
 	sprite.RenderComponent.Drawable = (*common.Texture)(unsafe.Pointer(texture))
 	sprite.RenderComponent.Scale = engo.Point{X: 1, Y: 1}
-	log.Println("SpriteDrawable", sprite.RenderComponent.Drawable, textureData)
 }
 
 func (sprite *Sprite) Width() float32 {

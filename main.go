@@ -15,8 +15,7 @@ type DragonBoneTest struct {
 
 type ArmatureEntity struct {
 	ecs.BasicEntity
-	common.RenderComponent
-	common.SpaceComponent
+	*bone.ArmatureDisplay
 }
 
 func (s *DragonBoneTest) Type() string {
@@ -34,31 +33,34 @@ func (s *DragonBoneTest) Preload() {
 func (s *DragonBoneTest) Setup(u engo.Updater) {
 	w := u.(*ecs.World)
 	w.AddSystem(&common.RenderSystem{})
+	w.AddSystem(&common.FPSSystem{Display: true})
 	w.AddSystem(&bone.DragonBoneSystem{})
 
 	common.SetBackground(color.White)
 	armatureDisplay := bone.Factory.BuildArmatureDisplay("mecha_1002_101d", "mecha_1002_101d_show")
 
-	armatureEntity := ArmatureEntity{BasicEntity: ecs.NewBasic()}
-	armatureEntity.RenderComponent.Drawable = armatureDisplay
-	armatureEntity.SpaceComponent = common.SpaceComponent{
-		Width:  30,
-		Height: 30,
+	armatureEntity := ArmatureEntity{BasicEntity: ecs.NewBasic(), ArmatureDisplay: armatureDisplay}
+	armatureDisplay.RenderComponent.Drawable = armatureDisplay
+	armatureDisplay.SpaceComponent = common.SpaceComponent{
+		Position: engo.Point{X: 400, Y: 500},
 	}
 
 	for _, system := range w.Systems() {
 		switch sys := system.(type) {
 		case *bone.DragonBoneSystem:
-			sys.Add(&armatureEntity.BasicEntity, &armatureEntity.RenderComponent, &armatureEntity.SpaceComponent)
+			sys.Add(&armatureEntity.BasicEntity, &armatureDisplay.RenderComponent, &armatureDisplay.SpaceComponent)
 		}
 	}
+
+	armatureDisplay.GetAnimation().Play("idle")
 }
 
 func main() {
 	opts := engo.RunOptions{
-		Title:  "DragonBones Test",
-		Width:  800,
-		Height: 600,
+		Title:    "DragonBones Test",
+		Width:    800,
+		Height:   600,
+		FPSLimit: 120,
 	}
 
 	engo.Run(opts, &DragonBoneTest{})

@@ -38,13 +38,18 @@ func (db *DragonBoneShader) Pre() {
 }
 
 func (db *DragonBoneShader) Draw(rc *common.RenderComponent, sc *common.SpaceComponent) {
-	db.DrawDisplay(rc.Drawable.(IDisplay), sc)
+	display, ok := rc.Drawable.(IDisplay)
+	if !ok {
+		return
+	}
+	display.UpdateTransform(true)
+	db.DrawDisplay(rc.Drawable.(IDisplay))
 }
 
-func (db *DragonBoneShader) DrawDisplay(iDisplay IDisplay, sc *common.SpaceComponent) {
+func (db *DragonBoneShader) DrawDisplay(iDisplay IDisplay) {
 	children := iDisplay.GetChildren()
 	for _, subDisplay := range children {
-		db.DrawDisplay(subDisplay, sc)
+		db.DrawDisplay(subDisplay)
 	}
 
 	switch display := iDisplay.(type) {

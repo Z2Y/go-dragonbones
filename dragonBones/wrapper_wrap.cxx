@@ -364,6 +364,9 @@ static void* Swig_malloc(int c) {
 #include <stdexcept>
 #include <vector>
 
+SWIGINTERN void dragonBones_WorldClock_addArmature(dragonBones::WorldClock *self,dragonBones::Armature *value){
+    self->add(value);
+  }
 
 template<class T>
 std::size_t getTypeIndex(T*) {
@@ -444,97 +447,97 @@ SwigDirector_IArmatureProxy::SwigDirector_IArmatureProxy(int swig_p)
       go_val(swig_p), swig_mem(0)
 { }
 
-extern "C" void Swiggo_DeleteDirector_IArmatureProxy_wrapper_8547a2e3fc9a516e(intgo);
+extern "C" void Swiggo_DeleteDirector_IArmatureProxy_wrapper_0168c02bcda14bda(intgo);
 SwigDirector_IArmatureProxy::~SwigDirector_IArmatureProxy()
 {
-  Swiggo_DeleteDirector_IArmatureProxy_wrapper_8547a2e3fc9a516e(go_val);
+  Swiggo_DeleteDirector_IArmatureProxy_wrapper_0168c02bcda14bda(go_val);
   delete swig_mem;
 }
 
-extern "C" bool Swig_DirectorIArmatureProxy_callback_hasDBEventListener_wrapper_8547a2e3fc9a516e(int, _gostring_ etype);
+extern "C" bool Swig_DirectorIArmatureProxy_callback_hasDBEventListener_wrapper_0168c02bcda14bda(int, _gostring_ etype);
 bool SwigDirector_IArmatureProxy::hasDBEventListener(std::string const &etype) const {
   bool c_result = SwigValueInit< bool >() ;
   bool result;
   _gostring_ swig_etype;
   
   swig_etype = Swig_AllocateString((&etype)->data(), (&etype)->length()); 
-  result = Swig_DirectorIArmatureProxy_callback_hasDBEventListener_wrapper_8547a2e3fc9a516e(go_val, swig_etype);
+  result = Swig_DirectorIArmatureProxy_callback_hasDBEventListener_wrapper_0168c02bcda14bda(go_val, swig_etype);
   c_result = (bool)result; 
   return c_result;
 }
 
-extern "C" void Swig_DirectorIArmatureProxy_callback_dispatchDBEvent_wrapper_8547a2e3fc9a516e(int, _gostring_ etype, dragonBones::EventObject *value);
+extern "C" void Swig_DirectorIArmatureProxy_callback_dispatchDBEvent_wrapper_0168c02bcda14bda(int, _gostring_ etype, dragonBones::EventObject *value);
 void SwigDirector_IArmatureProxy::dispatchDBEvent(std::string const &etype, dragonBones::EventObject *value) {
   _gostring_ swig_etype;
   dragonBones::EventObject *swig_value;
   
   swig_etype = Swig_AllocateString((&etype)->data(), (&etype)->length()); 
   *(dragonBones::EventObject **)&swig_value = (dragonBones::EventObject *)value; 
-  Swig_DirectorIArmatureProxy_callback_dispatchDBEvent_wrapper_8547a2e3fc9a516e(go_val, swig_etype, swig_value);
+  Swig_DirectorIArmatureProxy_callback_dispatchDBEvent_wrapper_0168c02bcda14bda(go_val, swig_etype, swig_value);
 }
 
-extern "C" void Swig_DirectorIArmatureProxy_callback_addDBEventListener_wrapper_8547a2e3fc9a516e(int, _gostring_ etype, std::function< void (dragonBones::EventObject *) > *listener);
+extern "C" void Swig_DirectorIArmatureProxy_callback_addDBEventListener_wrapper_0168c02bcda14bda(int, _gostring_ etype, std::function< void (dragonBones::EventObject *) > *listener);
 void SwigDirector_IArmatureProxy::addDBEventListener(std::string const &etype, std::function< void (dragonBones::EventObject *) > const &listener) {
   _gostring_ swig_etype;
   std::function< void (dragonBones::EventObject *) > *swig_listener;
   
   swig_etype = Swig_AllocateString((&etype)->data(), (&etype)->length()); 
   swig_listener = (std::function< void (dragonBones::EventObject *) > *)&listener; 
-  Swig_DirectorIArmatureProxy_callback_addDBEventListener_wrapper_8547a2e3fc9a516e(go_val, swig_etype, swig_listener);
+  Swig_DirectorIArmatureProxy_callback_addDBEventListener_wrapper_0168c02bcda14bda(go_val, swig_etype, swig_listener);
 }
 
-extern "C" void Swig_DirectorIArmatureProxy_callback_removeDBEventListener_wrapper_8547a2e3fc9a516e(int, _gostring_ etype, std::function< void (dragonBones::EventObject *) > *listener);
+extern "C" void Swig_DirectorIArmatureProxy_callback_removeDBEventListener_wrapper_0168c02bcda14bda(int, _gostring_ etype, std::function< void (dragonBones::EventObject *) > *listener);
 void SwigDirector_IArmatureProxy::removeDBEventListener(std::string const &etype, std::function< void (dragonBones::EventObject *) > const &listener) {
   _gostring_ swig_etype;
   std::function< void (dragonBones::EventObject *) > *swig_listener;
   
   swig_etype = Swig_AllocateString((&etype)->data(), (&etype)->length()); 
   swig_listener = (std::function< void (dragonBones::EventObject *) > *)&listener; 
-  Swig_DirectorIArmatureProxy_callback_removeDBEventListener_wrapper_8547a2e3fc9a516e(go_val, swig_etype, swig_listener);
+  Swig_DirectorIArmatureProxy_callback_removeDBEventListener_wrapper_0168c02bcda14bda(go_val, swig_etype, swig_listener);
 }
 
-extern "C" void Swig_DirectorIArmatureProxy_callback_dbInit_wrapper_8547a2e3fc9a516e(int, dragonBones::Armature *armature);
+extern "C" void Swig_DirectorIArmatureProxy_callback_dbInit_wrapper_0168c02bcda14bda(int, dragonBones::Armature *armature);
 void SwigDirector_IArmatureProxy::dbInit(dragonBones::Armature *armature) {
   dragonBones::Armature *swig_armature;
   
   *(dragonBones::Armature **)&swig_armature = (dragonBones::Armature *)armature; 
-  Swig_DirectorIArmatureProxy_callback_dbInit_wrapper_8547a2e3fc9a516e(go_val, swig_armature);
+  Swig_DirectorIArmatureProxy_callback_dbInit_wrapper_0168c02bcda14bda(go_val, swig_armature);
 }
 
-extern "C" void Swig_DirectorIArmatureProxy_callback_dbClear_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorIArmatureProxy_callback_dbClear_wrapper_0168c02bcda14bda(int);
 void SwigDirector_IArmatureProxy::dbClear() {
-  Swig_DirectorIArmatureProxy_callback_dbClear_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorIArmatureProxy_callback_dbClear_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" void Swig_DirectorIArmatureProxy_callback_dbUpdate_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorIArmatureProxy_callback_dbUpdate_wrapper_0168c02bcda14bda(int);
 void SwigDirector_IArmatureProxy::dbUpdate() {
-  Swig_DirectorIArmatureProxy_callback_dbUpdate_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorIArmatureProxy_callback_dbUpdate_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" void Swig_DirectorIArmatureProxy_callback_dispose_wrapper_8547a2e3fc9a516e(int, bool disposeProxy);
+extern "C" void Swig_DirectorIArmatureProxy_callback_dispose_wrapper_0168c02bcda14bda(int, bool disposeProxy);
 void SwigDirector_IArmatureProxy::dispose(bool disposeProxy) {
   bool swig_disposeProxy;
   
   swig_disposeProxy = (bool)disposeProxy; 
-  Swig_DirectorIArmatureProxy_callback_dispose_wrapper_8547a2e3fc9a516e(go_val, swig_disposeProxy);
+  Swig_DirectorIArmatureProxy_callback_dispose_wrapper_0168c02bcda14bda(go_val, swig_disposeProxy);
 }
 
-extern "C" dragonBones::Armature *Swig_DirectorIArmatureProxy_callback_getArmature_wrapper_8547a2e3fc9a516e(int);
+extern "C" dragonBones::Armature *Swig_DirectorIArmatureProxy_callback_getArmature_wrapper_0168c02bcda14bda(int);
 dragonBones::Armature *SwigDirector_IArmatureProxy::getArmature() const {
   dragonBones::Armature *c_result = 0 ;
   dragonBones::Armature *result;
   
-  result = Swig_DirectorIArmatureProxy_callback_getArmature_wrapper_8547a2e3fc9a516e(go_val);
+  result = Swig_DirectorIArmatureProxy_callback_getArmature_wrapper_0168c02bcda14bda(go_val);
   c_result = *(dragonBones::Armature **)&result; 
   return c_result;
 }
 
-extern "C" dragonBones::Animation *Swig_DirectorIArmatureProxy_callback_getAnimation_wrapper_8547a2e3fc9a516e(int);
+extern "C" dragonBones::Animation *Swig_DirectorIArmatureProxy_callback_getAnimation_wrapper_0168c02bcda14bda(int);
 dragonBones::Animation *SwigDirector_IArmatureProxy::getAnimation() const {
   dragonBones::Animation *c_result = 0 ;
   dragonBones::Animation *result;
   
-  result = Swig_DirectorIArmatureProxy_callback_getAnimation_wrapper_8547a2e3fc9a516e(go_val);
+  result = Swig_DirectorIArmatureProxy_callback_getAnimation_wrapper_0168c02bcda14bda(go_val);
   c_result = *(dragonBones::Animation **)&result; 
   return c_result;
 }
@@ -544,111 +547,111 @@ SwigDirector_Slot::SwigDirector_Slot(int swig_p)
       go_val(swig_p), swig_mem(0)
 { }
 
-extern "C" void Swiggo_DeleteDirector_Slot_wrapper_8547a2e3fc9a516e(intgo);
+extern "C" void Swiggo_DeleteDirector_Slot_wrapper_0168c02bcda14bda(intgo);
 SwigDirector_Slot::~SwigDirector_Slot()
 {
-  Swiggo_DeleteDirector_Slot_wrapper_8547a2e3fc9a516e(go_val);
+  Swiggo_DeleteDirector_Slot_wrapper_0168c02bcda14bda(go_val);
   delete swig_mem;
 }
 
-extern "C" void Swig_DirectorSlot_callback__onClear_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorSlot_callback__onClear_wrapper_0168c02bcda14bda(int);
 void SwigDirector_Slot::_onClear() {
-  Swig_DirectorSlot_callback__onClear_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorSlot_callback__onClear_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" long long Swig_DirectorSlot_callback_getClassTypeIndex_wrapper_8547a2e3fc9a516e(int);
+extern "C" long long Swig_DirectorSlot_callback_getClassTypeIndex_wrapper_0168c02bcda14bda(int);
 std::size_t SwigDirector_Slot::getClassTypeIndex() const {
   std::size_t c_result = SwigValueInit< std::size_t >() ;
   long long result;
   
-  result = Swig_DirectorSlot_callback_getClassTypeIndex_wrapper_8547a2e3fc9a516e(go_val);
+  result = Swig_DirectorSlot_callback_getClassTypeIndex_wrapper_0168c02bcda14bda(go_val);
   c_result = (std::size_t)result; 
   return c_result;
 }
 
-extern "C" void Swig_DirectorSlot_callback__initDisplay_wrapper_8547a2e3fc9a516e(int, void *value, bool isRetain);
+extern "C" void Swig_DirectorSlot_callback__initDisplay_wrapper_0168c02bcda14bda(int, void *value, bool isRetain);
 void SwigDirector_Slot::_initDisplay(void *value, bool isRetain) {
   void *swig_value;
   bool swig_isRetain;
   
   *(void **)&swig_value = (void *)value; 
   swig_isRetain = (bool)isRetain; 
-  Swig_DirectorSlot_callback__initDisplay_wrapper_8547a2e3fc9a516e(go_val, swig_value, swig_isRetain);
+  Swig_DirectorSlot_callback__initDisplay_wrapper_0168c02bcda14bda(go_val, swig_value, swig_isRetain);
 }
 
-extern "C" void Swig_DirectorSlot_callback__disposeDisplay_wrapper_8547a2e3fc9a516e(int, void *value, bool isRelease);
+extern "C" void Swig_DirectorSlot_callback__disposeDisplay_wrapper_0168c02bcda14bda(int, void *value, bool isRelease);
 void SwigDirector_Slot::_disposeDisplay(void *value, bool isRelease) {
   void *swig_value;
   bool swig_isRelease;
   
   *(void **)&swig_value = (void *)value; 
   swig_isRelease = (bool)isRelease; 
-  Swig_DirectorSlot_callback__disposeDisplay_wrapper_8547a2e3fc9a516e(go_val, swig_value, swig_isRelease);
+  Swig_DirectorSlot_callback__disposeDisplay_wrapper_0168c02bcda14bda(go_val, swig_value, swig_isRelease);
 }
 
-extern "C" void Swig_DirectorSlot_callback__onUpdateDisplay_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorSlot_callback__onUpdateDisplay_wrapper_0168c02bcda14bda(int);
 void SwigDirector_Slot::_onUpdateDisplay() {
-  Swig_DirectorSlot_callback__onUpdateDisplay_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorSlot_callback__onUpdateDisplay_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" void Swig_DirectorSlot_callback__addDisplay_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorSlot_callback__addDisplay_wrapper_0168c02bcda14bda(int);
 void SwigDirector_Slot::_addDisplay() {
-  Swig_DirectorSlot_callback__addDisplay_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorSlot_callback__addDisplay_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" void Swig_DirectorSlot_callback__replaceDisplay_wrapper_8547a2e3fc9a516e(int, void *value, bool isArmatureDisplay);
+extern "C" void Swig_DirectorSlot_callback__replaceDisplay_wrapper_0168c02bcda14bda(int, void *value, bool isArmatureDisplay);
 void SwigDirector_Slot::_replaceDisplay(void *value, bool isArmatureDisplay) {
   void *swig_value;
   bool swig_isArmatureDisplay;
   
   *(void **)&swig_value = (void *)value; 
   swig_isArmatureDisplay = (bool)isArmatureDisplay; 
-  Swig_DirectorSlot_callback__replaceDisplay_wrapper_8547a2e3fc9a516e(go_val, swig_value, swig_isArmatureDisplay);
+  Swig_DirectorSlot_callback__replaceDisplay_wrapper_0168c02bcda14bda(go_val, swig_value, swig_isArmatureDisplay);
 }
 
-extern "C" void Swig_DirectorSlot_callback__removeDisplay_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorSlot_callback__removeDisplay_wrapper_0168c02bcda14bda(int);
 void SwigDirector_Slot::_removeDisplay() {
-  Swig_DirectorSlot_callback__removeDisplay_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorSlot_callback__removeDisplay_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" void Swig_DirectorSlot_callback__updateZOrder_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorSlot_callback__updateZOrder_wrapper_0168c02bcda14bda(int);
 void SwigDirector_Slot::_updateZOrder() {
-  Swig_DirectorSlot_callback__updateZOrder_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorSlot_callback__updateZOrder_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" void Swig_DirectorSlot_callback__updateFrame_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorSlot_callback__updateFrame_wrapper_0168c02bcda14bda(int);
 void SwigDirector_Slot::_updateFrame() {
-  Swig_DirectorSlot_callback__updateFrame_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorSlot_callback__updateFrame_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" void Swig_DirectorSlot_callback__updateMesh_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorSlot_callback__updateMesh_wrapper_0168c02bcda14bda(int);
 void SwigDirector_Slot::_updateMesh() {
-  Swig_DirectorSlot_callback__updateMesh_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorSlot_callback__updateMesh_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" void Swig_DirectorSlot_callback__updateTransform_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorSlot_callback__updateTransform_wrapper_0168c02bcda14bda(int);
 void SwigDirector_Slot::_updateTransform() {
-  Swig_DirectorSlot_callback__updateTransform_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorSlot_callback__updateTransform_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" void Swig_DirectorSlot_callback__identityTransform_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorSlot_callback__identityTransform_wrapper_0168c02bcda14bda(int);
 void SwigDirector_Slot::_identityTransform() {
-  Swig_DirectorSlot_callback__identityTransform_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorSlot_callback__identityTransform_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" void Swig_DirectorSlot_callback__updateVisible_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorSlot_callback__updateVisible_wrapper_0168c02bcda14bda(int);
 void SwigDirector_Slot::_updateVisible() {
-  Swig_DirectorSlot_callback__updateVisible_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorSlot_callback__updateVisible_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" void Swig_DirectorSlot_callback__updateBlendMode_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorSlot_callback__updateBlendMode_wrapper_0168c02bcda14bda(int);
 void SwigDirector_Slot::_updateBlendMode() {
-  Swig_DirectorSlot_callback__updateBlendMode_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorSlot_callback__updateBlendMode_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" void Swig_DirectorSlot_callback__updateColor_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorSlot_callback__updateColor_wrapper_0168c02bcda14bda(int);
 void SwigDirector_Slot::_updateColor() {
-  Swig_DirectorSlot_callback__updateColor_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorSlot_callback__updateColor_wrapper_0168c02bcda14bda(go_val);
 }
 
 SwigDirector_TextureAtlasData::SwigDirector_TextureAtlasData(int swig_p)
@@ -656,44 +659,44 @@ SwigDirector_TextureAtlasData::SwigDirector_TextureAtlasData(int swig_p)
       go_val(swig_p), swig_mem(0)
 { }
 
-extern "C" void Swiggo_DeleteDirector_TextureAtlasData_wrapper_8547a2e3fc9a516e(intgo);
+extern "C" void Swiggo_DeleteDirector_TextureAtlasData_wrapper_0168c02bcda14bda(intgo);
 SwigDirector_TextureAtlasData::~SwigDirector_TextureAtlasData()
 {
-  Swiggo_DeleteDirector_TextureAtlasData_wrapper_8547a2e3fc9a516e(go_val);
+  Swiggo_DeleteDirector_TextureAtlasData_wrapper_0168c02bcda14bda(go_val);
   delete swig_mem;
 }
 
-extern "C" void Swig_DirectorTextureAtlasData_callback__onClear_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorTextureAtlasData_callback__onClear_wrapper_0168c02bcda14bda(int);
 void SwigDirector_TextureAtlasData::_onClear() {
-  Swig_DirectorTextureAtlasData_callback__onClear_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorTextureAtlasData_callback__onClear_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" long long Swig_DirectorTextureAtlasData_callback_getClassTypeIndex_wrapper_8547a2e3fc9a516e(int);
+extern "C" long long Swig_DirectorTextureAtlasData_callback_getClassTypeIndex_wrapper_0168c02bcda14bda(int);
 std::size_t SwigDirector_TextureAtlasData::getClassTypeIndex() const {
   std::size_t c_result = SwigValueInit< std::size_t >() ;
   long long result;
   
-  result = Swig_DirectorTextureAtlasData_callback_getClassTypeIndex_wrapper_8547a2e3fc9a516e(go_val);
+  result = Swig_DirectorTextureAtlasData_callback_getClassTypeIndex_wrapper_0168c02bcda14bda(go_val);
   c_result = (std::size_t)result; 
   return c_result;
 }
 
-extern "C" dragonBones::TextureData *Swig_DirectorTextureAtlasData_callback_createTexture_wrapper_8547a2e3fc9a516e(int);
+extern "C" dragonBones::TextureData *Swig_DirectorTextureAtlasData_callback_createTexture_wrapper_0168c02bcda14bda(int);
 dragonBones::TextureData *SwigDirector_TextureAtlasData::createTexture() const {
   dragonBones::TextureData *c_result = 0 ;
   dragonBones::TextureData *result;
   
-  result = Swig_DirectorTextureAtlasData_callback_createTexture_wrapper_8547a2e3fc9a516e(go_val);
+  result = Swig_DirectorTextureAtlasData_callback_createTexture_wrapper_0168c02bcda14bda(go_val);
   c_result = *(dragonBones::TextureData **)&result; 
   return c_result;
 }
 
-extern "C" void Swig_DirectorTextureAtlasData_callback_addTexture_wrapper_8547a2e3fc9a516e(int, dragonBones::TextureData *arg2);
+extern "C" void Swig_DirectorTextureAtlasData_callback_addTexture_wrapper_0168c02bcda14bda(int, dragonBones::TextureData *arg2);
 void SwigDirector_TextureAtlasData::addTexture(dragonBones::TextureData *value) {
   dragonBones::TextureData *swig_arg2;
   
   *(dragonBones::TextureData **)&swig_arg2 = (dragonBones::TextureData *)value; 
-  Swig_DirectorTextureAtlasData_callback_addTexture_wrapper_8547a2e3fc9a516e(go_val, swig_arg2);
+  Swig_DirectorTextureAtlasData_callback_addTexture_wrapper_0168c02bcda14bda(go_val, swig_arg2);
 }
 
 SwigDirector_TextureData::SwigDirector_TextureData(int swig_p)
@@ -701,24 +704,24 @@ SwigDirector_TextureData::SwigDirector_TextureData(int swig_p)
       go_val(swig_p), swig_mem(0)
 { }
 
-extern "C" void Swiggo_DeleteDirector_TextureData_wrapper_8547a2e3fc9a516e(intgo);
+extern "C" void Swiggo_DeleteDirector_TextureData_wrapper_0168c02bcda14bda(intgo);
 SwigDirector_TextureData::~SwigDirector_TextureData()
 {
-  Swiggo_DeleteDirector_TextureData_wrapper_8547a2e3fc9a516e(go_val);
+  Swiggo_DeleteDirector_TextureData_wrapper_0168c02bcda14bda(go_val);
   delete swig_mem;
 }
 
-extern "C" void Swig_DirectorTextureData_callback__onClear_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorTextureData_callback__onClear_wrapper_0168c02bcda14bda(int);
 void SwigDirector_TextureData::_onClear() {
-  Swig_DirectorTextureData_callback__onClear_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorTextureData_callback__onClear_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" long long Swig_DirectorTextureData_callback_getClassTypeIndex_wrapper_8547a2e3fc9a516e(int);
+extern "C" long long Swig_DirectorTextureData_callback_getClassTypeIndex_wrapper_0168c02bcda14bda(int);
 std::size_t SwigDirector_TextureData::getClassTypeIndex() const {
   std::size_t c_result = SwigValueInit< std::size_t >() ;
   long long result;
   
-  result = Swig_DirectorTextureData_callback_getClassTypeIndex_wrapper_8547a2e3fc9a516e(go_val);
+  result = Swig_DirectorTextureData_callback_getClassTypeIndex_wrapper_0168c02bcda14bda(go_val);
   c_result = (std::size_t)result; 
   return c_result;
 }
@@ -733,24 +736,24 @@ SwigDirector_BaseFactory::SwigDirector_BaseFactory(int swig_p)
       go_val(swig_p), swig_mem(0)
 { }
 
-extern "C" void Swiggo_DeleteDirector_BaseFactory_wrapper_8547a2e3fc9a516e(intgo);
+extern "C" void Swiggo_DeleteDirector_BaseFactory_wrapper_0168c02bcda14bda(intgo);
 SwigDirector_BaseFactory::~SwigDirector_BaseFactory()
 {
-  Swiggo_DeleteDirector_BaseFactory_wrapper_8547a2e3fc9a516e(go_val);
+  Swiggo_DeleteDirector_BaseFactory_wrapper_0168c02bcda14bda(go_val);
   delete swig_mem;
 }
 
-extern "C" bool Swig_DirectorBaseFactory_callback__isSupportMesh_wrapper_8547a2e3fc9a516e(int);
+extern "C" bool Swig_DirectorBaseFactory_callback__isSupportMesh_wrapper_0168c02bcda14bda(int);
 bool SwigDirector_BaseFactory::_isSupportMesh() const {
   bool c_result = SwigValueInit< bool >() ;
   bool result;
   
-  result = Swig_DirectorBaseFactory_callback__isSupportMesh_wrapper_8547a2e3fc9a516e(go_val);
+  result = Swig_DirectorBaseFactory_callback__isSupportMesh_wrapper_0168c02bcda14bda(go_val);
   c_result = (bool)result; 
   return c_result;
 }
 
-extern "C" dragonBones::TextureData *Swig_DirectorBaseFactory_callback__getTextureData_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, _gostring_ arg3);
+extern "C" dragonBones::TextureData *Swig_DirectorBaseFactory_callback__getTextureData_wrapper_0168c02bcda14bda(int, _gostring_ arg2, _gostring_ arg3);
 dragonBones::TextureData *SwigDirector_BaseFactory::_getTextureData(std::string const &textureAtlasName, std::string const &textureName) const {
   dragonBones::TextureData *c_result = 0 ;
   dragonBones::TextureData *result;
@@ -759,12 +762,12 @@ dragonBones::TextureData *SwigDirector_BaseFactory::_getTextureData(std::string 
   
   swig_arg2 = Swig_AllocateString((&textureAtlasName)->data(), (&textureAtlasName)->length()); 
   swig_arg3 = Swig_AllocateString((&textureName)->data(), (&textureName)->length()); 
-  result = Swig_DirectorBaseFactory_callback__getTextureData_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3);
+  result = Swig_DirectorBaseFactory_callback__getTextureData_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3);
   c_result = *(dragonBones::TextureData **)&result; 
   return c_result;
 }
 
-extern "C" bool Swig_DirectorBaseFactory_callback__fillBuildArmaturePackage_wrapper_8547a2e3fc9a516e(int, dragonBones::BuildArmaturePackage *arg2, _gostring_ arg3, _gostring_ arg4, _gostring_ arg5, _gostring_ arg6);
+extern "C" bool Swig_DirectorBaseFactory_callback__fillBuildArmaturePackage_wrapper_0168c02bcda14bda(int, dragonBones::BuildArmaturePackage *arg2, _gostring_ arg3, _gostring_ arg4, _gostring_ arg5, _gostring_ arg6);
 bool SwigDirector_BaseFactory::_fillBuildArmaturePackage(dragonBones::BuildArmaturePackage &dataPackage, std::string const &dragonBonesName, std::string const &armatureName, std::string const &skinName, std::string const &textureAtlasName) const {
   bool c_result = SwigValueInit< bool >() ;
   bool result;
@@ -779,32 +782,32 @@ bool SwigDirector_BaseFactory::_fillBuildArmaturePackage(dragonBones::BuildArmat
   swig_arg4 = Swig_AllocateString((&armatureName)->data(), (&armatureName)->length()); 
   swig_arg5 = Swig_AllocateString((&skinName)->data(), (&skinName)->length()); 
   swig_arg6 = Swig_AllocateString((&textureAtlasName)->data(), (&textureAtlasName)->length()); 
-  result = Swig_DirectorBaseFactory_callback__fillBuildArmaturePackage_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5, swig_arg6);
+  result = Swig_DirectorBaseFactory_callback__fillBuildArmaturePackage_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5, swig_arg6);
   c_result = (bool)result; 
   return c_result;
 }
 
-extern "C" void Swig_DirectorBaseFactory_callback__buildBones_wrapper_8547a2e3fc9a516e(int, dragonBones::BuildArmaturePackage *arg2, dragonBones::Armature *arg3);
+extern "C" void Swig_DirectorBaseFactory_callback__buildBones_wrapper_0168c02bcda14bda(int, dragonBones::BuildArmaturePackage *arg2, dragonBones::Armature *arg3);
 void SwigDirector_BaseFactory::_buildBones(dragonBones::BuildArmaturePackage const &dataPackage, dragonBones::Armature *armature) const {
   dragonBones::BuildArmaturePackage *swig_arg2;
   dragonBones::Armature *swig_arg3;
   
   swig_arg2 = (dragonBones::BuildArmaturePackage *)&dataPackage; 
   *(dragonBones::Armature **)&swig_arg3 = (dragonBones::Armature *)armature; 
-  Swig_DirectorBaseFactory_callback__buildBones_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3);
+  Swig_DirectorBaseFactory_callback__buildBones_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3);
 }
 
-extern "C" void Swig_DirectorBaseFactory_callback__buildSlots_wrapper_8547a2e3fc9a516e(int, dragonBones::BuildArmaturePackage *arg2, dragonBones::Armature *arg3);
+extern "C" void Swig_DirectorBaseFactory_callback__buildSlots_wrapper_0168c02bcda14bda(int, dragonBones::BuildArmaturePackage *arg2, dragonBones::Armature *arg3);
 void SwigDirector_BaseFactory::_buildSlots(dragonBones::BuildArmaturePackage const &dataPackage, dragonBones::Armature *armature) const {
   dragonBones::BuildArmaturePackage *swig_arg2;
   dragonBones::Armature *swig_arg3;
   
   swig_arg2 = (dragonBones::BuildArmaturePackage *)&dataPackage; 
   *(dragonBones::Armature **)&swig_arg3 = (dragonBones::Armature *)armature; 
-  Swig_DirectorBaseFactory_callback__buildSlots_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3);
+  Swig_DirectorBaseFactory_callback__buildSlots_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3);
 }
 
-extern "C" dragonBones::Armature *Swig_DirectorBaseFactory_callback__buildChildArmature_wrapper_8547a2e3fc9a516e(int, dragonBones::BuildArmaturePackage *arg2, dragonBones::Slot *arg3, dragonBones::DisplayData *arg4);
+extern "C" dragonBones::Armature *Swig_DirectorBaseFactory_callback__buildChildArmature_wrapper_0168c02bcda14bda(int, dragonBones::BuildArmaturePackage *arg2, dragonBones::Slot *arg3, dragonBones::DisplayData *arg4);
 dragonBones::Armature *SwigDirector_BaseFactory::_buildChildArmature(dragonBones::BuildArmaturePackage const *dataPackage, dragonBones::Slot *slot, dragonBones::DisplayData *displayData) const {
   dragonBones::Armature *c_result = 0 ;
   dragonBones::Armature *result;
@@ -815,12 +818,12 @@ dragonBones::Armature *SwigDirector_BaseFactory::_buildChildArmature(dragonBones
   *(dragonBones::BuildArmaturePackage **)&swig_arg2 = (dragonBones::BuildArmaturePackage *)dataPackage; 
   *(dragonBones::Slot **)&swig_arg3 = (dragonBones::Slot *)slot; 
   *(dragonBones::DisplayData **)&swig_arg4 = (dragonBones::DisplayData *)displayData; 
-  result = Swig_DirectorBaseFactory_callback__buildChildArmature_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4);
+  result = Swig_DirectorBaseFactory_callback__buildChildArmature_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4);
   c_result = *(dragonBones::Armature **)&result; 
   return c_result;
 }
 
-extern "C" std::pair< void *,enum dragonBones::DisplayType > *Swig_DirectorBaseFactory_callback__getSlotDisplay_wrapper_8547a2e3fc9a516e(int, dragonBones::BuildArmaturePackage *arg2, dragonBones::DisplayData *arg3, dragonBones::DisplayData *arg4, dragonBones::Slot *arg5);
+extern "C" std::pair< void *,enum dragonBones::DisplayType > *Swig_DirectorBaseFactory_callback__getSlotDisplay_wrapper_0168c02bcda14bda(int, dragonBones::BuildArmaturePackage *arg2, dragonBones::DisplayData *arg3, dragonBones::DisplayData *arg4, dragonBones::Slot *arg5);
 std::pair< void *, dragonBones::DisplayType > SwigDirector_BaseFactory::_getSlotDisplay(dragonBones::BuildArmaturePackage const *dataPackage, dragonBones::DisplayData *displayData, dragonBones::DisplayData *rawDisplayData, dragonBones::Slot *slot) const {
   std::pair< void *,dragonBones::DisplayType > c_result = SwigValueInit< std::pair< void *,dragonBones::DisplayType > >() ;
   std::pair< void *,enum dragonBones::DisplayType > *result;
@@ -833,12 +836,12 @@ std::pair< void *, dragonBones::DisplayType > SwigDirector_BaseFactory::_getSlot
   *(dragonBones::DisplayData **)&swig_arg3 = (dragonBones::DisplayData *)displayData; 
   *(dragonBones::DisplayData **)&swig_arg4 = (dragonBones::DisplayData *)rawDisplayData; 
   *(dragonBones::Slot **)&swig_arg5 = (dragonBones::Slot *)slot; 
-  result = Swig_DirectorBaseFactory_callback__getSlotDisplay_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5);
+  result = Swig_DirectorBaseFactory_callback__getSlotDisplay_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5);
   c_result = *(std::pair< void *,dragonBones::DisplayType > *)result; 
   return c_result;
 }
 
-extern "C" dragonBones::TextureAtlasData *Swig_DirectorBaseFactory_callback__buildTextureAtlasData_wrapper_8547a2e3fc9a516e(int, dragonBones::TextureAtlasData *textureAtlasData, void *textureAtlas);
+extern "C" dragonBones::TextureAtlasData *Swig_DirectorBaseFactory_callback__buildTextureAtlasData_wrapper_0168c02bcda14bda(int, dragonBones::TextureAtlasData *textureAtlasData, void *textureAtlas);
 dragonBones::TextureAtlasData *SwigDirector_BaseFactory::_buildTextureAtlasData(dragonBones::TextureAtlasData *textureAtlasData, void *textureAtlas) const {
   dragonBones::TextureAtlasData *c_result = 0 ;
   dragonBones::TextureAtlasData *result;
@@ -847,24 +850,24 @@ dragonBones::TextureAtlasData *SwigDirector_BaseFactory::_buildTextureAtlasData(
   
   *(dragonBones::TextureAtlasData **)&swig_textureAtlasData = (dragonBones::TextureAtlasData *)textureAtlasData; 
   *(void **)&swig_textureAtlas = (void *)textureAtlas; 
-  result = Swig_DirectorBaseFactory_callback__buildTextureAtlasData_wrapper_8547a2e3fc9a516e(go_val, swig_textureAtlasData, swig_textureAtlas);
+  result = Swig_DirectorBaseFactory_callback__buildTextureAtlasData_wrapper_0168c02bcda14bda(go_val, swig_textureAtlasData, swig_textureAtlas);
   c_result = *(dragonBones::TextureAtlasData **)&result; 
   return c_result;
 }
 
-extern "C" dragonBones::Armature *Swig_DirectorBaseFactory_callback__buildArmature_wrapper_8547a2e3fc9a516e(int, dragonBones::BuildArmaturePackage *dataPackage);
+extern "C" dragonBones::Armature *Swig_DirectorBaseFactory_callback__buildArmature_wrapper_0168c02bcda14bda(int, dragonBones::BuildArmaturePackage *dataPackage);
 dragonBones::Armature *SwigDirector_BaseFactory::_buildArmature(dragonBones::BuildArmaturePackage const &dataPackage) const {
   dragonBones::Armature *c_result = 0 ;
   dragonBones::Armature *result;
   dragonBones::BuildArmaturePackage *swig_dataPackage;
   
   swig_dataPackage = (dragonBones::BuildArmaturePackage *)&dataPackage; 
-  result = Swig_DirectorBaseFactory_callback__buildArmature_wrapper_8547a2e3fc9a516e(go_val, swig_dataPackage);
+  result = Swig_DirectorBaseFactory_callback__buildArmature_wrapper_0168c02bcda14bda(go_val, swig_dataPackage);
   c_result = *(dragonBones::Armature **)&result; 
   return c_result;
 }
 
-extern "C" dragonBones::Slot *Swig_DirectorBaseFactory_callback__buildSlot_wrapper_8547a2e3fc9a516e(int, dragonBones::BuildArmaturePackage *dataPackage, dragonBones::SlotData *slotData, dragonBones::Armature *armature);
+extern "C" dragonBones::Slot *Swig_DirectorBaseFactory_callback__buildSlot_wrapper_0168c02bcda14bda(int, dragonBones::BuildArmaturePackage *dataPackage, dragonBones::SlotData *slotData, dragonBones::Armature *armature);
 dragonBones::Slot *SwigDirector_BaseFactory::_buildSlot(dragonBones::BuildArmaturePackage const &dataPackage, dragonBones::SlotData const *slotData, dragonBones::Armature *armature) const {
   dragonBones::Slot *c_result = 0 ;
   dragonBones::Slot *result;
@@ -875,12 +878,12 @@ dragonBones::Slot *SwigDirector_BaseFactory::_buildSlot(dragonBones::BuildArmatu
   swig_dataPackage = (dragonBones::BuildArmaturePackage *)&dataPackage; 
   *(dragonBones::SlotData **)&swig_slotData = (dragonBones::SlotData *)slotData; 
   *(dragonBones::Armature **)&swig_armature = (dragonBones::Armature *)armature; 
-  result = Swig_DirectorBaseFactory_callback__buildSlot_wrapper_8547a2e3fc9a516e(go_val, swig_dataPackage, swig_slotData, swig_armature);
+  result = Swig_DirectorBaseFactory_callback__buildSlot_wrapper_0168c02bcda14bda(go_val, swig_dataPackage, swig_slotData, swig_armature);
   c_result = *(dragonBones::Slot **)&result; 
   return c_result;
 }
 
-extern "C" dragonBones::DragonBonesData *Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_0_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, _gostring_ arg3, float arg4);
+extern "C" dragonBones::DragonBonesData *Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(int, _gostring_ arg2, _gostring_ arg3, float arg4);
 dragonBones::DragonBonesData *SwigDirector_BaseFactory::parseDragonBonesData(char const *rawData, std::string const &name, float scale) {
   dragonBones::DragonBonesData *c_result = 0 ;
   dragonBones::DragonBonesData *result;
@@ -893,12 +896,12 @@ dragonBones::DragonBonesData *SwigDirector_BaseFactory::parseDragonBonesData(cha
   
   swig_arg3 = Swig_AllocateString((&name)->data(), (&name)->length()); 
   swig_arg4 = (float)scale; 
-  result = Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_0_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4);
+  result = Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4);
   c_result = *(dragonBones::DragonBonesData **)&result; 
   return c_result;
 }
 
-extern "C" dragonBones::DragonBonesData *Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_1_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, _gostring_ arg3);
+extern "C" dragonBones::DragonBonesData *Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(int, _gostring_ arg2, _gostring_ arg3);
 dragonBones::DragonBonesData *SwigDirector_BaseFactory::parseDragonBonesData(char const *rawData, std::string const &name) {
   dragonBones::DragonBonesData *c_result = 0 ;
   dragonBones::DragonBonesData *result;
@@ -909,12 +912,12 @@ dragonBones::DragonBonesData *SwigDirector_BaseFactory::parseDragonBonesData(cha
   swig_arg2 = Swig_AllocateString((char*)rawData, rawData ? strlen((char*)rawData) : 0);
   
   swig_arg3 = Swig_AllocateString((&name)->data(), (&name)->length()); 
-  result = Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_1_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3);
+  result = Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3);
   c_result = *(dragonBones::DragonBonesData **)&result; 
   return c_result;
 }
 
-extern "C" dragonBones::DragonBonesData *Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_2_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2);
+extern "C" dragonBones::DragonBonesData *Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_2_wrapper_0168c02bcda14bda(int, _gostring_ arg2);
 dragonBones::DragonBonesData *SwigDirector_BaseFactory::parseDragonBonesData(char const *rawData) {
   dragonBones::DragonBonesData *c_result = 0 ;
   dragonBones::DragonBonesData *result;
@@ -923,12 +926,12 @@ dragonBones::DragonBonesData *SwigDirector_BaseFactory::parseDragonBonesData(cha
   
   swig_arg2 = Swig_AllocateString((char*)rawData, rawData ? strlen((char*)rawData) : 0);
   
-  result = Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_2_wrapper_8547a2e3fc9a516e(go_val, swig_arg2);
+  result = Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_2_wrapper_0168c02bcda14bda(go_val, swig_arg2);
   c_result = *(dragonBones::DragonBonesData **)&result; 
   return c_result;
 }
 
-extern "C" dragonBones::TextureAtlasData *Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_0_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, void *arg3, _gostring_ arg4, float arg5);
+extern "C" dragonBones::TextureAtlasData *Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(int, _gostring_ arg2, void *arg3, _gostring_ arg4, float arg5);
 dragonBones::TextureAtlasData *SwigDirector_BaseFactory::parseTextureAtlasData(char const *rawData, void *textureAtlas, std::string const &name, float scale) {
   dragonBones::TextureAtlasData *c_result = 0 ;
   dragonBones::TextureAtlasData *result;
@@ -943,12 +946,12 @@ dragonBones::TextureAtlasData *SwigDirector_BaseFactory::parseTextureAtlasData(c
   *(void **)&swig_arg3 = (void *)textureAtlas; 
   swig_arg4 = Swig_AllocateString((&name)->data(), (&name)->length()); 
   swig_arg5 = (float)scale; 
-  result = Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_0_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5);
+  result = Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5);
   c_result = *(dragonBones::TextureAtlasData **)&result; 
   return c_result;
 }
 
-extern "C" dragonBones::TextureAtlasData *Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_1_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, void *arg3, _gostring_ arg4);
+extern "C" dragonBones::TextureAtlasData *Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(int, _gostring_ arg2, void *arg3, _gostring_ arg4);
 dragonBones::TextureAtlasData *SwigDirector_BaseFactory::parseTextureAtlasData(char const *rawData, void *textureAtlas, std::string const &name) {
   dragonBones::TextureAtlasData *c_result = 0 ;
   dragonBones::TextureAtlasData *result;
@@ -961,12 +964,12 @@ dragonBones::TextureAtlasData *SwigDirector_BaseFactory::parseTextureAtlasData(c
   
   *(void **)&swig_arg3 = (void *)textureAtlas; 
   swig_arg4 = Swig_AllocateString((&name)->data(), (&name)->length()); 
-  result = Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_1_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4);
+  result = Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4);
   c_result = *(dragonBones::TextureAtlasData **)&result; 
   return c_result;
 }
 
-extern "C" dragonBones::TextureAtlasData *Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_2_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, void *arg3);
+extern "C" dragonBones::TextureAtlasData *Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_2_wrapper_0168c02bcda14bda(int, _gostring_ arg2, void *arg3);
 dragonBones::TextureAtlasData *SwigDirector_BaseFactory::parseTextureAtlasData(char const *rawData, void *textureAtlas) {
   dragonBones::TextureAtlasData *c_result = 0 ;
   dragonBones::TextureAtlasData *result;
@@ -977,84 +980,84 @@ dragonBones::TextureAtlasData *SwigDirector_BaseFactory::parseTextureAtlasData(c
   swig_arg2 = Swig_AllocateString((char*)rawData, rawData ? strlen((char*)rawData) : 0);
   
   *(void **)&swig_arg3 = (void *)textureAtlas; 
-  result = Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_2_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3);
+  result = Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_2_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3);
   c_result = *(dragonBones::TextureAtlasData **)&result; 
   return c_result;
 }
 
-extern "C" void Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_0_wrapper_8547a2e3fc9a516e(int, dragonBones::DragonBonesData *arg2, _gostring_ arg3);
+extern "C" void Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(int, dragonBones::DragonBonesData *arg2, _gostring_ arg3);
 void SwigDirector_BaseFactory::addDragonBonesData(dragonBones::DragonBonesData *data, std::string const &name) {
   dragonBones::DragonBonesData *swig_arg2;
   _gostring_ swig_arg3;
   
   *(dragonBones::DragonBonesData **)&swig_arg2 = (dragonBones::DragonBonesData *)data; 
   swig_arg3 = Swig_AllocateString((&name)->data(), (&name)->length()); 
-  Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_0_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3);
+  Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3);
 }
 
-extern "C" void Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_1_wrapper_8547a2e3fc9a516e(int, dragonBones::DragonBonesData *arg2);
+extern "C" void Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(int, dragonBones::DragonBonesData *arg2);
 void SwigDirector_BaseFactory::addDragonBonesData(dragonBones::DragonBonesData *data) {
   dragonBones::DragonBonesData *swig_arg2;
   
   *(dragonBones::DragonBonesData **)&swig_arg2 = (dragonBones::DragonBonesData *)data; 
-  Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_1_wrapper_8547a2e3fc9a516e(go_val, swig_arg2);
+  Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(go_val, swig_arg2);
 }
 
-extern "C" void Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_0_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, bool arg3);
+extern "C" void Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(int, _gostring_ arg2, bool arg3);
 void SwigDirector_BaseFactory::removeDragonBonesData(std::string const &name, bool disposeData) {
   _gostring_ swig_arg2;
   bool swig_arg3;
   
   swig_arg2 = Swig_AllocateString((&name)->data(), (&name)->length()); 
   swig_arg3 = (bool)disposeData; 
-  Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_0_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3);
+  Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3);
 }
 
-extern "C" void Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_1_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2);
+extern "C" void Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(int, _gostring_ arg2);
 void SwigDirector_BaseFactory::removeDragonBonesData(std::string const &name) {
   _gostring_ swig_arg2;
   
   swig_arg2 = Swig_AllocateString((&name)->data(), (&name)->length()); 
-  Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_1_wrapper_8547a2e3fc9a516e(go_val, swig_arg2);
+  Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(go_val, swig_arg2);
 }
 
-extern "C" void Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_0_wrapper_8547a2e3fc9a516e(int, dragonBones::TextureAtlasData *arg2, _gostring_ arg3);
+extern "C" void Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(int, dragonBones::TextureAtlasData *arg2, _gostring_ arg3);
 void SwigDirector_BaseFactory::addTextureAtlasData(dragonBones::TextureAtlasData *data, std::string const &name) {
   dragonBones::TextureAtlasData *swig_arg2;
   _gostring_ swig_arg3;
   
   *(dragonBones::TextureAtlasData **)&swig_arg2 = (dragonBones::TextureAtlasData *)data; 
   swig_arg3 = Swig_AllocateString((&name)->data(), (&name)->length()); 
-  Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_0_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3);
+  Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3);
 }
 
-extern "C" void Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_1_wrapper_8547a2e3fc9a516e(int, dragonBones::TextureAtlasData *arg2);
+extern "C" void Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(int, dragonBones::TextureAtlasData *arg2);
 void SwigDirector_BaseFactory::addTextureAtlasData(dragonBones::TextureAtlasData *data) {
   dragonBones::TextureAtlasData *swig_arg2;
   
   *(dragonBones::TextureAtlasData **)&swig_arg2 = (dragonBones::TextureAtlasData *)data; 
-  Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_1_wrapper_8547a2e3fc9a516e(go_val, swig_arg2);
+  Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(go_val, swig_arg2);
 }
 
-extern "C" void Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_0_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, bool arg3);
+extern "C" void Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(int, _gostring_ arg2, bool arg3);
 void SwigDirector_BaseFactory::removeTextureAtlasData(std::string const &name, bool disposeData) {
   _gostring_ swig_arg2;
   bool swig_arg3;
   
   swig_arg2 = Swig_AllocateString((&name)->data(), (&name)->length()); 
   swig_arg3 = (bool)disposeData; 
-  Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_0_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3);
+  Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3);
 }
 
-extern "C" void Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_1_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2);
+extern "C" void Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(int, _gostring_ arg2);
 void SwigDirector_BaseFactory::removeTextureAtlasData(std::string const &name) {
   _gostring_ swig_arg2;
   
   swig_arg2 = Swig_AllocateString((&name)->data(), (&name)->length()); 
-  Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_1_wrapper_8547a2e3fc9a516e(go_val, swig_arg2);
+  Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(go_val, swig_arg2);
 }
 
-extern "C" dragonBones::ArmatureData *Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_0_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, _gostring_ arg3);
+extern "C" dragonBones::ArmatureData *Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_0_wrapper_0168c02bcda14bda(int, _gostring_ arg2, _gostring_ arg3);
 dragonBones::ArmatureData *SwigDirector_BaseFactory::getArmatureData(std::string const &name, std::string const &dragonBonesName) const {
   dragonBones::ArmatureData *c_result = 0 ;
   dragonBones::ArmatureData *result;
@@ -1063,37 +1066,37 @@ dragonBones::ArmatureData *SwigDirector_BaseFactory::getArmatureData(std::string
   
   swig_arg2 = Swig_AllocateString((&name)->data(), (&name)->length()); 
   swig_arg3 = Swig_AllocateString((&dragonBonesName)->data(), (&dragonBonesName)->length()); 
-  result = Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_0_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3);
+  result = Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_0_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3);
   c_result = *(dragonBones::ArmatureData **)&result; 
   return c_result;
 }
 
-extern "C" dragonBones::ArmatureData *Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_1_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2);
+extern "C" dragonBones::ArmatureData *Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_1_wrapper_0168c02bcda14bda(int, _gostring_ arg2);
 dragonBones::ArmatureData *SwigDirector_BaseFactory::getArmatureData(std::string const &name) const {
   dragonBones::ArmatureData *c_result = 0 ;
   dragonBones::ArmatureData *result;
   _gostring_ swig_arg2;
   
   swig_arg2 = Swig_AllocateString((&name)->data(), (&name)->length()); 
-  result = Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_1_wrapper_8547a2e3fc9a516e(go_val, swig_arg2);
+  result = Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_1_wrapper_0168c02bcda14bda(go_val, swig_arg2);
   c_result = *(dragonBones::ArmatureData **)&result; 
   return c_result;
 }
 
-extern "C" void Swig_DirectorBaseFactory_callback_clear__SWIG_0_wrapper_8547a2e3fc9a516e(int, bool arg2);
+extern "C" void Swig_DirectorBaseFactory_callback_clear__SWIG_0_wrapper_0168c02bcda14bda(int, bool arg2);
 void SwigDirector_BaseFactory::clear(bool disposeData) {
   bool swig_arg2;
   
   swig_arg2 = (bool)disposeData; 
-  Swig_DirectorBaseFactory_callback_clear__SWIG_0_wrapper_8547a2e3fc9a516e(go_val, swig_arg2);
+  Swig_DirectorBaseFactory_callback_clear__SWIG_0_wrapper_0168c02bcda14bda(go_val, swig_arg2);
 }
 
-extern "C" void Swig_DirectorBaseFactory_callback_clear__SWIG_1_wrapper_8547a2e3fc9a516e(int);
+extern "C" void Swig_DirectorBaseFactory_callback_clear__SWIG_1_wrapper_0168c02bcda14bda(int);
 void SwigDirector_BaseFactory::clear() {
-  Swig_DirectorBaseFactory_callback_clear__SWIG_1_wrapper_8547a2e3fc9a516e(go_val);
+  Swig_DirectorBaseFactory_callback_clear__SWIG_1_wrapper_0168c02bcda14bda(go_val);
 }
 
-extern "C" dragonBones::Armature *Swig_DirectorBaseFactory_callback_buildArmature__SWIG_0_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, _gostring_ arg3, _gostring_ arg4, _gostring_ arg5);
+extern "C" dragonBones::Armature *Swig_DirectorBaseFactory_callback_buildArmature__SWIG_0_wrapper_0168c02bcda14bda(int, _gostring_ arg2, _gostring_ arg3, _gostring_ arg4, _gostring_ arg5);
 dragonBones::Armature *SwigDirector_BaseFactory::buildArmature(std::string const &armatureName, std::string const &dragonBonesName, std::string const &skinName, std::string const &textureAtlasName) const {
   dragonBones::Armature *c_result = 0 ;
   dragonBones::Armature *result;
@@ -1106,12 +1109,12 @@ dragonBones::Armature *SwigDirector_BaseFactory::buildArmature(std::string const
   swig_arg3 = Swig_AllocateString((&dragonBonesName)->data(), (&dragonBonesName)->length()); 
   swig_arg4 = Swig_AllocateString((&skinName)->data(), (&skinName)->length()); 
   swig_arg5 = Swig_AllocateString((&textureAtlasName)->data(), (&textureAtlasName)->length()); 
-  result = Swig_DirectorBaseFactory_callback_buildArmature__SWIG_0_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5);
+  result = Swig_DirectorBaseFactory_callback_buildArmature__SWIG_0_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5);
   c_result = *(dragonBones::Armature **)&result; 
   return c_result;
 }
 
-extern "C" dragonBones::Armature *Swig_DirectorBaseFactory_callback_buildArmature__SWIG_1_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, _gostring_ arg3, _gostring_ arg4);
+extern "C" dragonBones::Armature *Swig_DirectorBaseFactory_callback_buildArmature__SWIG_1_wrapper_0168c02bcda14bda(int, _gostring_ arg2, _gostring_ arg3, _gostring_ arg4);
 dragonBones::Armature *SwigDirector_BaseFactory::buildArmature(std::string const &armatureName, std::string const &dragonBonesName, std::string const &skinName) const {
   dragonBones::Armature *c_result = 0 ;
   dragonBones::Armature *result;
@@ -1122,12 +1125,12 @@ dragonBones::Armature *SwigDirector_BaseFactory::buildArmature(std::string const
   swig_arg2 = Swig_AllocateString((&armatureName)->data(), (&armatureName)->length()); 
   swig_arg3 = Swig_AllocateString((&dragonBonesName)->data(), (&dragonBonesName)->length()); 
   swig_arg4 = Swig_AllocateString((&skinName)->data(), (&skinName)->length()); 
-  result = Swig_DirectorBaseFactory_callback_buildArmature__SWIG_1_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4);
+  result = Swig_DirectorBaseFactory_callback_buildArmature__SWIG_1_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4);
   c_result = *(dragonBones::Armature **)&result; 
   return c_result;
 }
 
-extern "C" dragonBones::Armature *Swig_DirectorBaseFactory_callback_buildArmature__SWIG_2_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, _gostring_ arg3);
+extern "C" dragonBones::Armature *Swig_DirectorBaseFactory_callback_buildArmature__SWIG_2_wrapper_0168c02bcda14bda(int, _gostring_ arg2, _gostring_ arg3);
 dragonBones::Armature *SwigDirector_BaseFactory::buildArmature(std::string const &armatureName, std::string const &dragonBonesName) const {
   dragonBones::Armature *c_result = 0 ;
   dragonBones::Armature *result;
@@ -1136,24 +1139,24 @@ dragonBones::Armature *SwigDirector_BaseFactory::buildArmature(std::string const
   
   swig_arg2 = Swig_AllocateString((&armatureName)->data(), (&armatureName)->length()); 
   swig_arg3 = Swig_AllocateString((&dragonBonesName)->data(), (&dragonBonesName)->length()); 
-  result = Swig_DirectorBaseFactory_callback_buildArmature__SWIG_2_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3);
+  result = Swig_DirectorBaseFactory_callback_buildArmature__SWIG_2_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3);
   c_result = *(dragonBones::Armature **)&result; 
   return c_result;
 }
 
-extern "C" dragonBones::Armature *Swig_DirectorBaseFactory_callback_buildArmature__SWIG_3_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2);
+extern "C" dragonBones::Armature *Swig_DirectorBaseFactory_callback_buildArmature__SWIG_3_wrapper_0168c02bcda14bda(int, _gostring_ arg2);
 dragonBones::Armature *SwigDirector_BaseFactory::buildArmature(std::string const &armatureName) const {
   dragonBones::Armature *c_result = 0 ;
   dragonBones::Armature *result;
   _gostring_ swig_arg2;
   
   swig_arg2 = Swig_AllocateString((&armatureName)->data(), (&armatureName)->length()); 
-  result = Swig_DirectorBaseFactory_callback_buildArmature__SWIG_3_wrapper_8547a2e3fc9a516e(go_val, swig_arg2);
+  result = Swig_DirectorBaseFactory_callback_buildArmature__SWIG_3_wrapper_0168c02bcda14bda(go_val, swig_arg2);
   c_result = *(dragonBones::Armature **)&result; 
   return c_result;
 }
 
-extern "C" void Swig_DirectorBaseFactory_callback_replaceDisplay_wrapper_8547a2e3fc9a516e(int, dragonBones::Slot *arg2, dragonBones::DisplayData *arg3, intgo arg4);
+extern "C" void Swig_DirectorBaseFactory_callback_replaceDisplay_wrapper_0168c02bcda14bda(int, dragonBones::Slot *arg2, dragonBones::DisplayData *arg3, intgo arg4);
 void SwigDirector_BaseFactory::replaceDisplay(dragonBones::Slot *slot, dragonBones::DisplayData *displayData, int displayIndex) const {
   dragonBones::Slot *swig_arg2;
   dragonBones::DisplayData *swig_arg3;
@@ -1162,10 +1165,10 @@ void SwigDirector_BaseFactory::replaceDisplay(dragonBones::Slot *slot, dragonBon
   *(dragonBones::Slot **)&swig_arg2 = (dragonBones::Slot *)slot; 
   *(dragonBones::DisplayData **)&swig_arg3 = (dragonBones::DisplayData *)displayData; 
   swig_arg4 = (int)displayIndex; 
-  Swig_DirectorBaseFactory_callback_replaceDisplay_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4);
+  Swig_DirectorBaseFactory_callback_replaceDisplay_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4);
 }
 
-extern "C" bool Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_0_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, _gostring_ arg3, _gostring_ arg4, _gostring_ arg5, dragonBones::Slot *arg6, intgo arg7);
+extern "C" bool Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_0_wrapper_0168c02bcda14bda(int, _gostring_ arg2, _gostring_ arg3, _gostring_ arg4, _gostring_ arg5, dragonBones::Slot *arg6, intgo arg7);
 bool SwigDirector_BaseFactory::replaceSlotDisplay(std::string const &dragonBonesName, std::string const &armatureName, std::string const &slotName, std::string const &displayName, dragonBones::Slot *slot, int displayIndex) const {
   bool c_result = SwigValueInit< bool >() ;
   bool result;
@@ -1182,12 +1185,12 @@ bool SwigDirector_BaseFactory::replaceSlotDisplay(std::string const &dragonBones
   swig_arg5 = Swig_AllocateString((&displayName)->data(), (&displayName)->length()); 
   *(dragonBones::Slot **)&swig_arg6 = (dragonBones::Slot *)slot; 
   swig_arg7 = (int)displayIndex; 
-  result = Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_0_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5, swig_arg6, swig_arg7);
+  result = Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_0_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5, swig_arg6, swig_arg7);
   c_result = (bool)result; 
   return c_result;
 }
 
-extern "C" bool Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_1_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, _gostring_ arg3, _gostring_ arg4, _gostring_ arg5, dragonBones::Slot *arg6);
+extern "C" bool Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_1_wrapper_0168c02bcda14bda(int, _gostring_ arg2, _gostring_ arg3, _gostring_ arg4, _gostring_ arg5, dragonBones::Slot *arg6);
 bool SwigDirector_BaseFactory::replaceSlotDisplay(std::string const &dragonBonesName, std::string const &armatureName, std::string const &slotName, std::string const &displayName, dragonBones::Slot *slot) const {
   bool c_result = SwigValueInit< bool >() ;
   bool result;
@@ -1202,12 +1205,12 @@ bool SwigDirector_BaseFactory::replaceSlotDisplay(std::string const &dragonBones
   swig_arg4 = Swig_AllocateString((&slotName)->data(), (&slotName)->length()); 
   swig_arg5 = Swig_AllocateString((&displayName)->data(), (&displayName)->length()); 
   *(dragonBones::Slot **)&swig_arg6 = (dragonBones::Slot *)slot; 
-  result = Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_1_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5, swig_arg6);
+  result = Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_1_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5, swig_arg6);
   c_result = (bool)result; 
   return c_result;
 }
 
-extern "C" bool Swig_DirectorBaseFactory_callback_replaceSlotDisplayList_wrapper_8547a2e3fc9a516e(int, _gostring_ arg2, _gostring_ arg3, _gostring_ arg4, dragonBones::Slot *arg5);
+extern "C" bool Swig_DirectorBaseFactory_callback_replaceSlotDisplayList_wrapper_0168c02bcda14bda(int, _gostring_ arg2, _gostring_ arg3, _gostring_ arg4, dragonBones::Slot *arg5);
 bool SwigDirector_BaseFactory::replaceSlotDisplayList(std::string const &dragonBonesName, std::string const &armatureName, std::string const &slotName, dragonBones::Slot *slot) const {
   bool c_result = SwigValueInit< bool >() ;
   bool result;
@@ -1220,12 +1223,12 @@ bool SwigDirector_BaseFactory::replaceSlotDisplayList(std::string const &dragonB
   swig_arg3 = Swig_AllocateString((&armatureName)->data(), (&armatureName)->length()); 
   swig_arg4 = Swig_AllocateString((&slotName)->data(), (&slotName)->length()); 
   *(dragonBones::Slot **)&swig_arg5 = (dragonBones::Slot *)slot; 
-  result = Swig_DirectorBaseFactory_callback_replaceSlotDisplayList_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5);
+  result = Swig_DirectorBaseFactory_callback_replaceSlotDisplayList_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5);
   c_result = (bool)result; 
   return c_result;
 }
 
-extern "C" bool Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_0_wrapper_8547a2e3fc9a516e(int, dragonBones::Armature *arg2, dragonBones::SkinData *arg3, bool arg4, std::vector< std::string > *arg5);
+extern "C" bool Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_0_wrapper_0168c02bcda14bda(int, dragonBones::Armature *arg2, dragonBones::SkinData *arg3, bool arg4, std::vector< std::string > *arg5);
 bool SwigDirector_BaseFactory::replaceSkin(dragonBones::Armature *armature, dragonBones::SkinData *skin, bool isOverride, std::vector< std::string > const *exclude) const {
   bool c_result = SwigValueInit< bool >() ;
   bool result;
@@ -1238,12 +1241,12 @@ bool SwigDirector_BaseFactory::replaceSkin(dragonBones::Armature *armature, drag
   *(dragonBones::SkinData **)&swig_arg3 = (dragonBones::SkinData *)skin; 
   swig_arg4 = (bool)isOverride; 
   *(std::vector< std::string > **)&swig_arg5 = (std::vector< std::string > *)exclude; 
-  result = Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_0_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5);
+  result = Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_0_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5);
   c_result = (bool)result; 
   return c_result;
 }
 
-extern "C" bool Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_1_wrapper_8547a2e3fc9a516e(int, dragonBones::Armature *arg2, dragonBones::SkinData *arg3, bool arg4);
+extern "C" bool Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_1_wrapper_0168c02bcda14bda(int, dragonBones::Armature *arg2, dragonBones::SkinData *arg3, bool arg4);
 bool SwigDirector_BaseFactory::replaceSkin(dragonBones::Armature *armature, dragonBones::SkinData *skin, bool isOverride) const {
   bool c_result = SwigValueInit< bool >() ;
   bool result;
@@ -1254,12 +1257,12 @@ bool SwigDirector_BaseFactory::replaceSkin(dragonBones::Armature *armature, drag
   *(dragonBones::Armature **)&swig_arg2 = (dragonBones::Armature *)armature; 
   *(dragonBones::SkinData **)&swig_arg3 = (dragonBones::SkinData *)skin; 
   swig_arg4 = (bool)isOverride; 
-  result = Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_1_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4);
+  result = Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_1_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4);
   c_result = (bool)result; 
   return c_result;
 }
 
-extern "C" bool Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_2_wrapper_8547a2e3fc9a516e(int, dragonBones::Armature *arg2, dragonBones::SkinData *arg3);
+extern "C" bool Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_2_wrapper_0168c02bcda14bda(int, dragonBones::Armature *arg2, dragonBones::SkinData *arg3);
 bool SwigDirector_BaseFactory::replaceSkin(dragonBones::Armature *armature, dragonBones::SkinData *skin) const {
   bool c_result = SwigValueInit< bool >() ;
   bool result;
@@ -1268,12 +1271,12 @@ bool SwigDirector_BaseFactory::replaceSkin(dragonBones::Armature *armature, drag
   
   *(dragonBones::Armature **)&swig_arg2 = (dragonBones::Armature *)armature; 
   *(dragonBones::SkinData **)&swig_arg3 = (dragonBones::SkinData *)skin; 
-  result = Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_2_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3);
+  result = Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_2_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3);
   c_result = (bool)result; 
   return c_result;
 }
 
-extern "C" bool Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_0_wrapper_8547a2e3fc9a516e(int, dragonBones::Armature *arg2, dragonBones::ArmatureData *arg3, bool arg4);
+extern "C" bool Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_0_wrapper_0168c02bcda14bda(int, dragonBones::Armature *arg2, dragonBones::ArmatureData *arg3, bool arg4);
 bool SwigDirector_BaseFactory::replaceAnimation(dragonBones::Armature *armature, dragonBones::ArmatureData *armatureData, bool isReplaceAll) const {
   bool c_result = SwigValueInit< bool >() ;
   bool result;
@@ -1284,12 +1287,12 @@ bool SwigDirector_BaseFactory::replaceAnimation(dragonBones::Armature *armature,
   *(dragonBones::Armature **)&swig_arg2 = (dragonBones::Armature *)armature; 
   *(dragonBones::ArmatureData **)&swig_arg3 = (dragonBones::ArmatureData *)armatureData; 
   swig_arg4 = (bool)isReplaceAll; 
-  result = Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_0_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3, swig_arg4);
+  result = Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_0_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3, swig_arg4);
   c_result = (bool)result; 
   return c_result;
 }
 
-extern "C" bool Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_1_wrapper_8547a2e3fc9a516e(int, dragonBones::Armature *arg2, dragonBones::ArmatureData *arg3);
+extern "C" bool Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_1_wrapper_0168c02bcda14bda(int, dragonBones::Armature *arg2, dragonBones::ArmatureData *arg3);
 bool SwigDirector_BaseFactory::replaceAnimation(dragonBones::Armature *armature, dragonBones::ArmatureData *armatureData) const {
   bool c_result = SwigValueInit< bool >() ;
   bool result;
@@ -1298,7 +1301,7 @@ bool SwigDirector_BaseFactory::replaceAnimation(dragonBones::Armature *armature,
   
   *(dragonBones::Armature **)&swig_arg2 = (dragonBones::Armature *)armature; 
   *(dragonBones::ArmatureData **)&swig_arg3 = (dragonBones::ArmatureData *)armatureData; 
-  result = Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_1_wrapper_8547a2e3fc9a516e(go_val, swig_arg2, swig_arg3);
+  result = Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_1_wrapper_0168c02bcda14bda(go_val, swig_arg2, swig_arg3);
   c_result = (bool)result; 
   return c_result;
 }
@@ -1307,7 +1310,7 @@ bool SwigDirector_BaseFactory::replaceAnimation(dragonBones::Armature *armature,
 extern "C" {
 #endif
 
-void _wrap_Swig_free_wrapper_8547a2e3fc9a516e(void *_swig_go_0) {
+void _wrap_Swig_free_wrapper_0168c02bcda14bda(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -1317,7 +1320,7 @@ void _wrap_Swig_free_wrapper_8547a2e3fc9a516e(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_wrapper_8547a2e3fc9a516e(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_wrapper_0168c02bcda14bda(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -1330,7 +1333,7 @@ void *_wrap_Swig_malloc_wrapper_8547a2e3fc9a516e(intgo _swig_go_0) {
 }
 
 
-intgo _wrap_BinaryOffset_WeigthBoneCount_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_WeigthBoneCount_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1342,7 +1345,7 @@ intgo _wrap_BinaryOffset_WeigthBoneCount_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_WeigthFloatOffset_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_WeigthFloatOffset_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1354,7 +1357,7 @@ intgo _wrap_BinaryOffset_WeigthFloatOffset_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_WeigthBoneIndices_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_WeigthBoneIndices_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1366,7 +1369,7 @@ intgo _wrap_BinaryOffset_WeigthBoneIndices_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_MeshVertexCount_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_MeshVertexCount_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1378,7 +1381,7 @@ intgo _wrap_BinaryOffset_MeshVertexCount_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_MeshTriangleCount_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_MeshTriangleCount_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1390,7 +1393,7 @@ intgo _wrap_BinaryOffset_MeshTriangleCount_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_MeshFloatOffset_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_MeshFloatOffset_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1402,7 +1405,7 @@ intgo _wrap_BinaryOffset_MeshFloatOffset_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_MeshWeightOffset_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_MeshWeightOffset_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1414,7 +1417,7 @@ intgo _wrap_BinaryOffset_MeshWeightOffset_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_MeshVertexIndices_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_MeshVertexIndices_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1426,7 +1429,7 @@ intgo _wrap_BinaryOffset_MeshVertexIndices_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_TimelineScale_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_TimelineScale_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1438,7 +1441,7 @@ intgo _wrap_BinaryOffset_TimelineScale_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_TimelineOffset_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_TimelineOffset_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1450,7 +1453,7 @@ intgo _wrap_BinaryOffset_TimelineOffset_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_TimelineKeyFrameCount_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_TimelineKeyFrameCount_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1462,7 +1465,7 @@ intgo _wrap_BinaryOffset_TimelineKeyFrameCount_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_TimelineFrameValueCount_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_TimelineFrameValueCount_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1474,7 +1477,7 @@ intgo _wrap_BinaryOffset_TimelineFrameValueCount_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_TimelineFrameValueOffset_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_TimelineFrameValueOffset_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1486,7 +1489,7 @@ intgo _wrap_BinaryOffset_TimelineFrameValueOffset_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_TimelineFrameOffset_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_TimelineFrameOffset_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1498,7 +1501,7 @@ intgo _wrap_BinaryOffset_TimelineFrameOffset_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_FramePosition_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_FramePosition_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1510,7 +1513,7 @@ intgo _wrap_BinaryOffset_FramePosition_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_FrameTweenType_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_FrameTweenType_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1522,7 +1525,7 @@ intgo _wrap_BinaryOffset_FrameTweenType_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_FrameTweenEasingOrCurveSampleCount_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_FrameTweenEasingOrCurveSampleCount_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1534,7 +1537,7 @@ intgo _wrap_BinaryOffset_FrameTweenEasingOrCurveSampleCount_wrapper_8547a2e3fc9a
 }
 
 
-intgo _wrap_BinaryOffset_FrameCurveSamples_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_FrameCurveSamples_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1546,7 +1549,7 @@ intgo _wrap_BinaryOffset_FrameCurveSamples_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_DeformVertexOffset_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_DeformVertexOffset_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1558,7 +1561,7 @@ intgo _wrap_BinaryOffset_DeformVertexOffset_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_DeformCount_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_DeformCount_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1570,7 +1573,7 @@ intgo _wrap_BinaryOffset_DeformCount_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_DeformValueCount_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_DeformValueCount_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1582,7 +1585,7 @@ intgo _wrap_BinaryOffset_DeformValueCount_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_DeformValueOffset_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_DeformValueOffset_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1594,7 +1597,7 @@ intgo _wrap_BinaryOffset_DeformValueOffset_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BinaryOffset_DeformFloatOffset_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BinaryOffset_DeformFloatOffset_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryOffset result;
   intgo _swig_go_result;
   
@@ -1606,7 +1609,7 @@ intgo _wrap_BinaryOffset_DeformFloatOffset_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_ArmatureType_Armature_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_ArmatureType_Armature_wrapper_0168c02bcda14bda() {
   dragonBones::ArmatureType result;
   intgo _swig_go_result;
   
@@ -1618,7 +1621,7 @@ intgo _wrap_ArmatureType_Armature_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_ArmatureType_MovieClip_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_ArmatureType_MovieClip_wrapper_0168c02bcda14bda() {
   dragonBones::ArmatureType result;
   intgo _swig_go_result;
   
@@ -1630,7 +1633,7 @@ intgo _wrap_ArmatureType_MovieClip_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_ArmatureType_Stage_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_ArmatureType_Stage_wrapper_0168c02bcda14bda() {
   dragonBones::ArmatureType result;
   intgo _swig_go_result;
   
@@ -1642,7 +1645,7 @@ intgo _wrap_ArmatureType_Stage_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_OffsetMode_None_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_OffsetMode_None_wrapper_0168c02bcda14bda() {
   dragonBones::OffsetMode result;
   intgo _swig_go_result;
   
@@ -1654,7 +1657,7 @@ intgo _wrap_OffsetMode_None_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_OffsetMode_Additive_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_OffsetMode_Additive_wrapper_0168c02bcda14bda() {
   dragonBones::OffsetMode result;
   intgo _swig_go_result;
   
@@ -1666,7 +1669,7 @@ intgo _wrap_OffsetMode_Additive_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_OffsetMode_Override_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_OffsetMode_Override_wrapper_0168c02bcda14bda() {
   dragonBones::OffsetMode result;
   intgo _swig_go_result;
   
@@ -1678,7 +1681,7 @@ intgo _wrap_OffsetMode_Override_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_DisplayType_Image_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_DisplayType_Image_wrapper_0168c02bcda14bda() {
   dragonBones::DisplayType result;
   intgo _swig_go_result;
   
@@ -1690,7 +1693,7 @@ intgo _wrap_DisplayType_Image_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_DisplayType_Armature_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_DisplayType_Armature_wrapper_0168c02bcda14bda() {
   dragonBones::DisplayType result;
   intgo _swig_go_result;
   
@@ -1702,7 +1705,7 @@ intgo _wrap_DisplayType_Armature_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_DisplayType_Mesh_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_DisplayType_Mesh_wrapper_0168c02bcda14bda() {
   dragonBones::DisplayType result;
   intgo _swig_go_result;
   
@@ -1714,7 +1717,7 @@ intgo _wrap_DisplayType_Mesh_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_DisplayType_BoundingBox_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_DisplayType_BoundingBox_wrapper_0168c02bcda14bda() {
   dragonBones::DisplayType result;
   intgo _swig_go_result;
   
@@ -1726,7 +1729,7 @@ intgo _wrap_DisplayType_BoundingBox_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_DisplayType_Path_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_DisplayType_Path_wrapper_0168c02bcda14bda() {
   dragonBones::DisplayType result;
   intgo _swig_go_result;
   
@@ -1738,7 +1741,7 @@ intgo _wrap_DisplayType_Path_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BoundingBoxType_Rectangle_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BoundingBoxType_Rectangle_wrapper_0168c02bcda14bda() {
   dragonBones::BoundingBoxType result;
   intgo _swig_go_result;
   
@@ -1750,7 +1753,7 @@ intgo _wrap_BoundingBoxType_Rectangle_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BoundingBoxType_Ellipse_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BoundingBoxType_Ellipse_wrapper_0168c02bcda14bda() {
   dragonBones::BoundingBoxType result;
   intgo _swig_go_result;
   
@@ -1762,7 +1765,7 @@ intgo _wrap_BoundingBoxType_Ellipse_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BoundingBoxType_Polygon_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BoundingBoxType_Polygon_wrapper_0168c02bcda14bda() {
   dragonBones::BoundingBoxType result;
   intgo _swig_go_result;
   
@@ -1774,7 +1777,7 @@ intgo _wrap_BoundingBoxType_Polygon_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_ActionType_Play_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_ActionType_Play_wrapper_0168c02bcda14bda() {
   dragonBones::ActionType result;
   intgo _swig_go_result;
   
@@ -1786,7 +1789,7 @@ intgo _wrap_ActionType_Play_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_ActionType_Frame_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_ActionType_Frame_wrapper_0168c02bcda14bda() {
   dragonBones::ActionType result;
   intgo _swig_go_result;
   
@@ -1798,7 +1801,7 @@ intgo _wrap_ActionType_Frame_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_ActionType_Sound_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_ActionType_Sound_wrapper_0168c02bcda14bda() {
   dragonBones::ActionType result;
   intgo _swig_go_result;
   
@@ -1810,7 +1813,7 @@ intgo _wrap_ActionType_Sound_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BlendMode_Normal_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BlendMode_Normal_wrapper_0168c02bcda14bda() {
   dragonBones::BlendMode result;
   intgo _swig_go_result;
   
@@ -1822,7 +1825,7 @@ intgo _wrap_BlendMode_Normal_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BlendMode_Add_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BlendMode_Add_wrapper_0168c02bcda14bda() {
   dragonBones::BlendMode result;
   intgo _swig_go_result;
   
@@ -1834,7 +1837,7 @@ intgo _wrap_BlendMode_Add_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BlendMode_Alpha_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BlendMode_Alpha_wrapper_0168c02bcda14bda() {
   dragonBones::BlendMode result;
   intgo _swig_go_result;
   
@@ -1846,7 +1849,7 @@ intgo _wrap_BlendMode_Alpha_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BlendMode_Darken_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BlendMode_Darken_wrapper_0168c02bcda14bda() {
   dragonBones::BlendMode result;
   intgo _swig_go_result;
   
@@ -1858,7 +1861,7 @@ intgo _wrap_BlendMode_Darken_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BlendMode_Difference_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BlendMode_Difference_wrapper_0168c02bcda14bda() {
   dragonBones::BlendMode result;
   intgo _swig_go_result;
   
@@ -1870,7 +1873,7 @@ intgo _wrap_BlendMode_Difference_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BlendMode_Erase_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BlendMode_Erase_wrapper_0168c02bcda14bda() {
   dragonBones::BlendMode result;
   intgo _swig_go_result;
   
@@ -1882,7 +1885,7 @@ intgo _wrap_BlendMode_Erase_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BlendMode_HardLight_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BlendMode_HardLight_wrapper_0168c02bcda14bda() {
   dragonBones::BlendMode result;
   intgo _swig_go_result;
   
@@ -1894,7 +1897,7 @@ intgo _wrap_BlendMode_HardLight_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BlendMode_Invert_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BlendMode_Invert_wrapper_0168c02bcda14bda() {
   dragonBones::BlendMode result;
   intgo _swig_go_result;
   
@@ -1906,7 +1909,7 @@ intgo _wrap_BlendMode_Invert_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BlendMode_Layer_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BlendMode_Layer_wrapper_0168c02bcda14bda() {
   dragonBones::BlendMode result;
   intgo _swig_go_result;
   
@@ -1918,7 +1921,7 @@ intgo _wrap_BlendMode_Layer_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BlendMode_Lighten_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BlendMode_Lighten_wrapper_0168c02bcda14bda() {
   dragonBones::BlendMode result;
   intgo _swig_go_result;
   
@@ -1930,7 +1933,7 @@ intgo _wrap_BlendMode_Lighten_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BlendMode_Multiply_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BlendMode_Multiply_wrapper_0168c02bcda14bda() {
   dragonBones::BlendMode result;
   intgo _swig_go_result;
   
@@ -1942,7 +1945,7 @@ intgo _wrap_BlendMode_Multiply_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BlendMode_Overlay_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BlendMode_Overlay_wrapper_0168c02bcda14bda() {
   dragonBones::BlendMode result;
   intgo _swig_go_result;
   
@@ -1954,7 +1957,7 @@ intgo _wrap_BlendMode_Overlay_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BlendMode_Screen_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BlendMode_Screen_wrapper_0168c02bcda14bda() {
   dragonBones::BlendMode result;
   intgo _swig_go_result;
   
@@ -1966,7 +1969,7 @@ intgo _wrap_BlendMode_Screen_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_BlendMode_Subtract_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_BlendMode_Subtract_wrapper_0168c02bcda14bda() {
   dragonBones::BlendMode result;
   intgo _swig_go_result;
   
@@ -1978,7 +1981,7 @@ intgo _wrap_BlendMode_Subtract_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TweenType_None_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TweenType_None_wrapper_0168c02bcda14bda() {
   dragonBones::TweenType result;
   intgo _swig_go_result;
   
@@ -1990,7 +1993,7 @@ intgo _wrap_TweenType_None_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TweenType_Line_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TweenType_Line_wrapper_0168c02bcda14bda() {
   dragonBones::TweenType result;
   intgo _swig_go_result;
   
@@ -2002,7 +2005,7 @@ intgo _wrap_TweenType_Line_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TweenType_Curve_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TweenType_Curve_wrapper_0168c02bcda14bda() {
   dragonBones::TweenType result;
   intgo _swig_go_result;
   
@@ -2014,7 +2017,7 @@ intgo _wrap_TweenType_Curve_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TweenType_QuadIn_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TweenType_QuadIn_wrapper_0168c02bcda14bda() {
   dragonBones::TweenType result;
   intgo _swig_go_result;
   
@@ -2026,7 +2029,7 @@ intgo _wrap_TweenType_QuadIn_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TweenType_QuadOut_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TweenType_QuadOut_wrapper_0168c02bcda14bda() {
   dragonBones::TweenType result;
   intgo _swig_go_result;
   
@@ -2038,7 +2041,7 @@ intgo _wrap_TweenType_QuadOut_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TweenType_QuadInOut_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TweenType_QuadInOut_wrapper_0168c02bcda14bda() {
   dragonBones::TweenType result;
   intgo _swig_go_result;
   
@@ -2050,7 +2053,7 @@ intgo _wrap_TweenType_QuadInOut_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TimelineType_Action_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TimelineType_Action_wrapper_0168c02bcda14bda() {
   dragonBones::TimelineType result;
   intgo _swig_go_result;
   
@@ -2062,7 +2065,7 @@ intgo _wrap_TimelineType_Action_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TimelineType_ZOrder_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TimelineType_ZOrder_wrapper_0168c02bcda14bda() {
   dragonBones::TimelineType result;
   intgo _swig_go_result;
   
@@ -2074,7 +2077,7 @@ intgo _wrap_TimelineType_ZOrder_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TimelineType_BoneAll_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TimelineType_BoneAll_wrapper_0168c02bcda14bda() {
   dragonBones::TimelineType result;
   intgo _swig_go_result;
   
@@ -2086,7 +2089,7 @@ intgo _wrap_TimelineType_BoneAll_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TimelineType_BoneTranslate_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TimelineType_BoneTranslate_wrapper_0168c02bcda14bda() {
   dragonBones::TimelineType result;
   intgo _swig_go_result;
   
@@ -2098,7 +2101,7 @@ intgo _wrap_TimelineType_BoneTranslate_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TimelineType_BoneRotate_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TimelineType_BoneRotate_wrapper_0168c02bcda14bda() {
   dragonBones::TimelineType result;
   intgo _swig_go_result;
   
@@ -2110,7 +2113,7 @@ intgo _wrap_TimelineType_BoneRotate_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TimelineType_BoneScale_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TimelineType_BoneScale_wrapper_0168c02bcda14bda() {
   dragonBones::TimelineType result;
   intgo _swig_go_result;
   
@@ -2122,7 +2125,7 @@ intgo _wrap_TimelineType_BoneScale_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TimelineType_SlotDisplay_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TimelineType_SlotDisplay_wrapper_0168c02bcda14bda() {
   dragonBones::TimelineType result;
   intgo _swig_go_result;
   
@@ -2134,7 +2137,7 @@ intgo _wrap_TimelineType_SlotDisplay_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TimelineType_SlotColor_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TimelineType_SlotColor_wrapper_0168c02bcda14bda() {
   dragonBones::TimelineType result;
   intgo _swig_go_result;
   
@@ -2146,7 +2149,7 @@ intgo _wrap_TimelineType_SlotColor_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TimelineType_SlotDeform_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TimelineType_SlotDeform_wrapper_0168c02bcda14bda() {
   dragonBones::TimelineType result;
   intgo _swig_go_result;
   
@@ -2158,7 +2161,7 @@ intgo _wrap_TimelineType_SlotDeform_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TimelineType_IKConstraint_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TimelineType_IKConstraint_wrapper_0168c02bcda14bda() {
   dragonBones::TimelineType result;
   intgo _swig_go_result;
   
@@ -2170,7 +2173,7 @@ intgo _wrap_TimelineType_IKConstraint_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TimelineType_AnimationTime_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TimelineType_AnimationTime_wrapper_0168c02bcda14bda() {
   dragonBones::TimelineType result;
   intgo _swig_go_result;
   
@@ -2182,7 +2185,7 @@ intgo _wrap_TimelineType_AnimationTime_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TimelineType_AnimationWeight_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TimelineType_AnimationWeight_wrapper_0168c02bcda14bda() {
   dragonBones::TimelineType result;
   intgo _swig_go_result;
   
@@ -2194,7 +2197,7 @@ intgo _wrap_TimelineType_AnimationWeight_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_AnimationFadeOutMode_None_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_AnimationFadeOutMode_None_wrapper_0168c02bcda14bda() {
   dragonBones::AnimationFadeOutMode result;
   intgo _swig_go_result;
   
@@ -2206,7 +2209,7 @@ intgo _wrap_AnimationFadeOutMode_None_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_AnimationFadeOutMode_SameLayer_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_AnimationFadeOutMode_SameLayer_wrapper_0168c02bcda14bda() {
   dragonBones::AnimationFadeOutMode result;
   intgo _swig_go_result;
   
@@ -2218,7 +2221,7 @@ intgo _wrap_AnimationFadeOutMode_SameLayer_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_AnimationFadeOutMode_SameGroup_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_AnimationFadeOutMode_SameGroup_wrapper_0168c02bcda14bda() {
   dragonBones::AnimationFadeOutMode result;
   intgo _swig_go_result;
   
@@ -2230,7 +2233,7 @@ intgo _wrap_AnimationFadeOutMode_SameGroup_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_AnimationFadeOutMode_SameLayerAndGroup_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_AnimationFadeOutMode_SameLayerAndGroup_wrapper_0168c02bcda14bda() {
   dragonBones::AnimationFadeOutMode result;
   intgo _swig_go_result;
   
@@ -2242,7 +2245,7 @@ intgo _wrap_AnimationFadeOutMode_SameLayerAndGroup_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_AnimationFadeOutMode_All_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_AnimationFadeOutMode_All_wrapper_0168c02bcda14bda() {
   dragonBones::AnimationFadeOutMode result;
   intgo _swig_go_result;
   
@@ -2254,7 +2257,7 @@ intgo _wrap_AnimationFadeOutMode_All_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_AnimationFadeOutMode_Single_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_AnimationFadeOutMode_Single_wrapper_0168c02bcda14bda() {
   dragonBones::AnimationFadeOutMode result;
   intgo _swig_go_result;
   
@@ -2266,7 +2269,7 @@ intgo _wrap_AnimationFadeOutMode_Single_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TextureFormat_DEFAULT_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TextureFormat_DEFAULT_wrapper_0168c02bcda14bda() {
   dragonBones::TextureFormat result;
   intgo _swig_go_result;
   
@@ -2278,7 +2281,7 @@ intgo _wrap_TextureFormat_DEFAULT_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TextureFormat_RGBA8888_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TextureFormat_RGBA8888_wrapper_0168c02bcda14bda() {
   dragonBones::TextureFormat result;
   intgo _swig_go_result;
   
@@ -2290,7 +2293,7 @@ intgo _wrap_TextureFormat_RGBA8888_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TextureFormat_BGRA8888_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TextureFormat_BGRA8888_wrapper_0168c02bcda14bda() {
   dragonBones::TextureFormat result;
   intgo _swig_go_result;
   
@@ -2302,7 +2305,7 @@ intgo _wrap_TextureFormat_BGRA8888_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TextureFormat_RGBA4444_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TextureFormat_RGBA4444_wrapper_0168c02bcda14bda() {
   dragonBones::TextureFormat result;
   intgo _swig_go_result;
   
@@ -2314,7 +2317,7 @@ intgo _wrap_TextureFormat_RGBA4444_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TextureFormat_RGB888_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TextureFormat_RGB888_wrapper_0168c02bcda14bda() {
   dragonBones::TextureFormat result;
   intgo _swig_go_result;
   
@@ -2326,7 +2329,7 @@ intgo _wrap_TextureFormat_RGB888_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TextureFormat_RGB565_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TextureFormat_RGB565_wrapper_0168c02bcda14bda() {
   dragonBones::TextureFormat result;
   intgo _swig_go_result;
   
@@ -2338,7 +2341,7 @@ intgo _wrap_TextureFormat_RGB565_wrapper_8547a2e3fc9a516e() {
 }
 
 
-intgo _wrap_TextureFormat_RGBA5551_wrapper_8547a2e3fc9a516e() {
+intgo _wrap_TextureFormat_RGBA5551_wrapper_0168c02bcda14bda() {
   dragonBones::TextureFormat result;
   intgo _swig_go_result;
   
@@ -2350,7 +2353,7 @@ intgo _wrap_TextureFormat_RGBA5551_wrapper_8547a2e3fc9a516e() {
 }
 
 
-_gostring_ _wrap_DragonBones_VEISION_get_wrapper_8547a2e3fc9a516e() {
+_gostring_ _wrap_DragonBones_VEISION_get_wrapper_0168c02bcda14bda() {
   std::string *result = 0 ;
   _gostring_ _swig_go_result;
   
@@ -2361,7 +2364,7 @@ _gostring_ _wrap_DragonBones_VEISION_get_wrapper_8547a2e3fc9a516e() {
 }
 
 
-void _wrap_DragonBones_yDown_set_wrapper_8547a2e3fc9a516e(bool _swig_go_0) {
+void _wrap_DragonBones_yDown_set_wrapper_0168c02bcda14bda(bool _swig_go_0) {
   bool arg1 ;
   
   arg1 = (bool)_swig_go_0; 
@@ -2371,7 +2374,7 @@ void _wrap_DragonBones_yDown_set_wrapper_8547a2e3fc9a516e(bool _swig_go_0) {
 }
 
 
-bool _wrap_DragonBones_yDown_get_wrapper_8547a2e3fc9a516e() {
+bool _wrap_DragonBones_yDown_get_wrapper_0168c02bcda14bda() {
   bool result;
   bool _swig_go_result;
   
@@ -2382,7 +2385,7 @@ bool _wrap_DragonBones_yDown_get_wrapper_8547a2e3fc9a516e() {
 }
 
 
-void _wrap_DragonBones_debug_set_wrapper_8547a2e3fc9a516e(bool _swig_go_0) {
+void _wrap_DragonBones_debug_set_wrapper_0168c02bcda14bda(bool _swig_go_0) {
   bool arg1 ;
   
   arg1 = (bool)_swig_go_0; 
@@ -2392,7 +2395,7 @@ void _wrap_DragonBones_debug_set_wrapper_8547a2e3fc9a516e(bool _swig_go_0) {
 }
 
 
-bool _wrap_DragonBones_debug_get_wrapper_8547a2e3fc9a516e() {
+bool _wrap_DragonBones_debug_get_wrapper_0168c02bcda14bda() {
   bool result;
   bool _swig_go_result;
   
@@ -2403,7 +2406,7 @@ bool _wrap_DragonBones_debug_get_wrapper_8547a2e3fc9a516e() {
 }
 
 
-void _wrap_DragonBones_debugDraw_set_wrapper_8547a2e3fc9a516e(bool _swig_go_0) {
+void _wrap_DragonBones_debugDraw_set_wrapper_0168c02bcda14bda(bool _swig_go_0) {
   bool arg1 ;
   
   arg1 = (bool)_swig_go_0; 
@@ -2413,7 +2416,7 @@ void _wrap_DragonBones_debugDraw_set_wrapper_8547a2e3fc9a516e(bool _swig_go_0) {
 }
 
 
-bool _wrap_DragonBones_debugDraw_get_wrapper_8547a2e3fc9a516e() {
+bool _wrap_DragonBones_debugDraw_get_wrapper_0168c02bcda14bda() {
   bool result;
   bool _swig_go_result;
   
@@ -2424,7 +2427,7 @@ bool _wrap_DragonBones_debugDraw_get_wrapper_8547a2e3fc9a516e() {
 }
 
 
-void _wrap_DragonBones_webAssembly_set_wrapper_8547a2e3fc9a516e(bool _swig_go_0) {
+void _wrap_DragonBones_webAssembly_set_wrapper_0168c02bcda14bda(bool _swig_go_0) {
   bool arg1 ;
   
   arg1 = (bool)_swig_go_0; 
@@ -2434,7 +2437,7 @@ void _wrap_DragonBones_webAssembly_set_wrapper_8547a2e3fc9a516e(bool _swig_go_0)
 }
 
 
-bool _wrap_DragonBones_webAssembly_get_wrapper_8547a2e3fc9a516e() {
+bool _wrap_DragonBones_webAssembly_get_wrapper_0168c02bcda14bda() {
   bool result;
   bool _swig_go_result;
   
@@ -2445,7 +2448,7 @@ bool _wrap_DragonBones_webAssembly_get_wrapper_8547a2e3fc9a516e() {
 }
 
 
-dragonBones::DragonBones *_wrap_new_DragonBones_wrapper_8547a2e3fc9a516e(dragonBones::IEventDispatcher *_swig_go_0) {
+dragonBones::DragonBones *_wrap_new_DragonBones_wrapper_0168c02bcda14bda(dragonBones::IEventDispatcher *_swig_go_0) {
   dragonBones::IEventDispatcher *arg1 = (dragonBones::IEventDispatcher *) 0 ;
   dragonBones::DragonBones *result = 0 ;
   dragonBones::DragonBones *_swig_go_result;
@@ -2458,7 +2461,7 @@ dragonBones::DragonBones *_wrap_new_DragonBones_wrapper_8547a2e3fc9a516e(dragonB
 }
 
 
-void _wrap_delete_DragonBones_wrapper_8547a2e3fc9a516e(dragonBones::DragonBones *_swig_go_0) {
+void _wrap_delete_DragonBones_wrapper_0168c02bcda14bda(dragonBones::DragonBones *_swig_go_0) {
   dragonBones::DragonBones *arg1 = (dragonBones::DragonBones *) 0 ;
   
   arg1 = *(dragonBones::DragonBones **)&_swig_go_0; 
@@ -2468,7 +2471,7 @@ void _wrap_delete_DragonBones_wrapper_8547a2e3fc9a516e(dragonBones::DragonBones 
 }
 
 
-void _wrap_DragonBones_advanceTime_wrapper_8547a2e3fc9a516e(dragonBones::DragonBones *_swig_go_0, float _swig_go_1) {
+void _wrap_DragonBones_advanceTime_wrapper_0168c02bcda14bda(dragonBones::DragonBones *_swig_go_0, float _swig_go_1) {
   dragonBones::DragonBones *arg1 = (dragonBones::DragonBones *) 0 ;
   float arg2 ;
   
@@ -2480,7 +2483,7 @@ void _wrap_DragonBones_advanceTime_wrapper_8547a2e3fc9a516e(dragonBones::DragonB
 }
 
 
-void _wrap_DragonBones_bufferEvent_wrapper_8547a2e3fc9a516e(dragonBones::DragonBones *_swig_go_0, dragonBones::EventObject *_swig_go_1) {
+void _wrap_DragonBones_bufferEvent_wrapper_0168c02bcda14bda(dragonBones::DragonBones *_swig_go_0, dragonBones::EventObject *_swig_go_1) {
   dragonBones::DragonBones *arg1 = (dragonBones::DragonBones *) 0 ;
   dragonBones::EventObject *arg2 = (dragonBones::EventObject *) 0 ;
   
@@ -2492,7 +2495,7 @@ void _wrap_DragonBones_bufferEvent_wrapper_8547a2e3fc9a516e(dragonBones::DragonB
 }
 
 
-void _wrap_DragonBones_bufferObject_wrapper_8547a2e3fc9a516e(dragonBones::DragonBones *_swig_go_0, dragonBones::BaseObject *_swig_go_1) {
+void _wrap_DragonBones_bufferObject_wrapper_0168c02bcda14bda(dragonBones::DragonBones *_swig_go_0, dragonBones::BaseObject *_swig_go_1) {
   dragonBones::DragonBones *arg1 = (dragonBones::DragonBones *) 0 ;
   dragonBones::BaseObject *arg2 = (dragonBones::BaseObject *) 0 ;
   
@@ -2504,7 +2507,7 @@ void _wrap_DragonBones_bufferObject_wrapper_8547a2e3fc9a516e(dragonBones::Dragon
 }
 
 
-dragonBones::WorldClock *_wrap_DragonBones_getClock_wrapper_8547a2e3fc9a516e(dragonBones::DragonBones *_swig_go_0) {
+dragonBones::WorldClock *_wrap_DragonBones_getClock_wrapper_0168c02bcda14bda(dragonBones::DragonBones *_swig_go_0) {
   dragonBones::DragonBones *arg1 = (dragonBones::DragonBones *) 0 ;
   dragonBones::WorldClock *result = 0 ;
   dragonBones::WorldClock *_swig_go_result;
@@ -2517,7 +2520,7 @@ dragonBones::WorldClock *_wrap_DragonBones_getClock_wrapper_8547a2e3fc9a516e(dra
 }
 
 
-dragonBones::IEventDispatcher *_wrap_DragonBones_getEventManager_wrapper_8547a2e3fc9a516e(dragonBones::DragonBones *_swig_go_0) {
+dragonBones::IEventDispatcher *_wrap_DragonBones_getEventManager_wrapper_0168c02bcda14bda(dragonBones::DragonBones *_swig_go_0) {
   dragonBones::DragonBones *arg1 = (dragonBones::DragonBones *) 0 ;
   dragonBones::IEventDispatcher *result = 0 ;
   dragonBones::IEventDispatcher *_swig_go_result;
@@ -2530,7 +2533,7 @@ dragonBones::IEventDispatcher *_wrap_DragonBones_getEventManager_wrapper_8547a2e
 }
 
 
-void _wrap_BaseObject_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_go_0, intgo _swig_go_1) {
+void _wrap_BaseObject_setMaxCount_wrapper_0168c02bcda14bda(long long _swig_go_0, intgo _swig_go_1) {
   std::size_t arg1 ;
   unsigned int arg2 ;
   
@@ -2542,7 +2545,7 @@ void _wrap_BaseObject_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_go_0,
 }
 
 
-void _wrap_BaseObject_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long _swig_go_0) {
+void _wrap_BaseObject_clearPool__SWIG_0_wrapper_0168c02bcda14bda(long long _swig_go_0) {
   std::size_t arg1 ;
   
   arg1 = (size_t)_swig_go_0; 
@@ -2552,13 +2555,13 @@ void _wrap_BaseObject_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long _swig
 }
 
 
-void _wrap_BaseObject_clearPool__SWIG_1_wrapper_8547a2e3fc9a516e() {
+void _wrap_BaseObject_clearPool__SWIG_1_wrapper_0168c02bcda14bda() {
   dragonBones::BaseObject::clearPool();
   
 }
 
 
-intgo _wrap_BaseObject_hashCode_get_wrapper_8547a2e3fc9a516e(dragonBones::BaseObject *_swig_go_0) {
+intgo _wrap_BaseObject_hashCode_get_wrapper_0168c02bcda14bda(dragonBones::BaseObject *_swig_go_0) {
   dragonBones::BaseObject *arg1 = (dragonBones::BaseObject *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -2571,7 +2574,7 @@ intgo _wrap_BaseObject_hashCode_get_wrapper_8547a2e3fc9a516e(dragonBones::BaseOb
 }
 
 
-void _wrap_delete_BaseObject_wrapper_8547a2e3fc9a516e(dragonBones::BaseObject *_swig_go_0) {
+void _wrap_delete_BaseObject_wrapper_0168c02bcda14bda(dragonBones::BaseObject *_swig_go_0) {
   dragonBones::BaseObject *arg1 = (dragonBones::BaseObject *) 0 ;
   
   arg1 = *(dragonBones::BaseObject **)&_swig_go_0; 
@@ -2581,7 +2584,7 @@ void _wrap_delete_BaseObject_wrapper_8547a2e3fc9a516e(dragonBones::BaseObject *_
 }
 
 
-long long _wrap_BaseObject_getClassTypeIndex_wrapper_8547a2e3fc9a516e(dragonBones::BaseObject *_swig_go_0) {
+long long _wrap_BaseObject_getClassTypeIndex_wrapper_0168c02bcda14bda(dragonBones::BaseObject *_swig_go_0) {
   dragonBones::BaseObject *arg1 = (dragonBones::BaseObject *) 0 ;
   std::size_t result;
   long long _swig_go_result;
@@ -2594,7 +2597,7 @@ long long _wrap_BaseObject_getClassTypeIndex_wrapper_8547a2e3fc9a516e(dragonBone
 }
 
 
-void _wrap_BaseObject_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::BaseObject *_swig_go_0) {
+void _wrap_BaseObject_returnToPool_wrapper_0168c02bcda14bda(dragonBones::BaseObject *_swig_go_0) {
   dragonBones::BaseObject *arg1 = (dragonBones::BaseObject *) 0 ;
   
   arg1 = *(dragonBones::BaseObject **)&_swig_go_0; 
@@ -2604,7 +2607,7 @@ void _wrap_BaseObject_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::BaseObj
 }
 
 
-dragonBones::Armature *_wrap_BaseObject_borrowArmatureObject_wrapper_8547a2e3fc9a516e() {
+dragonBones::Armature *_wrap_BaseObject_borrowArmatureObject_wrapper_0168c02bcda14bda() {
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
   
@@ -2615,7 +2618,7 @@ dragonBones::Armature *_wrap_BaseObject_borrowArmatureObject_wrapper_8547a2e3fc9
 }
 
 
-long long _wrap_Animation_getTypeIndex_wrapper_8547a2e3fc9a516e() {
+long long _wrap_Animation_getTypeIndex_wrapper_0168c02bcda14bda() {
   std::size_t result;
   long long _swig_go_result;
   
@@ -2626,7 +2629,7 @@ long long _wrap_Animation_getTypeIndex_wrapper_8547a2e3fc9a516e() {
 }
 
 
-long long _wrap_Animation_getClassTypeIndex_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+long long _wrap_Animation_getClassTypeIndex_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::size_t result;
   long long _swig_go_result;
@@ -2639,7 +2642,7 @@ long long _wrap_Animation_getClassTypeIndex_wrapper_8547a2e3fc9a516e(dragonBones
 }
 
 
-void _wrap_Animation_timeScale_set_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, float _swig_go_1) {
+void _wrap_Animation_timeScale_set_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, float _swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   float arg2 ;
   
@@ -2651,7 +2654,7 @@ void _wrap_Animation_timeScale_set_wrapper_8547a2e3fc9a516e(dragonBones::Animati
 }
 
 
-float _wrap_Animation_timeScale_get_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+float _wrap_Animation_timeScale_get_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   float result;
   float _swig_go_result;
@@ -2664,7 +2667,7 @@ float _wrap_Animation_timeScale_get_wrapper_8547a2e3fc9a516e(dragonBones::Animat
 }
 
 
-dragonBones::Animation *_wrap_new_Animation_wrapper_8547a2e3fc9a516e() {
+dragonBones::Animation *_wrap_new_Animation_wrapper_0168c02bcda14bda() {
   dragonBones::Animation *result = 0 ;
   dragonBones::Animation *_swig_go_result;
   
@@ -2675,7 +2678,7 @@ dragonBones::Animation *_wrap_new_Animation_wrapper_8547a2e3fc9a516e() {
 }
 
 
-void _wrap_delete_Animation_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+void _wrap_delete_Animation_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   
   arg1 = *(dragonBones::Animation **)&_swig_go_0; 
@@ -2685,7 +2688,7 @@ void _wrap_delete_Animation_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_sw
 }
 
 
-void _wrap_Animation_init_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, dragonBones::Armature *_swig_go_1) {
+void _wrap_Animation_init_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, dragonBones::Armature *_swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   
@@ -2697,7 +2700,7 @@ void _wrap_Animation_init_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig
 }
 
 
-void _wrap_Animation_advanceTime_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, float _swig_go_1) {
+void _wrap_Animation_advanceTime_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, float _swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   float arg2 ;
   
@@ -2709,7 +2712,7 @@ void _wrap_Animation_advanceTime_wrapper_8547a2e3fc9a516e(dragonBones::Animation
 }
 
 
-void _wrap_Animation_reset_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+void _wrap_Animation_reset_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   
   arg1 = *(dragonBones::Animation **)&_swig_go_0; 
@@ -2719,7 +2722,7 @@ void _wrap_Animation_reset_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swi
 }
 
 
-void _wrap_Animation_stop_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_Animation_stop_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -2734,7 +2737,7 @@ void _wrap_Animation_stop_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_playConfig_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, dragonBones::AnimationConfig *_swig_go_1) {
+dragonBones::AnimationState *_wrap_Animation_playConfig_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, dragonBones::AnimationConfig *_swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   dragonBones::AnimationConfig *arg2 = (dragonBones::AnimationConfig *) 0 ;
   dragonBones::AnimationState *result = 0 ;
@@ -2749,7 +2752,7 @@ dragonBones::AnimationState *_wrap_Animation_playConfig_wrapper_8547a2e3fc9a516e
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_play__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
+dragonBones::AnimationState *_wrap_Animation_play__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   int arg3 ;
@@ -2769,7 +2772,7 @@ dragonBones::AnimationState *_wrap_Animation_play__SWIG_0_wrapper_8547a2e3fc9a51
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_play__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::AnimationState *_wrap_Animation_play__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::AnimationState *result = 0 ;
@@ -2787,7 +2790,7 @@ dragonBones::AnimationState *_wrap_Animation_play__SWIG_1_wrapper_8547a2e3fc9a51
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_play__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+dragonBones::AnimationState *_wrap_Animation_play__SWIG_2_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   dragonBones::AnimationState *result = 0 ;
   dragonBones::AnimationState *_swig_go_result;
@@ -2800,7 +2803,7 @@ dragonBones::AnimationState *_wrap_Animation_play__SWIG_2_wrapper_8547a2e3fc9a51
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, _gostring_ _swig_go_5, intgo _swig_go_6) {
+dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, _gostring_ _swig_go_5, intgo _swig_go_6) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   float arg3 ;
@@ -2831,7 +2834,7 @@ dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_0_wrapper_8547a2e3fc9a
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, _gostring_ _swig_go_5) {
+dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, _gostring_ _swig_go_5) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   float arg3 ;
@@ -2860,7 +2863,7 @@ dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_1_wrapper_8547a2e3fc9a
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
+dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_2_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   float arg3 ;
@@ -2884,7 +2887,7 @@ dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_2_wrapper_8547a2e3fc9a
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_3_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, intgo _swig_go_3) {
+dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_3_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, intgo _swig_go_3) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   float arg3 ;
@@ -2906,7 +2909,7 @@ dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_3_wrapper_8547a2e3fc9a
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_4_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2) {
+dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_4_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   float arg3 ;
@@ -2926,7 +2929,7 @@ dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_4_wrapper_8547a2e3fc9a
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_5_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_5_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::AnimationState *result = 0 ;
@@ -2944,7 +2947,7 @@ dragonBones::AnimationState *_wrap_Animation_fadeIn__SWIG_5_wrapper_8547a2e3fc9a
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByTime__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, intgo _swig_go_3) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByTime__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, intgo _swig_go_3) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   float arg3 ;
@@ -2966,7 +2969,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByTime__SWIG_0_wrapper_8
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByTime__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByTime__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   float arg3 ;
@@ -2986,7 +2989,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByTime__SWIG_1_wrapper_8
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByTime__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByTime__SWIG_2_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::AnimationState *result = 0 ;
@@ -3004,7 +3007,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByTime__SWIG_2_wrapper_8
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByFrame__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByFrame__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   unsigned int arg3 ;
@@ -3026,7 +3029,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByFrame__SWIG_0_wrapper_
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByFrame__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByFrame__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   unsigned int arg3 ;
@@ -3046,7 +3049,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByFrame__SWIG_1_wrapper_
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByFrame__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByFrame__SWIG_2_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::AnimationState *result = 0 ;
@@ -3064,7 +3067,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByFrame__SWIG_2_wrapper_
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByProgress__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, intgo _swig_go_3) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByProgress__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, intgo _swig_go_3) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   float arg3 ;
@@ -3086,7 +3089,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByProgress__SWIG_0_wrapp
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByProgress__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByProgress__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   float arg3 ;
@@ -3106,7 +3109,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByProgress__SWIG_1_wrapp
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByProgress__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByProgress__SWIG_2_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::AnimationState *result = 0 ;
@@ -3124,7 +3127,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndPlayByProgress__SWIG_2_wrapp
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndStopByTime__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndStopByTime__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   float arg3 ;
@@ -3144,7 +3147,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndStopByTime__SWIG_0_wrapper_8
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndStopByTime__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndStopByTime__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::AnimationState *result = 0 ;
@@ -3162,7 +3165,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndStopByTime__SWIG_1_wrapper_8
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndStopByFrame__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndStopByFrame__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   unsigned int arg3 ;
@@ -3182,7 +3185,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndStopByFrame__SWIG_0_wrapper_
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndStopByFrame__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndStopByFrame__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::AnimationState *result = 0 ;
@@ -3200,7 +3203,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndStopByFrame__SWIG_1_wrapper_
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndStopByProgress__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndStopByProgress__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   float arg3 ;
@@ -3220,7 +3223,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndStopByProgress__SWIG_0_wrapp
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_gotoAndStopByProgress__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::AnimationState *_wrap_Animation_gotoAndStopByProgress__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::AnimationState *result = 0 ;
@@ -3238,7 +3241,7 @@ dragonBones::AnimationState *_wrap_Animation_gotoAndStopByProgress__SWIG_1_wrapp
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_getState_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::AnimationState *_wrap_Animation_getState_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::AnimationState *result = 0 ;
@@ -3256,7 +3259,7 @@ dragonBones::AnimationState *_wrap_Animation_getState_wrapper_8547a2e3fc9a516e(d
 }
 
 
-bool _wrap_Animation_hasAnimation_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
+bool _wrap_Animation_hasAnimation_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *arg2 = 0 ;
   bool result;
@@ -3274,7 +3277,7 @@ bool _wrap_Animation_hasAnimation_wrapper_8547a2e3fc9a516e(dragonBones::Animatio
 }
 
 
-std::vector< dragonBones::AnimationState * > *_wrap_Animation_getStates_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+std::vector< dragonBones::AnimationState * > *_wrap_Animation_getStates_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::vector< dragonBones::AnimationState * > *result = 0 ;
   std::vector< dragonBones::AnimationState * > *_swig_go_result;
@@ -3287,7 +3290,7 @@ std::vector< dragonBones::AnimationState * > *_wrap_Animation_getStates_wrapper_
 }
 
 
-bool _wrap_Animation_isPlaying_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+bool _wrap_Animation_isPlaying_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -3300,7 +3303,7 @@ bool _wrap_Animation_isPlaying_wrapper_8547a2e3fc9a516e(dragonBones::Animation *
 }
 
 
-bool _wrap_Animation_isCompleted_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+bool _wrap_Animation_isCompleted_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -3313,7 +3316,7 @@ bool _wrap_Animation_isCompleted_wrapper_8547a2e3fc9a516e(dragonBones::Animation
 }
 
 
-_gostring_ _wrap_Animation_getLastAnimationName_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+_gostring_ _wrap_Animation_getLastAnimationName_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::string *result = 0 ;
   _gostring_ _swig_go_result;
@@ -3326,7 +3329,7 @@ _gostring_ _wrap_Animation_getLastAnimationName_wrapper_8547a2e3fc9a516e(dragonB
 }
 
 
-std::vector< std::string > *_wrap_Animation_getAnimationNames_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+std::vector< std::string > *_wrap_Animation_getAnimationNames_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::vector< std::string > *result = 0 ;
   std::vector< std::string > *_swig_go_result;
@@ -3339,7 +3342,7 @@ std::vector< std::string > *_wrap_Animation_getAnimationNames_wrapper_8547a2e3fc
 }
 
 
-std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *_wrap_Animation_getAnimations_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *_wrap_Animation_getAnimations_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *result = 0 ;
   std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *_swig_go_result;
@@ -3352,7 +3355,7 @@ std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *_
 }
 
 
-void _wrap_Animation_setAnimations_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0, std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *_swig_go_1) {
+void _wrap_Animation_setAnimations_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0, std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *_swig_go_1) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *arg2 = 0 ;
   
@@ -3364,7 +3367,7 @@ void _wrap_Animation_setAnimations_wrapper_8547a2e3fc9a516e(dragonBones::Animati
 }
 
 
-dragonBones::AnimationConfig *_wrap_Animation_getAnimationConfig_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+dragonBones::AnimationConfig *_wrap_Animation_getAnimationConfig_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   dragonBones::AnimationConfig *result = 0 ;
   dragonBones::AnimationConfig *_swig_go_result;
@@ -3377,7 +3380,7 @@ dragonBones::AnimationConfig *_wrap_Animation_getAnimationConfig_wrapper_8547a2e
 }
 
 
-dragonBones::AnimationState *_wrap_Animation_getLastAnimationState_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+dragonBones::AnimationState *_wrap_Animation_getLastAnimationState_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   dragonBones::AnimationState *result = 0 ;
   dragonBones::AnimationState *_swig_go_result;
@@ -3390,7 +3393,7 @@ dragonBones::AnimationState *_wrap_Animation_getLastAnimationState_wrapper_8547a
 }
 
 
-void _wrap_Animation_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_go_0, intgo _swig_go_1) {
+void _wrap_Animation_setMaxCount_wrapper_0168c02bcda14bda(long long _swig_go_0, intgo _swig_go_1) {
   std::size_t arg1 ;
   unsigned int arg2 ;
   
@@ -3402,7 +3405,7 @@ void _wrap_Animation_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_go_0, 
 }
 
 
-void _wrap_Animation_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long _swig_go_0) {
+void _wrap_Animation_clearPool__SWIG_0_wrapper_0168c02bcda14bda(long long _swig_go_0) {
   std::size_t arg1 ;
   
   arg1 = (size_t)_swig_go_0; 
@@ -3412,13 +3415,13 @@ void _wrap_Animation_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long _swig_
 }
 
 
-void _wrap_Animation_clearPool__SWIG_1_wrapper_8547a2e3fc9a516e() {
+void _wrap_Animation_clearPool__SWIG_1_wrapper_0168c02bcda14bda() {
   dragonBones::BaseObject::clearPool();
   
 }
 
 
-intgo _wrap_GetAnimation_HashCode_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+intgo _wrap_GetAnimation_HashCode_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -3432,7 +3435,7 @@ intgo _wrap_GetAnimation_HashCode_wrapper_8547a2e3fc9a516e(dragonBones::Animatio
 }
 
 
-void _wrap_Animation_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::Animation *_swig_go_0) {
+void _wrap_Animation_returnToPool_wrapper_0168c02bcda14bda(dragonBones::Animation *_swig_go_0) {
   dragonBones::Animation *arg1 = (dragonBones::Animation *) 0 ;
   
   arg1 = *(dragonBones::Animation **)&_swig_go_0; 
@@ -3443,7 +3446,7 @@ void _wrap_Animation_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::Animatio
 }
 
 
-dragonBones::Armature *_wrap_Animation_borrowArmatureObject_wrapper_8547a2e3fc9a516e() {
+dragonBones::Armature *_wrap_Animation_borrowArmatureObject_wrapper_0168c02bcda14bda() {
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
   
@@ -3454,7 +3457,7 @@ dragonBones::Armature *_wrap_Animation_borrowArmatureObject_wrapper_8547a2e3fc9a
 }
 
 
-void _wrap_delete_TransformObject_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0) {
+void _wrap_delete_TransformObject_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   
   arg1 = *(dragonBones::TransformObject **)&_swig_go_0; 
@@ -3464,7 +3467,7 @@ void _wrap_delete_TransformObject_wrapper_8547a2e3fc9a516e(dragonBones::Transfor
 }
 
 
-void _wrap_TransformObject_globalTransformMatrix_set_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0, dragonBones::Matrix *_swig_go_1) {
+void _wrap_TransformObject_globalTransformMatrix_set_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0, dragonBones::Matrix *_swig_go_1) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   dragonBones::Matrix *arg2 = (dragonBones::Matrix *) 0 ;
   
@@ -3476,7 +3479,7 @@ void _wrap_TransformObject_globalTransformMatrix_set_wrapper_8547a2e3fc9a516e(dr
 }
 
 
-dragonBones::Matrix *_wrap_TransformObject_globalTransformMatrix_get_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0) {
+dragonBones::Matrix *_wrap_TransformObject_globalTransformMatrix_get_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   dragonBones::Matrix *result = 0 ;
   dragonBones::Matrix *_swig_go_result;
@@ -3489,7 +3492,7 @@ dragonBones::Matrix *_wrap_TransformObject_globalTransformMatrix_get_wrapper_854
 }
 
 
-void _wrap_TransformObject_global_set_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0, dragonBones::Transform *_swig_go_1) {
+void _wrap_TransformObject_global_set_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0, dragonBones::Transform *_swig_go_1) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   dragonBones::Transform *arg2 = (dragonBones::Transform *) 0 ;
   
@@ -3501,7 +3504,7 @@ void _wrap_TransformObject_global_set_wrapper_8547a2e3fc9a516e(dragonBones::Tran
 }
 
 
-dragonBones::Transform *_wrap_TransformObject_global_get_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0) {
+dragonBones::Transform *_wrap_TransformObject_global_get_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   dragonBones::Transform *result = 0 ;
   dragonBones::Transform *_swig_go_result;
@@ -3514,7 +3517,7 @@ dragonBones::Transform *_wrap_TransformObject_global_get_wrapper_8547a2e3fc9a516
 }
 
 
-void _wrap_TransformObject_offset_set_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0, dragonBones::Transform *_swig_go_1) {
+void _wrap_TransformObject_offset_set_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0, dragonBones::Transform *_swig_go_1) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   dragonBones::Transform *arg2 = (dragonBones::Transform *) 0 ;
   
@@ -3526,7 +3529,7 @@ void _wrap_TransformObject_offset_set_wrapper_8547a2e3fc9a516e(dragonBones::Tran
 }
 
 
-dragonBones::Transform *_wrap_TransformObject_offset_get_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0) {
+dragonBones::Transform *_wrap_TransformObject_offset_get_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   dragonBones::Transform *result = 0 ;
   dragonBones::Transform *_swig_go_result;
@@ -3539,7 +3542,7 @@ dragonBones::Transform *_wrap_TransformObject_offset_get_wrapper_8547a2e3fc9a516
 }
 
 
-void _wrap_TransformObject_origin_set_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0, dragonBones::Transform *_swig_go_1) {
+void _wrap_TransformObject_origin_set_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0, dragonBones::Transform *_swig_go_1) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   dragonBones::Transform *arg2 = (dragonBones::Transform *) 0 ;
   
@@ -3551,7 +3554,7 @@ void _wrap_TransformObject_origin_set_wrapper_8547a2e3fc9a516e(dragonBones::Tran
 }
 
 
-dragonBones::Transform *_wrap_TransformObject_origin_get_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0) {
+dragonBones::Transform *_wrap_TransformObject_origin_get_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   dragonBones::Transform *result = 0 ;
   dragonBones::Transform *_swig_go_result;
@@ -3564,7 +3567,7 @@ dragonBones::Transform *_wrap_TransformObject_origin_get_wrapper_8547a2e3fc9a516
 }
 
 
-void _wrap_TransformObject_userData_set_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0, void *_swig_go_1) {
+void _wrap_TransformObject_userData_set_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0, void *_swig_go_1) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -3576,7 +3579,7 @@ void _wrap_TransformObject_userData_set_wrapper_8547a2e3fc9a516e(dragonBones::Tr
 }
 
 
-void *_wrap_TransformObject_userData_get_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0) {
+void *_wrap_TransformObject_userData_get_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -3589,7 +3592,7 @@ void *_wrap_TransformObject_userData_get_wrapper_8547a2e3fc9a516e(dragonBones::T
 }
 
 
-void _wrap_TransformObject__armature_set_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0, dragonBones::Armature *_swig_go_1) {
+void _wrap_TransformObject__armature_set_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0, dragonBones::Armature *_swig_go_1) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   
@@ -3601,7 +3604,7 @@ void _wrap_TransformObject__armature_set_wrapper_8547a2e3fc9a516e(dragonBones::T
 }
 
 
-dragonBones::Armature *_wrap_TransformObject__armature_get_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0) {
+dragonBones::Armature *_wrap_TransformObject__armature_get_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
@@ -3614,7 +3617,7 @@ dragonBones::Armature *_wrap_TransformObject__armature_get_wrapper_8547a2e3fc9a5
 }
 
 
-void _wrap_TransformObject_updateGlobalTransform_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0) {
+void _wrap_TransformObject_updateGlobalTransform_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   
   arg1 = *(dragonBones::TransformObject **)&_swig_go_0; 
@@ -3624,7 +3627,7 @@ void _wrap_TransformObject_updateGlobalTransform_wrapper_8547a2e3fc9a516e(dragon
 }
 
 
-dragonBones::Armature *_wrap_TransformObject_getArmature_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0) {
+dragonBones::Armature *_wrap_TransformObject_getArmature_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
@@ -3637,7 +3640,7 @@ dragonBones::Armature *_wrap_TransformObject_getArmature_wrapper_8547a2e3fc9a516
 }
 
 
-void _wrap_TransformObject_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_go_0, intgo _swig_go_1) {
+void _wrap_TransformObject_setMaxCount_wrapper_0168c02bcda14bda(long long _swig_go_0, intgo _swig_go_1) {
   std::size_t arg1 ;
   unsigned int arg2 ;
   
@@ -3649,7 +3652,7 @@ void _wrap_TransformObject_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_
 }
 
 
-void _wrap_TransformObject_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long _swig_go_0) {
+void _wrap_TransformObject_clearPool__SWIG_0_wrapper_0168c02bcda14bda(long long _swig_go_0) {
   std::size_t arg1 ;
   
   arg1 = (size_t)_swig_go_0; 
@@ -3659,13 +3662,13 @@ void _wrap_TransformObject_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long 
 }
 
 
-void _wrap_TransformObject_clearPool__SWIG_1_wrapper_8547a2e3fc9a516e() {
+void _wrap_TransformObject_clearPool__SWIG_1_wrapper_0168c02bcda14bda() {
   dragonBones::BaseObject::clearPool();
   
 }
 
 
-intgo _wrap_GetTransformObject_HashCode_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0) {
+intgo _wrap_GetTransformObject_HashCode_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -3679,7 +3682,7 @@ intgo _wrap_GetTransformObject_HashCode_wrapper_8547a2e3fc9a516e(dragonBones::Tr
 }
 
 
-long long _wrap_TransformObject_getClassTypeIndex_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0) {
+long long _wrap_TransformObject_getClassTypeIndex_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   std::size_t result;
   long long _swig_go_result;
@@ -3693,7 +3696,7 @@ long long _wrap_TransformObject_getClassTypeIndex_wrapper_8547a2e3fc9a516e(drago
 }
 
 
-void _wrap_TransformObject_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::TransformObject *_swig_go_0) {
+void _wrap_TransformObject_returnToPool_wrapper_0168c02bcda14bda(dragonBones::TransformObject *_swig_go_0) {
   dragonBones::TransformObject *arg1 = (dragonBones::TransformObject *) 0 ;
   
   arg1 = *(dragonBones::TransformObject **)&_swig_go_0; 
@@ -3704,7 +3707,7 @@ void _wrap_TransformObject_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::Tr
 }
 
 
-dragonBones::Armature *_wrap_TransformObject_borrowArmatureObject_wrapper_8547a2e3fc9a516e() {
+dragonBones::Armature *_wrap_TransformObject_borrowArmatureObject_wrapper_0168c02bcda14bda() {
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
   
@@ -3715,7 +3718,7 @@ dragonBones::Armature *_wrap_TransformObject_borrowArmatureObject_wrapper_8547a2
 }
 
 
-void _wrap_delete_IEventDispatcher_wrapper_8547a2e3fc9a516e(dragonBones::IEventDispatcher *_swig_go_0) {
+void _wrap_delete_IEventDispatcher_wrapper_0168c02bcda14bda(dragonBones::IEventDispatcher *_swig_go_0) {
   dragonBones::IEventDispatcher *arg1 = (dragonBones::IEventDispatcher *) 0 ;
   
   arg1 = *(dragonBones::IEventDispatcher **)&_swig_go_0; 
@@ -3725,7 +3728,7 @@ void _wrap_delete_IEventDispatcher_wrapper_8547a2e3fc9a516e(dragonBones::IEventD
 }
 
 
-bool _wrap_IEventDispatcher_hasDBEventListener_wrapper_8547a2e3fc9a516e(dragonBones::IEventDispatcher *_swig_go_0, _gostring_ _swig_go_1) {
+bool _wrap_IEventDispatcher_hasDBEventListener_wrapper_0168c02bcda14bda(dragonBones::IEventDispatcher *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::IEventDispatcher *arg1 = (dragonBones::IEventDispatcher *) 0 ;
   std::string *arg2 = 0 ;
   bool result;
@@ -3743,7 +3746,7 @@ bool _wrap_IEventDispatcher_hasDBEventListener_wrapper_8547a2e3fc9a516e(dragonBo
 }
 
 
-void _wrap_IEventDispatcher_dispatchDBEvent_wrapper_8547a2e3fc9a516e(dragonBones::IEventDispatcher *_swig_go_0, _gostring_ _swig_go_1, dragonBones::EventObject *_swig_go_2) {
+void _wrap_IEventDispatcher_dispatchDBEvent_wrapper_0168c02bcda14bda(dragonBones::IEventDispatcher *_swig_go_0, _gostring_ _swig_go_1, dragonBones::EventObject *_swig_go_2) {
   dragonBones::IEventDispatcher *arg1 = (dragonBones::IEventDispatcher *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::EventObject *arg3 = (dragonBones::EventObject *) 0 ;
@@ -3760,7 +3763,7 @@ void _wrap_IEventDispatcher_dispatchDBEvent_wrapper_8547a2e3fc9a516e(dragonBones
 }
 
 
-void _wrap_IEventDispatcher_addDBEventListener_wrapper_8547a2e3fc9a516e(dragonBones::IEventDispatcher *_swig_go_0, _gostring_ _swig_go_1, std::function< void (dragonBones::EventObject *) > *_swig_go_2) {
+void _wrap_IEventDispatcher_addDBEventListener_wrapper_0168c02bcda14bda(dragonBones::IEventDispatcher *_swig_go_0, _gostring_ _swig_go_1, std::function< void (dragonBones::EventObject *) > *_swig_go_2) {
   dragonBones::IEventDispatcher *arg1 = (dragonBones::IEventDispatcher *) 0 ;
   std::string *arg2 = 0 ;
   std::function< void (dragonBones::EventObject *) > *arg3 = 0 ;
@@ -3777,7 +3780,7 @@ void _wrap_IEventDispatcher_addDBEventListener_wrapper_8547a2e3fc9a516e(dragonBo
 }
 
 
-void _wrap_IEventDispatcher_removeDBEventListener_wrapper_8547a2e3fc9a516e(dragonBones::IEventDispatcher *_swig_go_0, _gostring_ _swig_go_1, std::function< void (dragonBones::EventObject *) > *_swig_go_2) {
+void _wrap_IEventDispatcher_removeDBEventListener_wrapper_0168c02bcda14bda(dragonBones::IEventDispatcher *_swig_go_0, _gostring_ _swig_go_1, std::function< void (dragonBones::EventObject *) > *_swig_go_2) {
   dragonBones::IEventDispatcher *arg1 = (dragonBones::IEventDispatcher *) 0 ;
   std::string *arg2 = 0 ;
   std::function< void (dragonBones::EventObject *) > *arg3 = 0 ;
@@ -3794,7 +3797,7 @@ void _wrap_IEventDispatcher_removeDBEventListener_wrapper_8547a2e3fc9a516e(drago
 }
 
 
-dragonBones::IArmatureProxy *_wrap__swig_NewDirectorIArmatureProxyIArmatureProxy_wrapper_8547a2e3fc9a516e(intgo _swig_go_0) {
+dragonBones::IArmatureProxy *_wrap__swig_NewDirectorIArmatureProxyIArmatureProxy_wrapper_0168c02bcda14bda(intgo _swig_go_0) {
   int arg1 ;
   dragonBones::IArmatureProxy *result = 0 ;
   dragonBones::IArmatureProxy *_swig_go_result;
@@ -3807,7 +3810,7 @@ dragonBones::IArmatureProxy *_wrap__swig_NewDirectorIArmatureProxyIArmatureProxy
 }
 
 
-void _wrap_DeleteDirectorIArmatureProxy_wrapper_8547a2e3fc9a516e(dragonBones::IArmatureProxy *_swig_go_0) {
+void _wrap_DeleteDirectorIArmatureProxy_wrapper_0168c02bcda14bda(dragonBones::IArmatureProxy *_swig_go_0) {
   dragonBones::IArmatureProxy *arg1 = (dragonBones::IArmatureProxy *) 0 ;
   
   arg1 = *(dragonBones::IArmatureProxy **)&_swig_go_0; 
@@ -3817,7 +3820,7 @@ void _wrap_DeleteDirectorIArmatureProxy_wrapper_8547a2e3fc9a516e(dragonBones::IA
 }
 
 
-void _wrap_delete_IArmatureProxy_wrapper_8547a2e3fc9a516e(dragonBones::IArmatureProxy *_swig_go_0) {
+void _wrap_delete_IArmatureProxy_wrapper_0168c02bcda14bda(dragonBones::IArmatureProxy *_swig_go_0) {
   dragonBones::IArmatureProxy *arg1 = (dragonBones::IArmatureProxy *) 0 ;
   
   arg1 = *(dragonBones::IArmatureProxy **)&_swig_go_0; 
@@ -3827,7 +3830,7 @@ void _wrap_delete_IArmatureProxy_wrapper_8547a2e3fc9a516e(dragonBones::IArmature
 }
 
 
-void _wrap_IArmatureProxy_dbInit_wrapper_8547a2e3fc9a516e(dragonBones::IArmatureProxy *_swig_go_0, dragonBones::Armature *_swig_go_1) {
+void _wrap_IArmatureProxy_dbInit_wrapper_0168c02bcda14bda(dragonBones::IArmatureProxy *_swig_go_0, dragonBones::Armature *_swig_go_1) {
   dragonBones::IArmatureProxy *arg1 = (dragonBones::IArmatureProxy *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   
@@ -3839,7 +3842,7 @@ void _wrap_IArmatureProxy_dbInit_wrapper_8547a2e3fc9a516e(dragonBones::IArmature
 }
 
 
-void _wrap_IArmatureProxy_dbClear_wrapper_8547a2e3fc9a516e(dragonBones::IArmatureProxy *_swig_go_0) {
+void _wrap_IArmatureProxy_dbClear_wrapper_0168c02bcda14bda(dragonBones::IArmatureProxy *_swig_go_0) {
   dragonBones::IArmatureProxy *arg1 = (dragonBones::IArmatureProxy *) 0 ;
   
   arg1 = *(dragonBones::IArmatureProxy **)&_swig_go_0; 
@@ -3849,7 +3852,7 @@ void _wrap_IArmatureProxy_dbClear_wrapper_8547a2e3fc9a516e(dragonBones::IArmatur
 }
 
 
-void _wrap_IArmatureProxy_dbUpdate_wrapper_8547a2e3fc9a516e(dragonBones::IArmatureProxy *_swig_go_0) {
+void _wrap_IArmatureProxy_dbUpdate_wrapper_0168c02bcda14bda(dragonBones::IArmatureProxy *_swig_go_0) {
   dragonBones::IArmatureProxy *arg1 = (dragonBones::IArmatureProxy *) 0 ;
   
   arg1 = *(dragonBones::IArmatureProxy **)&_swig_go_0; 
@@ -3859,7 +3862,7 @@ void _wrap_IArmatureProxy_dbUpdate_wrapper_8547a2e3fc9a516e(dragonBones::IArmatu
 }
 
 
-void _wrap_IArmatureProxy_dispose_wrapper_8547a2e3fc9a516e(dragonBones::IArmatureProxy *_swig_go_0, bool _swig_go_1) {
+void _wrap_IArmatureProxy_dispose_wrapper_0168c02bcda14bda(dragonBones::IArmatureProxy *_swig_go_0, bool _swig_go_1) {
   dragonBones::IArmatureProxy *arg1 = (dragonBones::IArmatureProxy *) 0 ;
   bool arg2 ;
   
@@ -3871,7 +3874,7 @@ void _wrap_IArmatureProxy_dispose_wrapper_8547a2e3fc9a516e(dragonBones::IArmatur
 }
 
 
-dragonBones::Armature *_wrap_IArmatureProxy_getArmature_wrapper_8547a2e3fc9a516e(dragonBones::IArmatureProxy *_swig_go_0) {
+dragonBones::Armature *_wrap_IArmatureProxy_getArmature_wrapper_0168c02bcda14bda(dragonBones::IArmatureProxy *_swig_go_0) {
   dragonBones::IArmatureProxy *arg1 = (dragonBones::IArmatureProxy *) 0 ;
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
@@ -3884,7 +3887,7 @@ dragonBones::Armature *_wrap_IArmatureProxy_getArmature_wrapper_8547a2e3fc9a516e
 }
 
 
-dragonBones::Animation *_wrap_IArmatureProxy_getAnimation_wrapper_8547a2e3fc9a516e(dragonBones::IArmatureProxy *_swig_go_0) {
+dragonBones::Animation *_wrap_IArmatureProxy_getAnimation_wrapper_0168c02bcda14bda(dragonBones::IArmatureProxy *_swig_go_0) {
   dragonBones::IArmatureProxy *arg1 = (dragonBones::IArmatureProxy *) 0 ;
   dragonBones::Animation *result = 0 ;
   dragonBones::Animation *_swig_go_result;
@@ -3897,7 +3900,7 @@ dragonBones::Animation *_wrap_IArmatureProxy_getAnimation_wrapper_8547a2e3fc9a51
 }
 
 
-bool _wrap_IArmatureProxy_hasDBEventListener_wrapper_8547a2e3fc9a516e(dragonBones::IArmatureProxy *_swig_go_0, _gostring_ _swig_go_1) {
+bool _wrap_IArmatureProxy_hasDBEventListener_wrapper_0168c02bcda14bda(dragonBones::IArmatureProxy *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::IArmatureProxy *arg1 = (dragonBones::IArmatureProxy *) 0 ;
   std::string *arg2 = 0 ;
   bool result;
@@ -3916,7 +3919,7 @@ bool _wrap_IArmatureProxy_hasDBEventListener_wrapper_8547a2e3fc9a516e(dragonBone
 }
 
 
-void _wrap_IArmatureProxy_dispatchDBEvent_wrapper_8547a2e3fc9a516e(dragonBones::IArmatureProxy *_swig_go_0, _gostring_ _swig_go_1, dragonBones::EventObject *_swig_go_2) {
+void _wrap_IArmatureProxy_dispatchDBEvent_wrapper_0168c02bcda14bda(dragonBones::IArmatureProxy *_swig_go_0, _gostring_ _swig_go_1, dragonBones::EventObject *_swig_go_2) {
   dragonBones::IArmatureProxy *arg1 = (dragonBones::IArmatureProxy *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::EventObject *arg3 = (dragonBones::EventObject *) 0 ;
@@ -3934,7 +3937,7 @@ void _wrap_IArmatureProxy_dispatchDBEvent_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-void _wrap_IArmatureProxy_addDBEventListener_wrapper_8547a2e3fc9a516e(dragonBones::IArmatureProxy *_swig_go_0, _gostring_ _swig_go_1, std::function< void (dragonBones::EventObject *) > *_swig_go_2) {
+void _wrap_IArmatureProxy_addDBEventListener_wrapper_0168c02bcda14bda(dragonBones::IArmatureProxy *_swig_go_0, _gostring_ _swig_go_1, std::function< void (dragonBones::EventObject *) > *_swig_go_2) {
   dragonBones::IArmatureProxy *arg1 = (dragonBones::IArmatureProxy *) 0 ;
   std::string *arg2 = 0 ;
   std::function< void (dragonBones::EventObject *) > *arg3 = 0 ;
@@ -3952,7 +3955,7 @@ void _wrap_IArmatureProxy_addDBEventListener_wrapper_8547a2e3fc9a516e(dragonBone
 }
 
 
-void _wrap_IArmatureProxy_removeDBEventListener_wrapper_8547a2e3fc9a516e(dragonBones::IArmatureProxy *_swig_go_0, _gostring_ _swig_go_1, std::function< void (dragonBones::EventObject *) > *_swig_go_2) {
+void _wrap_IArmatureProxy_removeDBEventListener_wrapper_0168c02bcda14bda(dragonBones::IArmatureProxy *_swig_go_0, _gostring_ _swig_go_1, std::function< void (dragonBones::EventObject *) > *_swig_go_2) {
   dragonBones::IArmatureProxy *arg1 = (dragonBones::IArmatureProxy *) 0 ;
   std::string *arg2 = 0 ;
   std::function< void (dragonBones::EventObject *) > *arg3 = 0 ;
@@ -3970,7 +3973,7 @@ void _wrap_IArmatureProxy_removeDBEventListener_wrapper_8547a2e3fc9a516e(dragonB
 }
 
 
-void _wrap_delete_IAnimatable_wrapper_8547a2e3fc9a516e(dragonBones::IAnimatable *_swig_go_0) {
+void _wrap_delete_IAnimatable_wrapper_0168c02bcda14bda(dragonBones::IAnimatable *_swig_go_0) {
   dragonBones::IAnimatable *arg1 = (dragonBones::IAnimatable *) 0 ;
   
   arg1 = *(dragonBones::IAnimatable **)&_swig_go_0; 
@@ -3980,7 +3983,7 @@ void _wrap_delete_IAnimatable_wrapper_8547a2e3fc9a516e(dragonBones::IAnimatable 
 }
 
 
-void _wrap_IAnimatable_advanceTime_wrapper_8547a2e3fc9a516e(dragonBones::IAnimatable *_swig_go_0, float _swig_go_1) {
+void _wrap_IAnimatable_advanceTime_wrapper_0168c02bcda14bda(dragonBones::IAnimatable *_swig_go_0, float _swig_go_1) {
   dragonBones::IAnimatable *arg1 = (dragonBones::IAnimatable *) 0 ;
   float arg2 ;
   
@@ -3992,7 +3995,7 @@ void _wrap_IAnimatable_advanceTime_wrapper_8547a2e3fc9a516e(dragonBones::IAnimat
 }
 
 
-dragonBones::WorldClock *_wrap_IAnimatable_getClock_wrapper_8547a2e3fc9a516e(dragonBones::IAnimatable *_swig_go_0) {
+dragonBones::WorldClock *_wrap_IAnimatable_getClock_wrapper_0168c02bcda14bda(dragonBones::IAnimatable *_swig_go_0) {
   dragonBones::IAnimatable *arg1 = (dragonBones::IAnimatable *) 0 ;
   dragonBones::WorldClock *result = 0 ;
   dragonBones::WorldClock *_swig_go_result;
@@ -4005,7 +4008,7 @@ dragonBones::WorldClock *_wrap_IAnimatable_getClock_wrapper_8547a2e3fc9a516e(dra
 }
 
 
-void _wrap_IAnimatable_setClock_wrapper_8547a2e3fc9a516e(dragonBones::IAnimatable *_swig_go_0, dragonBones::WorldClock *_swig_go_1) {
+void _wrap_IAnimatable_setClock_wrapper_0168c02bcda14bda(dragonBones::IAnimatable *_swig_go_0, dragonBones::WorldClock *_swig_go_1) {
   dragonBones::IAnimatable *arg1 = (dragonBones::IAnimatable *) 0 ;
   dragonBones::WorldClock *arg2 = (dragonBones::WorldClock *) 0 ;
   
@@ -4017,7 +4020,7 @@ void _wrap_IAnimatable_setClock_wrapper_8547a2e3fc9a516e(dragonBones::IAnimatabl
 }
 
 
-dragonBones::Slot *_wrap__swig_NewDirectorSlotSlot_wrapper_8547a2e3fc9a516e(intgo _swig_go_0) {
+dragonBones::Slot *_wrap__swig_NewDirectorSlotSlot_wrapper_0168c02bcda14bda(intgo _swig_go_0) {
   int arg1 ;
   dragonBones::Slot *result = 0 ;
   dragonBones::Slot *_swig_go_result;
@@ -4030,7 +4033,7 @@ dragonBones::Slot *_wrap__swig_NewDirectorSlotSlot_wrapper_8547a2e3fc9a516e(intg
 }
 
 
-void _wrap_DeleteDirectorSlot_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void _wrap_DeleteDirectorSlot_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   
   arg1 = *(dragonBones::Slot **)&_swig_go_0; 
@@ -4040,7 +4043,7 @@ void _wrap_DeleteDirectorSlot_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_
 }
 
 
-void _wrap__swig_DirectorSlot_upcall_X_onClear_wrapper_8547a2e3fc9a516e(SwigDirector_Slot *_swig_go_0) {
+void _wrap__swig_DirectorSlot_upcall_X_onClear_wrapper_0168c02bcda14bda(SwigDirector_Slot *_swig_go_0) {
   SwigDirector_Slot *arg1 = (SwigDirector_Slot *) 0 ;
   SwigDirector_Slot *darg = 0;
   
@@ -4052,7 +4055,7 @@ void _wrap__swig_DirectorSlot_upcall_X_onClear_wrapper_8547a2e3fc9a516e(SwigDire
 }
 
 
-void _wrap_Slot_displayController_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_Slot_displayController_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -4067,7 +4070,7 @@ void _wrap_Slot_displayController_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot
 }
 
 
-_gostring_ _wrap_Slot_displayController_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+_gostring_ _wrap_Slot_displayController_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::string *result = 0 ;
   _gostring_ _swig_go_result;
@@ -4080,7 +4083,7 @@ _gostring_ _wrap_Slot_displayController_get_wrapper_8547a2e3fc9a516e(dragonBones
 }
 
 
-void _wrap_Slot__colorDirty_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
+void _wrap_Slot__colorDirty_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool arg2 ;
   
@@ -4092,7 +4095,7 @@ void _wrap_Slot__colorDirty_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swi
 }
 
 
-bool _wrap_Slot__colorDirty_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+bool _wrap_Slot__colorDirty_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -4105,7 +4108,7 @@ bool _wrap_Slot__colorDirty_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swi
 }
 
 
-void _wrap_Slot__blendMode_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
+void _wrap_Slot__blendMode_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::BlendMode arg2 ;
   
@@ -4117,7 +4120,7 @@ void _wrap_Slot__blendMode_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig
 }
 
 
-intgo _wrap_Slot__blendMode_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+intgo _wrap_Slot__blendMode_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::BlendMode result;
   intgo _swig_go_result;
@@ -4130,7 +4133,7 @@ intgo _wrap_Slot__blendMode_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swi
 }
 
 
-void _wrap_Slot__zOrder_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
+void _wrap_Slot__zOrder_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   int arg2 ;
   
@@ -4142,7 +4145,7 @@ void _wrap_Slot__zOrder_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go
 }
 
 
-intgo _wrap_Slot__zOrder_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+intgo _wrap_Slot__zOrder_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -4155,7 +4158,7 @@ intgo _wrap_Slot__zOrder_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_g
 }
 
 
-void _wrap_Slot__pivotX_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, float _swig_go_1) {
+void _wrap_Slot__pivotX_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, float _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   float arg2 ;
   
@@ -4167,7 +4170,7 @@ void _wrap_Slot__pivotX_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go
 }
 
 
-float _wrap_Slot__pivotX_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+float _wrap_Slot__pivotX_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   float result;
   float _swig_go_result;
@@ -4180,7 +4183,7 @@ float _wrap_Slot__pivotX_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_g
 }
 
 
-void _wrap_Slot__pivotY_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, float _swig_go_1) {
+void _wrap_Slot__pivotY_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, float _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   float arg2 ;
   
@@ -4192,7 +4195,7 @@ void _wrap_Slot__pivotY_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go
 }
 
 
-float _wrap_Slot__pivotY_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+float _wrap_Slot__pivotY_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   float result;
   float _swig_go_result;
@@ -4205,7 +4208,7 @@ float _wrap_Slot__pivotY_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_g
 }
 
 
-void _wrap_Slot__colorTransform_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::ColorTransform *_swig_go_1) {
+void _wrap_Slot__colorTransform_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::ColorTransform *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::ColorTransform *arg2 = (dragonBones::ColorTransform *) 0 ;
   
@@ -4217,7 +4220,7 @@ void _wrap_Slot__colorTransform_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *
 }
 
 
-dragonBones::ColorTransform *_wrap_Slot__colorTransform_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::ColorTransform *_wrap_Slot__colorTransform_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::ColorTransform *result = 0 ;
   dragonBones::ColorTransform *_swig_go_result;
@@ -4230,7 +4233,7 @@ dragonBones::ColorTransform *_wrap_Slot__colorTransform_get_wrapper_8547a2e3fc9a
 }
 
 
-void _wrap_Slot__slotData_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::SlotData *_swig_go_1) {
+void _wrap_Slot__slotData_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::SlotData *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::SlotData *arg2 = (dragonBones::SlotData *) 0 ;
   
@@ -4242,7 +4245,7 @@ void _wrap_Slot__slotData_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_
 }
 
 
-dragonBones::SlotData *_wrap_Slot__slotData_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::SlotData *_wrap_Slot__slotData_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::SlotData *result = 0 ;
   dragonBones::SlotData *_swig_go_result;
@@ -4255,7 +4258,7 @@ dragonBones::SlotData *_wrap_Slot__slotData_get_wrapper_8547a2e3fc9a516e(dragonB
 }
 
 
-void _wrap_Slot__displayData_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::DisplayData *_swig_go_1) {
+void _wrap_Slot__displayData_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::DisplayData *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::DisplayData *arg2 = (dragonBones::DisplayData *) 0 ;
   
@@ -4267,7 +4270,7 @@ void _wrap_Slot__displayData_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_sw
 }
 
 
-dragonBones::DisplayData *_wrap_Slot__displayData_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::DisplayData *_wrap_Slot__displayData_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::DisplayData *result = 0 ;
   dragonBones::DisplayData *_swig_go_result;
@@ -4280,7 +4283,7 @@ dragonBones::DisplayData *_wrap_Slot__displayData_get_wrapper_8547a2e3fc9a516e(d
 }
 
 
-void _wrap_Slot__deformVertices_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::DeformVertices *_swig_go_1) {
+void _wrap_Slot__deformVertices_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::DeformVertices *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::DeformVertices *arg2 = (dragonBones::DeformVertices *) 0 ;
   
@@ -4292,7 +4295,7 @@ void _wrap_Slot__deformVertices_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *
 }
 
 
-dragonBones::DeformVertices *_wrap_Slot__deformVertices_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::DeformVertices *_wrap_Slot__deformVertices_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::DeformVertices *result = 0 ;
   dragonBones::DeformVertices *_swig_go_result;
@@ -4305,7 +4308,7 @@ dragonBones::DeformVertices *_wrap_Slot__deformVertices_get_wrapper_8547a2e3fc9a
 }
 
 
-void _wrap_Slot__rawDisplay_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, void *_swig_go_1) {
+void _wrap_Slot__rawDisplay_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, void *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -4317,7 +4320,7 @@ void _wrap_Slot__rawDisplay_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swi
 }
 
 
-void *_wrap_Slot__rawDisplay_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void *_wrap_Slot__rawDisplay_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -4330,7 +4333,7 @@ void *_wrap_Slot__rawDisplay_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_sw
 }
 
 
-void _wrap_Slot__meshDisplay_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, void *_swig_go_1) {
+void _wrap_Slot__meshDisplay_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, void *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -4342,7 +4345,7 @@ void _wrap_Slot__meshDisplay_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_sw
 }
 
 
-void *_wrap_Slot__meshDisplay_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void *_wrap_Slot__meshDisplay_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -4355,7 +4358,7 @@ void *_wrap_Slot__meshDisplay_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_s
 }
 
 
-void _wrap_Slot__cachedFrameIndices_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, std::vector< int > *_swig_go_1) {
+void _wrap_Slot__cachedFrameIndices_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, std::vector< int > *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::vector< int > *arg2 = (std::vector< int > *) 0 ;
   
@@ -4367,7 +4370,7 @@ void _wrap_Slot__cachedFrameIndices_set_wrapper_8547a2e3fc9a516e(dragonBones::Sl
 }
 
 
-std::vector< int > *_wrap_Slot__cachedFrameIndices_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+std::vector< int > *_wrap_Slot__cachedFrameIndices_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::vector< int > *result = 0 ;
   std::vector< int > *_swig_go_result;
@@ -4380,7 +4383,7 @@ std::vector< int > *_wrap_Slot__cachedFrameIndices_get_wrapper_8547a2e3fc9a516e(
 }
 
 
-void _wrap_Slot__displayDirty_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
+void _wrap_Slot__displayDirty_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool arg2 ;
   SwigDirector_Slot *darg = 0;
@@ -4394,7 +4397,7 @@ void _wrap_Slot__displayDirty_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_s
 }
 
 
-bool _wrap_Slot__displayDirty_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+bool _wrap_Slot__displayDirty_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -4409,7 +4412,7 @@ bool _wrap_Slot__displayDirty_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_s
 }
 
 
-void _wrap_Slot__zOrderDirty_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
+void _wrap_Slot__zOrderDirty_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool arg2 ;
   SwigDirector_Slot *darg = 0;
@@ -4423,7 +4426,7 @@ void _wrap_Slot__zOrderDirty_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_sw
 }
 
 
-bool _wrap_Slot__zOrderDirty_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+bool _wrap_Slot__zOrderDirty_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -4438,7 +4441,7 @@ bool _wrap_Slot__zOrderDirty_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_sw
 }
 
 
-void _wrap_Slot__visibleDirty_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
+void _wrap_Slot__visibleDirty_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool arg2 ;
   SwigDirector_Slot *darg = 0;
@@ -4452,7 +4455,7 @@ void _wrap_Slot__visibleDirty_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_s
 }
 
 
-bool _wrap_Slot__visibleDirty_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+bool _wrap_Slot__visibleDirty_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -4467,7 +4470,7 @@ bool _wrap_Slot__visibleDirty_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_s
 }
 
 
-void _wrap_Slot__blendModeDirty_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
+void _wrap_Slot__blendModeDirty_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool arg2 ;
   SwigDirector_Slot *darg = 0;
@@ -4481,7 +4484,7 @@ void _wrap_Slot__blendModeDirty_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *
 }
 
 
-bool _wrap_Slot__blendModeDirty_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+bool _wrap_Slot__blendModeDirty_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -4496,7 +4499,7 @@ bool _wrap_Slot__blendModeDirty_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *
 }
 
 
-void _wrap_Slot__transformDirty_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
+void _wrap_Slot__transformDirty_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool arg2 ;
   SwigDirector_Slot *darg = 0;
@@ -4510,7 +4513,7 @@ void _wrap_Slot__transformDirty_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *
 }
 
 
-bool _wrap_Slot__transformDirty_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+bool _wrap_Slot__transformDirty_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -4525,7 +4528,7 @@ bool _wrap_Slot__transformDirty_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *
 }
 
 
-void _wrap_Slot__visible_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
+void _wrap_Slot__visible_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool arg2 ;
   SwigDirector_Slot *darg = 0;
@@ -4539,7 +4542,7 @@ void _wrap_Slot__visible_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_g
 }
 
 
-bool _wrap_Slot__visible_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+bool _wrap_Slot__visible_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -4554,7 +4557,7 @@ bool _wrap_Slot__visible_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_g
 }
 
 
-void _wrap_Slot__displayIndex_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
+void _wrap_Slot__displayIndex_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   int arg2 ;
   SwigDirector_Slot *darg = 0;
@@ -4568,7 +4571,7 @@ void _wrap_Slot__displayIndex_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_s
 }
 
 
-intgo _wrap_Slot__displayIndex_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+intgo _wrap_Slot__displayIndex_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -4583,7 +4586,7 @@ intgo _wrap_Slot__displayIndex_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_
 }
 
 
-void _wrap_Slot__animationDisplayIndex_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
+void _wrap_Slot__animationDisplayIndex_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   int arg2 ;
   SwigDirector_Slot *darg = 0;
@@ -4597,7 +4600,7 @@ void _wrap_Slot__animationDisplayIndex_set_wrapper_8547a2e3fc9a516e(dragonBones:
 }
 
 
-intgo _wrap_Slot__animationDisplayIndex_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+intgo _wrap_Slot__animationDisplayIndex_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -4612,7 +4615,7 @@ intgo _wrap_Slot__animationDisplayIndex_get_wrapper_8547a2e3fc9a516e(dragonBones
 }
 
 
-void _wrap_Slot__cachedFrameIndex_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
+void _wrap_Slot__cachedFrameIndex_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   int arg2 ;
   SwigDirector_Slot *darg = 0;
@@ -4626,7 +4629,7 @@ void _wrap_Slot__cachedFrameIndex_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot
 }
 
 
-intgo _wrap_Slot__cachedFrameIndex_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+intgo _wrap_Slot__cachedFrameIndex_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -4641,7 +4644,7 @@ intgo _wrap_Slot__cachedFrameIndex_get_wrapper_8547a2e3fc9a516e(dragonBones::Slo
 }
 
 
-void _wrap_Slot__localMatrix_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::Matrix *_swig_go_1) {
+void _wrap_Slot__localMatrix_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::Matrix *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Matrix *arg2 = (dragonBones::Matrix *) 0 ;
   SwigDirector_Slot *darg = 0;
@@ -4655,7 +4658,7 @@ void _wrap_Slot__localMatrix_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_sw
 }
 
 
-dragonBones::Matrix *_wrap_Slot__localMatrix_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::Matrix *_wrap_Slot__localMatrix_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Matrix *result = 0 ;
   dragonBones::Matrix *_swig_go_result;
@@ -4670,7 +4673,7 @@ dragonBones::Matrix *_wrap_Slot__localMatrix_get_wrapper_8547a2e3fc9a516e(dragon
 }
 
 
-void _wrap_Slot__displayDatas_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, std::vector< dragonBones::DisplayData * > *_swig_go_1) {
+void _wrap_Slot__displayDatas_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, std::vector< dragonBones::DisplayData * > *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::vector< dragonBones::DisplayData * > *arg2 = (std::vector< dragonBones::DisplayData * > *) 0 ;
   SwigDirector_Slot *darg = 0;
@@ -4684,7 +4687,7 @@ void _wrap_Slot__displayDatas_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_s
 }
 
 
-std::vector< dragonBones::DisplayData * > *_wrap_Slot__displayDatas_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+std::vector< dragonBones::DisplayData * > *_wrap_Slot__displayDatas_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::vector< dragonBones::DisplayData * > *result = 0 ;
   std::vector< dragonBones::DisplayData * > *_swig_go_result;
@@ -4699,7 +4702,7 @@ std::vector< dragonBones::DisplayData * > *_wrap_Slot__displayDatas_get_wrapper_
 }
 
 
-void _wrap_Slot__displayList_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, std::vector< std::pair< void *,enum dragonBones::DisplayType > > *_swig_go_1) {
+void _wrap_Slot__displayList_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, std::vector< std::pair< void *,enum dragonBones::DisplayType > > *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::vector< std::pair< void *,dragonBones::DisplayType > > *arg2 = (std::vector< std::pair< void *,dragonBones::DisplayType > > *) 0 ;
   SwigDirector_Slot *darg = 0;
@@ -4713,7 +4716,7 @@ void _wrap_Slot__displayList_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_sw
 }
 
 
-std::vector< std::pair< void *,enum dragonBones::DisplayType > > *_wrap_Slot__displayList_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+std::vector< std::pair< void *,enum dragonBones::DisplayType > > *_wrap_Slot__displayList_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::vector< std::pair< void *,dragonBones::DisplayType > > *result = 0 ;
   std::vector< std::pair< void *,enum dragonBones::DisplayType > > *_swig_go_result;
@@ -4728,7 +4731,7 @@ std::vector< std::pair< void *,enum dragonBones::DisplayType > > *_wrap_Slot__di
 }
 
 
-void _wrap_Slot__rawDisplayDatas_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, std::vector< dragonBones::DisplayData * > *_swig_go_1) {
+void _wrap_Slot__rawDisplayDatas_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, std::vector< dragonBones::DisplayData * > *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::vector< dragonBones::DisplayData * > *arg2 = (std::vector< dragonBones::DisplayData * > *) 0 ;
   SwigDirector_Slot *darg = 0;
@@ -4742,7 +4745,7 @@ void _wrap_Slot__rawDisplayDatas_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot 
 }
 
 
-std::vector< dragonBones::DisplayData * > *_wrap_Slot__rawDisplayDatas_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+std::vector< dragonBones::DisplayData * > *_wrap_Slot__rawDisplayDatas_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::vector< dragonBones::DisplayData * > *result = 0 ;
   std::vector< dragonBones::DisplayData * > *_swig_go_result;
@@ -4757,7 +4760,7 @@ std::vector< dragonBones::DisplayData * > *_wrap_Slot__rawDisplayDatas_get_wrapp
 }
 
 
-void _wrap_Slot__boundingBoxData_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::BoundingBoxData *_swig_go_1) {
+void _wrap_Slot__boundingBoxData_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::BoundingBoxData *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::BoundingBoxData *arg2 = (dragonBones::BoundingBoxData *) 0 ;
   SwigDirector_Slot *darg = 0;
@@ -4771,7 +4774,7 @@ void _wrap_Slot__boundingBoxData_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot 
 }
 
 
-dragonBones::BoundingBoxData *_wrap_Slot__boundingBoxData_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::BoundingBoxData *_wrap_Slot__boundingBoxData_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::BoundingBoxData *result = 0 ;
   dragonBones::BoundingBoxData *_swig_go_result;
@@ -4786,7 +4789,7 @@ dragonBones::BoundingBoxData *_wrap_Slot__boundingBoxData_get_wrapper_8547a2e3fc
 }
 
 
-void _wrap_Slot__textureData_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::TextureData *_swig_go_1) {
+void _wrap_Slot__textureData_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::TextureData *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::TextureData *arg2 = (dragonBones::TextureData *) 0 ;
   SwigDirector_Slot *darg = 0;
@@ -4800,7 +4803,7 @@ void _wrap_Slot__textureData_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_sw
 }
 
 
-dragonBones::TextureData *_wrap_Slot__textureData_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::TextureData *_wrap_Slot__textureData_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::TextureData *result = 0 ;
   dragonBones::TextureData *_swig_go_result;
@@ -4815,7 +4818,7 @@ dragonBones::TextureData *_wrap_Slot__textureData_get_wrapper_8547a2e3fc9a516e(d
 }
 
 
-void _wrap_Slot__display_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, void *_swig_go_1) {
+void _wrap_Slot__display_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, void *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   void *arg2 = (void *) 0 ;
   SwigDirector_Slot *darg = 0;
@@ -4829,7 +4832,7 @@ void _wrap_Slot__display_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_g
 }
 
 
-void *_wrap_Slot__display_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void *_wrap_Slot__display_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -4844,7 +4847,7 @@ void *_wrap_Slot__display_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_
 }
 
 
-void _wrap_Slot__childArmature_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::Armature *_swig_go_1) {
+void _wrap_Slot__childArmature_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::Armature *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   SwigDirector_Slot *darg = 0;
@@ -4858,7 +4861,7 @@ void _wrap_Slot__childArmature_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_
 }
 
 
-dragonBones::Armature *_wrap_Slot__childArmature_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::Armature *_wrap_Slot__childArmature_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
@@ -4873,7 +4876,7 @@ dragonBones::Armature *_wrap_Slot__childArmature_get_wrapper_8547a2e3fc9a516e(dr
 }
 
 
-void _wrap_Slot__parent_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::Bone *_swig_go_1) {
+void _wrap_Slot__parent_set_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::Bone *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Bone *arg2 = (dragonBones::Bone *) 0 ;
   SwigDirector_Slot *darg = 0;
@@ -4887,7 +4890,7 @@ void _wrap_Slot__parent_set_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go
 }
 
 
-dragonBones::Bone *_wrap_Slot__parent_get_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::Bone *_wrap_Slot__parent_get_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Bone *result = 0 ;
   dragonBones::Bone *_swig_go_result;
@@ -4902,7 +4905,7 @@ dragonBones::Bone *_wrap_Slot__parent_get_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-void _wrap_delete_Slot_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void _wrap_delete_Slot_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   
   arg1 = *(dragonBones::Slot **)&_swig_go_0; 
@@ -4912,7 +4915,7 @@ void _wrap_delete_Slot_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
 }
 
 
-void _wrap_Slot__updateVisible_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void _wrap_Slot__updateVisible_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   
   arg1 = *(dragonBones::Slot **)&_swig_go_0; 
@@ -4922,7 +4925,7 @@ void _wrap_Slot__updateVisible_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig
 }
 
 
-void _wrap_Slot__updateBlendMode_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void _wrap_Slot__updateBlendMode_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   
   arg1 = *(dragonBones::Slot **)&_swig_go_0; 
@@ -4932,7 +4935,7 @@ void _wrap_Slot__updateBlendMode_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_sw
 }
 
 
-void _wrap_Slot__updateColor_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void _wrap_Slot__updateColor_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   
   arg1 = *(dragonBones::Slot **)&_swig_go_0; 
@@ -4942,7 +4945,7 @@ void _wrap_Slot__updateColor_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_g
 }
 
 
-bool _wrap_Slot__setDisplayIndex__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, intgo _swig_go_1, bool _swig_go_2) {
+bool _wrap_Slot__setDisplayIndex__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, intgo _swig_go_1, bool _swig_go_2) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   int arg2 ;
   bool arg3 ;
@@ -4959,7 +4962,7 @@ bool _wrap_Slot__setDisplayIndex__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::S
 }
 
 
-bool _wrap_Slot__setDisplayIndex__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_Slot__setDisplayIndex__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   int arg2 ;
   bool result;
@@ -4974,7 +4977,7 @@ bool _wrap_Slot__setDisplayIndex__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::S
 }
 
 
-bool _wrap_Slot__setZorder_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_Slot__setZorder_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   int arg2 ;
   bool result;
@@ -4989,7 +4992,7 @@ bool _wrap_Slot__setZorder_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_
 }
 
 
-bool _wrap_Slot__setColor_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::ColorTransform *_swig_go_1) {
+bool _wrap_Slot__setColor_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::ColorTransform *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::ColorTransform *arg2 = 0 ;
   bool result;
@@ -5004,7 +5007,7 @@ bool _wrap_Slot__setColor_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0
 }
 
 
-bool _wrap_Slot__setDisplayList_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, std::vector< std::pair< void *,enum dragonBones::DisplayType > > *_swig_go_1) {
+bool _wrap_Slot__setDisplayList_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, std::vector< std::pair< void *,enum dragonBones::DisplayType > > *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::vector< std::pair< void *,dragonBones::DisplayType > > *arg2 = 0 ;
   bool result;
@@ -5019,7 +5022,7 @@ bool _wrap_Slot__setDisplayList_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swi
 }
 
 
-void _wrap_Slot_init_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::SlotData *_swig_go_1, dragonBones::Armature *_swig_go_2, void *_swig_go_3, void *_swig_go_4) {
+void _wrap_Slot_init_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::SlotData *_swig_go_1, dragonBones::Armature *_swig_go_2, void *_swig_go_3, void *_swig_go_4) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::SlotData *arg2 = (dragonBones::SlotData *) 0 ;
   dragonBones::Armature *arg3 = (dragonBones::Armature *) 0 ;
@@ -5037,7 +5040,7 @@ void _wrap_Slot_init_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dra
 }
 
 
-void _wrap_Slot_update_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
+void _wrap_Slot_update_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   int arg2 ;
   
@@ -5049,7 +5052,7 @@ void _wrap_Slot_update_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, i
 }
 
 
-void _wrap_Slot_updateTransformAndMatrix_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void _wrap_Slot_updateTransformAndMatrix_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   
   arg1 = *(dragonBones::Slot **)&_swig_go_0; 
@@ -5059,7 +5062,7 @@ void _wrap_Slot_updateTransformAndMatrix_wrapper_8547a2e3fc9a516e(dragonBones::S
 }
 
 
-void _wrap_Slot_replaceDisplayData_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::DisplayData *_swig_go_1, intgo _swig_go_2) {
+void _wrap_Slot_replaceDisplayData_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::DisplayData *_swig_go_1, intgo _swig_go_2) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::DisplayData *arg2 = (dragonBones::DisplayData *) 0 ;
   int arg3 ;
@@ -5073,7 +5076,7 @@ void _wrap_Slot_replaceDisplayData_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_
 }
 
 
-bool _wrap_Slot_containsPoint_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, float _swig_go_1, float _swig_go_2) {
+bool _wrap_Slot_containsPoint_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, float _swig_go_1, float _swig_go_2) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -5090,7 +5093,7 @@ bool _wrap_Slot_containsPoint_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_
 }
 
 
-intgo _wrap_Slot_intersectsSegment__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, dragonBones::Point *_swig_go_5, dragonBones::Point *_swig_go_6, dragonBones::Point *_swig_go_7) {
+intgo _wrap_Slot_intersectsSegment__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, dragonBones::Point *_swig_go_5, dragonBones::Point *_swig_go_6, dragonBones::Point *_swig_go_7) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -5117,7 +5120,7 @@ intgo _wrap_Slot_intersectsSegment__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones:
 }
 
 
-intgo _wrap_Slot_intersectsSegment__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, dragonBones::Point *_swig_go_5, dragonBones::Point *_swig_go_6) {
+intgo _wrap_Slot_intersectsSegment__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, dragonBones::Point *_swig_go_5, dragonBones::Point *_swig_go_6) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -5142,7 +5145,7 @@ intgo _wrap_Slot_intersectsSegment__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones:
 }
 
 
-intgo _wrap_Slot_intersectsSegment__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, dragonBones::Point *_swig_go_5) {
+intgo _wrap_Slot_intersectsSegment__SWIG_2_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, dragonBones::Point *_swig_go_5) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -5165,7 +5168,7 @@ intgo _wrap_Slot_intersectsSegment__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones:
 }
 
 
-intgo _wrap_Slot_intersectsSegment__SWIG_3_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4) {
+intgo _wrap_Slot_intersectsSegment__SWIG_3_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -5186,7 +5189,7 @@ intgo _wrap_Slot_intersectsSegment__SWIG_3_wrapper_8547a2e3fc9a516e(dragonBones:
 }
 
 
-void _wrap_Slot_invalidUpdate_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void _wrap_Slot_invalidUpdate_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   
   arg1 = *(dragonBones::Slot **)&_swig_go_0; 
@@ -5196,7 +5199,7 @@ void _wrap_Slot_invalidUpdate_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_
 }
 
 
-bool _wrap_Slot_getVisible_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+bool _wrap_Slot_getVisible_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -5209,7 +5212,7 @@ bool _wrap_Slot_getVisible_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_
 }
 
 
-void _wrap_Slot_setVisible_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
+void _wrap_Slot_setVisible_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, bool _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   bool arg2 ;
   
@@ -5221,7 +5224,7 @@ void _wrap_Slot_setVisible_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_
 }
 
 
-intgo _wrap_Slot_getDisplayIndex_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+intgo _wrap_Slot_getDisplayIndex_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5234,7 +5237,7 @@ intgo _wrap_Slot_getDisplayIndex_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_sw
 }
 
 
-void _wrap_Slot_setDisplayIndex_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
+void _wrap_Slot_setDisplayIndex_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, intgo _swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   int arg2 ;
   
@@ -5246,7 +5249,7 @@ void _wrap_Slot_setDisplayIndex_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swi
 }
 
 
-_gostring_ _wrap_Slot_getName_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+_gostring_ _wrap_Slot_getName_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::string *result = 0 ;
   _gostring_ _swig_go_result;
@@ -5259,7 +5262,7 @@ _gostring_ _wrap_Slot_getName_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_
 }
 
 
-std::vector< std::pair< void *,enum dragonBones::DisplayType > > *_wrap_Slot_getDisplayList_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+std::vector< std::pair< void *,enum dragonBones::DisplayType > > *_wrap_Slot_getDisplayList_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   SwigValueWrapper< std::vector< std::pair< void *,enum dragonBones::DisplayType > > > result;
   std::vector< std::pair< void *,enum dragonBones::DisplayType > > *_swig_go_result;
@@ -5272,7 +5275,7 @@ std::vector< std::pair< void *,enum dragonBones::DisplayType > > *_wrap_Slot_get
 }
 
 
-void _wrap_Slot_setDisplayList_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, std::vector< std::pair< void *,enum dragonBones::DisplayType > > *_swig_go_1) {
+void _wrap_Slot_setDisplayList_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, std::vector< std::pair< void *,enum dragonBones::DisplayType > > *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::vector< std::pair< void *,dragonBones::DisplayType > > *arg2 = 0 ;
   
@@ -5284,7 +5287,7 @@ void _wrap_Slot_setDisplayList_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig
 }
 
 
-std::vector< dragonBones::DisplayData * > *_wrap_Slot_getRawDisplayDatas_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+std::vector< dragonBones::DisplayData * > *_wrap_Slot_getRawDisplayDatas_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::vector< dragonBones::DisplayData * > *result = 0 ;
   std::vector< dragonBones::DisplayData * > *_swig_go_result;
@@ -5297,7 +5300,7 @@ std::vector< dragonBones::DisplayData * > *_wrap_Slot_getRawDisplayDatas_wrapper
 }
 
 
-void _wrap_Slot_setRawDisplayDatas_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, std::vector< dragonBones::DisplayData * > *_swig_go_1) {
+void _wrap_Slot_setRawDisplayDatas_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, std::vector< dragonBones::DisplayData * > *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::vector< dragonBones::DisplayData * > *arg2 = (std::vector< dragonBones::DisplayData * > *) 0 ;
   
@@ -5309,7 +5312,7 @@ void _wrap_Slot_setRawDisplayDatas_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_
 }
 
 
-dragonBones::SlotData *_wrap_Slot_getSlotData_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::SlotData *_wrap_Slot_getSlotData_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::SlotData *result = 0 ;
   dragonBones::SlotData *_swig_go_result;
@@ -5322,7 +5325,7 @@ dragonBones::SlotData *_wrap_Slot_getSlotData_wrapper_8547a2e3fc9a516e(dragonBon
 }
 
 
-dragonBones::BoundingBoxData *_wrap_Slot_getBoundingBoxData_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::BoundingBoxData *_wrap_Slot_getBoundingBoxData_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::BoundingBoxData *result = 0 ;
   dragonBones::BoundingBoxData *_swig_go_result;
@@ -5335,7 +5338,7 @@ dragonBones::BoundingBoxData *_wrap_Slot_getBoundingBoxData_wrapper_8547a2e3fc9a
 }
 
 
-void *_wrap_Slot_getRawDisplay_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void *_wrap_Slot_getRawDisplay_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -5348,7 +5351,7 @@ void *_wrap_Slot_getRawDisplay_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig
 }
 
 
-void *_wrap_Slot_getMeshDisplay_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void *_wrap_Slot_getMeshDisplay_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -5361,7 +5364,7 @@ void *_wrap_Slot_getMeshDisplay_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swi
 }
 
 
-void *_wrap_Slot_getDisplay_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void *_wrap_Slot_getDisplay_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -5374,7 +5377,7 @@ void *_wrap_Slot_getDisplay_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go
 }
 
 
-void _wrap_Slot_setDisplay_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, void *_swig_go_1, intgo _swig_go_2) {
+void _wrap_Slot_setDisplay_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, void *_swig_go_1, intgo _swig_go_2) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   void *arg2 = (void *) 0 ;
   dragonBones::DisplayType arg3 ;
@@ -5388,7 +5391,7 @@ void _wrap_Slot_setDisplay_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_
 }
 
 
-dragonBones::Armature *_wrap_Slot_getChildArmature_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::Armature *_wrap_Slot_getChildArmature_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
@@ -5401,7 +5404,7 @@ dragonBones::Armature *_wrap_Slot_getChildArmature_wrapper_8547a2e3fc9a516e(drag
 }
 
 
-void _wrap_Slot_setChildArmature_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::Armature *_swig_go_1) {
+void _wrap_Slot_setChildArmature_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::Armature *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   
@@ -5413,7 +5416,7 @@ void _wrap_Slot_setChildArmature_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_sw
 }
 
 
-dragonBones::Bone *_wrap_Slot_getParent_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::Bone *_wrap_Slot_getParent_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Bone *result = 0 ;
   dragonBones::Bone *_swig_go_result;
@@ -5426,7 +5429,7 @@ dragonBones::Bone *_wrap_Slot_getParent_wrapper_8547a2e3fc9a516e(dragonBones::Sl
 }
 
 
-void _wrap_SetSlot_GlobalTransformMatrix_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::Matrix *_swig_go_1) {
+void _wrap_SetSlot_GlobalTransformMatrix_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::Matrix *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Matrix *arg2 = (dragonBones::Matrix *) 0 ;
   
@@ -5439,7 +5442,7 @@ void _wrap_SetSlot_GlobalTransformMatrix_wrapper_8547a2e3fc9a516e(dragonBones::S
 }
 
 
-dragonBones::Matrix *_wrap_GetSlot_GlobalTransformMatrix_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::Matrix *_wrap_GetSlot_GlobalTransformMatrix_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Matrix *result = 0 ;
   dragonBones::Matrix *_swig_go_result;
@@ -5453,7 +5456,7 @@ dragonBones::Matrix *_wrap_GetSlot_GlobalTransformMatrix_wrapper_8547a2e3fc9a516
 }
 
 
-void _wrap_SetSlot_Global_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::Transform *_swig_go_1) {
+void _wrap_SetSlot_Global_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::Transform *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Transform *arg2 = (dragonBones::Transform *) 0 ;
   
@@ -5466,7 +5469,7 @@ void _wrap_SetSlot_Global_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0
 }
 
 
-dragonBones::Transform *_wrap_GetSlot_Global_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::Transform *_wrap_GetSlot_Global_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Transform *result = 0 ;
   dragonBones::Transform *_swig_go_result;
@@ -5480,7 +5483,7 @@ dragonBones::Transform *_wrap_GetSlot_Global_wrapper_8547a2e3fc9a516e(dragonBone
 }
 
 
-void _wrap_SetSlot_Offset_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::Transform *_swig_go_1) {
+void _wrap_SetSlot_Offset_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::Transform *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Transform *arg2 = (dragonBones::Transform *) 0 ;
   
@@ -5493,7 +5496,7 @@ void _wrap_SetSlot_Offset_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0
 }
 
 
-dragonBones::Transform *_wrap_GetSlot_Offset_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::Transform *_wrap_GetSlot_Offset_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Transform *result = 0 ;
   dragonBones::Transform *_swig_go_result;
@@ -5507,7 +5510,7 @@ dragonBones::Transform *_wrap_GetSlot_Offset_wrapper_8547a2e3fc9a516e(dragonBone
 }
 
 
-void _wrap_SetSlot_Origin_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::Transform *_swig_go_1) {
+void _wrap_SetSlot_Origin_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::Transform *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Transform *arg2 = (dragonBones::Transform *) 0 ;
   
@@ -5520,7 +5523,7 @@ void _wrap_SetSlot_Origin_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0
 }
 
 
-dragonBones::Transform *_wrap_GetSlot_Origin_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::Transform *_wrap_GetSlot_Origin_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Transform *result = 0 ;
   dragonBones::Transform *_swig_go_result;
@@ -5534,7 +5537,7 @@ dragonBones::Transform *_wrap_GetSlot_Origin_wrapper_8547a2e3fc9a516e(dragonBone
 }
 
 
-void _wrap_SetSlot_UserData_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, void *_swig_go_1) {
+void _wrap_SetSlot_UserData_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, void *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -5547,7 +5550,7 @@ void _wrap_SetSlot_UserData_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go
 }
 
 
-void *_wrap_GetSlot_UserData_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void *_wrap_GetSlot_UserData_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -5561,7 +5564,7 @@ void *_wrap_GetSlot_UserData_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_g
 }
 
 
-void _wrap_SetSlot_X_armature_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0, dragonBones::Armature *_swig_go_1) {
+void _wrap_SetSlot_X_armature_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0, dragonBones::Armature *_swig_go_1) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   
@@ -5574,7 +5577,7 @@ void _wrap_SetSlot_X_armature_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_
 }
 
 
-dragonBones::Armature *_wrap_GetSlot_X_armature_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::Armature *_wrap_GetSlot_X_armature_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
@@ -5588,7 +5591,7 @@ dragonBones::Armature *_wrap_GetSlot_X_armature_wrapper_8547a2e3fc9a516e(dragonB
 }
 
 
-void _wrap_Slot_updateGlobalTransform_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void _wrap_Slot_updateGlobalTransform_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   
   arg1 = *(dragonBones::Slot **)&_swig_go_0; 
@@ -5599,7 +5602,7 @@ void _wrap_Slot_updateGlobalTransform_wrapper_8547a2e3fc9a516e(dragonBones::Slot
 }
 
 
-dragonBones::Armature *_wrap_Slot_getArmature_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+dragonBones::Armature *_wrap_Slot_getArmature_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
@@ -5613,7 +5616,7 @@ dragonBones::Armature *_wrap_Slot_getArmature_wrapper_8547a2e3fc9a516e(dragonBon
 }
 
 
-void _wrap_Slot_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_go_0, intgo _swig_go_1) {
+void _wrap_Slot_setMaxCount_wrapper_0168c02bcda14bda(long long _swig_go_0, intgo _swig_go_1) {
   std::size_t arg1 ;
   unsigned int arg2 ;
   
@@ -5625,7 +5628,7 @@ void _wrap_Slot_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_go_0, intgo
 }
 
 
-void _wrap_Slot_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long _swig_go_0) {
+void _wrap_Slot_clearPool__SWIG_0_wrapper_0168c02bcda14bda(long long _swig_go_0) {
   std::size_t arg1 ;
   
   arg1 = (size_t)_swig_go_0; 
@@ -5635,13 +5638,13 @@ void _wrap_Slot_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long _swig_go_0)
 }
 
 
-void _wrap_Slot_clearPool__SWIG_1_wrapper_8547a2e3fc9a516e() {
+void _wrap_Slot_clearPool__SWIG_1_wrapper_0168c02bcda14bda() {
   dragonBones::BaseObject::clearPool();
   
 }
 
 
-intgo _wrap_GetSlot_HashCode_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+intgo _wrap_GetSlot_HashCode_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -5656,7 +5659,7 @@ intgo _wrap_GetSlot_HashCode_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_g
 }
 
 
-long long _wrap_Slot_getClassTypeIndex_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+long long _wrap_Slot_getClassTypeIndex_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   std::size_t result;
   long long _swig_go_result;
@@ -5671,7 +5674,7 @@ long long _wrap_Slot_getClassTypeIndex_wrapper_8547a2e3fc9a516e(dragonBones::Slo
 }
 
 
-void _wrap_Slot_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_go_0) {
+void _wrap_Slot_returnToPool_wrapper_0168c02bcda14bda(dragonBones::Slot *_swig_go_0) {
   dragonBones::Slot *arg1 = (dragonBones::Slot *) 0 ;
   
   arg1 = *(dragonBones::Slot **)&_swig_go_0; 
@@ -5683,7 +5686,7 @@ void _wrap_Slot_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::Slot *_swig_g
 }
 
 
-dragonBones::Armature *_wrap_Slot_borrowArmatureObject_wrapper_8547a2e3fc9a516e() {
+dragonBones::Armature *_wrap_Slot_borrowArmatureObject_wrapper_0168c02bcda14bda() {
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
   
@@ -5694,7 +5697,7 @@ dragonBones::Armature *_wrap_Slot_borrowArmatureObject_wrapper_8547a2e3fc9a516e(
 }
 
 
-long long _wrap_Armature_getTypeIndex_wrapper_8547a2e3fc9a516e() {
+long long _wrap_Armature_getTypeIndex_wrapper_0168c02bcda14bda() {
   std::size_t result;
   long long _swig_go_result;
   
@@ -5705,7 +5708,7 @@ long long _wrap_Armature_getTypeIndex_wrapper_8547a2e3fc9a516e() {
 }
 
 
-long long _wrap_Armature_getClassTypeIndex_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+long long _wrap_Armature_getClassTypeIndex_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   std::size_t result;
   long long _swig_go_result;
@@ -5718,7 +5721,7 @@ long long _wrap_Armature_getClassTypeIndex_wrapper_8547a2e3fc9a516e(dragonBones:
 }
 
 
-void _wrap_Armature_inheritAnimation_set_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, bool _swig_go_1) {
+void _wrap_Armature_inheritAnimation_set_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, bool _swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   bool arg2 ;
   
@@ -5730,7 +5733,7 @@ void _wrap_Armature_inheritAnimation_set_wrapper_8547a2e3fc9a516e(dragonBones::A
 }
 
 
-bool _wrap_Armature_inheritAnimation_get_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+bool _wrap_Armature_inheritAnimation_get_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -5743,7 +5746,7 @@ bool _wrap_Armature_inheritAnimation_get_wrapper_8547a2e3fc9a516e(dragonBones::A
 }
 
 
-void _wrap_Armature_userData_set_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, void *_swig_go_1) {
+void _wrap_Armature_userData_set_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, void *_swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -5755,7 +5758,7 @@ void _wrap_Armature_userData_set_wrapper_8547a2e3fc9a516e(dragonBones::Armature 
 }
 
 
-void *_wrap_Armature_userData_get_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+void *_wrap_Armature_userData_get_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -5768,7 +5771,7 @@ void *_wrap_Armature_userData_get_wrapper_8547a2e3fc9a516e(dragonBones::Armature
 }
 
 
-void _wrap_Armature__cacheFrameIndex_set_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, intgo _swig_go_1) {
+void _wrap_Armature__cacheFrameIndex_set_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, intgo _swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   int arg2 ;
   
@@ -5780,7 +5783,7 @@ void _wrap_Armature__cacheFrameIndex_set_wrapper_8547a2e3fc9a516e(dragonBones::A
 }
 
 
-intgo _wrap_Armature__cacheFrameIndex_get_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+intgo _wrap_Armature__cacheFrameIndex_get_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5793,7 +5796,7 @@ intgo _wrap_Armature__cacheFrameIndex_get_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-void _wrap_Armature__armatureData_set_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, dragonBones::ArmatureData *_swig_go_1) {
+void _wrap_Armature__armatureData_set_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, dragonBones::ArmatureData *_swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::ArmatureData *arg2 = (dragonBones::ArmatureData *) 0 ;
   
@@ -5805,7 +5808,7 @@ void _wrap_Armature__armatureData_set_wrapper_8547a2e3fc9a516e(dragonBones::Arma
 }
 
 
-dragonBones::ArmatureData *_wrap_Armature__armatureData_get_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+dragonBones::ArmatureData *_wrap_Armature__armatureData_get_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::ArmatureData *result = 0 ;
   dragonBones::ArmatureData *_swig_go_result;
@@ -5818,7 +5821,7 @@ dragonBones::ArmatureData *_wrap_Armature__armatureData_get_wrapper_8547a2e3fc9a
 }
 
 
-void _wrap_Armature__dragonBones_set_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, dragonBones::DragonBones *_swig_go_1) {
+void _wrap_Armature__dragonBones_set_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, dragonBones::DragonBones *_swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::DragonBones *arg2 = (dragonBones::DragonBones *) 0 ;
   
@@ -5830,7 +5833,7 @@ void _wrap_Armature__dragonBones_set_wrapper_8547a2e3fc9a516e(dragonBones::Armat
 }
 
 
-dragonBones::DragonBones *_wrap_Armature__dragonBones_get_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+dragonBones::DragonBones *_wrap_Armature__dragonBones_get_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::DragonBones *result = 0 ;
   dragonBones::DragonBones *_swig_go_result;
@@ -5843,7 +5846,7 @@ dragonBones::DragonBones *_wrap_Armature__dragonBones_get_wrapper_8547a2e3fc9a51
 }
 
 
-void _wrap_Armature__parent_set_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, dragonBones::Slot *_swig_go_1) {
+void _wrap_Armature__parent_set_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, dragonBones::Slot *_swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::Slot *arg2 = (dragonBones::Slot *) 0 ;
   
@@ -5855,7 +5858,7 @@ void _wrap_Armature__parent_set_wrapper_8547a2e3fc9a516e(dragonBones::Armature *
 }
 
 
-dragonBones::Slot *_wrap_Armature__parent_get_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+dragonBones::Slot *_wrap_Armature__parent_get_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::Slot *result = 0 ;
   dragonBones::Slot *_swig_go_result;
@@ -5868,7 +5871,7 @@ dragonBones::Slot *_wrap_Armature__parent_get_wrapper_8547a2e3fc9a516e(dragonBon
 }
 
 
-void _wrap_Armature__replaceTextureAtlasData_set_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, dragonBones::TextureAtlasData *_swig_go_1) {
+void _wrap_Armature__replaceTextureAtlasData_set_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, dragonBones::TextureAtlasData *_swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::TextureAtlasData *arg2 = (dragonBones::TextureAtlasData *) 0 ;
   
@@ -5880,7 +5883,7 @@ void _wrap_Armature__replaceTextureAtlasData_set_wrapper_8547a2e3fc9a516e(dragon
 }
 
 
-dragonBones::TextureAtlasData *_wrap_Armature__replaceTextureAtlasData_get_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+dragonBones::TextureAtlasData *_wrap_Armature__replaceTextureAtlasData_get_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::TextureAtlasData *result = 0 ;
   dragonBones::TextureAtlasData *_swig_go_result;
@@ -5893,7 +5896,7 @@ dragonBones::TextureAtlasData *_wrap_Armature__replaceTextureAtlasData_get_wrapp
 }
 
 
-void _wrap_Armature__constraints_set_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, std::vector< dragonBones::Constraint * > *_swig_go_1) {
+void _wrap_Armature__constraints_set_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, std::vector< dragonBones::Constraint * > *_swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   std::vector< dragonBones::Constraint * > *arg2 = (std::vector< dragonBones::Constraint * > *) 0 ;
   
@@ -5905,7 +5908,7 @@ void _wrap_Armature__constraints_set_wrapper_8547a2e3fc9a516e(dragonBones::Armat
 }
 
 
-std::vector< dragonBones::Constraint * > *_wrap_Armature__constraints_get_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+std::vector< dragonBones::Constraint * > *_wrap_Armature__constraints_get_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   std::vector< dragonBones::Constraint * > *result = 0 ;
   std::vector< dragonBones::Constraint * > *_swig_go_result;
@@ -5918,7 +5921,7 @@ std::vector< dragonBones::Constraint * > *_wrap_Armature__constraints_get_wrappe
 }
 
 
-dragonBones::Armature *_wrap_new_Armature_wrapper_8547a2e3fc9a516e() {
+dragonBones::Armature *_wrap_new_Armature_wrapper_0168c02bcda14bda() {
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
   
@@ -5929,7 +5932,7 @@ dragonBones::Armature *_wrap_new_Armature_wrapper_8547a2e3fc9a516e() {
 }
 
 
-void _wrap_delete_Armature_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+void _wrap_delete_Armature_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   
   arg1 = *(dragonBones::Armature **)&_swig_go_0; 
@@ -5939,7 +5942,7 @@ void _wrap_delete_Armature_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig
 }
 
 
-void _wrap_Armature__sortZOrder_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, int16_t *_swig_go_1, intgo _swig_go_2) {
+void _wrap_Armature__sortZOrder_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, int16_t *_swig_go_1, intgo _swig_go_2) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   int16_t *arg2 = (int16_t *) 0 ;
   unsigned int arg3 ;
@@ -5953,7 +5956,7 @@ void _wrap_Armature__sortZOrder_wrapper_8547a2e3fc9a516e(dragonBones::Armature *
 }
 
 
-void _wrap_Armature__addBone_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, dragonBones::Bone *_swig_go_1) {
+void _wrap_Armature__addBone_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, dragonBones::Bone *_swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::Bone *arg2 = (dragonBones::Bone *) 0 ;
   
@@ -5965,7 +5968,7 @@ void _wrap_Armature__addBone_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_sw
 }
 
 
-void _wrap_Armature__addSlot_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, dragonBones::Slot *_swig_go_1) {
+void _wrap_Armature__addSlot_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, dragonBones::Slot *_swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::Slot *arg2 = (dragonBones::Slot *) 0 ;
   
@@ -5977,7 +5980,7 @@ void _wrap_Armature__addSlot_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_sw
 }
 
 
-void _wrap_Armature__addConstraint_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, dragonBones::Constraint *_swig_go_1) {
+void _wrap_Armature__addConstraint_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, dragonBones::Constraint *_swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::Constraint *arg2 = (dragonBones::Constraint *) 0 ;
   
@@ -5989,7 +5992,7 @@ void _wrap_Armature__addConstraint_wrapper_8547a2e3fc9a516e(dragonBones::Armatur
 }
 
 
-void _wrap_Armature__bufferAction_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, dragonBones::EventObject *_swig_go_1, bool _swig_go_2) {
+void _wrap_Armature__bufferAction_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, dragonBones::EventObject *_swig_go_1, bool _swig_go_2) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::EventObject *arg2 = (dragonBones::EventObject *) 0 ;
   bool arg3 ;
@@ -6003,7 +6006,7 @@ void _wrap_Armature__bufferAction_wrapper_8547a2e3fc9a516e(dragonBones::Armature
 }
 
 
-void _wrap_Armature_dispose_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+void _wrap_Armature_dispose_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   
   arg1 = *(dragonBones::Armature **)&_swig_go_0; 
@@ -6013,7 +6016,7 @@ void _wrap_Armature_dispose_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swi
 }
 
 
-void _wrap_Armature_init_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, dragonBones::ArmatureData *_swig_go_1, dragonBones::IArmatureProxy *_swig_go_2, void *_swig_go_3, dragonBones::DragonBones *_swig_go_4) {
+void _wrap_Armature_init_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, dragonBones::ArmatureData *_swig_go_1, dragonBones::IArmatureProxy *_swig_go_2, void *_swig_go_3, dragonBones::DragonBones *_swig_go_4) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::ArmatureData *arg2 = (dragonBones::ArmatureData *) 0 ;
   dragonBones::IArmatureProxy *arg3 = (dragonBones::IArmatureProxy *) 0 ;
@@ -6031,7 +6034,7 @@ void _wrap_Armature_init_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_g
 }
 
 
-void _wrap_Armature_advanceTime_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, float _swig_go_1) {
+void _wrap_Armature_advanceTime_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, float _swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   float arg2 ;
   
@@ -6043,7 +6046,7 @@ void _wrap_Armature_advanceTime_wrapper_8547a2e3fc9a516e(dragonBones::Armature *
 }
 
 
-void _wrap_Armature_invalidUpdate__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
+void _wrap_Armature_invalidUpdate__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   std::string *arg2 = 0 ;
   bool arg3 ;
@@ -6060,7 +6063,7 @@ void _wrap_Armature_invalidUpdate__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-void _wrap_Armature_invalidUpdate__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_Armature_invalidUpdate__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -6075,7 +6078,7 @@ void _wrap_Armature_invalidUpdate__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-void _wrap_Armature_invalidUpdate__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+void _wrap_Armature_invalidUpdate__SWIG_2_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   
   arg1 = *(dragonBones::Armature **)&_swig_go_0; 
@@ -6085,7 +6088,7 @@ void _wrap_Armature_invalidUpdate__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-dragonBones::Slot *_wrap_Armature_containsPoint_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, float _swig_go_1, float _swig_go_2) {
+dragonBones::Slot *_wrap_Armature_containsPoint_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, float _swig_go_1, float _swig_go_2) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -6102,7 +6105,7 @@ dragonBones::Slot *_wrap_Armature_containsPoint_wrapper_8547a2e3fc9a516e(dragonB
 }
 
 
-dragonBones::Slot *_wrap_Armature_intersectsSegment__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, dragonBones::Point *_swig_go_5, dragonBones::Point *_swig_go_6, dragonBones::Point *_swig_go_7) {
+dragonBones::Slot *_wrap_Armature_intersectsSegment__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, dragonBones::Point *_swig_go_5, dragonBones::Point *_swig_go_6, dragonBones::Point *_swig_go_7) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -6129,7 +6132,7 @@ dragonBones::Slot *_wrap_Armature_intersectsSegment__SWIG_0_wrapper_8547a2e3fc9a
 }
 
 
-dragonBones::Slot *_wrap_Armature_intersectsSegment__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, dragonBones::Point *_swig_go_5, dragonBones::Point *_swig_go_6) {
+dragonBones::Slot *_wrap_Armature_intersectsSegment__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, dragonBones::Point *_swig_go_5, dragonBones::Point *_swig_go_6) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -6154,7 +6157,7 @@ dragonBones::Slot *_wrap_Armature_intersectsSegment__SWIG_1_wrapper_8547a2e3fc9a
 }
 
 
-dragonBones::Slot *_wrap_Armature_intersectsSegment__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, dragonBones::Point *_swig_go_5) {
+dragonBones::Slot *_wrap_Armature_intersectsSegment__SWIG_2_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, dragonBones::Point *_swig_go_5) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -6177,7 +6180,7 @@ dragonBones::Slot *_wrap_Armature_intersectsSegment__SWIG_2_wrapper_8547a2e3fc9a
 }
 
 
-dragonBones::Slot *_wrap_Armature_intersectsSegment__SWIG_3_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4) {
+dragonBones::Slot *_wrap_Armature_intersectsSegment__SWIG_3_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -6198,7 +6201,7 @@ dragonBones::Slot *_wrap_Armature_intersectsSegment__SWIG_3_wrapper_8547a2e3fc9a
 }
 
 
-dragonBones::Bone *_wrap_Armature_getBone_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::Bone *_wrap_Armature_getBone_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::Bone *result = 0 ;
@@ -6216,7 +6219,7 @@ dragonBones::Bone *_wrap_Armature_getBone_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-dragonBones::Bone *_wrap_Armature_getBoneByDisplay_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, void *_swig_go_1) {
+dragonBones::Bone *_wrap_Armature_getBoneByDisplay_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, void *_swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   void *arg2 = (void *) 0 ;
   dragonBones::Bone *result = 0 ;
@@ -6231,7 +6234,7 @@ dragonBones::Bone *_wrap_Armature_getBoneByDisplay_wrapper_8547a2e3fc9a516e(drag
 }
 
 
-dragonBones::Slot *_wrap_Armature_getSlot_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::Slot *_wrap_Armature_getSlot_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::Slot *result = 0 ;
@@ -6249,7 +6252,7 @@ dragonBones::Slot *_wrap_Armature_getSlot_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-dragonBones::Slot *_wrap_Armature_getSlotByDisplay_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, void *_swig_go_1) {
+dragonBones::Slot *_wrap_Armature_getSlotByDisplay_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, void *_swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   void *arg2 = (void *) 0 ;
   dragonBones::Slot *result = 0 ;
@@ -6264,7 +6267,7 @@ dragonBones::Slot *_wrap_Armature_getSlotByDisplay_wrapper_8547a2e3fc9a516e(drag
 }
 
 
-std::vector< dragonBones::Bone * > *_wrap_Armature_getBones_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+std::vector< dragonBones::Bone * > *_wrap_Armature_getBones_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   std::vector< dragonBones::Bone * > *result = 0 ;
   std::vector< dragonBones::Bone * > *_swig_go_result;
@@ -6277,7 +6280,7 @@ std::vector< dragonBones::Bone * > *_wrap_Armature_getBones_wrapper_8547a2e3fc9a
 }
 
 
-std::vector< dragonBones::Slot * > *_wrap_Armature_getSlots_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+std::vector< dragonBones::Slot * > *_wrap_Armature_getSlots_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   std::vector< dragonBones::Slot * > *result = 0 ;
   std::vector< dragonBones::Slot * > *_swig_go_result;
@@ -6290,7 +6293,7 @@ std::vector< dragonBones::Slot * > *_wrap_Armature_getSlots_wrapper_8547a2e3fc9a
 }
 
 
-bool _wrap_Armature_getFlipX_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+bool _wrap_Armature_getFlipX_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -6303,7 +6306,7 @@ bool _wrap_Armature_getFlipX_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_sw
 }
 
 
-void _wrap_Armature_setFlipX_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, bool _swig_go_1) {
+void _wrap_Armature_setFlipX_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, bool _swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   bool arg2 ;
   
@@ -6315,7 +6318,7 @@ void _wrap_Armature_setFlipX_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_sw
 }
 
 
-bool _wrap_Armature_getFlipY_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+bool _wrap_Armature_getFlipY_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -6328,7 +6331,7 @@ bool _wrap_Armature_getFlipY_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_sw
 }
 
 
-void _wrap_Armature_setFlipY_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, bool _swig_go_1) {
+void _wrap_Armature_setFlipY_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, bool _swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   bool arg2 ;
   
@@ -6340,7 +6343,7 @@ void _wrap_Armature_setFlipY_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_sw
 }
 
 
-intgo _wrap_Armature_getCacheFrameRate_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+intgo _wrap_Armature_getCacheFrameRate_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -6353,7 +6356,7 @@ intgo _wrap_Armature_getCacheFrameRate_wrapper_8547a2e3fc9a516e(dragonBones::Arm
 }
 
 
-void _wrap_Armature_setCacheFrameRate_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, intgo _swig_go_1) {
+void _wrap_Armature_setCacheFrameRate_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, intgo _swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   unsigned int arg2 ;
   
@@ -6365,7 +6368,7 @@ void _wrap_Armature_setCacheFrameRate_wrapper_8547a2e3fc9a516e(dragonBones::Arma
 }
 
 
-_gostring_ _wrap_Armature_getName_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+_gostring_ _wrap_Armature_getName_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   std::string *result = 0 ;
   _gostring_ _swig_go_result;
@@ -6378,7 +6381,7 @@ _gostring_ _wrap_Armature_getName_wrapper_8547a2e3fc9a516e(dragonBones::Armature
 }
 
 
-dragonBones::ArmatureData *_wrap_Armature_getArmatureData_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+dragonBones::ArmatureData *_wrap_Armature_getArmatureData_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::ArmatureData *result = 0 ;
   dragonBones::ArmatureData *_swig_go_result;
@@ -6391,7 +6394,7 @@ dragonBones::ArmatureData *_wrap_Armature_getArmatureData_wrapper_8547a2e3fc9a51
 }
 
 
-dragonBones::Animation *_wrap_Armature_getAnimation_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+dragonBones::Animation *_wrap_Armature_getAnimation_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::Animation *result = 0 ;
   dragonBones::Animation *_swig_go_result;
@@ -6404,7 +6407,7 @@ dragonBones::Animation *_wrap_Armature_getAnimation_wrapper_8547a2e3fc9a516e(dra
 }
 
 
-dragonBones::IArmatureProxy *_wrap_Armature_getProxy_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+dragonBones::IArmatureProxy *_wrap_Armature_getProxy_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::IArmatureProxy *result = 0 ;
   dragonBones::IArmatureProxy *_swig_go_result;
@@ -6417,7 +6420,7 @@ dragonBones::IArmatureProxy *_wrap_Armature_getProxy_wrapper_8547a2e3fc9a516e(dr
 }
 
 
-dragonBones::IEventDispatcher *_wrap_Armature_getEventDispatcher_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+dragonBones::IEventDispatcher *_wrap_Armature_getEventDispatcher_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::IEventDispatcher *result = 0 ;
   dragonBones::IEventDispatcher *_swig_go_result;
@@ -6430,7 +6433,7 @@ dragonBones::IEventDispatcher *_wrap_Armature_getEventDispatcher_wrapper_8547a2e
 }
 
 
-void *_wrap_Armature_getDisplay_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+void *_wrap_Armature_getDisplay_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -6443,7 +6446,7 @@ void *_wrap_Armature_getDisplay_wrapper_8547a2e3fc9a516e(dragonBones::Armature *
 }
 
 
-void *_wrap_Armature_getReplacedTexture_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+void *_wrap_Armature_getReplacedTexture_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -6456,7 +6459,7 @@ void *_wrap_Armature_getReplacedTexture_wrapper_8547a2e3fc9a516e(dragonBones::Ar
 }
 
 
-void _wrap_Armature_setReplacedTexture_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, void *_swig_go_1) {
+void _wrap_Armature_setReplacedTexture_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, void *_swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -6468,7 +6471,7 @@ void _wrap_Armature_setReplacedTexture_wrapper_8547a2e3fc9a516e(dragonBones::Arm
 }
 
 
-dragonBones::WorldClock *_wrap_Armature_getClock_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+dragonBones::WorldClock *_wrap_Armature_getClock_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::WorldClock *result = 0 ;
   dragonBones::WorldClock *_swig_go_result;
@@ -6481,7 +6484,7 @@ dragonBones::WorldClock *_wrap_Armature_getClock_wrapper_8547a2e3fc9a516e(dragon
 }
 
 
-void _wrap_Armature_setClock_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0, dragonBones::WorldClock *_swig_go_1) {
+void _wrap_Armature_setClock_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0, dragonBones::WorldClock *_swig_go_1) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::WorldClock *arg2 = (dragonBones::WorldClock *) 0 ;
   
@@ -6493,7 +6496,7 @@ void _wrap_Armature_setClock_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_sw
 }
 
 
-dragonBones::Slot *_wrap_Armature_getParent_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+dragonBones::Slot *_wrap_Armature_getParent_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::Slot *result = 0 ;
   dragonBones::Slot *_swig_go_result;
@@ -6506,7 +6509,7 @@ dragonBones::Slot *_wrap_Armature_getParent_wrapper_8547a2e3fc9a516e(dragonBones
 }
 
 
-dragonBones::IAnimatable *_wrap_Armature_getAnimatable_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+dragonBones::IAnimatable *_wrap_Armature_getAnimatable_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::IAnimatable *result = 0 ;
   dragonBones::IAnimatable *_swig_go_result;
@@ -6519,7 +6522,7 @@ dragonBones::IAnimatable *_wrap_Armature_getAnimatable_wrapper_8547a2e3fc9a516e(
 }
 
 
-void _wrap_Armature_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_go_0, intgo _swig_go_1) {
+void _wrap_Armature_setMaxCount_wrapper_0168c02bcda14bda(long long _swig_go_0, intgo _swig_go_1) {
   std::size_t arg1 ;
   unsigned int arg2 ;
   
@@ -6531,7 +6534,7 @@ void _wrap_Armature_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_go_0, i
 }
 
 
-void _wrap_Armature_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long _swig_go_0) {
+void _wrap_Armature_clearPool__SWIG_0_wrapper_0168c02bcda14bda(long long _swig_go_0) {
   std::size_t arg1 ;
   
   arg1 = (size_t)_swig_go_0; 
@@ -6541,13 +6544,13 @@ void _wrap_Armature_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long _swig_g
 }
 
 
-void _wrap_Armature_clearPool__SWIG_1_wrapper_8547a2e3fc9a516e() {
+void _wrap_Armature_clearPool__SWIG_1_wrapper_0168c02bcda14bda() {
   dragonBones::BaseObject::clearPool();
   
 }
 
 
-intgo _wrap_GetArmature_HashCode_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+intgo _wrap_GetArmature_HashCode_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -6561,7 +6564,7 @@ intgo _wrap_GetArmature_HashCode_wrapper_8547a2e3fc9a516e(dragonBones::Armature 
 }
 
 
-void _wrap_Armature_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+void _wrap_Armature_returnToPool_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   
   arg1 = *(dragonBones::Armature **)&_swig_go_0; 
@@ -6572,7 +6575,7 @@ void _wrap_Armature_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::Armature 
 }
 
 
-dragonBones::Armature *_wrap_Armature_borrowArmatureObject_wrapper_8547a2e3fc9a516e() {
+dragonBones::Armature *_wrap_Armature_borrowArmatureObject_wrapper_0168c02bcda14bda() {
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
   
@@ -6583,7 +6586,7 @@ dragonBones::Armature *_wrap_Armature_borrowArmatureObject_wrapper_8547a2e3fc9a5
 }
 
 
-dragonBones::BaseObject *_wrap_Armature_SwigGetBaseObject_wrapper_8547a2e3fc9a516e(dragonBones::Armature *_swig_go_0) {
+dragonBones::BaseObject *_wrap_Armature_SwigGetBaseObject_wrapper_0168c02bcda14bda(dragonBones::Armature *_swig_go_0) {
   dragonBones::Armature *arg1 = (dragonBones::Armature *) 0 ;
   dragonBones::BaseObject *result = 0 ;
   dragonBones::BaseObject *_swig_go_result;
@@ -6596,7 +6599,7 @@ dragonBones::BaseObject *_wrap_Armature_SwigGetBaseObject_wrapper_8547a2e3fc9a51
 }
 
 
-long long _wrap_DragonBonesData_getTypeIndex_wrapper_8547a2e3fc9a516e() {
+long long _wrap_DragonBonesData_getTypeIndex_wrapper_0168c02bcda14bda() {
   std::size_t result;
   long long _swig_go_result;
   
@@ -6607,7 +6610,7 @@ long long _wrap_DragonBonesData_getTypeIndex_wrapper_8547a2e3fc9a516e() {
 }
 
 
-long long _wrap_DragonBonesData_getClassTypeIndex_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+long long _wrap_DragonBonesData_getClassTypeIndex_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   std::size_t result;
   long long _swig_go_result;
@@ -6620,7 +6623,7 @@ long long _wrap_DragonBonesData_getClassTypeIndex_wrapper_8547a2e3fc9a516e(drago
 }
 
 
-void _wrap_DragonBonesData_autoSearch_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, bool _swig_go_1) {
+void _wrap_DragonBonesData_autoSearch_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, bool _swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   bool arg2 ;
   
@@ -6632,7 +6635,7 @@ void _wrap_DragonBonesData_autoSearch_set_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-bool _wrap_DragonBonesData_autoSearch_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+bool _wrap_DragonBonesData_autoSearch_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -6645,7 +6648,7 @@ bool _wrap_DragonBonesData_autoSearch_get_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-void _wrap_DragonBonesData_frameRate_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, intgo _swig_go_1) {
+void _wrap_DragonBonesData_frameRate_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, intgo _swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   unsigned int arg2 ;
   
@@ -6657,7 +6660,7 @@ void _wrap_DragonBonesData_frameRate_set_wrapper_8547a2e3fc9a516e(dragonBones::D
 }
 
 
-intgo _wrap_DragonBonesData_frameRate_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+intgo _wrap_DragonBonesData_frameRate_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -6670,7 +6673,7 @@ intgo _wrap_DragonBonesData_frameRate_get_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-void _wrap_DragonBonesData_version_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_DragonBonesData_version_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -6685,7 +6688,7 @@ void _wrap_DragonBonesData_version_set_wrapper_8547a2e3fc9a516e(dragonBones::Dra
 }
 
 
-_gostring_ _wrap_DragonBonesData_version_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+_gostring_ _wrap_DragonBonesData_version_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   std::string *result = 0 ;
   _gostring_ _swig_go_result;
@@ -6698,7 +6701,7 @@ _gostring_ _wrap_DragonBonesData_version_get_wrapper_8547a2e3fc9a516e(dragonBone
 }
 
 
-void _wrap_DragonBonesData_name_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_DragonBonesData_name_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -6713,7 +6716,7 @@ void _wrap_DragonBonesData_name_set_wrapper_8547a2e3fc9a516e(dragonBones::Dragon
 }
 
 
-_gostring_ _wrap_DragonBonesData_name_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+_gostring_ _wrap_DragonBonesData_name_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   std::string *result = 0 ;
   _gostring_ _swig_go_result;
@@ -6726,7 +6729,7 @@ _gostring_ _wrap_DragonBonesData_name_get_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-void _wrap_DragonBonesData_frameIndices_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, std::vector< unsigned int > *_swig_go_1) {
+void _wrap_DragonBonesData_frameIndices_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, std::vector< unsigned int > *_swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   std::vector< unsigned int > *arg2 = (std::vector< unsigned int > *) 0 ;
   
@@ -6738,7 +6741,7 @@ void _wrap_DragonBonesData_frameIndices_set_wrapper_8547a2e3fc9a516e(dragonBones
 }
 
 
-std::vector< unsigned int > *_wrap_DragonBonesData_frameIndices_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+std::vector< unsigned int > *_wrap_DragonBonesData_frameIndices_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   std::vector< unsigned int > *result = 0 ;
   std::vector< unsigned int > *_swig_go_result;
@@ -6751,7 +6754,7 @@ std::vector< unsigned int > *_wrap_DragonBonesData_frameIndices_get_wrapper_8547
 }
 
 
-void _wrap_DragonBonesData_cachedFrames_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, std::vector< float > *_swig_go_1) {
+void _wrap_DragonBonesData_cachedFrames_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, std::vector< float > *_swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   std::vector< float > *arg2 = (std::vector< float > *) 0 ;
   
@@ -6763,7 +6766,7 @@ void _wrap_DragonBonesData_cachedFrames_set_wrapper_8547a2e3fc9a516e(dragonBones
 }
 
 
-std::vector< float > *_wrap_DragonBonesData_cachedFrames_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+std::vector< float > *_wrap_DragonBonesData_cachedFrames_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   std::vector< float > *result = 0 ;
   std::vector< float > *_swig_go_result;
@@ -6776,7 +6779,7 @@ std::vector< float > *_wrap_DragonBonesData_cachedFrames_get_wrapper_8547a2e3fc9
 }
 
 
-void _wrap_DragonBonesData_armatureNames_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, std::vector< std::string > *_swig_go_1) {
+void _wrap_DragonBonesData_armatureNames_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, std::vector< std::string > *_swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   std::vector< std::string > *arg2 = (std::vector< std::string > *) 0 ;
   
@@ -6788,7 +6791,7 @@ void _wrap_DragonBonesData_armatureNames_set_wrapper_8547a2e3fc9a516e(dragonBone
 }
 
 
-std::vector< std::string > *_wrap_DragonBonesData_armatureNames_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+std::vector< std::string > *_wrap_DragonBonesData_armatureNames_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   std::vector< std::string > *result = 0 ;
   std::vector< std::string > *_swig_go_result;
@@ -6801,7 +6804,7 @@ std::vector< std::string > *_wrap_DragonBonesData_armatureNames_get_wrapper_8547
 }
 
 
-void _wrap_DragonBonesData_armatures_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, std::map< std::string,dragonBones::ArmatureData *,std::less< std::string > > *_swig_go_1) {
+void _wrap_DragonBonesData_armatures_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, std::map< std::string,dragonBones::ArmatureData *,std::less< std::string > > *_swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   std::map< std::string,dragonBones::ArmatureData *,std::less< std::string > > *arg2 = (std::map< std::string,dragonBones::ArmatureData *,std::less< std::string > > *) 0 ;
   
@@ -6813,7 +6816,7 @@ void _wrap_DragonBonesData_armatures_set_wrapper_8547a2e3fc9a516e(dragonBones::D
 }
 
 
-std::map< std::string,dragonBones::ArmatureData *,std::less< std::string > > *_wrap_DragonBonesData_armatures_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+std::map< std::string,dragonBones::ArmatureData *,std::less< std::string > > *_wrap_DragonBonesData_armatures_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   std::map< std::string,dragonBones::ArmatureData *,std::less< std::string > > *result = 0 ;
   std::map< std::string,dragonBones::ArmatureData *,std::less< std::string > > *_swig_go_result;
@@ -6826,7 +6829,7 @@ std::map< std::string,dragonBones::ArmatureData *,std::less< std::string > > *_w
 }
 
 
-void _wrap_DragonBonesData_binary_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_DragonBonesData_binary_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -6850,7 +6853,7 @@ void _wrap_DragonBonesData_binary_set_wrapper_8547a2e3fc9a516e(dragonBones::Drag
 }
 
 
-_gostring_ _wrap_DragonBonesData_binary_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+_gostring_ _wrap_DragonBonesData_binary_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -6863,7 +6866,7 @@ _gostring_ _wrap_DragonBonesData_binary_get_wrapper_8547a2e3fc9a516e(dragonBones
 }
 
 
-void _wrap_DragonBonesData_intArray_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, int16_t *_swig_go_1) {
+void _wrap_DragonBonesData_intArray_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, int16_t *_swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   int16_t *arg2 = (int16_t *) 0 ;
   
@@ -6875,7 +6878,7 @@ void _wrap_DragonBonesData_intArray_set_wrapper_8547a2e3fc9a516e(dragonBones::Dr
 }
 
 
-int16_t *_wrap_DragonBonesData_intArray_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+int16_t *_wrap_DragonBonesData_intArray_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   int16_t *result = 0 ;
   int16_t *_swig_go_result;
@@ -6888,7 +6891,7 @@ int16_t *_wrap_DragonBonesData_intArray_get_wrapper_8547a2e3fc9a516e(dragonBones
 }
 
 
-void _wrap_DragonBonesData_floatArray_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, float *_swig_go_1) {
+void _wrap_DragonBonesData_floatArray_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, float *_swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -6900,7 +6903,7 @@ void _wrap_DragonBonesData_floatArray_set_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-float *_wrap_DragonBonesData_floatArray_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+float *_wrap_DragonBonesData_floatArray_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   float *result = 0 ;
   float *_swig_go_result;
@@ -6913,7 +6916,7 @@ float *_wrap_DragonBonesData_floatArray_get_wrapper_8547a2e3fc9a516e(dragonBones
 }
 
 
-void _wrap_DragonBonesData_frameIntArray_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, int16_t *_swig_go_1) {
+void _wrap_DragonBonesData_frameIntArray_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, int16_t *_swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   int16_t *arg2 = (int16_t *) 0 ;
   
@@ -6925,7 +6928,7 @@ void _wrap_DragonBonesData_frameIntArray_set_wrapper_8547a2e3fc9a516e(dragonBone
 }
 
 
-int16_t *_wrap_DragonBonesData_frameIntArray_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+int16_t *_wrap_DragonBonesData_frameIntArray_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   int16_t *result = 0 ;
   int16_t *_swig_go_result;
@@ -6938,7 +6941,7 @@ int16_t *_wrap_DragonBonesData_frameIntArray_get_wrapper_8547a2e3fc9a516e(dragon
 }
 
 
-void _wrap_DragonBonesData_frameFloatArray_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, float *_swig_go_1) {
+void _wrap_DragonBonesData_frameFloatArray_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, float *_swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -6950,7 +6953,7 @@ void _wrap_DragonBonesData_frameFloatArray_set_wrapper_8547a2e3fc9a516e(dragonBo
 }
 
 
-float *_wrap_DragonBonesData_frameFloatArray_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+float *_wrap_DragonBonesData_frameFloatArray_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   float *result = 0 ;
   float *_swig_go_result;
@@ -6963,7 +6966,7 @@ float *_wrap_DragonBonesData_frameFloatArray_get_wrapper_8547a2e3fc9a516e(dragon
 }
 
 
-void _wrap_DragonBonesData_frameArray_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, int16_t *_swig_go_1) {
+void _wrap_DragonBonesData_frameArray_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, int16_t *_swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   int16_t *arg2 = (int16_t *) 0 ;
   
@@ -6975,7 +6978,7 @@ void _wrap_DragonBonesData_frameArray_set_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-int16_t *_wrap_DragonBonesData_frameArray_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+int16_t *_wrap_DragonBonesData_frameArray_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   int16_t *result = 0 ;
   int16_t *_swig_go_result;
@@ -6988,7 +6991,7 @@ int16_t *_wrap_DragonBonesData_frameArray_get_wrapper_8547a2e3fc9a516e(dragonBon
 }
 
 
-void _wrap_DragonBonesData_timelineArray_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, uint16_t *_swig_go_1) {
+void _wrap_DragonBonesData_timelineArray_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, uint16_t *_swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   uint16_t *arg2 = (uint16_t *) 0 ;
   
@@ -7000,7 +7003,7 @@ void _wrap_DragonBonesData_timelineArray_set_wrapper_8547a2e3fc9a516e(dragonBone
 }
 
 
-uint16_t *_wrap_DragonBonesData_timelineArray_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+uint16_t *_wrap_DragonBonesData_timelineArray_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   uint16_t *result = 0 ;
   uint16_t *_swig_go_result;
@@ -7013,7 +7016,7 @@ uint16_t *_wrap_DragonBonesData_timelineArray_get_wrapper_8547a2e3fc9a516e(drago
 }
 
 
-void _wrap_DragonBonesData_userData_set_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, dragonBones::UserData *_swig_go_1) {
+void _wrap_DragonBonesData_userData_set_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, dragonBones::UserData *_swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   dragonBones::UserData *arg2 = (dragonBones::UserData *) 0 ;
   
@@ -7025,7 +7028,7 @@ void _wrap_DragonBonesData_userData_set_wrapper_8547a2e3fc9a516e(dragonBones::Dr
 }
 
 
-dragonBones::UserData *_wrap_DragonBonesData_userData_get_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+dragonBones::UserData *_wrap_DragonBonesData_userData_get_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   dragonBones::UserData *result = 0 ;
   dragonBones::UserData *_swig_go_result;
@@ -7038,7 +7041,7 @@ dragonBones::UserData *_wrap_DragonBonesData_userData_get_wrapper_8547a2e3fc9a51
 }
 
 
-dragonBones::DragonBonesData *_wrap_new_DragonBonesData_wrapper_8547a2e3fc9a516e() {
+dragonBones::DragonBonesData *_wrap_new_DragonBonesData_wrapper_0168c02bcda14bda() {
   dragonBones::DragonBonesData *result = 0 ;
   dragonBones::DragonBonesData *_swig_go_result;
   
@@ -7049,7 +7052,7 @@ dragonBones::DragonBonesData *_wrap_new_DragonBonesData_wrapper_8547a2e3fc9a516e
 }
 
 
-void _wrap_delete_DragonBonesData_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+void _wrap_delete_DragonBonesData_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   
   arg1 = *(dragonBones::DragonBonesData **)&_swig_go_0; 
@@ -7059,7 +7062,7 @@ void _wrap_delete_DragonBonesData_wrapper_8547a2e3fc9a516e(dragonBones::DragonBo
 }
 
 
-void _wrap_DragonBonesData_addArmature_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, dragonBones::ArmatureData *_swig_go_1) {
+void _wrap_DragonBonesData_addArmature_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, dragonBones::ArmatureData *_swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   dragonBones::ArmatureData *arg2 = (dragonBones::ArmatureData *) 0 ;
   
@@ -7071,7 +7074,7 @@ void _wrap_DragonBonesData_addArmature_wrapper_8547a2e3fc9a516e(dragonBones::Dra
 }
 
 
-dragonBones::ArmatureData *_wrap_DragonBonesData_getArmature_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::ArmatureData *_wrap_DragonBonesData_getArmature_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::ArmatureData *result = 0 ;
@@ -7089,7 +7092,7 @@ dragonBones::ArmatureData *_wrap_DragonBonesData_getArmature_wrapper_8547a2e3fc9
 }
 
 
-void _wrap_DragonBonesData_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_go_0, intgo _swig_go_1) {
+void _wrap_DragonBonesData_setMaxCount_wrapper_0168c02bcda14bda(long long _swig_go_0, intgo _swig_go_1) {
   std::size_t arg1 ;
   unsigned int arg2 ;
   
@@ -7101,7 +7104,7 @@ void _wrap_DragonBonesData_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_
 }
 
 
-void _wrap_DragonBonesData_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long _swig_go_0) {
+void _wrap_DragonBonesData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(long long _swig_go_0) {
   std::size_t arg1 ;
   
   arg1 = (size_t)_swig_go_0; 
@@ -7111,13 +7114,13 @@ void _wrap_DragonBonesData_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long 
 }
 
 
-void _wrap_DragonBonesData_clearPool__SWIG_1_wrapper_8547a2e3fc9a516e() {
+void _wrap_DragonBonesData_clearPool__SWIG_1_wrapper_0168c02bcda14bda() {
   dragonBones::BaseObject::clearPool();
   
 }
 
 
-intgo _wrap_GetDragonBonesData_HashCode_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+intgo _wrap_GetDragonBonesData_HashCode_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -7131,7 +7134,7 @@ intgo _wrap_GetDragonBonesData_HashCode_wrapper_8547a2e3fc9a516e(dragonBones::Dr
 }
 
 
-void _wrap_DragonBonesData_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::DragonBonesData *_swig_go_0) {
+void _wrap_DragonBonesData_returnToPool_wrapper_0168c02bcda14bda(dragonBones::DragonBonesData *_swig_go_0) {
   dragonBones::DragonBonesData *arg1 = (dragonBones::DragonBonesData *) 0 ;
   
   arg1 = *(dragonBones::DragonBonesData **)&_swig_go_0; 
@@ -7142,7 +7145,7 @@ void _wrap_DragonBonesData_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::Dr
 }
 
 
-dragonBones::Armature *_wrap_DragonBonesData_borrowArmatureObject_wrapper_8547a2e3fc9a516e() {
+dragonBones::Armature *_wrap_DragonBonesData_borrowArmatureObject_wrapper_0168c02bcda14bda() {
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
   
@@ -7153,7 +7156,7 @@ dragonBones::Armature *_wrap_DragonBonesData_borrowArmatureObject_wrapper_8547a2
 }
 
 
-dragonBones::TextureAtlasData *_wrap__swig_NewDirectorTextureAtlasDataTextureAtlasData_wrapper_8547a2e3fc9a516e(intgo _swig_go_0) {
+dragonBones::TextureAtlasData *_wrap__swig_NewDirectorTextureAtlasDataTextureAtlasData_wrapper_0168c02bcda14bda(intgo _swig_go_0) {
   int arg1 ;
   dragonBones::TextureAtlasData *result = 0 ;
   dragonBones::TextureAtlasData *_swig_go_result;
@@ -7166,7 +7169,7 @@ dragonBones::TextureAtlasData *_wrap__swig_NewDirectorTextureAtlasDataTextureAtl
 }
 
 
-void _wrap_DeleteDirectorTextureAtlasData_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0) {
+void _wrap_DeleteDirectorTextureAtlasData_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   
   arg1 = *(dragonBones::TextureAtlasData **)&_swig_go_0; 
@@ -7176,7 +7179,7 @@ void _wrap_DeleteDirectorTextureAtlasData_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-void _wrap__swig_DirectorTextureAtlasData_upcall_X_onClear_wrapper_8547a2e3fc9a516e(SwigDirector_TextureAtlasData *_swig_go_0) {
+void _wrap__swig_DirectorTextureAtlasData_upcall_X_onClear_wrapper_0168c02bcda14bda(SwigDirector_TextureAtlasData *_swig_go_0) {
   SwigDirector_TextureAtlasData *arg1 = (SwigDirector_TextureAtlasData *) 0 ;
   SwigDirector_TextureAtlasData *darg = 0;
   
@@ -7188,7 +7191,7 @@ void _wrap__swig_DirectorTextureAtlasData_upcall_X_onClear_wrapper_8547a2e3fc9a5
 }
 
 
-void _wrap__swig_DirectorTextureAtlasData_upcall_AddTexture_wrapper_8547a2e3fc9a516e(SwigDirector_TextureAtlasData *_swig_go_0, dragonBones::TextureData *_swig_go_1) {
+void _wrap__swig_DirectorTextureAtlasData_upcall_AddTexture_wrapper_0168c02bcda14bda(SwigDirector_TextureAtlasData *_swig_go_0, dragonBones::TextureData *_swig_go_1) {
   SwigDirector_TextureAtlasData *arg1 = (SwigDirector_TextureAtlasData *) 0 ;
   dragonBones::TextureData *arg2 = (dragonBones::TextureData *) 0 ;
   
@@ -7200,7 +7203,7 @@ void _wrap__swig_DirectorTextureAtlasData_upcall_AddTexture_wrapper_8547a2e3fc9a
 }
 
 
-void _wrap_delete_TextureAtlasData_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0) {
+void _wrap_delete_TextureAtlasData_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   
   arg1 = *(dragonBones::TextureAtlasData **)&_swig_go_0; 
@@ -7210,7 +7213,7 @@ void _wrap_delete_TextureAtlasData_wrapper_8547a2e3fc9a516e(dragonBones::Texture
 }
 
 
-void _wrap_TextureAtlasData_autoSearch_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0, bool _swig_go_1) {
+void _wrap_TextureAtlasData_autoSearch_set_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0, bool _swig_go_1) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   bool arg2 ;
   
@@ -7222,7 +7225,7 @@ void _wrap_TextureAtlasData_autoSearch_set_wrapper_8547a2e3fc9a516e(dragonBones:
 }
 
 
-bool _wrap_TextureAtlasData_autoSearch_get_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0) {
+bool _wrap_TextureAtlasData_autoSearch_get_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7235,7 +7238,7 @@ bool _wrap_TextureAtlasData_autoSearch_get_wrapper_8547a2e3fc9a516e(dragonBones:
 }
 
 
-void _wrap_TextureAtlasData_format_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TextureAtlasData_format_set_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0, intgo _swig_go_1) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   dragonBones::TextureFormat arg2 ;
   
@@ -7247,7 +7250,7 @@ void _wrap_TextureAtlasData_format_set_wrapper_8547a2e3fc9a516e(dragonBones::Tex
 }
 
 
-intgo _wrap_TextureAtlasData_format_get_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0) {
+intgo _wrap_TextureAtlasData_format_get_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   dragonBones::TextureFormat result;
   intgo _swig_go_result;
@@ -7260,7 +7263,7 @@ intgo _wrap_TextureAtlasData_format_get_wrapper_8547a2e3fc9a516e(dragonBones::Te
 }
 
 
-void _wrap_TextureAtlasData_width_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TextureAtlasData_width_set_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0, intgo _swig_go_1) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   unsigned int arg2 ;
   
@@ -7272,7 +7275,7 @@ void _wrap_TextureAtlasData_width_set_wrapper_8547a2e3fc9a516e(dragonBones::Text
 }
 
 
-intgo _wrap_TextureAtlasData_width_get_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0) {
+intgo _wrap_TextureAtlasData_width_get_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -7285,7 +7288,7 @@ intgo _wrap_TextureAtlasData_width_get_wrapper_8547a2e3fc9a516e(dragonBones::Tex
 }
 
 
-void _wrap_TextureAtlasData_height_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TextureAtlasData_height_set_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0, intgo _swig_go_1) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   unsigned int arg2 ;
   
@@ -7297,7 +7300,7 @@ void _wrap_TextureAtlasData_height_set_wrapper_8547a2e3fc9a516e(dragonBones::Tex
 }
 
 
-intgo _wrap_TextureAtlasData_height_get_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0) {
+intgo _wrap_TextureAtlasData_height_get_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -7310,7 +7313,7 @@ intgo _wrap_TextureAtlasData_height_get_wrapper_8547a2e3fc9a516e(dragonBones::Te
 }
 
 
-void _wrap_TextureAtlasData_scale_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0, float _swig_go_1) {
+void _wrap_TextureAtlasData_scale_set_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0, float _swig_go_1) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   float arg2 ;
   
@@ -7322,7 +7325,7 @@ void _wrap_TextureAtlasData_scale_set_wrapper_8547a2e3fc9a516e(dragonBones::Text
 }
 
 
-float _wrap_TextureAtlasData_scale_get_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0) {
+float _wrap_TextureAtlasData_scale_get_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   float result;
   float _swig_go_result;
@@ -7335,7 +7338,7 @@ float _wrap_TextureAtlasData_scale_get_wrapper_8547a2e3fc9a516e(dragonBones::Tex
 }
 
 
-void _wrap_TextureAtlasData_name_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_TextureAtlasData_name_set_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -7350,7 +7353,7 @@ void _wrap_TextureAtlasData_name_set_wrapper_8547a2e3fc9a516e(dragonBones::Textu
 }
 
 
-_gostring_ _wrap_TextureAtlasData_name_get_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0) {
+_gostring_ _wrap_TextureAtlasData_name_get_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   std::string *result = 0 ;
   _gostring_ _swig_go_result;
@@ -7363,7 +7366,7 @@ _gostring_ _wrap_TextureAtlasData_name_get_wrapper_8547a2e3fc9a516e(dragonBones:
 }
 
 
-void _wrap_TextureAtlasData_imagePath_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_TextureAtlasData_imagePath_set_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -7378,7 +7381,7 @@ void _wrap_TextureAtlasData_imagePath_set_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-_gostring_ _wrap_TextureAtlasData_imagePath_get_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0) {
+_gostring_ _wrap_TextureAtlasData_imagePath_get_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   std::string *result = 0 ;
   _gostring_ _swig_go_result;
@@ -7391,7 +7394,7 @@ _gostring_ _wrap_TextureAtlasData_imagePath_get_wrapper_8547a2e3fc9a516e(dragonB
 }
 
 
-void _wrap_TextureAtlasData_textures_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0, std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_1) {
+void _wrap_TextureAtlasData_textures_set_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0, std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_1) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *arg2 = (std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *) 0 ;
   
@@ -7403,7 +7406,7 @@ void _wrap_TextureAtlasData_textures_set_wrapper_8547a2e3fc9a516e(dragonBones::T
 }
 
 
-std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_wrap_TextureAtlasData_textures_get_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0) {
+std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_wrap_TextureAtlasData_textures_get_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *result = 0 ;
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_result;
@@ -7416,7 +7419,7 @@ std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_wr
 }
 
 
-void _wrap_TextureAtlasData_copyFrom_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0, dragonBones::TextureAtlasData *_swig_go_1) {
+void _wrap_TextureAtlasData_copyFrom_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0, dragonBones::TextureAtlasData *_swig_go_1) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   dragonBones::TextureAtlasData *arg2 = 0 ;
   
@@ -7428,7 +7431,7 @@ void _wrap_TextureAtlasData_copyFrom_wrapper_8547a2e3fc9a516e(dragonBones::Textu
 }
 
 
-dragonBones::TextureData *_wrap_TextureAtlasData_createTexture_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0) {
+dragonBones::TextureData *_wrap_TextureAtlasData_createTexture_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   dragonBones::TextureData *result = 0 ;
   dragonBones::TextureData *_swig_go_result;
@@ -7441,7 +7444,7 @@ dragonBones::TextureData *_wrap_TextureAtlasData_createTexture_wrapper_8547a2e3f
 }
 
 
-void _wrap_TextureAtlasData_addTexture_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0, dragonBones::TextureData *_swig_go_1) {
+void _wrap_TextureAtlasData_addTexture_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0, dragonBones::TextureData *_swig_go_1) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   dragonBones::TextureData *arg2 = (dragonBones::TextureData *) 0 ;
   
@@ -7453,7 +7456,7 @@ void _wrap_TextureAtlasData_addTexture_wrapper_8547a2e3fc9a516e(dragonBones::Tex
 }
 
 
-dragonBones::TextureData *_wrap_TextureAtlasData_getTexture_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::TextureData *_wrap_TextureAtlasData_getTexture_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::TextureData *result = 0 ;
@@ -7471,7 +7474,7 @@ dragonBones::TextureData *_wrap_TextureAtlasData_getTexture_wrapper_8547a2e3fc9a
 }
 
 
-void _wrap_TextureAtlasData_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_go_0, intgo _swig_go_1) {
+void _wrap_TextureAtlasData_setMaxCount_wrapper_0168c02bcda14bda(long long _swig_go_0, intgo _swig_go_1) {
   std::size_t arg1 ;
   unsigned int arg2 ;
   
@@ -7483,7 +7486,7 @@ void _wrap_TextureAtlasData_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig
 }
 
 
-void _wrap_TextureAtlasData_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long _swig_go_0) {
+void _wrap_TextureAtlasData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(long long _swig_go_0) {
   std::size_t arg1 ;
   
   arg1 = (size_t)_swig_go_0; 
@@ -7493,13 +7496,13 @@ void _wrap_TextureAtlasData_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long
 }
 
 
-void _wrap_TextureAtlasData_clearPool__SWIG_1_wrapper_8547a2e3fc9a516e() {
+void _wrap_TextureAtlasData_clearPool__SWIG_1_wrapper_0168c02bcda14bda() {
   dragonBones::BaseObject::clearPool();
   
 }
 
 
-intgo _wrap_GetTextureAtlasData_HashCode_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0) {
+intgo _wrap_GetTextureAtlasData_HashCode_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -7513,7 +7516,7 @@ intgo _wrap_GetTextureAtlasData_HashCode_wrapper_8547a2e3fc9a516e(dragonBones::T
 }
 
 
-long long _wrap_TextureAtlasData_getClassTypeIndex_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0) {
+long long _wrap_TextureAtlasData_getClassTypeIndex_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   std::size_t result;
   long long _swig_go_result;
@@ -7527,7 +7530,7 @@ long long _wrap_TextureAtlasData_getClassTypeIndex_wrapper_8547a2e3fc9a516e(drag
 }
 
 
-void _wrap_TextureAtlasData_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::TextureAtlasData *_swig_go_0) {
+void _wrap_TextureAtlasData_returnToPool_wrapper_0168c02bcda14bda(dragonBones::TextureAtlasData *_swig_go_0) {
   dragonBones::TextureAtlasData *arg1 = (dragonBones::TextureAtlasData *) 0 ;
   
   arg1 = *(dragonBones::TextureAtlasData **)&_swig_go_0; 
@@ -7538,7 +7541,7 @@ void _wrap_TextureAtlasData_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::T
 }
 
 
-dragonBones::Armature *_wrap_TextureAtlasData_borrowArmatureObject_wrapper_8547a2e3fc9a516e() {
+dragonBones::Armature *_wrap_TextureAtlasData_borrowArmatureObject_wrapper_0168c02bcda14bda() {
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
   
@@ -7549,7 +7552,7 @@ dragonBones::Armature *_wrap_TextureAtlasData_borrowArmatureObject_wrapper_8547a
 }
 
 
-dragonBones::TextureData *_wrap__swig_NewDirectorTextureDataTextureData_wrapper_8547a2e3fc9a516e(intgo _swig_go_0) {
+dragonBones::TextureData *_wrap__swig_NewDirectorTextureDataTextureData_wrapper_0168c02bcda14bda(intgo _swig_go_0) {
   int arg1 ;
   dragonBones::TextureData *result = 0 ;
   dragonBones::TextureData *_swig_go_result;
@@ -7562,7 +7565,7 @@ dragonBones::TextureData *_wrap__swig_NewDirectorTextureDataTextureData_wrapper_
 }
 
 
-void _wrap_DeleteDirectorTextureData_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0) {
+void _wrap_DeleteDirectorTextureData_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   
   arg1 = *(dragonBones::TextureData **)&_swig_go_0; 
@@ -7572,7 +7575,7 @@ void _wrap_DeleteDirectorTextureData_wrapper_8547a2e3fc9a516e(dragonBones::Textu
 }
 
 
-void _wrap__swig_DirectorTextureData_upcall_X_onClear_wrapper_8547a2e3fc9a516e(SwigDirector_TextureData *_swig_go_0) {
+void _wrap__swig_DirectorTextureData_upcall_X_onClear_wrapper_0168c02bcda14bda(SwigDirector_TextureData *_swig_go_0) {
   SwigDirector_TextureData *arg1 = (SwigDirector_TextureData *) 0 ;
   SwigDirector_TextureData *darg = 0;
   
@@ -7584,7 +7587,7 @@ void _wrap__swig_DirectorTextureData_upcall_X_onClear_wrapper_8547a2e3fc9a516e(S
 }
 
 
-dragonBones::Rectangle *_wrap_TextureData_createRectangle_wrapper_8547a2e3fc9a516e() {
+dragonBones::Rectangle *_wrap_TextureData_createRectangle_wrapper_0168c02bcda14bda() {
   dragonBones::Rectangle *result = 0 ;
   dragonBones::Rectangle *_swig_go_result;
   
@@ -7595,7 +7598,7 @@ dragonBones::Rectangle *_wrap_TextureData_createRectangle_wrapper_8547a2e3fc9a51
 }
 
 
-void _wrap_TextureData_rotated_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0, bool _swig_go_1) {
+void _wrap_TextureData_rotated_set_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0, bool _swig_go_1) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   bool arg2 ;
   
@@ -7607,7 +7610,7 @@ void _wrap_TextureData_rotated_set_wrapper_8547a2e3fc9a516e(dragonBones::Texture
 }
 
 
-bool _wrap_TextureData_rotated_get_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0) {
+bool _wrap_TextureData_rotated_get_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7620,7 +7623,7 @@ bool _wrap_TextureData_rotated_get_wrapper_8547a2e3fc9a516e(dragonBones::Texture
 }
 
 
-void _wrap_TextureData_name_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_TextureData_name_set_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -7635,7 +7638,7 @@ void _wrap_TextureData_name_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureDat
 }
 
 
-_gostring_ _wrap_TextureData_name_get_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0) {
+_gostring_ _wrap_TextureData_name_get_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   std::string *result = 0 ;
   _gostring_ _swig_go_result;
@@ -7648,7 +7651,7 @@ _gostring_ _wrap_TextureData_name_get_wrapper_8547a2e3fc9a516e(dragonBones::Text
 }
 
 
-void _wrap_TextureData_region_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0, dragonBones::Rectangle *_swig_go_1) {
+void _wrap_TextureData_region_set_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0, dragonBones::Rectangle *_swig_go_1) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   dragonBones::Rectangle *arg2 = (dragonBones::Rectangle *) 0 ;
   
@@ -7660,7 +7663,7 @@ void _wrap_TextureData_region_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureD
 }
 
 
-dragonBones::Rectangle *_wrap_TextureData_region_get_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0) {
+dragonBones::Rectangle *_wrap_TextureData_region_get_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   dragonBones::Rectangle *result = 0 ;
   dragonBones::Rectangle *_swig_go_result;
@@ -7673,7 +7676,7 @@ dragonBones::Rectangle *_wrap_TextureData_region_get_wrapper_8547a2e3fc9a516e(dr
 }
 
 
-void _wrap_TextureData_frame_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0, dragonBones::Rectangle *_swig_go_1) {
+void _wrap_TextureData_frame_set_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0, dragonBones::Rectangle *_swig_go_1) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   dragonBones::Rectangle *arg2 = (dragonBones::Rectangle *) 0 ;
   
@@ -7685,7 +7688,7 @@ void _wrap_TextureData_frame_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureDa
 }
 
 
-dragonBones::Rectangle *_wrap_TextureData_frame_get_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0) {
+dragonBones::Rectangle *_wrap_TextureData_frame_get_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   dragonBones::Rectangle *result = 0 ;
   dragonBones::Rectangle *_swig_go_result;
@@ -7698,7 +7701,7 @@ dragonBones::Rectangle *_wrap_TextureData_frame_get_wrapper_8547a2e3fc9a516e(dra
 }
 
 
-void _wrap_TextureData_parent_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0, dragonBones::TextureAtlasData *_swig_go_1) {
+void _wrap_TextureData_parent_set_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0, dragonBones::TextureAtlasData *_swig_go_1) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   dragonBones::TextureAtlasData *arg2 = (dragonBones::TextureAtlasData *) 0 ;
   
@@ -7710,7 +7713,7 @@ void _wrap_TextureData_parent_set_wrapper_8547a2e3fc9a516e(dragonBones::TextureD
 }
 
 
-dragonBones::TextureAtlasData *_wrap_TextureData_parent_get_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0) {
+dragonBones::TextureAtlasData *_wrap_TextureData_parent_get_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   dragonBones::TextureAtlasData *result = 0 ;
   dragonBones::TextureAtlasData *_swig_go_result;
@@ -7723,7 +7726,7 @@ dragonBones::TextureAtlasData *_wrap_TextureData_parent_get_wrapper_8547a2e3fc9a
 }
 
 
-void _wrap_delete_TextureData_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0) {
+void _wrap_delete_TextureData_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   
   arg1 = *(dragonBones::TextureData **)&_swig_go_0; 
@@ -7733,7 +7736,7 @@ void _wrap_delete_TextureData_wrapper_8547a2e3fc9a516e(dragonBones::TextureData 
 }
 
 
-void _wrap_TextureData_copyFrom_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0, dragonBones::TextureData *_swig_go_1) {
+void _wrap_TextureData_copyFrom_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0, dragonBones::TextureData *_swig_go_1) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   dragonBones::TextureData *arg2 = 0 ;
   
@@ -7745,7 +7748,7 @@ void _wrap_TextureData_copyFrom_wrapper_8547a2e3fc9a516e(dragonBones::TextureDat
 }
 
 
-void _wrap_TextureData_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_go_0, intgo _swig_go_1) {
+void _wrap_TextureData_setMaxCount_wrapper_0168c02bcda14bda(long long _swig_go_0, intgo _swig_go_1) {
   std::size_t arg1 ;
   unsigned int arg2 ;
   
@@ -7757,7 +7760,7 @@ void _wrap_TextureData_setMaxCount_wrapper_8547a2e3fc9a516e(long long _swig_go_0
 }
 
 
-void _wrap_TextureData_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long _swig_go_0) {
+void _wrap_TextureData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(long long _swig_go_0) {
   std::size_t arg1 ;
   
   arg1 = (size_t)_swig_go_0; 
@@ -7767,13 +7770,13 @@ void _wrap_TextureData_clearPool__SWIG_0_wrapper_8547a2e3fc9a516e(long long _swi
 }
 
 
-void _wrap_TextureData_clearPool__SWIG_1_wrapper_8547a2e3fc9a516e() {
+void _wrap_TextureData_clearPool__SWIG_1_wrapper_0168c02bcda14bda() {
   dragonBones::BaseObject::clearPool();
   
 }
 
 
-intgo _wrap_GetTextureData_HashCode_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0) {
+intgo _wrap_GetTextureData_HashCode_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -7787,7 +7790,7 @@ intgo _wrap_GetTextureData_HashCode_wrapper_8547a2e3fc9a516e(dragonBones::Textur
 }
 
 
-long long _wrap_TextureData_getClassTypeIndex_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0) {
+long long _wrap_TextureData_getClassTypeIndex_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   std::size_t result;
   long long _swig_go_result;
@@ -7801,7 +7804,7 @@ long long _wrap_TextureData_getClassTypeIndex_wrapper_8547a2e3fc9a516e(dragonBon
 }
 
 
-void _wrap_TextureData_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::TextureData *_swig_go_0) {
+void _wrap_TextureData_returnToPool_wrapper_0168c02bcda14bda(dragonBones::TextureData *_swig_go_0) {
   dragonBones::TextureData *arg1 = (dragonBones::TextureData *) 0 ;
   
   arg1 = *(dragonBones::TextureData **)&_swig_go_0; 
@@ -7812,7 +7815,7 @@ void _wrap_TextureData_returnToPool_wrapper_8547a2e3fc9a516e(dragonBones::Textur
 }
 
 
-dragonBones::Armature *_wrap_TextureData_borrowArmatureObject_wrapper_8547a2e3fc9a516e() {
+dragonBones::Armature *_wrap_TextureData_borrowArmatureObject_wrapper_0168c02bcda14bda() {
   dragonBones::Armature *result = 0 ;
   dragonBones::Armature *_swig_go_result;
   
@@ -7823,7 +7826,1609 @@ dragonBones::Armature *_wrap_TextureData_borrowArmatureObject_wrapper_8547a2e3fc
 }
 
 
-dragonBones::BaseFactory *_wrap__swig_NewDirectorBaseFactoryBaseFactory__SWIG_0_wrapper_8547a2e3fc9a516e(intgo _swig_go_0, dragonBones::DataParser *_swig_go_1) {
+long long _wrap_ArmatureData_getTypeIndex_wrapper_0168c02bcda14bda() {
+  std::size_t result;
+  long long _swig_go_result;
+  
+  
+  result = dragonBones::ArmatureData::getTypeIndex();
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+long long _wrap_ArmatureData_getClassTypeIndex_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::size_t result;
+  long long _swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = ((dragonBones::ArmatureData const *)arg1)->getClassTypeIndex();
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_Xtype_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, intgo _swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::ArmatureType arg2 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = (dragonBones::ArmatureType)_swig_go_1; 
+  
+  if (arg1) (arg1)->type = arg2;
+  
+}
+
+
+intgo _wrap_ArmatureData_Xtype_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::ArmatureType result;
+  intgo _swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (dragonBones::ArmatureType) ((arg1)->type);
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_frameRate_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, intgo _swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->frameRate = arg2;
+  
+}
+
+
+intgo _wrap_ArmatureData_frameRate_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->frameRate);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_cacheFrameRate_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, intgo _swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->cacheFrameRate = arg2;
+  
+}
+
+
+intgo _wrap_ArmatureData_cacheFrameRate_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->cacheFrameRate);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_scale_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, float _swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->scale = arg2;
+  
+}
+
+
+float _wrap_ArmatureData_scale_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->scale);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_name_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, _gostring_ _swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::string *arg2 = 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
+  
+  if (arg1) (arg1)->name = *arg2;
+  
+}
+
+
+_gostring_ _wrap_ArmatureData_name_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::string *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (std::string *) & ((arg1)->name);
+  _swig_go_result = Swig_AllocateString((*result).data(), (*result).length()); 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_aabb_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, dragonBones::Rectangle *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::Rectangle *arg2 = (dragonBones::Rectangle *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(dragonBones::Rectangle **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->aabb = *arg2;
+  
+}
+
+
+dragonBones::Rectangle *_wrap_ArmatureData_aabb_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::Rectangle *result = 0 ;
+  dragonBones::Rectangle *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (dragonBones::Rectangle *)& ((arg1)->aabb);
+  *(dragonBones::Rectangle **)&_swig_go_result = (dragonBones::Rectangle *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_animationNames_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, std::vector< std::string > *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::vector< std::string > *arg2 = (std::vector< std::string > *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(std::vector< std::string > **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->animationNames = *arg2;
+  
+}
+
+
+std::vector< std::string > *_wrap_ArmatureData_animationNames_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::vector< std::string > *result = 0 ;
+  std::vector< std::string > *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (std::vector< std::string > *)& ((arg1)->animationNames);
+  *(std::vector< std::string > **)&_swig_go_result = (std::vector< std::string > *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_sortedBones_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, std::vector< dragonBones::BoneData * > *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::vector< dragonBones::BoneData * > *arg2 = (std::vector< dragonBones::BoneData * > *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(std::vector< dragonBones::BoneData * > **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->sortedBones = *arg2;
+  
+}
+
+
+std::vector< dragonBones::BoneData * > *_wrap_ArmatureData_sortedBones_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::vector< dragonBones::BoneData * > *result = 0 ;
+  std::vector< dragonBones::BoneData * > *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (std::vector< dragonBones::BoneData * > *)& ((arg1)->sortedBones);
+  *(std::vector< dragonBones::BoneData * > **)&_swig_go_result = (std::vector< dragonBones::BoneData * > *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_sortedSlots_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, std::vector< dragonBones::SlotData * > *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::vector< dragonBones::SlotData * > *arg2 = (std::vector< dragonBones::SlotData * > *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(std::vector< dragonBones::SlotData * > **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->sortedSlots = *arg2;
+  
+}
+
+
+std::vector< dragonBones::SlotData * > *_wrap_ArmatureData_sortedSlots_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::vector< dragonBones::SlotData * > *result = 0 ;
+  std::vector< dragonBones::SlotData * > *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (std::vector< dragonBones::SlotData * > *)& ((arg1)->sortedSlots);
+  *(std::vector< dragonBones::SlotData * > **)&_swig_go_result = (std::vector< dragonBones::SlotData * > *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_defaultActions_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, std::vector< dragonBones::ActionData * > *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::vector< dragonBones::ActionData * > *arg2 = (std::vector< dragonBones::ActionData * > *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(std::vector< dragonBones::ActionData * > **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->defaultActions = *arg2;
+  
+}
+
+
+std::vector< dragonBones::ActionData * > *_wrap_ArmatureData_defaultActions_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::vector< dragonBones::ActionData * > *result = 0 ;
+  std::vector< dragonBones::ActionData * > *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (std::vector< dragonBones::ActionData * > *)& ((arg1)->defaultActions);
+  *(std::vector< dragonBones::ActionData * > **)&_swig_go_result = (std::vector< dragonBones::ActionData * > *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_actions_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, std::vector< dragonBones::ActionData * > *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::vector< dragonBones::ActionData * > *arg2 = (std::vector< dragonBones::ActionData * > *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(std::vector< dragonBones::ActionData * > **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->actions = *arg2;
+  
+}
+
+
+std::vector< dragonBones::ActionData * > *_wrap_ArmatureData_actions_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::vector< dragonBones::ActionData * > *result = 0 ;
+  std::vector< dragonBones::ActionData * > *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (std::vector< dragonBones::ActionData * > *)& ((arg1)->actions);
+  *(std::vector< dragonBones::ActionData * > **)&_swig_go_result = (std::vector< dragonBones::ActionData * > *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_bones_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, std::map< std::string,dragonBones::BoneData *,std::less< std::string > > *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::map< std::string,dragonBones::BoneData *,std::less< std::string > > *arg2 = (std::map< std::string,dragonBones::BoneData *,std::less< std::string > > *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(std::map< std::string,dragonBones::BoneData *,std::less< std::string > > **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->bones = *arg2;
+  
+}
+
+
+std::map< std::string,dragonBones::BoneData *,std::less< std::string > > *_wrap_ArmatureData_bones_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::map< std::string,dragonBones::BoneData *,std::less< std::string > > *result = 0 ;
+  std::map< std::string,dragonBones::BoneData *,std::less< std::string > > *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (std::map< std::string,dragonBones::BoneData *,std::less< std::string > > *)& ((arg1)->bones);
+  *(std::map< std::string,dragonBones::BoneData *,std::less< std::string > > **)&_swig_go_result = (std::map< std::string,dragonBones::BoneData *,std::less< std::string > > *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_slots_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, std::map< std::string,dragonBones::SlotData *,std::less< std::string > > *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::map< std::string,dragonBones::SlotData *,std::less< std::string > > *arg2 = (std::map< std::string,dragonBones::SlotData *,std::less< std::string > > *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(std::map< std::string,dragonBones::SlotData *,std::less< std::string > > **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->slots = *arg2;
+  
+}
+
+
+std::map< std::string,dragonBones::SlotData *,std::less< std::string > > *_wrap_ArmatureData_slots_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::map< std::string,dragonBones::SlotData *,std::less< std::string > > *result = 0 ;
+  std::map< std::string,dragonBones::SlotData *,std::less< std::string > > *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (std::map< std::string,dragonBones::SlotData *,std::less< std::string > > *)& ((arg1)->slots);
+  *(std::map< std::string,dragonBones::SlotData *,std::less< std::string > > **)&_swig_go_result = (std::map< std::string,dragonBones::SlotData *,std::less< std::string > > *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_constraints_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, std::map< std::string,dragonBones::ConstraintData *,std::less< std::string > > *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::map< std::string,dragonBones::ConstraintData *,std::less< std::string > > *arg2 = (std::map< std::string,dragonBones::ConstraintData *,std::less< std::string > > *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(std::map< std::string,dragonBones::ConstraintData *,std::less< std::string > > **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->constraints = *arg2;
+  
+}
+
+
+std::map< std::string,dragonBones::ConstraintData *,std::less< std::string > > *_wrap_ArmatureData_constraints_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::map< std::string,dragonBones::ConstraintData *,std::less< std::string > > *result = 0 ;
+  std::map< std::string,dragonBones::ConstraintData *,std::less< std::string > > *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (std::map< std::string,dragonBones::ConstraintData *,std::less< std::string > > *)& ((arg1)->constraints);
+  *(std::map< std::string,dragonBones::ConstraintData *,std::less< std::string > > **)&_swig_go_result = (std::map< std::string,dragonBones::ConstraintData *,std::less< std::string > > *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_skins_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, std::map< std::string,dragonBones::SkinData *,std::less< std::string > > *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::map< std::string,dragonBones::SkinData *,std::less< std::string > > *arg2 = (std::map< std::string,dragonBones::SkinData *,std::less< std::string > > *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(std::map< std::string,dragonBones::SkinData *,std::less< std::string > > **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->skins = *arg2;
+  
+}
+
+
+std::map< std::string,dragonBones::SkinData *,std::less< std::string > > *_wrap_ArmatureData_skins_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::map< std::string,dragonBones::SkinData *,std::less< std::string > > *result = 0 ;
+  std::map< std::string,dragonBones::SkinData *,std::less< std::string > > *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (std::map< std::string,dragonBones::SkinData *,std::less< std::string > > *)& ((arg1)->skins);
+  *(std::map< std::string,dragonBones::SkinData *,std::less< std::string > > **)&_swig_go_result = (std::map< std::string,dragonBones::SkinData *,std::less< std::string > > *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_animations_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *arg2 = (std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->animations = *arg2;
+  
+}
+
+
+std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *_wrap_ArmatureData_animations_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *result = 0 ;
+  std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *)& ((arg1)->animations);
+  *(std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > **)&_swig_go_result = (std::map< std::string,dragonBones::AnimationData *,std::less< std::string > > *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_defaultSkin_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, dragonBones::SkinData *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::SkinData *arg2 = (dragonBones::SkinData *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(dragonBones::SkinData **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->defaultSkin = arg2;
+  
+}
+
+
+dragonBones::SkinData *_wrap_ArmatureData_defaultSkin_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::SkinData *result = 0 ;
+  dragonBones::SkinData *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (dragonBones::SkinData *) ((arg1)->defaultSkin);
+  *(dragonBones::SkinData **)&_swig_go_result = (dragonBones::SkinData *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_defaultAnimation_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, dragonBones::AnimationData *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::AnimationData *arg2 = (dragonBones::AnimationData *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(dragonBones::AnimationData **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->defaultAnimation = arg2;
+  
+}
+
+
+dragonBones::AnimationData *_wrap_ArmatureData_defaultAnimation_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::AnimationData *result = 0 ;
+  dragonBones::AnimationData *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (dragonBones::AnimationData *) ((arg1)->defaultAnimation);
+  *(dragonBones::AnimationData **)&_swig_go_result = (dragonBones::AnimationData *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_canvas_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, dragonBones::CanvasData *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::CanvasData *arg2 = (dragonBones::CanvasData *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(dragonBones::CanvasData **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->canvas = arg2;
+  
+}
+
+
+dragonBones::CanvasData *_wrap_ArmatureData_canvas_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::CanvasData *result = 0 ;
+  dragonBones::CanvasData *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (dragonBones::CanvasData *) ((arg1)->canvas);
+  *(dragonBones::CanvasData **)&_swig_go_result = (dragonBones::CanvasData *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_userData_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, dragonBones::UserData *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::UserData *arg2 = (dragonBones::UserData *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(dragonBones::UserData **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->userData = arg2;
+  
+}
+
+
+dragonBones::UserData *_wrap_ArmatureData_userData_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::UserData *result = 0 ;
+  dragonBones::UserData *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (dragonBones::UserData *) ((arg1)->userData);
+  *(dragonBones::UserData **)&_swig_go_result = (dragonBones::UserData *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_parent_set_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, dragonBones::DragonBonesData *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::DragonBonesData *arg2 = (dragonBones::DragonBonesData *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(dragonBones::DragonBonesData **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->parent = arg2;
+  
+}
+
+
+dragonBones::DragonBonesData *_wrap_ArmatureData_parent_get_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::DragonBonesData *result = 0 ;
+  dragonBones::DragonBonesData *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (dragonBones::DragonBonesData *) ((arg1)->parent);
+  *(dragonBones::DragonBonesData **)&_swig_go_result = (dragonBones::DragonBonesData *)result; 
+  return _swig_go_result;
+}
+
+
+dragonBones::ArmatureData *_wrap_new_ArmatureData_wrapper_0168c02bcda14bda() {
+  dragonBones::ArmatureData *result = 0 ;
+  dragonBones::ArmatureData *_swig_go_result;
+  
+  
+  result = (dragonBones::ArmatureData *)new dragonBones::ArmatureData();
+  *(dragonBones::ArmatureData **)&_swig_go_result = (dragonBones::ArmatureData *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_ArmatureData_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  delete arg1;
+  
+}
+
+
+void _wrap_ArmatureData_sortBones_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  (arg1)->sortBones();
+  
+}
+
+
+void _wrap_ArmatureData_cacheFrames_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, intgo _swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  (arg1)->cacheFrames(arg2);
+  
+}
+
+
+intgo _wrap_ArmatureData_setCacheFrame_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, dragonBones::Matrix *_swig_go_1, dragonBones::Transform *_swig_go_2) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::Matrix *arg2 = 0 ;
+  dragonBones::Transform *arg3 = 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(dragonBones::Matrix **)&_swig_go_1; 
+  arg3 = *(dragonBones::Transform **)&_swig_go_2; 
+  
+  result = (int)(arg1)->setCacheFrame((dragonBones::Matrix const &)*arg2,(dragonBones::Transform const &)*arg3);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_getCacheFrame_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, dragonBones::Matrix *_swig_go_1, dragonBones::Transform *_swig_go_2, intgo _swig_go_3) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::Matrix *arg2 = 0 ;
+  dragonBones::Transform *arg3 = 0 ;
+  unsigned int arg4 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(dragonBones::Matrix **)&_swig_go_1; 
+  arg3 = *(dragonBones::Transform **)&_swig_go_2; 
+  arg4 = (unsigned int)_swig_go_3; 
+  
+  ((dragonBones::ArmatureData const *)arg1)->getCacheFrame(*arg2,*arg3,arg4);
+  
+}
+
+
+void _wrap_ArmatureData_addBone_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, dragonBones::BoneData *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::BoneData *arg2 = (dragonBones::BoneData *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(dragonBones::BoneData **)&_swig_go_1; 
+  
+  (arg1)->addBone(arg2);
+  
+}
+
+
+void _wrap_ArmatureData_addSlot_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, dragonBones::SlotData *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::SlotData *arg2 = (dragonBones::SlotData *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(dragonBones::SlotData **)&_swig_go_1; 
+  
+  (arg1)->addSlot(arg2);
+  
+}
+
+
+void _wrap_ArmatureData_addConstraint_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, dragonBones::ConstraintData *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::ConstraintData *arg2 = (dragonBones::ConstraintData *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(dragonBones::ConstraintData **)&_swig_go_1; 
+  
+  (arg1)->addConstraint(arg2);
+  
+}
+
+
+void _wrap_ArmatureData_addSkin_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, dragonBones::SkinData *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::SkinData *arg2 = (dragonBones::SkinData *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(dragonBones::SkinData **)&_swig_go_1; 
+  
+  (arg1)->addSkin(arg2);
+  
+}
+
+
+void _wrap_ArmatureData_addAnimation_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, dragonBones::AnimationData *_swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::AnimationData *arg2 = (dragonBones::AnimationData *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(dragonBones::AnimationData **)&_swig_go_1; 
+  
+  (arg1)->addAnimation(arg2);
+  
+}
+
+
+void _wrap_ArmatureData_addAction_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, dragonBones::ActionData *_swig_go_1, bool _swig_go_2) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::ActionData *arg2 = (dragonBones::ActionData *) 0 ;
+  bool arg3 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = *(dragonBones::ActionData **)&_swig_go_1; 
+  arg3 = (bool)_swig_go_2; 
+  
+  (arg1)->addAction(arg2,arg3);
+  
+}
+
+
+dragonBones::BoneData *_wrap_ArmatureData_getBone_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, _gostring_ _swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::string *arg2 = 0 ;
+  dragonBones::BoneData *result = 0 ;
+  dragonBones::BoneData *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
+  
+  result = (dragonBones::BoneData *)((dragonBones::ArmatureData const *)arg1)->getBone((std::string const &)*arg2);
+  *(dragonBones::BoneData **)&_swig_go_result = (dragonBones::BoneData *)result; 
+  return _swig_go_result;
+}
+
+
+dragonBones::SlotData *_wrap_ArmatureData_getSlot_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, _gostring_ _swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::string *arg2 = 0 ;
+  dragonBones::SlotData *result = 0 ;
+  dragonBones::SlotData *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
+  
+  result = (dragonBones::SlotData *)((dragonBones::ArmatureData const *)arg1)->getSlot((std::string const &)*arg2);
+  *(dragonBones::SlotData **)&_swig_go_result = (dragonBones::SlotData *)result; 
+  return _swig_go_result;
+}
+
+
+dragonBones::ConstraintData *_wrap_ArmatureData_getConstraint_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, _gostring_ _swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::string *arg2 = 0 ;
+  dragonBones::ConstraintData *result = 0 ;
+  dragonBones::ConstraintData *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
+  
+  result = (dragonBones::ConstraintData *)((dragonBones::ArmatureData const *)arg1)->getConstraint((std::string const &)*arg2);
+  *(dragonBones::ConstraintData **)&_swig_go_result = (dragonBones::ConstraintData *)result; 
+  return _swig_go_result;
+}
+
+
+dragonBones::SkinData *_wrap_ArmatureData_getSkin_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, _gostring_ _swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::string *arg2 = 0 ;
+  dragonBones::SkinData *result = 0 ;
+  dragonBones::SkinData *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
+  
+  result = (dragonBones::SkinData *)((dragonBones::ArmatureData const *)arg1)->getSkin((std::string const &)*arg2);
+  *(dragonBones::SkinData **)&_swig_go_result = (dragonBones::SkinData *)result; 
+  return _swig_go_result;
+}
+
+
+dragonBones::MeshDisplayData *_wrap_ArmatureData_getMesh_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::string *arg2 = 0 ;
+  std::string *arg3 = 0 ;
+  std::string *arg4 = 0 ;
+  dragonBones::MeshDisplayData *result = 0 ;
+  dragonBones::MeshDisplayData *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
+  
+  std::string arg3_str(_swig_go_2.p, _swig_go_2.n);
+  arg3 = &arg3_str;
+  
+  
+  std::string arg4_str(_swig_go_3.p, _swig_go_3.n);
+  arg4 = &arg4_str;
+  
+  
+  result = (dragonBones::MeshDisplayData *)((dragonBones::ArmatureData const *)arg1)->getMesh((std::string const &)*arg2,(std::string const &)*arg3,(std::string const &)*arg4);
+  *(dragonBones::MeshDisplayData **)&_swig_go_result = (dragonBones::MeshDisplayData *)result; 
+  return _swig_go_result;
+}
+
+
+dragonBones::AnimationData *_wrap_ArmatureData_getAnimation_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, _gostring_ _swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  std::string *arg2 = 0 ;
+  dragonBones::AnimationData *result = 0 ;
+  dragonBones::AnimationData *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
+  
+  result = (dragonBones::AnimationData *)((dragonBones::ArmatureData const *)arg1)->getAnimation((std::string const &)*arg2);
+  *(dragonBones::AnimationData **)&_swig_go_result = (dragonBones::AnimationData *)result; 
+  return _swig_go_result;
+}
+
+
+intgo _wrap_ArmatureData_getType_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (int)((dragonBones::ArmatureData const *)arg1)->getType();
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_setType_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0, intgo _swig_go_1) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  (arg1)->setType(arg2);
+  
+}
+
+
+dragonBones::Rectangle *_wrap_ArmatureData_getAABB_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  dragonBones::Rectangle *result = 0 ;
+  dragonBones::Rectangle *_swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  result = (dragonBones::Rectangle *)(arg1)->getAABB();
+  *(dragonBones::Rectangle **)&_swig_go_result = (dragonBones::Rectangle *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_setMaxCount_wrapper_0168c02bcda14bda(long long _swig_go_0, intgo _swig_go_1) {
+  std::size_t arg1 ;
+  unsigned int arg2 ;
+  
+  arg1 = (size_t)_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  dragonBones::BaseObject::setMaxCount(arg1,arg2);
+  
+}
+
+
+void _wrap_ArmatureData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(long long _swig_go_0) {
+  std::size_t arg1 ;
+  
+  arg1 = (size_t)_swig_go_0; 
+  
+  dragonBones::BaseObject::clearPool(arg1);
+  
+}
+
+
+void _wrap_ArmatureData_clearPool__SWIG_1_wrapper_0168c02bcda14bda() {
+  dragonBones::BaseObject::clearPool();
+  
+}
+
+
+intgo _wrap_GetArmatureData_HashCode_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  dragonBones::BaseObject *swig_b0 = (dragonBones::BaseObject *)arg1;
+  result = (unsigned int)(unsigned int) ((swig_b0)->hashCode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_ArmatureData_returnToPool_wrapper_0168c02bcda14bda(dragonBones::ArmatureData *_swig_go_0) {
+  dragonBones::ArmatureData *arg1 = (dragonBones::ArmatureData *) 0 ;
+  
+  arg1 = *(dragonBones::ArmatureData **)&_swig_go_0; 
+  
+  dragonBones::BaseObject *swig_b0 = (dragonBones::BaseObject *)arg1;
+  (swig_b0)->returnToPool();
+  
+}
+
+
+dragonBones::Armature *_wrap_ArmatureData_borrowArmatureObject_wrapper_0168c02bcda14bda() {
+  dragonBones::Armature *result = 0 ;
+  dragonBones::Armature *_swig_go_result;
+  
+  
+  result = (dragonBones::Armature *)dragonBones::BaseObject::SWIGTEMPLATEDISAMBIGUATOR borrowObject< dragonBones::Armature >();
+  *(dragonBones::Armature **)&_swig_go_result = (dragonBones::Armature *)result; 
+  return _swig_go_result;
+}
+
+
+long long _wrap_BoneData_getTypeIndex_wrapper_0168c02bcda14bda() {
+  std::size_t result;
+  long long _swig_go_result;
+  
+  
+  result = dragonBones::BoneData::getTypeIndex();
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+long long _wrap_BoneData_getClassTypeIndex_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  std::size_t result;
+  long long _swig_go_result;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  result = ((dragonBones::BoneData const *)arg1)->getClassTypeIndex();
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_BoneData_inheritTranslation_set_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0, bool _swig_go_1) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  bool arg2 ;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  arg2 = (bool)_swig_go_1; 
+  
+  if (arg1) (arg1)->inheritTranslation = arg2;
+  
+}
+
+
+bool _wrap_BoneData_inheritTranslation_get_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  bool result;
+  bool _swig_go_result;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  result = (bool) ((arg1)->inheritTranslation);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_BoneData_inheritRotation_set_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0, bool _swig_go_1) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  bool arg2 ;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  arg2 = (bool)_swig_go_1; 
+  
+  if (arg1) (arg1)->inheritRotation = arg2;
+  
+}
+
+
+bool _wrap_BoneData_inheritRotation_get_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  bool result;
+  bool _swig_go_result;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  result = (bool) ((arg1)->inheritRotation);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_BoneData_inheritScale_set_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0, bool _swig_go_1) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  bool arg2 ;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  arg2 = (bool)_swig_go_1; 
+  
+  if (arg1) (arg1)->inheritScale = arg2;
+  
+}
+
+
+bool _wrap_BoneData_inheritScale_get_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  bool result;
+  bool _swig_go_result;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  result = (bool) ((arg1)->inheritScale);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_BoneData_inheritReflection_set_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0, bool _swig_go_1) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  bool arg2 ;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  arg2 = (bool)_swig_go_1; 
+  
+  if (arg1) (arg1)->inheritReflection = arg2;
+  
+}
+
+
+bool _wrap_BoneData_inheritReflection_get_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  bool result;
+  bool _swig_go_result;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  result = (bool) ((arg1)->inheritReflection);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_BoneData_length_set_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0, float _swig_go_1) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->length = arg2;
+  
+}
+
+
+float _wrap_BoneData_length_get_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->length);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_BoneData_name_set_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0, _gostring_ _swig_go_1) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  std::string *arg2 = 0 ;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
+  
+  if (arg1) (arg1)->name = *arg2;
+  
+}
+
+
+_gostring_ _wrap_BoneData_name_get_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  std::string *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  result = (std::string *) & ((arg1)->name);
+  _swig_go_result = Swig_AllocateString((*result).data(), (*result).length()); 
+  return _swig_go_result;
+}
+
+
+void _wrap_BoneData_transform_set_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0, dragonBones::Transform *_swig_go_1) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  dragonBones::Transform *arg2 = (dragonBones::Transform *) 0 ;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  arg2 = *(dragonBones::Transform **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->transform = *arg2;
+  
+}
+
+
+dragonBones::Transform *_wrap_BoneData_transform_get_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  dragonBones::Transform *result = 0 ;
+  dragonBones::Transform *_swig_go_result;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  result = (dragonBones::Transform *)& ((arg1)->transform);
+  *(dragonBones::Transform **)&_swig_go_result = (dragonBones::Transform *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_BoneData_userData_set_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0, dragonBones::UserData *_swig_go_1) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  dragonBones::UserData *arg2 = (dragonBones::UserData *) 0 ;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  arg2 = *(dragonBones::UserData **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->userData = arg2;
+  
+}
+
+
+dragonBones::UserData *_wrap_BoneData_userData_get_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  dragonBones::UserData *result = 0 ;
+  dragonBones::UserData *_swig_go_result;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  result = (dragonBones::UserData *) ((arg1)->userData);
+  *(dragonBones::UserData **)&_swig_go_result = (dragonBones::UserData *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_BoneData_parent_set_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0, dragonBones::BoneData *_swig_go_1) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  dragonBones::BoneData *arg2 = (dragonBones::BoneData *) 0 ;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  arg2 = *(dragonBones::BoneData **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->parent = arg2;
+  
+}
+
+
+dragonBones::BoneData *_wrap_BoneData_parent_get_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  dragonBones::BoneData *result = 0 ;
+  dragonBones::BoneData *_swig_go_result;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  result = (dragonBones::BoneData *) ((arg1)->parent);
+  *(dragonBones::BoneData **)&_swig_go_result = (dragonBones::BoneData *)result; 
+  return _swig_go_result;
+}
+
+
+dragonBones::BoneData *_wrap_new_BoneData_wrapper_0168c02bcda14bda() {
+  dragonBones::BoneData *result = 0 ;
+  dragonBones::BoneData *_swig_go_result;
+  
+  
+  result = (dragonBones::BoneData *)new dragonBones::BoneData();
+  *(dragonBones::BoneData **)&_swig_go_result = (dragonBones::BoneData *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_BoneData_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  delete arg1;
+  
+}
+
+
+dragonBones::Transform *_wrap_BoneData_getTransfrom_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  dragonBones::Transform *result = 0 ;
+  dragonBones::Transform *_swig_go_result;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  result = (dragonBones::Transform *)(arg1)->getTransfrom();
+  *(dragonBones::Transform **)&_swig_go_result = (dragonBones::Transform *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_BoneData_setMaxCount_wrapper_0168c02bcda14bda(long long _swig_go_0, intgo _swig_go_1) {
+  std::size_t arg1 ;
+  unsigned int arg2 ;
+  
+  arg1 = (size_t)_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  dragonBones::BaseObject::setMaxCount(arg1,arg2);
+  
+}
+
+
+void _wrap_BoneData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(long long _swig_go_0) {
+  std::size_t arg1 ;
+  
+  arg1 = (size_t)_swig_go_0; 
+  
+  dragonBones::BaseObject::clearPool(arg1);
+  
+}
+
+
+void _wrap_BoneData_clearPool__SWIG_1_wrapper_0168c02bcda14bda() {
+  dragonBones::BaseObject::clearPool();
+  
+}
+
+
+intgo _wrap_GetBoneData_HashCode_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  dragonBones::BaseObject *swig_b0 = (dragonBones::BaseObject *)arg1;
+  result = (unsigned int)(unsigned int) ((swig_b0)->hashCode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_BoneData_returnToPool_wrapper_0168c02bcda14bda(dragonBones::BoneData *_swig_go_0) {
+  dragonBones::BoneData *arg1 = (dragonBones::BoneData *) 0 ;
+  
+  arg1 = *(dragonBones::BoneData **)&_swig_go_0; 
+  
+  dragonBones::BaseObject *swig_b0 = (dragonBones::BaseObject *)arg1;
+  (swig_b0)->returnToPool();
+  
+}
+
+
+dragonBones::Armature *_wrap_BoneData_borrowArmatureObject_wrapper_0168c02bcda14bda() {
+  dragonBones::Armature *result = 0 ;
+  dragonBones::Armature *_swig_go_result;
+  
+  
+  result = (dragonBones::Armature *)dragonBones::BaseObject::SWIGTEMPLATEDISAMBIGUATOR borrowObject< dragonBones::Armature >();
+  *(dragonBones::Armature **)&_swig_go_result = (dragonBones::Armature *)result; 
+  return _swig_go_result;
+}
+
+
+long long _wrap_SlotData_getTypeIndex_wrapper_0168c02bcda14bda() {
+  std::size_t result;
+  long long _swig_go_result;
+  
+  
+  result = dragonBones::SlotData::getTypeIndex();
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+long long _wrap_SlotData_getClassTypeIndex_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  std::size_t result;
+  long long _swig_go_result;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  
+  result = ((dragonBones::SlotData const *)arg1)->getClassTypeIndex();
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_SlotData_DEFAULT_COLOR_set_wrapper_0168c02bcda14bda(dragonBones::ColorTransform *_swig_go_0) {
+  dragonBones::ColorTransform *arg1 = (dragonBones::ColorTransform *) 0 ;
+  
+  arg1 = *(dragonBones::ColorTransform **)&_swig_go_0; 
+  
+  dragonBones::SlotData::DEFAULT_COLOR = *arg1;
+  
+}
+
+
+dragonBones::ColorTransform *_wrap_SlotData_DEFAULT_COLOR_get_wrapper_0168c02bcda14bda() {
+  dragonBones::ColorTransform *result = 0 ;
+  dragonBones::ColorTransform *_swig_go_result;
+  
+  
+  result = (dragonBones::ColorTransform *)&dragonBones::SlotData::DEFAULT_COLOR;
+  *(dragonBones::ColorTransform **)&_swig_go_result = (dragonBones::ColorTransform *)result; 
+  return _swig_go_result;
+}
+
+
+dragonBones::ColorTransform *_wrap_SlotData_createColor_wrapper_0168c02bcda14bda() {
+  dragonBones::ColorTransform *result = 0 ;
+  dragonBones::ColorTransform *_swig_go_result;
+  
+  
+  result = (dragonBones::ColorTransform *)dragonBones::SlotData::createColor();
+  *(dragonBones::ColorTransform **)&_swig_go_result = (dragonBones::ColorTransform *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_SlotData_blendMode_set_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0, intgo _swig_go_1) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  dragonBones::BlendMode arg2 ;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  arg2 = (dragonBones::BlendMode)_swig_go_1; 
+  
+  if (arg1) (arg1)->blendMode = arg2;
+  
+}
+
+
+intgo _wrap_SlotData_blendMode_get_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  dragonBones::BlendMode result;
+  intgo _swig_go_result;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  
+  result = (dragonBones::BlendMode) ((arg1)->blendMode);
+  _swig_go_result = (intgo)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_SlotData_displayIndex_set_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0, intgo _swig_go_1) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->displayIndex = arg2;
+  
+}
+
+
+intgo _wrap_SlotData_displayIndex_get_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->displayIndex);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_SlotData_zOrder_set_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0, intgo _swig_go_1) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->zOrder = arg2;
+  
+}
+
+
+intgo _wrap_SlotData_zOrder_get_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->zOrder);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_SlotData_name_set_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0, _gostring_ _swig_go_1) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  std::string *arg2 = 0 ;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  
+  std::string arg2_str(_swig_go_1.p, _swig_go_1.n);
+  arg2 = &arg2_str;
+  
+  
+  if (arg1) (arg1)->name = *arg2;
+  
+}
+
+
+_gostring_ _wrap_SlotData_name_get_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  std::string *result = 0 ;
+  _gostring_ _swig_go_result;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  
+  result = (std::string *) & ((arg1)->name);
+  _swig_go_result = Swig_AllocateString((*result).data(), (*result).length()); 
+  return _swig_go_result;
+}
+
+
+void _wrap_SlotData_color_set_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0, dragonBones::ColorTransform *_swig_go_1) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  dragonBones::ColorTransform *arg2 = (dragonBones::ColorTransform *) 0 ;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  arg2 = *(dragonBones::ColorTransform **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->color = arg2;
+  
+}
+
+
+dragonBones::ColorTransform *_wrap_SlotData_color_get_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  dragonBones::ColorTransform *result = 0 ;
+  dragonBones::ColorTransform *_swig_go_result;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  
+  result = (dragonBones::ColorTransform *) ((arg1)->color);
+  *(dragonBones::ColorTransform **)&_swig_go_result = (dragonBones::ColorTransform *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_SlotData_userData_set_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0, dragonBones::UserData *_swig_go_1) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  dragonBones::UserData *arg2 = (dragonBones::UserData *) 0 ;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  arg2 = *(dragonBones::UserData **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->userData = arg2;
+  
+}
+
+
+dragonBones::UserData *_wrap_SlotData_userData_get_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  dragonBones::UserData *result = 0 ;
+  dragonBones::UserData *_swig_go_result;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  
+  result = (dragonBones::UserData *) ((arg1)->userData);
+  *(dragonBones::UserData **)&_swig_go_result = (dragonBones::UserData *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_SlotData_parent_set_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0, dragonBones::BoneData *_swig_go_1) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  dragonBones::BoneData *arg2 = (dragonBones::BoneData *) 0 ;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  arg2 = *(dragonBones::BoneData **)&_swig_go_1; 
+  
+  if (arg1) (arg1)->parent = arg2;
+  
+}
+
+
+dragonBones::BoneData *_wrap_SlotData_parent_get_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  dragonBones::BoneData *result = 0 ;
+  dragonBones::BoneData *_swig_go_result;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  
+  result = (dragonBones::BoneData *) ((arg1)->parent);
+  *(dragonBones::BoneData **)&_swig_go_result = (dragonBones::BoneData *)result; 
+  return _swig_go_result;
+}
+
+
+dragonBones::SlotData *_wrap_new_SlotData_wrapper_0168c02bcda14bda() {
+  dragonBones::SlotData *result = 0 ;
+  dragonBones::SlotData *_swig_go_result;
+  
+  
+  result = (dragonBones::SlotData *)new dragonBones::SlotData();
+  *(dragonBones::SlotData **)&_swig_go_result = (dragonBones::SlotData *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_SlotData_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  
+  delete arg1;
+  
+}
+
+
+dragonBones::ColorTransform *_wrap_SlotData_getDefaultColor_wrapper_0168c02bcda14bda() {
+  dragonBones::ColorTransform *result = 0 ;
+  dragonBones::ColorTransform *_swig_go_result;
+  
+  
+  result = (dragonBones::ColorTransform *)dragonBones::SlotData::getDefaultColor();
+  *(dragonBones::ColorTransform **)&_swig_go_result = (dragonBones::ColorTransform *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_SlotData_setMaxCount_wrapper_0168c02bcda14bda(long long _swig_go_0, intgo _swig_go_1) {
+  std::size_t arg1 ;
+  unsigned int arg2 ;
+  
+  arg1 = (size_t)_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  dragonBones::BaseObject::setMaxCount(arg1,arg2);
+  
+}
+
+
+void _wrap_SlotData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(long long _swig_go_0) {
+  std::size_t arg1 ;
+  
+  arg1 = (size_t)_swig_go_0; 
+  
+  dragonBones::BaseObject::clearPool(arg1);
+  
+}
+
+
+void _wrap_SlotData_clearPool__SWIG_1_wrapper_0168c02bcda14bda() {
+  dragonBones::BaseObject::clearPool();
+  
+}
+
+
+intgo _wrap_GetSlotData_HashCode_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  
+  dragonBones::BaseObject *swig_b0 = (dragonBones::BaseObject *)arg1;
+  result = (unsigned int)(unsigned int) ((swig_b0)->hashCode);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_SlotData_returnToPool_wrapper_0168c02bcda14bda(dragonBones::SlotData *_swig_go_0) {
+  dragonBones::SlotData *arg1 = (dragonBones::SlotData *) 0 ;
+  
+  arg1 = *(dragonBones::SlotData **)&_swig_go_0; 
+  
+  dragonBones::BaseObject *swig_b0 = (dragonBones::BaseObject *)arg1;
+  (swig_b0)->returnToPool();
+  
+}
+
+
+dragonBones::Armature *_wrap_SlotData_borrowArmatureObject_wrapper_0168c02bcda14bda() {
+  dragonBones::Armature *result = 0 ;
+  dragonBones::Armature *_swig_go_result;
+  
+  
+  result = (dragonBones::Armature *)dragonBones::BaseObject::SWIGTEMPLATEDISAMBIGUATOR borrowObject< dragonBones::Armature >();
+  *(dragonBones::Armature **)&_swig_go_result = (dragonBones::Armature *)result; 
+  return _swig_go_result;
+}
+
+
+dragonBones::BaseFactory *_wrap__swig_NewDirectorBaseFactoryBaseFactory__SWIG_0_wrapper_0168c02bcda14bda(intgo _swig_go_0, dragonBones::DataParser *_swig_go_1) {
   int arg1 ;
   dragonBones::DataParser *arg2 = (dragonBones::DataParser *) 0 ;
   dragonBones::BaseFactory *result = 0 ;
@@ -7838,7 +9443,7 @@ dragonBones::BaseFactory *_wrap__swig_NewDirectorBaseFactoryBaseFactory__SWIG_0_
 }
 
 
-dragonBones::BaseFactory *_wrap__swig_NewDirectorBaseFactoryBaseFactory__SWIG_1_wrapper_8547a2e3fc9a516e(intgo _swig_go_0) {
+dragonBones::BaseFactory *_wrap__swig_NewDirectorBaseFactoryBaseFactory__SWIG_1_wrapper_0168c02bcda14bda(intgo _swig_go_0) {
   int arg1 ;
   dragonBones::BaseFactory *result = 0 ;
   dragonBones::BaseFactory *_swig_go_result;
@@ -7851,7 +9456,7 @@ dragonBones::BaseFactory *_wrap__swig_NewDirectorBaseFactoryBaseFactory__SWIG_1_
 }
 
 
-void _wrap_DeleteDirectorBaseFactory_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0) {
+void _wrap_DeleteDirectorBaseFactory_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   
   arg1 = *(dragonBones::BaseFactory **)&_swig_go_0; 
@@ -7861,7 +9466,7 @@ void _wrap_DeleteDirectorBaseFactory_wrapper_8547a2e3fc9a516e(dragonBones::BaseF
 }
 
 
-bool _wrap__swig_DirectorBaseFactory_upcall_X_isSupportMesh_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0) {
+bool _wrap__swig_DirectorBaseFactory_upcall_X_isSupportMesh_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7876,7 +9481,7 @@ bool _wrap__swig_DirectorBaseFactory_upcall_X_isSupportMesh_wrapper_8547a2e3fc9a
 }
 
 
-dragonBones::TextureData *_wrap__swig_DirectorBaseFactory_upcall_X_getTextureData_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+dragonBones::TextureData *_wrap__swig_DirectorBaseFactory_upcall_X_getTextureData_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -7901,7 +9506,7 @@ dragonBones::TextureData *_wrap__swig_DirectorBaseFactory_upcall_X_getTextureDat
 }
 
 
-bool _wrap__swig_DirectorBaseFactory_upcall_X_fillBuildArmaturePackage_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::BuildArmaturePackage *_swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4, _gostring_ _swig_go_5) {
+bool _wrap__swig_DirectorBaseFactory_upcall_X_fillBuildArmaturePackage_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::BuildArmaturePackage *_swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4, _gostring_ _swig_go_5) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::BuildArmaturePackage *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -7938,7 +9543,7 @@ bool _wrap__swig_DirectorBaseFactory_upcall_X_fillBuildArmaturePackage_wrapper_8
 }
 
 
-void _wrap__swig_DirectorBaseFactory_upcall_X_buildBones_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::BuildArmaturePackage *_swig_go_1, dragonBones::Armature *_swig_go_2) {
+void _wrap__swig_DirectorBaseFactory_upcall_X_buildBones_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::BuildArmaturePackage *_swig_go_1, dragonBones::Armature *_swig_go_2) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::BuildArmaturePackage *arg2 = 0 ;
   dragonBones::Armature *arg3 = (dragonBones::Armature *) 0 ;
@@ -7954,7 +9559,7 @@ void _wrap__swig_DirectorBaseFactory_upcall_X_buildBones_wrapper_8547a2e3fc9a516
 }
 
 
-void _wrap__swig_DirectorBaseFactory_upcall_X_buildSlots_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::BuildArmaturePackage *_swig_go_1, dragonBones::Armature *_swig_go_2) {
+void _wrap__swig_DirectorBaseFactory_upcall_X_buildSlots_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::BuildArmaturePackage *_swig_go_1, dragonBones::Armature *_swig_go_2) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::BuildArmaturePackage *arg2 = 0 ;
   dragonBones::Armature *arg3 = (dragonBones::Armature *) 0 ;
@@ -7970,7 +9575,7 @@ void _wrap__swig_DirectorBaseFactory_upcall_X_buildSlots_wrapper_8547a2e3fc9a516
 }
 
 
-dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_X_buildChildArmature_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::BuildArmaturePackage *_swig_go_1, dragonBones::Slot *_swig_go_2, dragonBones::DisplayData *_swig_go_3) {
+dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_X_buildChildArmature_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::BuildArmaturePackage *_swig_go_1, dragonBones::Slot *_swig_go_2, dragonBones::DisplayData *_swig_go_3) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::BuildArmaturePackage *arg2 = (dragonBones::BuildArmaturePackage *) 0 ;
   dragonBones::Slot *arg3 = (dragonBones::Slot *) 0 ;
@@ -7991,7 +9596,7 @@ dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_X_buildChildArmatu
 }
 
 
-std::pair< void *,enum dragonBones::DisplayType > *_wrap__swig_DirectorBaseFactory_upcall_X_getSlotDisplay_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::BuildArmaturePackage *_swig_go_1, dragonBones::DisplayData *_swig_go_2, dragonBones::DisplayData *_swig_go_3, dragonBones::Slot *_swig_go_4) {
+std::pair< void *,enum dragonBones::DisplayType > *_wrap__swig_DirectorBaseFactory_upcall_X_getSlotDisplay_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::BuildArmaturePackage *_swig_go_1, dragonBones::DisplayData *_swig_go_2, dragonBones::DisplayData *_swig_go_3, dragonBones::Slot *_swig_go_4) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::BuildArmaturePackage *arg2 = (dragonBones::BuildArmaturePackage *) 0 ;
   dragonBones::DisplayData *arg3 = (dragonBones::DisplayData *) 0 ;
@@ -8014,7 +9619,7 @@ std::pair< void *,enum dragonBones::DisplayType > *_wrap__swig_DirectorBaseFacto
 }
 
 
-dragonBones::DragonBonesData *_wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_0_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, float _swig_go_3) {
+dragonBones::DragonBonesData *_wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, float _swig_go_3) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   char *arg2 = (char *) 0 ;
   std::string *arg3 = 0 ;
@@ -8041,7 +9646,7 @@ dragonBones::DragonBonesData *_wrap__swig_DirectorBaseFactory_upcall_ParseDragon
 }
 
 
-dragonBones::DragonBonesData *_wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_1_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+dragonBones::DragonBonesData *_wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   char *arg2 = (char *) 0 ;
   std::string *arg3 = 0 ;
@@ -8066,7 +9671,7 @@ dragonBones::DragonBonesData *_wrap__swig_DirectorBaseFactory_upcall_ParseDragon
 }
 
 
-dragonBones::DragonBonesData *_wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_2_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::DragonBonesData *_wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_2_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   char *arg2 = (char *) 0 ;
   dragonBones::DragonBonesData *result = 0 ;
@@ -8086,7 +9691,7 @@ dragonBones::DragonBonesData *_wrap__swig_DirectorBaseFactory_upcall_ParseDragon
 }
 
 
-dragonBones::TextureAtlasData *_wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_0_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2, _gostring_ _swig_go_3, float _swig_go_4) {
+dragonBones::TextureAtlasData *_wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2, _gostring_ _swig_go_3, float _swig_go_4) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   char *arg2 = (char *) 0 ;
   void *arg3 = (void *) 0 ;
@@ -8115,7 +9720,7 @@ dragonBones::TextureAtlasData *_wrap__swig_DirectorBaseFactory_upcall_ParseTextu
 }
 
 
-dragonBones::TextureAtlasData *_wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_1_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2, _gostring_ _swig_go_3) {
+dragonBones::TextureAtlasData *_wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2, _gostring_ _swig_go_3) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   char *arg2 = (char *) 0 ;
   void *arg3 = (void *) 0 ;
@@ -8142,7 +9747,7 @@ dragonBones::TextureAtlasData *_wrap__swig_DirectorBaseFactory_upcall_ParseTextu
 }
 
 
-dragonBones::TextureAtlasData *_wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_2_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2) {
+dragonBones::TextureAtlasData *_wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_2_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   char *arg2 = (char *) 0 ;
   void *arg3 = (void *) 0 ;
@@ -8164,7 +9769,7 @@ dragonBones::TextureAtlasData *_wrap__swig_DirectorBaseFactory_upcall_ParseTextu
 }
 
 
-void _wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_0_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::DragonBonesData *_swig_go_1, _gostring_ _swig_go_2) {
+void _wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::DragonBonesData *_swig_go_1, _gostring_ _swig_go_2) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::DragonBonesData *arg2 = (dragonBones::DragonBonesData *) 0 ;
   std::string *arg3 = 0 ;
@@ -8181,7 +9786,7 @@ void _wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_0_wrapper_8
 }
 
 
-void _wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_1_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::DragonBonesData *_swig_go_1) {
+void _wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::DragonBonesData *_swig_go_1) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::DragonBonesData *arg2 = (dragonBones::DragonBonesData *) 0 ;
   
@@ -8193,7 +9798,7 @@ void _wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_1_wrapper_8
 }
 
 
-void _wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_0_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
+void _wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   bool arg3 ;
@@ -8210,7 +9815,7 @@ void _wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_0_wrappe
 }
 
 
-void _wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_1_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -8225,7 +9830,7 @@ void _wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_1_wrappe
 }
 
 
-void _wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_0_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::TextureAtlasData *_swig_go_1, _gostring_ _swig_go_2) {
+void _wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::TextureAtlasData *_swig_go_1, _gostring_ _swig_go_2) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::TextureAtlasData *arg2 = (dragonBones::TextureAtlasData *) 0 ;
   std::string *arg3 = 0 ;
@@ -8242,7 +9847,7 @@ void _wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_0_wrapper_
 }
 
 
-void _wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_1_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::TextureAtlasData *_swig_go_1) {
+void _wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::TextureAtlasData *_swig_go_1) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::TextureAtlasData *arg2 = (dragonBones::TextureAtlasData *) 0 ;
   
@@ -8254,7 +9859,7 @@ void _wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_1_wrapper_
 }
 
 
-void _wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_0_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
+void _wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   bool arg3 ;
@@ -8271,7 +9876,7 @@ void _wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_0_wrapp
 }
 
 
-void _wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_1_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -8286,7 +9891,7 @@ void _wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_1_wrapp
 }
 
 
-dragonBones::ArmatureData *_wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_0_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+dragonBones::ArmatureData *_wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_0_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -8309,7 +9914,7 @@ dragonBones::ArmatureData *_wrap__swig_DirectorBaseFactory_upcall_GetArmatureDat
 }
 
 
-dragonBones::ArmatureData *_wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_1_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::ArmatureData *_wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_1_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::ArmatureData *result = 0 ;
@@ -8327,7 +9932,7 @@ dragonBones::ArmatureData *_wrap__swig_DirectorBaseFactory_upcall_GetArmatureDat
 }
 
 
-void _wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_0_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, bool _swig_go_1) {
+void _wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_0_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, bool _swig_go_1) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   bool arg2 ;
   
@@ -8339,7 +9944,7 @@ void _wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_0_wrapper_8547a2e3fc9a51
 }
 
 
-void _wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_1_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0) {
+void _wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_1_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   
   arg1 = *(SwigDirector_BaseFactory **)&_swig_go_0; 
@@ -8349,7 +9954,7 @@ void _wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_1_wrapper_8547a2e3fc9a51
 }
 
 
-dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_0_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4) {
+dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_0_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -8382,7 +9987,7 @@ dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWI
 }
 
 
-dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_1_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3) {
+dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_1_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -8410,7 +10015,7 @@ dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWI
 }
 
 
-dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_2_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_2_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -8433,7 +10038,7 @@ dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWI
 }
 
 
-dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_3_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_3_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::Armature *result = 0 ;
@@ -8451,7 +10056,7 @@ dragonBones::Armature *_wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWI
 }
 
 
-void _wrap__swig_DirectorBaseFactory_upcall_ReplaceDisplay_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::Slot *_swig_go_1, dragonBones::DisplayData *_swig_go_2, intgo _swig_go_3) {
+void _wrap__swig_DirectorBaseFactory_upcall_ReplaceDisplay_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::Slot *_swig_go_1, dragonBones::DisplayData *_swig_go_2, intgo _swig_go_3) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::Slot *arg2 = (dragonBones::Slot *) 0 ;
   dragonBones::DisplayData *arg3 = (dragonBones::DisplayData *) 0 ;
@@ -8467,7 +10072,7 @@ void _wrap__swig_DirectorBaseFactory_upcall_ReplaceDisplay_wrapper_8547a2e3fc9a5
 }
 
 
-bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_0_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4, dragonBones::Slot *_swig_go_5, intgo _swig_go_6) {
+bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_0_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4, dragonBones::Slot *_swig_go_5, intgo _swig_go_6) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -8504,7 +10109,7 @@ bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_0_wrapper_8
 }
 
 
-bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_1_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4, dragonBones::Slot *_swig_go_5) {
+bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_1_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4, dragonBones::Slot *_swig_go_5) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -8539,7 +10144,7 @@ bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_1_wrapper_8
 }
 
 
-bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplayList_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, dragonBones::Slot *_swig_go_4) {
+bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplayList_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, dragonBones::Slot *_swig_go_4) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -8569,7 +10174,7 @@ bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplayList_wrapper_8547a
 }
 
 
-bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_0_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2, bool _swig_go_3, std::vector< std::string > *_swig_go_4) {
+bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_0_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2, bool _swig_go_3, std::vector< std::string > *_swig_go_4) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   dragonBones::SkinData *arg3 = (dragonBones::SkinData *) 0 ;
@@ -8590,7 +10195,7 @@ bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_0_wrapper_8547a2e3
 }
 
 
-bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_1_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2, bool _swig_go_3) {
+bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_1_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2, bool _swig_go_3) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   dragonBones::SkinData *arg3 = (dragonBones::SkinData *) 0 ;
@@ -8609,7 +10214,7 @@ bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_1_wrapper_8547a2e3
 }
 
 
-bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_2_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2) {
+bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_2_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   dragonBones::SkinData *arg3 = (dragonBones::SkinData *) 0 ;
@@ -8626,7 +10231,7 @@ bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_2_wrapper_8547a2e3
 }
 
 
-bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_0_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::ArmatureData *_swig_go_2, bool _swig_go_3) {
+bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_0_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::ArmatureData *_swig_go_2, bool _swig_go_3) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   dragonBones::ArmatureData *arg3 = (dragonBones::ArmatureData *) 0 ;
@@ -8645,7 +10250,7 @@ bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_0_wrapper_854
 }
 
 
-bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_1_wrapper_8547a2e3fc9a516e(SwigDirector_BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::ArmatureData *_swig_go_2) {
+bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_1_wrapper_0168c02bcda14bda(SwigDirector_BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::ArmatureData *_swig_go_2) {
   SwigDirector_BaseFactory *arg1 = (SwigDirector_BaseFactory *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   dragonBones::ArmatureData *arg3 = (dragonBones::ArmatureData *) 0 ;
@@ -8662,7 +10267,7 @@ bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_1_wrapper_854
 }
 
 
-void _wrap_BaseFactory__jsonParser_set_wrapper_8547a2e3fc9a516e(dragonBones::JSONDataParser *_swig_go_0) {
+void _wrap_BaseFactory__jsonParser_set_wrapper_0168c02bcda14bda(dragonBones::JSONDataParser *_swig_go_0) {
   dragonBones::JSONDataParser *arg1 = (dragonBones::JSONDataParser *) 0 ;
   
   arg1 = *(dragonBones::JSONDataParser **)&_swig_go_0; 
@@ -8672,7 +10277,7 @@ void _wrap_BaseFactory__jsonParser_set_wrapper_8547a2e3fc9a516e(dragonBones::JSO
 }
 
 
-dragonBones::JSONDataParser *_wrap_BaseFactory__jsonParser_get_wrapper_8547a2e3fc9a516e() {
+dragonBones::JSONDataParser *_wrap_BaseFactory__jsonParser_get_wrapper_0168c02bcda14bda() {
   dragonBones::JSONDataParser *result = 0 ;
   dragonBones::JSONDataParser *_swig_go_result;
   
@@ -8683,7 +10288,7 @@ dragonBones::JSONDataParser *_wrap_BaseFactory__jsonParser_get_wrapper_8547a2e3f
 }
 
 
-void _wrap_BaseFactory__binaryParser_set_wrapper_8547a2e3fc9a516e(dragonBones::BinaryDataParser *_swig_go_0) {
+void _wrap_BaseFactory__binaryParser_set_wrapper_0168c02bcda14bda(dragonBones::BinaryDataParser *_swig_go_0) {
   dragonBones::BinaryDataParser *arg1 = (dragonBones::BinaryDataParser *) 0 ;
   
   arg1 = *(dragonBones::BinaryDataParser **)&_swig_go_0; 
@@ -8693,7 +10298,7 @@ void _wrap_BaseFactory__binaryParser_set_wrapper_8547a2e3fc9a516e(dragonBones::B
 }
 
 
-dragonBones::BinaryDataParser *_wrap_BaseFactory__binaryParser_get_wrapper_8547a2e3fc9a516e() {
+dragonBones::BinaryDataParser *_wrap_BaseFactory__binaryParser_get_wrapper_0168c02bcda14bda() {
   dragonBones::BinaryDataParser *result = 0 ;
   dragonBones::BinaryDataParser *_swig_go_result;
   
@@ -8704,7 +10309,7 @@ dragonBones::BinaryDataParser *_wrap_BaseFactory__binaryParser_get_wrapper_8547a
 }
 
 
-void _wrap_BaseFactory_autoSearch_set_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, bool _swig_go_1) {
+void _wrap_BaseFactory_autoSearch_set_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, bool _swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   bool arg2 ;
   
@@ -8716,7 +10321,7 @@ void _wrap_BaseFactory_autoSearch_set_wrapper_8547a2e3fc9a516e(dragonBones::Base
 }
 
 
-bool _wrap_BaseFactory_autoSearch_get_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0) {
+bool _wrap_BaseFactory_autoSearch_get_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -8729,7 +10334,7 @@ bool _wrap_BaseFactory_autoSearch_get_wrapper_8547a2e3fc9a516e(dragonBones::Base
 }
 
 
-void _wrap_BaseFactory__dragonBonesDataMap_set_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, std::map< std::string,dragonBones::DragonBonesData *,std::less< std::string > > *_swig_go_1) {
+void _wrap_BaseFactory__dragonBonesDataMap_set_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, std::map< std::string,dragonBones::DragonBonesData *,std::less< std::string > > *_swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::map< std::string,dragonBones::DragonBonesData *,std::less< std::string > > *arg2 = (std::map< std::string,dragonBones::DragonBonesData *,std::less< std::string > > *) 0 ;
   SwigDirector_BaseFactory *darg = 0;
@@ -8743,7 +10348,7 @@ void _wrap_BaseFactory__dragonBonesDataMap_set_wrapper_8547a2e3fc9a516e(dragonBo
 }
 
 
-std::map< std::string,dragonBones::DragonBonesData *,std::less< std::string > > *_wrap_BaseFactory__dragonBonesDataMap_get_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0) {
+std::map< std::string,dragonBones::DragonBonesData *,std::less< std::string > > *_wrap_BaseFactory__dragonBonesDataMap_get_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::map< std::string,dragonBones::DragonBonesData *,std::less< std::string > > *result = 0 ;
   std::map< std::string,dragonBones::DragonBonesData *,std::less< std::string > > *_swig_go_result;
@@ -8758,7 +10363,7 @@ std::map< std::string,dragonBones::DragonBonesData *,std::less< std::string > > 
 }
 
 
-void _wrap_BaseFactory__textureAtlasDataMap_set_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, std::map< std::string,std::vector< dragonBones::TextureAtlasData * >,std::less< std::string > > *_swig_go_1) {
+void _wrap_BaseFactory__textureAtlasDataMap_set_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, std::map< std::string,std::vector< dragonBones::TextureAtlasData * >,std::less< std::string > > *_swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::map< std::string,std::vector< dragonBones::TextureAtlasData * >,std::less< std::string > > *arg2 = (std::map< std::string,std::vector< dragonBones::TextureAtlasData * >,std::less< std::string > > *) 0 ;
   SwigDirector_BaseFactory *darg = 0;
@@ -8772,7 +10377,7 @@ void _wrap_BaseFactory__textureAtlasDataMap_set_wrapper_8547a2e3fc9a516e(dragonB
 }
 
 
-std::map< std::string,std::vector< dragonBones::TextureAtlasData * >,std::less< std::string > > *_wrap_BaseFactory__textureAtlasDataMap_get_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0) {
+std::map< std::string,std::vector< dragonBones::TextureAtlasData * >,std::less< std::string > > *_wrap_BaseFactory__textureAtlasDataMap_get_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::map< std::string,std::vector< dragonBones::TextureAtlasData * >,std::less< std::string > > *result = 0 ;
   std::map< std::string,std::vector< dragonBones::TextureAtlasData * >,std::less< std::string > > *_swig_go_result;
@@ -8787,7 +10392,7 @@ std::map< std::string,std::vector< dragonBones::TextureAtlasData * >,std::less< 
 }
 
 
-void _wrap_BaseFactory__dragonBones_set_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, dragonBones::DragonBones *_swig_go_1) {
+void _wrap_BaseFactory__dragonBones_set_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, dragonBones::DragonBones *_swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::DragonBones *arg2 = (dragonBones::DragonBones *) 0 ;
   SwigDirector_BaseFactory *darg = 0;
@@ -8801,7 +10406,7 @@ void _wrap_BaseFactory__dragonBones_set_wrapper_8547a2e3fc9a516e(dragonBones::Ba
 }
 
 
-dragonBones::DragonBones *_wrap_BaseFactory__dragonBones_get_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0) {
+dragonBones::DragonBones *_wrap_BaseFactory__dragonBones_get_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::DragonBones *result = 0 ;
   dragonBones::DragonBones *_swig_go_result;
@@ -8816,7 +10421,7 @@ dragonBones::DragonBones *_wrap_BaseFactory__dragonBones_get_wrapper_8547a2e3fc9
 }
 
 
-void _wrap_BaseFactory__dataParser_set_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, dragonBones::DataParser *_swig_go_1) {
+void _wrap_BaseFactory__dataParser_set_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, dragonBones::DataParser *_swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::DataParser *arg2 = (dragonBones::DataParser *) 0 ;
   SwigDirector_BaseFactory *darg = 0;
@@ -8830,7 +10435,7 @@ void _wrap_BaseFactory__dataParser_set_wrapper_8547a2e3fc9a516e(dragonBones::Bas
 }
 
 
-dragonBones::DataParser *_wrap_BaseFactory__dataParser_get_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0) {
+dragonBones::DataParser *_wrap_BaseFactory__dataParser_get_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::DataParser *result = 0 ;
   dragonBones::DataParser *_swig_go_result;
@@ -8845,7 +10450,7 @@ dragonBones::DataParser *_wrap_BaseFactory__dataParser_get_wrapper_8547a2e3fc9a5
 }
 
 
-void _wrap_delete_BaseFactory_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0) {
+void _wrap_delete_BaseFactory_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   
   arg1 = *(dragonBones::BaseFactory **)&_swig_go_0; 
@@ -8855,7 +10460,7 @@ void _wrap_delete_BaseFactory_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory 
 }
 
 
-dragonBones::DragonBonesData *_wrap_BaseFactory_parseDragonBonesData__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, float _swig_go_3) {
+dragonBones::DragonBonesData *_wrap_BaseFactory_parseDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, float _swig_go_3) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   char *arg2 = (char *) 0 ;
   std::string *arg3 = 0 ;
@@ -8882,7 +10487,7 @@ dragonBones::DragonBonesData *_wrap_BaseFactory_parseDragonBonesData__SWIG_0_wra
 }
 
 
-dragonBones::DragonBonesData *_wrap_BaseFactory_parseDragonBonesData__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+dragonBones::DragonBonesData *_wrap_BaseFactory_parseDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   char *arg2 = (char *) 0 ;
   std::string *arg3 = 0 ;
@@ -8907,7 +10512,7 @@ dragonBones::DragonBonesData *_wrap_BaseFactory_parseDragonBonesData__SWIG_1_wra
 }
 
 
-dragonBones::DragonBonesData *_wrap_BaseFactory_parseDragonBonesData__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::DragonBonesData *_wrap_BaseFactory_parseDragonBonesData__SWIG_2_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   char *arg2 = (char *) 0 ;
   dragonBones::DragonBonesData *result = 0 ;
@@ -8927,7 +10532,7 @@ dragonBones::DragonBonesData *_wrap_BaseFactory_parseDragonBonesData__SWIG_2_wra
 }
 
 
-dragonBones::TextureAtlasData *_wrap_BaseFactory_parseTextureAtlasData__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2, _gostring_ _swig_go_3, float _swig_go_4) {
+dragonBones::TextureAtlasData *_wrap_BaseFactory_parseTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2, _gostring_ _swig_go_3, float _swig_go_4) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   char *arg2 = (char *) 0 ;
   void *arg3 = (void *) 0 ;
@@ -8956,7 +10561,7 @@ dragonBones::TextureAtlasData *_wrap_BaseFactory_parseTextureAtlasData__SWIG_0_w
 }
 
 
-dragonBones::TextureAtlasData *_wrap_BaseFactory_parseTextureAtlasData__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2, _gostring_ _swig_go_3) {
+dragonBones::TextureAtlasData *_wrap_BaseFactory_parseTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2, _gostring_ _swig_go_3) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   char *arg2 = (char *) 0 ;
   void *arg3 = (void *) 0 ;
@@ -8983,7 +10588,7 @@ dragonBones::TextureAtlasData *_wrap_BaseFactory_parseTextureAtlasData__SWIG_1_w
 }
 
 
-dragonBones::TextureAtlasData *_wrap_BaseFactory_parseTextureAtlasData__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2) {
+dragonBones::TextureAtlasData *_wrap_BaseFactory_parseTextureAtlasData__SWIG_2_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, void *_swig_go_2) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   char *arg2 = (char *) 0 ;
   void *arg3 = (void *) 0 ;
@@ -9005,7 +10610,7 @@ dragonBones::TextureAtlasData *_wrap_BaseFactory_parseTextureAtlasData__SWIG_2_w
 }
 
 
-dragonBones::DragonBonesData *_wrap_BaseFactory_getDragonBonesData_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::DragonBonesData *_wrap_BaseFactory_getDragonBonesData_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::DragonBonesData *result = 0 ;
@@ -9023,7 +10628,7 @@ dragonBones::DragonBonesData *_wrap_BaseFactory_getDragonBonesData_wrapper_8547a
 }
 
 
-void _wrap_BaseFactory_addDragonBonesData__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, dragonBones::DragonBonesData *_swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_BaseFactory_addDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, dragonBones::DragonBonesData *_swig_go_1, _gostring_ _swig_go_2) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::DragonBonesData *arg2 = (dragonBones::DragonBonesData *) 0 ;
   std::string *arg3 = 0 ;
@@ -9040,7 +10645,7 @@ void _wrap_BaseFactory_addDragonBonesData__SWIG_0_wrapper_8547a2e3fc9a516e(drago
 }
 
 
-void _wrap_BaseFactory_addDragonBonesData__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, dragonBones::DragonBonesData *_swig_go_1) {
+void _wrap_BaseFactory_addDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, dragonBones::DragonBonesData *_swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::DragonBonesData *arg2 = (dragonBones::DragonBonesData *) 0 ;
   
@@ -9052,7 +10657,7 @@ void _wrap_BaseFactory_addDragonBonesData__SWIG_1_wrapper_8547a2e3fc9a516e(drago
 }
 
 
-void _wrap_BaseFactory_removeDragonBonesData__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
+void _wrap_BaseFactory_removeDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   bool arg3 ;
@@ -9069,7 +10674,7 @@ void _wrap_BaseFactory_removeDragonBonesData__SWIG_0_wrapper_8547a2e3fc9a516e(dr
 }
 
 
-void _wrap_BaseFactory_removeDragonBonesData__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_BaseFactory_removeDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -9084,7 +10689,7 @@ void _wrap_BaseFactory_removeDragonBonesData__SWIG_1_wrapper_8547a2e3fc9a516e(dr
 }
 
 
-std::vector< dragonBones::TextureAtlasData * > *_wrap_BaseFactory_getTextureAtlasData_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
+std::vector< dragonBones::TextureAtlasData * > *_wrap_BaseFactory_getTextureAtlasData_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::vector< dragonBones::TextureAtlasData * > *result = 0 ;
@@ -9102,7 +10707,7 @@ std::vector< dragonBones::TextureAtlasData * > *_wrap_BaseFactory_getTextureAtla
 }
 
 
-void _wrap_BaseFactory_addTextureAtlasData__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, dragonBones::TextureAtlasData *_swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_BaseFactory_addTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, dragonBones::TextureAtlasData *_swig_go_1, _gostring_ _swig_go_2) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::TextureAtlasData *arg2 = (dragonBones::TextureAtlasData *) 0 ;
   std::string *arg3 = 0 ;
@@ -9119,7 +10724,7 @@ void _wrap_BaseFactory_addTextureAtlasData__SWIG_0_wrapper_8547a2e3fc9a516e(drag
 }
 
 
-void _wrap_BaseFactory_addTextureAtlasData__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, dragonBones::TextureAtlasData *_swig_go_1) {
+void _wrap_BaseFactory_addTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, dragonBones::TextureAtlasData *_swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::TextureAtlasData *arg2 = (dragonBones::TextureAtlasData *) 0 ;
   
@@ -9131,7 +10736,7 @@ void _wrap_BaseFactory_addTextureAtlasData__SWIG_1_wrapper_8547a2e3fc9a516e(drag
 }
 
 
-void _wrap_BaseFactory_removeTextureAtlasData__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
+void _wrap_BaseFactory_removeTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, bool _swig_go_2) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   bool arg3 ;
@@ -9148,7 +10753,7 @@ void _wrap_BaseFactory_removeTextureAtlasData__SWIG_0_wrapper_8547a2e3fc9a516e(d
 }
 
 
-void _wrap_BaseFactory_removeTextureAtlasData__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_BaseFactory_removeTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -9163,7 +10768,7 @@ void _wrap_BaseFactory_removeTextureAtlasData__SWIG_1_wrapper_8547a2e3fc9a516e(d
 }
 
 
-dragonBones::ArmatureData *_wrap_BaseFactory_getArmatureData__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+dragonBones::ArmatureData *_wrap_BaseFactory_getArmatureData__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -9186,7 +10791,7 @@ dragonBones::ArmatureData *_wrap_BaseFactory_getArmatureData__SWIG_0_wrapper_854
 }
 
 
-dragonBones::ArmatureData *_wrap_BaseFactory_getArmatureData__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::ArmatureData *_wrap_BaseFactory_getArmatureData__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::ArmatureData *result = 0 ;
@@ -9204,7 +10809,7 @@ dragonBones::ArmatureData *_wrap_BaseFactory_getArmatureData__SWIG_1_wrapper_854
 }
 
 
-void _wrap_BaseFactory_clear__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, bool _swig_go_1) {
+void _wrap_BaseFactory_clear__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, bool _swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   bool arg2 ;
   
@@ -9216,7 +10821,7 @@ void _wrap_BaseFactory_clear__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::BaseF
 }
 
 
-void _wrap_BaseFactory_clear__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0) {
+void _wrap_BaseFactory_clear__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   
   arg1 = *(dragonBones::BaseFactory **)&_swig_go_0; 
@@ -9226,7 +10831,7 @@ void _wrap_BaseFactory_clear__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::BaseF
 }
 
 
-dragonBones::Armature *_wrap_BaseFactory_buildArmature__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4) {
+dragonBones::Armature *_wrap_BaseFactory_buildArmature__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -9259,7 +10864,7 @@ dragonBones::Armature *_wrap_BaseFactory_buildArmature__SWIG_0_wrapper_8547a2e3f
 }
 
 
-dragonBones::Armature *_wrap_BaseFactory_buildArmature__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3) {
+dragonBones::Armature *_wrap_BaseFactory_buildArmature__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -9287,7 +10892,7 @@ dragonBones::Armature *_wrap_BaseFactory_buildArmature__SWIG_1_wrapper_8547a2e3f
 }
 
 
-dragonBones::Armature *_wrap_BaseFactory_buildArmature__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+dragonBones::Armature *_wrap_BaseFactory_buildArmature__SWIG_2_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -9310,7 +10915,7 @@ dragonBones::Armature *_wrap_BaseFactory_buildArmature__SWIG_2_wrapper_8547a2e3f
 }
 
 
-dragonBones::Armature *_wrap_BaseFactory_buildArmature__SWIG_3_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::Armature *_wrap_BaseFactory_buildArmature__SWIG_3_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::Armature *result = 0 ;
@@ -9328,7 +10933,7 @@ dragonBones::Armature *_wrap_BaseFactory_buildArmature__SWIG_3_wrapper_8547a2e3f
 }
 
 
-void _wrap_BaseFactory_replaceDisplay_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, dragonBones::Slot *_swig_go_1, dragonBones::DisplayData *_swig_go_2, intgo _swig_go_3) {
+void _wrap_BaseFactory_replaceDisplay_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, dragonBones::Slot *_swig_go_1, dragonBones::DisplayData *_swig_go_2, intgo _swig_go_3) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::Slot *arg2 = (dragonBones::Slot *) 0 ;
   dragonBones::DisplayData *arg3 = (dragonBones::DisplayData *) 0 ;
@@ -9344,7 +10949,7 @@ void _wrap_BaseFactory_replaceDisplay_wrapper_8547a2e3fc9a516e(dragonBones::Base
 }
 
 
-bool _wrap_BaseFactory_replaceSlotDisplay__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4, dragonBones::Slot *_swig_go_5, intgo _swig_go_6) {
+bool _wrap_BaseFactory_replaceSlotDisplay__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4, dragonBones::Slot *_swig_go_5, intgo _swig_go_6) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -9381,7 +10986,7 @@ bool _wrap_BaseFactory_replaceSlotDisplay__SWIG_0_wrapper_8547a2e3fc9a516e(drago
 }
 
 
-bool _wrap_BaseFactory_replaceSlotDisplay__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4, dragonBones::Slot *_swig_go_5) {
+bool _wrap_BaseFactory_replaceSlotDisplay__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, _gostring_ _swig_go_4, dragonBones::Slot *_swig_go_5) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -9416,7 +11021,7 @@ bool _wrap_BaseFactory_replaceSlotDisplay__SWIG_1_wrapper_8547a2e3fc9a516e(drago
 }
 
 
-bool _wrap_BaseFactory_replaceSlotDisplayList_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, dragonBones::Slot *_swig_go_4) {
+bool _wrap_BaseFactory_replaceSlotDisplayList_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3, dragonBones::Slot *_swig_go_4) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::string *arg2 = 0 ;
   std::string *arg3 = 0 ;
@@ -9446,7 +11051,7 @@ bool _wrap_BaseFactory_replaceSlotDisplayList_wrapper_8547a2e3fc9a516e(dragonBon
 }
 
 
-bool _wrap_BaseFactory_replaceSkin__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2, bool _swig_go_3, std::vector< std::string > *_swig_go_4) {
+bool _wrap_BaseFactory_replaceSkin__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2, bool _swig_go_3, std::vector< std::string > *_swig_go_4) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   dragonBones::SkinData *arg3 = (dragonBones::SkinData *) 0 ;
@@ -9467,7 +11072,7 @@ bool _wrap_BaseFactory_replaceSkin__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones:
 }
 
 
-bool _wrap_BaseFactory_replaceSkin__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2, bool _swig_go_3) {
+bool _wrap_BaseFactory_replaceSkin__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2, bool _swig_go_3) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   dragonBones::SkinData *arg3 = (dragonBones::SkinData *) 0 ;
@@ -9486,7 +11091,7 @@ bool _wrap_BaseFactory_replaceSkin__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones:
 }
 
 
-bool _wrap_BaseFactory_replaceSkin__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2) {
+bool _wrap_BaseFactory_replaceSkin__SWIG_2_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   dragonBones::SkinData *arg3 = (dragonBones::SkinData *) 0 ;
@@ -9503,7 +11108,7 @@ bool _wrap_BaseFactory_replaceSkin__SWIG_2_wrapper_8547a2e3fc9a516e(dragonBones:
 }
 
 
-bool _wrap_BaseFactory_replaceAnimation__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::ArmatureData *_swig_go_2, bool _swig_go_3) {
+bool _wrap_BaseFactory_replaceAnimation__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::ArmatureData *_swig_go_2, bool _swig_go_3) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   dragonBones::ArmatureData *arg3 = (dragonBones::ArmatureData *) 0 ;
@@ -9522,7 +11127,7 @@ bool _wrap_BaseFactory_replaceAnimation__SWIG_0_wrapper_8547a2e3fc9a516e(dragonB
 }
 
 
-bool _wrap_BaseFactory_replaceAnimation__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::ArmatureData *_swig_go_2) {
+bool _wrap_BaseFactory_replaceAnimation__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::ArmatureData *_swig_go_2) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   dragonBones::ArmatureData *arg3 = (dragonBones::ArmatureData *) 0 ;
@@ -9539,7 +11144,7 @@ bool _wrap_BaseFactory_replaceAnimation__SWIG_1_wrapper_8547a2e3fc9a516e(dragonB
 }
 
 
-std::map< std::string,std::vector< dragonBones::TextureAtlasData * >,std::less< std::string > > *_wrap_BaseFactory_getAllTextureAtlasData_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0) {
+std::map< std::string,std::vector< dragonBones::TextureAtlasData * >,std::less< std::string > > *_wrap_BaseFactory_getAllTextureAtlasData_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::map< std::string,std::vector< dragonBones::TextureAtlasData * >,std::less< std::string > > *result = 0 ;
   std::map< std::string,std::vector< dragonBones::TextureAtlasData * >,std::less< std::string > > *_swig_go_result;
@@ -9552,7 +11157,7 @@ std::map< std::string,std::vector< dragonBones::TextureAtlasData * >,std::less< 
 }
 
 
-std::map< std::string,dragonBones::DragonBonesData *,std::less< std::string > > *_wrap_BaseFactory_getAllDragonBonesData_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0) {
+std::map< std::string,dragonBones::DragonBonesData *,std::less< std::string > > *_wrap_BaseFactory_getAllDragonBonesData_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   std::map< std::string,dragonBones::DragonBonesData *,std::less< std::string > > *result = 0 ;
   std::map< std::string,dragonBones::DragonBonesData *,std::less< std::string > > *_swig_go_result;
@@ -9565,7 +11170,7 @@ std::map< std::string,dragonBones::DragonBonesData *,std::less< std::string > > 
 }
 
 
-dragonBones::WorldClock *_wrap_BaseFactory_getClock_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0) {
+dragonBones::WorldClock *_wrap_BaseFactory_getClock_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::WorldClock *result = 0 ;
   dragonBones::WorldClock *_swig_go_result;
@@ -9578,7 +11183,7 @@ dragonBones::WorldClock *_wrap_BaseFactory_getClock_wrapper_8547a2e3fc9a516e(dra
 }
 
 
-bool _wrap_BaseFactory_changeSkin__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2, std::vector< std::string > *_swig_go_3) {
+bool _wrap_BaseFactory_changeSkin__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2, std::vector< std::string > *_swig_go_3) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   dragonBones::SkinData *arg3 = (dragonBones::SkinData *) 0 ;
@@ -9597,7 +11202,7 @@ bool _wrap_BaseFactory_changeSkin__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-bool _wrap_BaseFactory_changeSkin__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2) {
+bool _wrap_BaseFactory_changeSkin__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::BaseFactory *_swig_go_0, dragonBones::Armature *_swig_go_1, dragonBones::SkinData *_swig_go_2) {
   dragonBones::BaseFactory *arg1 = (dragonBones::BaseFactory *) 0 ;
   dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
   dragonBones::SkinData *arg3 = (dragonBones::SkinData *) 0 ;
@@ -9614,7 +11219,7 @@ bool _wrap_BaseFactory_changeSkin__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::
 }
 
 
-void _wrap_BuildArmaturePackage_dataName_set_wrapper_8547a2e3fc9a516e(dragonBones::BuildArmaturePackage *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_BuildArmaturePackage_dataName_set_wrapper_0168c02bcda14bda(dragonBones::BuildArmaturePackage *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::BuildArmaturePackage *arg1 = (dragonBones::BuildArmaturePackage *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -9629,7 +11234,7 @@ void _wrap_BuildArmaturePackage_dataName_set_wrapper_8547a2e3fc9a516e(dragonBone
 }
 
 
-_gostring_ _wrap_BuildArmaturePackage_dataName_get_wrapper_8547a2e3fc9a516e(dragonBones::BuildArmaturePackage *_swig_go_0) {
+_gostring_ _wrap_BuildArmaturePackage_dataName_get_wrapper_0168c02bcda14bda(dragonBones::BuildArmaturePackage *_swig_go_0) {
   dragonBones::BuildArmaturePackage *arg1 = (dragonBones::BuildArmaturePackage *) 0 ;
   std::string *result = 0 ;
   _gostring_ _swig_go_result;
@@ -9642,7 +11247,7 @@ _gostring_ _wrap_BuildArmaturePackage_dataName_get_wrapper_8547a2e3fc9a516e(drag
 }
 
 
-void _wrap_BuildArmaturePackage_textureAtlasName_set_wrapper_8547a2e3fc9a516e(dragonBones::BuildArmaturePackage *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_BuildArmaturePackage_textureAtlasName_set_wrapper_0168c02bcda14bda(dragonBones::BuildArmaturePackage *_swig_go_0, _gostring_ _swig_go_1) {
   dragonBones::BuildArmaturePackage *arg1 = (dragonBones::BuildArmaturePackage *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -9657,7 +11262,7 @@ void _wrap_BuildArmaturePackage_textureAtlasName_set_wrapper_8547a2e3fc9a516e(dr
 }
 
 
-_gostring_ _wrap_BuildArmaturePackage_textureAtlasName_get_wrapper_8547a2e3fc9a516e(dragonBones::BuildArmaturePackage *_swig_go_0) {
+_gostring_ _wrap_BuildArmaturePackage_textureAtlasName_get_wrapper_0168c02bcda14bda(dragonBones::BuildArmaturePackage *_swig_go_0) {
   dragonBones::BuildArmaturePackage *arg1 = (dragonBones::BuildArmaturePackage *) 0 ;
   std::string *result = 0 ;
   _gostring_ _swig_go_result;
@@ -9670,7 +11275,7 @@ _gostring_ _wrap_BuildArmaturePackage_textureAtlasName_get_wrapper_8547a2e3fc9a5
 }
 
 
-void _wrap_BuildArmaturePackage_data_set_wrapper_8547a2e3fc9a516e(dragonBones::BuildArmaturePackage *_swig_go_0, dragonBones::DragonBonesData *_swig_go_1) {
+void _wrap_BuildArmaturePackage_data_set_wrapper_0168c02bcda14bda(dragonBones::BuildArmaturePackage *_swig_go_0, dragonBones::DragonBonesData *_swig_go_1) {
   dragonBones::BuildArmaturePackage *arg1 = (dragonBones::BuildArmaturePackage *) 0 ;
   dragonBones::DragonBonesData *arg2 = (dragonBones::DragonBonesData *) 0 ;
   
@@ -9682,7 +11287,7 @@ void _wrap_BuildArmaturePackage_data_set_wrapper_8547a2e3fc9a516e(dragonBones::B
 }
 
 
-dragonBones::DragonBonesData *_wrap_BuildArmaturePackage_data_get_wrapper_8547a2e3fc9a516e(dragonBones::BuildArmaturePackage *_swig_go_0) {
+dragonBones::DragonBonesData *_wrap_BuildArmaturePackage_data_get_wrapper_0168c02bcda14bda(dragonBones::BuildArmaturePackage *_swig_go_0) {
   dragonBones::BuildArmaturePackage *arg1 = (dragonBones::BuildArmaturePackage *) 0 ;
   dragonBones::DragonBonesData *result = 0 ;
   dragonBones::DragonBonesData *_swig_go_result;
@@ -9695,7 +11300,7 @@ dragonBones::DragonBonesData *_wrap_BuildArmaturePackage_data_get_wrapper_8547a2
 }
 
 
-void _wrap_BuildArmaturePackage_armature_set_wrapper_8547a2e3fc9a516e(dragonBones::BuildArmaturePackage *_swig_go_0, dragonBones::ArmatureData *_swig_go_1) {
+void _wrap_BuildArmaturePackage_armature_set_wrapper_0168c02bcda14bda(dragonBones::BuildArmaturePackage *_swig_go_0, dragonBones::ArmatureData *_swig_go_1) {
   dragonBones::BuildArmaturePackage *arg1 = (dragonBones::BuildArmaturePackage *) 0 ;
   dragonBones::ArmatureData *arg2 = (dragonBones::ArmatureData *) 0 ;
   
@@ -9707,7 +11312,7 @@ void _wrap_BuildArmaturePackage_armature_set_wrapper_8547a2e3fc9a516e(dragonBone
 }
 
 
-dragonBones::ArmatureData *_wrap_BuildArmaturePackage_armature_get_wrapper_8547a2e3fc9a516e(dragonBones::BuildArmaturePackage *_swig_go_0) {
+dragonBones::ArmatureData *_wrap_BuildArmaturePackage_armature_get_wrapper_0168c02bcda14bda(dragonBones::BuildArmaturePackage *_swig_go_0) {
   dragonBones::BuildArmaturePackage *arg1 = (dragonBones::BuildArmaturePackage *) 0 ;
   dragonBones::ArmatureData *result = 0 ;
   dragonBones::ArmatureData *_swig_go_result;
@@ -9720,7 +11325,7 @@ dragonBones::ArmatureData *_wrap_BuildArmaturePackage_armature_get_wrapper_8547a
 }
 
 
-void _wrap_BuildArmaturePackage_skin_set_wrapper_8547a2e3fc9a516e(dragonBones::BuildArmaturePackage *_swig_go_0, dragonBones::SkinData *_swig_go_1) {
+void _wrap_BuildArmaturePackage_skin_set_wrapper_0168c02bcda14bda(dragonBones::BuildArmaturePackage *_swig_go_0, dragonBones::SkinData *_swig_go_1) {
   dragonBones::BuildArmaturePackage *arg1 = (dragonBones::BuildArmaturePackage *) 0 ;
   dragonBones::SkinData *arg2 = (dragonBones::SkinData *) 0 ;
   
@@ -9732,7 +11337,7 @@ void _wrap_BuildArmaturePackage_skin_set_wrapper_8547a2e3fc9a516e(dragonBones::B
 }
 
 
-dragonBones::SkinData *_wrap_BuildArmaturePackage_skin_get_wrapper_8547a2e3fc9a516e(dragonBones::BuildArmaturePackage *_swig_go_0) {
+dragonBones::SkinData *_wrap_BuildArmaturePackage_skin_get_wrapper_0168c02bcda14bda(dragonBones::BuildArmaturePackage *_swig_go_0) {
   dragonBones::BuildArmaturePackage *arg1 = (dragonBones::BuildArmaturePackage *) 0 ;
   dragonBones::SkinData *result = 0 ;
   dragonBones::SkinData *_swig_go_result;
@@ -9745,7 +11350,7 @@ dragonBones::SkinData *_wrap_BuildArmaturePackage_skin_get_wrapper_8547a2e3fc9a5
 }
 
 
-dragonBones::BuildArmaturePackage *_wrap_new_BuildArmaturePackage_wrapper_8547a2e3fc9a516e() {
+dragonBones::BuildArmaturePackage *_wrap_new_BuildArmaturePackage_wrapper_0168c02bcda14bda() {
   dragonBones::BuildArmaturePackage *result = 0 ;
   dragonBones::BuildArmaturePackage *_swig_go_result;
   
@@ -9756,7 +11361,7 @@ dragonBones::BuildArmaturePackage *_wrap_new_BuildArmaturePackage_wrapper_8547a2
 }
 
 
-void _wrap_delete_BuildArmaturePackage_wrapper_8547a2e3fc9a516e(dragonBones::BuildArmaturePackage *_swig_go_0) {
+void _wrap_delete_BuildArmaturePackage_wrapper_0168c02bcda14bda(dragonBones::BuildArmaturePackage *_swig_go_0) {
   dragonBones::BuildArmaturePackage *arg1 = (dragonBones::BuildArmaturePackage *) 0 ;
   
   arg1 = *(dragonBones::BuildArmaturePackage **)&_swig_go_0; 
@@ -9766,7 +11371,7 @@ void _wrap_delete_BuildArmaturePackage_wrapper_8547a2e3fc9a516e(dragonBones::Bui
 }
 
 
-void _wrap_Rectangle_x_set_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swig_go_0, float _swig_go_1) {
+void _wrap_Rectangle_x_set_wrapper_0168c02bcda14bda(dragonBones::Rectangle *_swig_go_0, float _swig_go_1) {
   dragonBones::Rectangle *arg1 = (dragonBones::Rectangle *) 0 ;
   float arg2 ;
   
@@ -9778,7 +11383,7 @@ void _wrap_Rectangle_x_set_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swi
 }
 
 
-float _wrap_Rectangle_x_get_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swig_go_0) {
+float _wrap_Rectangle_x_get_wrapper_0168c02bcda14bda(dragonBones::Rectangle *_swig_go_0) {
   dragonBones::Rectangle *arg1 = (dragonBones::Rectangle *) 0 ;
   float result;
   float _swig_go_result;
@@ -9791,7 +11396,7 @@ float _wrap_Rectangle_x_get_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_sw
 }
 
 
-void _wrap_Rectangle_y_set_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swig_go_0, float _swig_go_1) {
+void _wrap_Rectangle_y_set_wrapper_0168c02bcda14bda(dragonBones::Rectangle *_swig_go_0, float _swig_go_1) {
   dragonBones::Rectangle *arg1 = (dragonBones::Rectangle *) 0 ;
   float arg2 ;
   
@@ -9803,7 +11408,7 @@ void _wrap_Rectangle_y_set_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swi
 }
 
 
-float _wrap_Rectangle_y_get_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swig_go_0) {
+float _wrap_Rectangle_y_get_wrapper_0168c02bcda14bda(dragonBones::Rectangle *_swig_go_0) {
   dragonBones::Rectangle *arg1 = (dragonBones::Rectangle *) 0 ;
   float result;
   float _swig_go_result;
@@ -9816,7 +11421,7 @@ float _wrap_Rectangle_y_get_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_sw
 }
 
 
-void _wrap_Rectangle_width_set_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swig_go_0, float _swig_go_1) {
+void _wrap_Rectangle_width_set_wrapper_0168c02bcda14bda(dragonBones::Rectangle *_swig_go_0, float _swig_go_1) {
   dragonBones::Rectangle *arg1 = (dragonBones::Rectangle *) 0 ;
   float arg2 ;
   
@@ -9828,7 +11433,7 @@ void _wrap_Rectangle_width_set_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *
 }
 
 
-float _wrap_Rectangle_width_get_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swig_go_0) {
+float _wrap_Rectangle_width_get_wrapper_0168c02bcda14bda(dragonBones::Rectangle *_swig_go_0) {
   dragonBones::Rectangle *arg1 = (dragonBones::Rectangle *) 0 ;
   float result;
   float _swig_go_result;
@@ -9841,7 +11446,7 @@ float _wrap_Rectangle_width_get_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle 
 }
 
 
-void _wrap_Rectangle_height_set_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swig_go_0, float _swig_go_1) {
+void _wrap_Rectangle_height_set_wrapper_0168c02bcda14bda(dragonBones::Rectangle *_swig_go_0, float _swig_go_1) {
   dragonBones::Rectangle *arg1 = (dragonBones::Rectangle *) 0 ;
   float arg2 ;
   
@@ -9853,7 +11458,7 @@ void _wrap_Rectangle_height_set_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle 
 }
 
 
-float _wrap_Rectangle_height_get_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swig_go_0) {
+float _wrap_Rectangle_height_get_wrapper_0168c02bcda14bda(dragonBones::Rectangle *_swig_go_0) {
   dragonBones::Rectangle *arg1 = (dragonBones::Rectangle *) 0 ;
   float result;
   float _swig_go_result;
@@ -9866,7 +11471,7 @@ float _wrap_Rectangle_height_get_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle
 }
 
 
-dragonBones::Rectangle *_wrap_new_Rectangle__SWIG_0_wrapper_8547a2e3fc9a516e() {
+dragonBones::Rectangle *_wrap_new_Rectangle__SWIG_0_wrapper_0168c02bcda14bda() {
   dragonBones::Rectangle *result = 0 ;
   dragonBones::Rectangle *_swig_go_result;
   
@@ -9877,7 +11482,7 @@ dragonBones::Rectangle *_wrap_new_Rectangle__SWIG_0_wrapper_8547a2e3fc9a516e() {
 }
 
 
-dragonBones::Rectangle *_wrap_new_Rectangle__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swig_go_0) {
+dragonBones::Rectangle *_wrap_new_Rectangle__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Rectangle *_swig_go_0) {
   dragonBones::Rectangle *arg1 = 0 ;
   dragonBones::Rectangle *result = 0 ;
   dragonBones::Rectangle *_swig_go_result;
@@ -9890,7 +11495,7 @@ dragonBones::Rectangle *_wrap_new_Rectangle__SWIG_1_wrapper_8547a2e3fc9a516e(dra
 }
 
 
-void _wrap_delete_Rectangle_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swig_go_0) {
+void _wrap_delete_Rectangle_wrapper_0168c02bcda14bda(dragonBones::Rectangle *_swig_go_0) {
   dragonBones::Rectangle *arg1 = (dragonBones::Rectangle *) 0 ;
   
   arg1 = *(dragonBones::Rectangle **)&_swig_go_0; 
@@ -9900,7 +11505,7 @@ void _wrap_delete_Rectangle_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_sw
 }
 
 
-void _wrap_Rectangle_opEqual_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swig_go_0, dragonBones::Rectangle *_swig_go_1) {
+void _wrap_Rectangle_opEqual_wrapper_0168c02bcda14bda(dragonBones::Rectangle *_swig_go_0, dragonBones::Rectangle *_swig_go_1) {
   dragonBones::Rectangle *arg1 = (dragonBones::Rectangle *) 0 ;
   dragonBones::Rectangle *arg2 = 0 ;
   
@@ -9912,7 +11517,7 @@ void _wrap_Rectangle_opEqual_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_s
 }
 
 
-void _wrap_Rectangle_clear_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swig_go_0) {
+void _wrap_Rectangle_clear_wrapper_0168c02bcda14bda(dragonBones::Rectangle *_swig_go_0) {
   dragonBones::Rectangle *arg1 = (dragonBones::Rectangle *) 0 ;
   
   arg1 = *(dragonBones::Rectangle **)&_swig_go_0; 
@@ -9922,7 +11527,7 @@ void _wrap_Rectangle_clear_wrapper_8547a2e3fc9a516e(dragonBones::Rectangle *_swi
 }
 
 
-float _wrap_Transform_PI_get_wrapper_8547a2e3fc9a516e() {
+float _wrap_Transform_PI_get_wrapper_0168c02bcda14bda() {
   float result;
   float _swig_go_result;
   
@@ -9933,7 +11538,7 @@ float _wrap_Transform_PI_get_wrapper_8547a2e3fc9a516e() {
 }
 
 
-float _wrap_Transform_PI_D_get_wrapper_8547a2e3fc9a516e() {
+float _wrap_Transform_PI_D_get_wrapper_0168c02bcda14bda() {
   float result;
   float _swig_go_result;
   
@@ -9944,7 +11549,7 @@ float _wrap_Transform_PI_D_get_wrapper_8547a2e3fc9a516e() {
 }
 
 
-float _wrap_Transform_PI_H_get_wrapper_8547a2e3fc9a516e() {
+float _wrap_Transform_PI_H_get_wrapper_0168c02bcda14bda() {
   float result;
   float _swig_go_result;
   
@@ -9955,7 +11560,7 @@ float _wrap_Transform_PI_H_get_wrapper_8547a2e3fc9a516e() {
 }
 
 
-float _wrap_Transform_PI_Q_get_wrapper_8547a2e3fc9a516e() {
+float _wrap_Transform_PI_Q_get_wrapper_0168c02bcda14bda() {
   float result;
   float _swig_go_result;
   
@@ -9966,7 +11571,7 @@ float _wrap_Transform_PI_Q_get_wrapper_8547a2e3fc9a516e() {
 }
 
 
-float _wrap_Transform_DEG_RAD_get_wrapper_8547a2e3fc9a516e() {
+float _wrap_Transform_DEG_RAD_get_wrapper_0168c02bcda14bda() {
   float result;
   float _swig_go_result;
   
@@ -9977,7 +11582,7 @@ float _wrap_Transform_DEG_RAD_get_wrapper_8547a2e3fc9a516e() {
 }
 
 
-float _wrap_Transform_RAD_DEG_get_wrapper_8547a2e3fc9a516e() {
+float _wrap_Transform_RAD_DEG_get_wrapper_0168c02bcda14bda() {
   float result;
   float _swig_go_result;
   
@@ -9988,7 +11593,7 @@ float _wrap_Transform_RAD_DEG_get_wrapper_8547a2e3fc9a516e() {
 }
 
 
-float _wrap_Transform_normalizeRadian_wrapper_8547a2e3fc9a516e(float _swig_go_0) {
+float _wrap_Transform_normalizeRadian_wrapper_0168c02bcda14bda(float _swig_go_0) {
   float arg1 ;
   float result;
   float _swig_go_result;
@@ -10001,7 +11606,7 @@ float _wrap_Transform_normalizeRadian_wrapper_8547a2e3fc9a516e(float _swig_go_0)
 }
 
 
-void _wrap_Transform_x_set_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0, float _swig_go_1) {
+void _wrap_Transform_x_set_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0, float _swig_go_1) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   float arg2 ;
   
@@ -10013,7 +11618,7 @@ void _wrap_Transform_x_set_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swi
 }
 
 
-float _wrap_Transform_x_get_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0) {
+float _wrap_Transform_x_get_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   float result;
   float _swig_go_result;
@@ -10026,7 +11631,7 @@ float _wrap_Transform_x_get_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_sw
 }
 
 
-void _wrap_Transform_y_set_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0, float _swig_go_1) {
+void _wrap_Transform_y_set_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0, float _swig_go_1) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   float arg2 ;
   
@@ -10038,7 +11643,7 @@ void _wrap_Transform_y_set_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swi
 }
 
 
-float _wrap_Transform_y_get_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0) {
+float _wrap_Transform_y_get_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   float result;
   float _swig_go_result;
@@ -10051,7 +11656,7 @@ float _wrap_Transform_y_get_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_sw
 }
 
 
-void _wrap_Transform_skew_set_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0, float _swig_go_1) {
+void _wrap_Transform_skew_set_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0, float _swig_go_1) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   float arg2 ;
   
@@ -10063,7 +11668,7 @@ void _wrap_Transform_skew_set_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_
 }
 
 
-float _wrap_Transform_skew_get_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0) {
+float _wrap_Transform_skew_get_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   float result;
   float _swig_go_result;
@@ -10076,7 +11681,7 @@ float _wrap_Transform_skew_get_wrapper_8547a2e3fc9a516e(dragonBones::Transform *
 }
 
 
-void _wrap_Transform_rotation_set_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0, float _swig_go_1) {
+void _wrap_Transform_rotation_set_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0, float _swig_go_1) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   float arg2 ;
   
@@ -10088,7 +11693,7 @@ void _wrap_Transform_rotation_set_wrapper_8547a2e3fc9a516e(dragonBones::Transfor
 }
 
 
-float _wrap_Transform_rotation_get_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0) {
+float _wrap_Transform_rotation_get_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   float result;
   float _swig_go_result;
@@ -10101,7 +11706,7 @@ float _wrap_Transform_rotation_get_wrapper_8547a2e3fc9a516e(dragonBones::Transfo
 }
 
 
-void _wrap_Transform_scaleX_set_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0, float _swig_go_1) {
+void _wrap_Transform_scaleX_set_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0, float _swig_go_1) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   float arg2 ;
   
@@ -10113,7 +11718,7 @@ void _wrap_Transform_scaleX_set_wrapper_8547a2e3fc9a516e(dragonBones::Transform 
 }
 
 
-float _wrap_Transform_scaleX_get_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0) {
+float _wrap_Transform_scaleX_get_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   float result;
   float _swig_go_result;
@@ -10126,7 +11731,7 @@ float _wrap_Transform_scaleX_get_wrapper_8547a2e3fc9a516e(dragonBones::Transform
 }
 
 
-void _wrap_Transform_scaleY_set_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0, float _swig_go_1) {
+void _wrap_Transform_scaleY_set_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0, float _swig_go_1) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   float arg2 ;
   
@@ -10138,7 +11743,7 @@ void _wrap_Transform_scaleY_set_wrapper_8547a2e3fc9a516e(dragonBones::Transform 
 }
 
 
-float _wrap_Transform_scaleY_get_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0) {
+float _wrap_Transform_scaleY_get_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   float result;
   float _swig_go_result;
@@ -10151,7 +11756,7 @@ float _wrap_Transform_scaleY_get_wrapper_8547a2e3fc9a516e(dragonBones::Transform
 }
 
 
-dragonBones::Transform *_wrap_new_Transform__SWIG_0_wrapper_8547a2e3fc9a516e() {
+dragonBones::Transform *_wrap_new_Transform__SWIG_0_wrapper_0168c02bcda14bda() {
   dragonBones::Transform *result = 0 ;
   dragonBones::Transform *_swig_go_result;
   
@@ -10162,7 +11767,7 @@ dragonBones::Transform *_wrap_new_Transform__SWIG_0_wrapper_8547a2e3fc9a516e() {
 }
 
 
-dragonBones::Transform *_wrap_new_Transform__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0) {
+dragonBones::Transform *_wrap_new_Transform__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0) {
   dragonBones::Transform *arg1 = 0 ;
   dragonBones::Transform *result = 0 ;
   dragonBones::Transform *_swig_go_result;
@@ -10175,7 +11780,7 @@ dragonBones::Transform *_wrap_new_Transform__SWIG_1_wrapper_8547a2e3fc9a516e(dra
 }
 
 
-void _wrap_delete_Transform_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0) {
+void _wrap_delete_Transform_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   
   arg1 = *(dragonBones::Transform **)&_swig_go_0; 
@@ -10185,7 +11790,7 @@ void _wrap_delete_Transform_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_sw
 }
 
 
-void _wrap_Transform_opEqual_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0, dragonBones::Transform *_swig_go_1) {
+void _wrap_Transform_opEqual_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0, dragonBones::Transform *_swig_go_1) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   dragonBones::Transform *arg2 = 0 ;
   
@@ -10197,7 +11802,7 @@ void _wrap_Transform_opEqual_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_s
 }
 
 
-dragonBones::Transform *_wrap_Transform_identity_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0) {
+dragonBones::Transform *_wrap_Transform_identity_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   dragonBones::Transform *result = 0 ;
   dragonBones::Transform *_swig_go_result;
@@ -10210,7 +11815,7 @@ dragonBones::Transform *_wrap_Transform_identity_wrapper_8547a2e3fc9a516e(dragon
 }
 
 
-dragonBones::Transform *_wrap_Transform_add_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0, dragonBones::Transform *_swig_go_1) {
+dragonBones::Transform *_wrap_Transform_add_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0, dragonBones::Transform *_swig_go_1) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   dragonBones::Transform *arg2 = 0 ;
   dragonBones::Transform *result = 0 ;
@@ -10225,7 +11830,7 @@ dragonBones::Transform *_wrap_Transform_add_wrapper_8547a2e3fc9a516e(dragonBones
 }
 
 
-dragonBones::Transform *_wrap_Transform_minus_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0, dragonBones::Transform *_swig_go_1) {
+dragonBones::Transform *_wrap_Transform_minus_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0, dragonBones::Transform *_swig_go_1) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   dragonBones::Transform *arg2 = 0 ;
   dragonBones::Transform *result = 0 ;
@@ -10240,7 +11845,7 @@ dragonBones::Transform *_wrap_Transform_minus_wrapper_8547a2e3fc9a516e(dragonBon
 }
 
 
-dragonBones::Transform *_wrap_Transform_fromMatrix_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0, dragonBones::Matrix *_swig_go_1) {
+dragonBones::Transform *_wrap_Transform_fromMatrix_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0, dragonBones::Matrix *_swig_go_1) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   dragonBones::Matrix *arg2 = 0 ;
   dragonBones::Transform *result = 0 ;
@@ -10255,7 +11860,7 @@ dragonBones::Transform *_wrap_Transform_fromMatrix_wrapper_8547a2e3fc9a516e(drag
 }
 
 
-dragonBones::Transform *_wrap_Transform_toMatrix_wrapper_8547a2e3fc9a516e(dragonBones::Transform *_swig_go_0, dragonBones::Matrix *_swig_go_1) {
+dragonBones::Transform *_wrap_Transform_toMatrix_wrapper_0168c02bcda14bda(dragonBones::Transform *_swig_go_0, dragonBones::Matrix *_swig_go_1) {
   dragonBones::Transform *arg1 = (dragonBones::Transform *) 0 ;
   dragonBones::Matrix *arg2 = 0 ;
   dragonBones::Transform *result = 0 ;
@@ -10270,7 +11875,7 @@ dragonBones::Transform *_wrap_Transform_toMatrix_wrapper_8547a2e3fc9a516e(dragon
 }
 
 
-void _wrap_Matrix_a_set_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0, float _swig_go_1) {
+void _wrap_Matrix_a_set_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0, float _swig_go_1) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   float arg2 ;
   
@@ -10282,7 +11887,7 @@ void _wrap_Matrix_a_set_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0
 }
 
 
-float _wrap_Matrix_a_get_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0) {
+float _wrap_Matrix_a_get_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   float result;
   float _swig_go_result;
@@ -10295,7 +11900,7 @@ float _wrap_Matrix_a_get_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_
 }
 
 
-void _wrap_Matrix_b_set_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0, float _swig_go_1) {
+void _wrap_Matrix_b_set_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0, float _swig_go_1) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   float arg2 ;
   
@@ -10307,7 +11912,7 @@ void _wrap_Matrix_b_set_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0
 }
 
 
-float _wrap_Matrix_b_get_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0) {
+float _wrap_Matrix_b_get_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   float result;
   float _swig_go_result;
@@ -10320,7 +11925,7 @@ float _wrap_Matrix_b_get_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_
 }
 
 
-void _wrap_Matrix_c_set_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0, float _swig_go_1) {
+void _wrap_Matrix_c_set_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0, float _swig_go_1) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   float arg2 ;
   
@@ -10332,7 +11937,7 @@ void _wrap_Matrix_c_set_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0
 }
 
 
-float _wrap_Matrix_c_get_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0) {
+float _wrap_Matrix_c_get_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   float result;
   float _swig_go_result;
@@ -10345,7 +11950,7 @@ float _wrap_Matrix_c_get_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_
 }
 
 
-void _wrap_Matrix_d_set_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0, float _swig_go_1) {
+void _wrap_Matrix_d_set_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0, float _swig_go_1) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   float arg2 ;
   
@@ -10357,7 +11962,7 @@ void _wrap_Matrix_d_set_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0
 }
 
 
-float _wrap_Matrix_d_get_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0) {
+float _wrap_Matrix_d_get_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   float result;
   float _swig_go_result;
@@ -10370,7 +11975,7 @@ float _wrap_Matrix_d_get_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_
 }
 
 
-void _wrap_Matrix_tx_set_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0, float _swig_go_1) {
+void _wrap_Matrix_tx_set_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0, float _swig_go_1) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   float arg2 ;
   
@@ -10382,7 +11987,7 @@ void _wrap_Matrix_tx_set_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_
 }
 
 
-float _wrap_Matrix_tx_get_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0) {
+float _wrap_Matrix_tx_get_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   float result;
   float _swig_go_result;
@@ -10395,7 +12000,7 @@ float _wrap_Matrix_tx_get_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go
 }
 
 
-void _wrap_Matrix_ty_set_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0, float _swig_go_1) {
+void _wrap_Matrix_ty_set_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0, float _swig_go_1) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   float arg2 ;
   
@@ -10407,7 +12012,7 @@ void _wrap_Matrix_ty_set_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_
 }
 
 
-float _wrap_Matrix_ty_get_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0) {
+float _wrap_Matrix_ty_get_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   float result;
   float _swig_go_result;
@@ -10420,7 +12025,7 @@ float _wrap_Matrix_ty_get_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go
 }
 
 
-dragonBones::Matrix *_wrap_new_Matrix__SWIG_0_wrapper_8547a2e3fc9a516e() {
+dragonBones::Matrix *_wrap_new_Matrix__SWIG_0_wrapper_0168c02bcda14bda() {
   dragonBones::Matrix *result = 0 ;
   dragonBones::Matrix *_swig_go_result;
   
@@ -10431,7 +12036,7 @@ dragonBones::Matrix *_wrap_new_Matrix__SWIG_0_wrapper_8547a2e3fc9a516e() {
 }
 
 
-dragonBones::Matrix *_wrap_new_Matrix__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0) {
+dragonBones::Matrix *_wrap_new_Matrix__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0) {
   dragonBones::Matrix *arg1 = 0 ;
   dragonBones::Matrix *result = 0 ;
   dragonBones::Matrix *_swig_go_result;
@@ -10444,7 +12049,7 @@ dragonBones::Matrix *_wrap_new_Matrix__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBon
 }
 
 
-void _wrap_delete_Matrix_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0) {
+void _wrap_delete_Matrix_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   
   arg1 = *(dragonBones::Matrix **)&_swig_go_0; 
@@ -10454,7 +12059,7 @@ void _wrap_delete_Matrix_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_
 }
 
 
-void _wrap_Matrix_opEqual_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0, dragonBones::Matrix *_swig_go_1) {
+void _wrap_Matrix_opEqual_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0, dragonBones::Matrix *_swig_go_1) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   dragonBones::Matrix *arg2 = 0 ;
   
@@ -10466,7 +12071,7 @@ void _wrap_Matrix_opEqual_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go
 }
 
 
-void _wrap_Matrix_identity_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0) {
+void _wrap_Matrix_identity_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   
   arg1 = *(dragonBones::Matrix **)&_swig_go_0; 
@@ -10476,7 +12081,7 @@ void _wrap_Matrix_identity_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_g
 }
 
 
-void _wrap_Matrix_concat_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0, dragonBones::Matrix *_swig_go_1) {
+void _wrap_Matrix_concat_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0, dragonBones::Matrix *_swig_go_1) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   dragonBones::Matrix *arg2 = 0 ;
   
@@ -10488,7 +12093,7 @@ void _wrap_Matrix_concat_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_
 }
 
 
-void _wrap_Matrix_invert_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0) {
+void _wrap_Matrix_invert_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   
   arg1 = *(dragonBones::Matrix **)&_swig_go_0; 
@@ -10498,7 +12103,7 @@ void _wrap_Matrix_invert_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_
 }
 
 
-void _wrap_Matrix_transformPoint__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0, float _swig_go_1, float _swig_go_2, dragonBones::Point *_swig_go_3, bool _swig_go_4) {
+void _wrap_Matrix_transformPoint__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0, float _swig_go_1, float _swig_go_2, dragonBones::Point *_swig_go_3, bool _swig_go_4) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -10516,7 +12121,7 @@ void _wrap_Matrix_transformPoint__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::M
 }
 
 
-void _wrap_Matrix_transformPoint__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0, float _swig_go_1, float _swig_go_2, dragonBones::Point *_swig_go_3) {
+void _wrap_Matrix_transformPoint__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0, float _swig_go_1, float _swig_go_2, dragonBones::Point *_swig_go_3) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -10532,7 +12137,7 @@ void _wrap_Matrix_transformPoint__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::M
 }
 
 
-void _wrap_Matrix_transformRectangle__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0, dragonBones::Rectangle *_swig_go_1, bool _swig_go_2) {
+void _wrap_Matrix_transformRectangle__SWIG_0_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0, dragonBones::Rectangle *_swig_go_1, bool _swig_go_2) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   dragonBones::Rectangle *arg2 = 0 ;
   bool arg3 ;
@@ -10546,7 +12151,7 @@ void _wrap_Matrix_transformRectangle__SWIG_0_wrapper_8547a2e3fc9a516e(dragonBone
 }
 
 
-void _wrap_Matrix_transformRectangle__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBones::Matrix *_swig_go_0, dragonBones::Rectangle *_swig_go_1) {
+void _wrap_Matrix_transformRectangle__SWIG_1_wrapper_0168c02bcda14bda(dragonBones::Matrix *_swig_go_0, dragonBones::Rectangle *_swig_go_1) {
   dragonBones::Matrix *arg1 = (dragonBones::Matrix *) 0 ;
   dragonBones::Rectangle *arg2 = 0 ;
   
@@ -10558,7 +12163,7 @@ void _wrap_Matrix_transformRectangle__SWIG_1_wrapper_8547a2e3fc9a516e(dragonBone
 }
 
 
-dragonBones::WorldClock *_wrap_WorldClock_clock_get_wrapper_8547a2e3fc9a516e() {
+dragonBones::WorldClock *_wrap_WorldClock_clock_get_wrapper_0168c02bcda14bda() {
   dragonBones::WorldClock *result = 0 ;
   dragonBones::WorldClock *_swig_go_result;
   
@@ -10569,7 +12174,7 @@ dragonBones::WorldClock *_wrap_WorldClock_clock_get_wrapper_8547a2e3fc9a516e() {
 }
 
 
-void _wrap_WorldClock_time_set_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_swig_go_0, float _swig_go_1) {
+void _wrap_WorldClock_time_set_wrapper_0168c02bcda14bda(dragonBones::WorldClock *_swig_go_0, float _swig_go_1) {
   dragonBones::WorldClock *arg1 = (dragonBones::WorldClock *) 0 ;
   float arg2 ;
   
@@ -10581,7 +12186,7 @@ void _wrap_WorldClock_time_set_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock 
 }
 
 
-float _wrap_WorldClock_time_get_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_swig_go_0) {
+float _wrap_WorldClock_time_get_wrapper_0168c02bcda14bda(dragonBones::WorldClock *_swig_go_0) {
   dragonBones::WorldClock *arg1 = (dragonBones::WorldClock *) 0 ;
   float result;
   float _swig_go_result;
@@ -10594,7 +12199,7 @@ float _wrap_WorldClock_time_get_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock
 }
 
 
-void _wrap_WorldClock_timeScale_set_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_swig_go_0, float _swig_go_1) {
+void _wrap_WorldClock_timeScale_set_wrapper_0168c02bcda14bda(dragonBones::WorldClock *_swig_go_0, float _swig_go_1) {
   dragonBones::WorldClock *arg1 = (dragonBones::WorldClock *) 0 ;
   float arg2 ;
   
@@ -10606,7 +12211,7 @@ void _wrap_WorldClock_timeScale_set_wrapper_8547a2e3fc9a516e(dragonBones::WorldC
 }
 
 
-float _wrap_WorldClock_timeScale_get_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_swig_go_0) {
+float _wrap_WorldClock_timeScale_get_wrapper_0168c02bcda14bda(dragonBones::WorldClock *_swig_go_0) {
   dragonBones::WorldClock *arg1 = (dragonBones::WorldClock *) 0 ;
   float result;
   float _swig_go_result;
@@ -10619,7 +12224,7 @@ float _wrap_WorldClock_timeScale_get_wrapper_8547a2e3fc9a516e(dragonBones::World
 }
 
 
-dragonBones::WorldClock *_wrap_new_WorldClock__SWIG_0_wrapper_8547a2e3fc9a516e(float _swig_go_0) {
+dragonBones::WorldClock *_wrap_new_WorldClock__SWIG_0_wrapper_0168c02bcda14bda(float _swig_go_0) {
   float arg1 ;
   dragonBones::WorldClock *result = 0 ;
   dragonBones::WorldClock *_swig_go_result;
@@ -10632,7 +12237,7 @@ dragonBones::WorldClock *_wrap_new_WorldClock__SWIG_0_wrapper_8547a2e3fc9a516e(f
 }
 
 
-dragonBones::WorldClock *_wrap_new_WorldClock__SWIG_1_wrapper_8547a2e3fc9a516e() {
+dragonBones::WorldClock *_wrap_new_WorldClock__SWIG_1_wrapper_0168c02bcda14bda() {
   dragonBones::WorldClock *result = 0 ;
   dragonBones::WorldClock *_swig_go_result;
   
@@ -10643,7 +12248,7 @@ dragonBones::WorldClock *_wrap_new_WorldClock__SWIG_1_wrapper_8547a2e3fc9a516e()
 }
 
 
-void _wrap_delete_WorldClock_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_swig_go_0) {
+void _wrap_delete_WorldClock_wrapper_0168c02bcda14bda(dragonBones::WorldClock *_swig_go_0) {
   dragonBones::WorldClock *arg1 = (dragonBones::WorldClock *) 0 ;
   
   arg1 = *(dragonBones::WorldClock **)&_swig_go_0; 
@@ -10653,7 +12258,7 @@ void _wrap_delete_WorldClock_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_
 }
 
 
-void _wrap_WorldClock_advanceTime_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_swig_go_0, float _swig_go_1) {
+void _wrap_WorldClock_advanceTime_wrapper_0168c02bcda14bda(dragonBones::WorldClock *_swig_go_0, float _swig_go_1) {
   dragonBones::WorldClock *arg1 = (dragonBones::WorldClock *) 0 ;
   float arg2 ;
   
@@ -10665,7 +12270,7 @@ void _wrap_WorldClock_advanceTime_wrapper_8547a2e3fc9a516e(dragonBones::WorldClo
 }
 
 
-bool _wrap_WorldClock_contains_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_swig_go_0, dragonBones::IAnimatable *_swig_go_1) {
+bool _wrap_WorldClock_contains_wrapper_0168c02bcda14bda(dragonBones::WorldClock *_swig_go_0, dragonBones::IAnimatable *_swig_go_1) {
   dragonBones::WorldClock *arg1 = (dragonBones::WorldClock *) 0 ;
   dragonBones::IAnimatable *arg2 = (dragonBones::IAnimatable *) 0 ;
   bool result;
@@ -10680,7 +12285,7 @@ bool _wrap_WorldClock_contains_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock 
 }
 
 
-void _wrap_WorldClock_add_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_swig_go_0, dragonBones::IAnimatable *_swig_go_1) {
+void _wrap_WorldClock_add_wrapper_0168c02bcda14bda(dragonBones::WorldClock *_swig_go_0, dragonBones::IAnimatable *_swig_go_1) {
   dragonBones::WorldClock *arg1 = (dragonBones::WorldClock *) 0 ;
   dragonBones::IAnimatable *arg2 = (dragonBones::IAnimatable *) 0 ;
   
@@ -10692,7 +12297,7 @@ void _wrap_WorldClock_add_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_swi
 }
 
 
-void _wrap_WorldClock_remove_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_swig_go_0, dragonBones::IAnimatable *_swig_go_1) {
+void _wrap_WorldClock_remove_wrapper_0168c02bcda14bda(dragonBones::WorldClock *_swig_go_0, dragonBones::IAnimatable *_swig_go_1) {
   dragonBones::WorldClock *arg1 = (dragonBones::WorldClock *) 0 ;
   dragonBones::IAnimatable *arg2 = (dragonBones::IAnimatable *) 0 ;
   
@@ -10704,7 +12309,7 @@ void _wrap_WorldClock_remove_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_
 }
 
 
-void _wrap_WorldClock_clear_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_swig_go_0) {
+void _wrap_WorldClock_clear_wrapper_0168c02bcda14bda(dragonBones::WorldClock *_swig_go_0) {
   dragonBones::WorldClock *arg1 = (dragonBones::WorldClock *) 0 ;
   
   arg1 = *(dragonBones::WorldClock **)&_swig_go_0; 
@@ -10714,7 +12319,7 @@ void _wrap_WorldClock_clear_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_s
 }
 
 
-dragonBones::WorldClock *_wrap_WorldClock_getClock_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_swig_go_0) {
+dragonBones::WorldClock *_wrap_WorldClock_getClock_wrapper_0168c02bcda14bda(dragonBones::WorldClock *_swig_go_0) {
   dragonBones::WorldClock *arg1 = (dragonBones::WorldClock *) 0 ;
   dragonBones::WorldClock *result = 0 ;
   dragonBones::WorldClock *_swig_go_result;
@@ -10727,7 +12332,7 @@ dragonBones::WorldClock *_wrap_WorldClock_getClock_wrapper_8547a2e3fc9a516e(drag
 }
 
 
-void _wrap_WorldClock_setClock_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock *_swig_go_0, dragonBones::WorldClock *_swig_go_1) {
+void _wrap_WorldClock_setClock_wrapper_0168c02bcda14bda(dragonBones::WorldClock *_swig_go_0, dragonBones::WorldClock *_swig_go_1) {
   dragonBones::WorldClock *arg1 = (dragonBones::WorldClock *) 0 ;
   dragonBones::WorldClock *arg2 = (dragonBones::WorldClock *) 0 ;
   
@@ -10739,7 +12344,7 @@ void _wrap_WorldClock_setClock_wrapper_8547a2e3fc9a516e(dragonBones::WorldClock 
 }
 
 
-dragonBones::WorldClock *_wrap_WorldClock_getStaticClock_wrapper_8547a2e3fc9a516e() {
+dragonBones::WorldClock *_wrap_WorldClock_getStaticClock_wrapper_0168c02bcda14bda() {
   dragonBones::WorldClock *result = 0 ;
   dragonBones::WorldClock *_swig_go_result;
   
@@ -10750,7 +12355,19 @@ dragonBones::WorldClock *_wrap_WorldClock_getStaticClock_wrapper_8547a2e3fc9a516
 }
 
 
-long long _wrap_getSlotTypeIndex_wrapper_8547a2e3fc9a516e(SwigDirector_Slot *_swig_go_0) {
+void _wrap_WorldClock_addArmature_wrapper_0168c02bcda14bda(dragonBones::WorldClock *_swig_go_0, dragonBones::Armature *_swig_go_1) {
+  dragonBones::WorldClock *arg1 = (dragonBones::WorldClock *) 0 ;
+  dragonBones::Armature *arg2 = (dragonBones::Armature *) 0 ;
+  
+  arg1 = *(dragonBones::WorldClock **)&_swig_go_0; 
+  arg2 = *(dragonBones::Armature **)&_swig_go_1; 
+  
+  dragonBones_WorldClock_addArmature(arg1,arg2);
+  
+}
+
+
+long long _wrap_getSlotTypeIndex_wrapper_0168c02bcda14bda(SwigDirector_Slot *_swig_go_0) {
   SwigDirector_Slot *arg1 = (SwigDirector_Slot *) 0 ;
   std::size_t result;
   long long _swig_go_result;
@@ -10763,7 +12380,7 @@ long long _wrap_getSlotTypeIndex_wrapper_8547a2e3fc9a516e(SwigDirector_Slot *_sw
 }
 
 
-long long _wrap_getTextureAtlasDataTypeIndex_wrapper_8547a2e3fc9a516e(SwigDirector_TextureAtlasData *_swig_go_0) {
+long long _wrap_getTextureAtlasDataTypeIndex_wrapper_0168c02bcda14bda(SwigDirector_TextureAtlasData *_swig_go_0) {
   SwigDirector_TextureAtlasData *arg1 = (SwigDirector_TextureAtlasData *) 0 ;
   std::size_t result;
   long long _swig_go_result;
@@ -10776,7 +12393,7 @@ long long _wrap_getTextureAtlasDataTypeIndex_wrapper_8547a2e3fc9a516e(SwigDirect
 }
 
 
-std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_wrap_new_mapStringToTextureData__SWIG_0_wrapper_8547a2e3fc9a516e() {
+std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_wrap_new_mapStringToTextureData__SWIG_0_wrapper_0168c02bcda14bda() {
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *result = 0 ;
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_result;
   
@@ -10787,7 +12404,7 @@ std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_wr
 }
 
 
-std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_wrap_new_mapStringToTextureData__SWIG_1_wrapper_8547a2e3fc9a516e(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0) {
+std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_wrap_new_mapStringToTextureData__SWIG_1_wrapper_0168c02bcda14bda(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0) {
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *arg1 = 0 ;
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *result = 0 ;
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_result;
@@ -10800,7 +12417,7 @@ std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_wr
 }
 
 
-intgo _wrap_mapStringToTextureData_size_wrapper_8547a2e3fc9a516e(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0) {
+intgo _wrap_mapStringToTextureData_size_wrapper_0168c02bcda14bda(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0) {
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *arg1 = (std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -10813,7 +12430,7 @@ intgo _wrap_mapStringToTextureData_size_wrapper_8547a2e3fc9a516e(std::map< std::
 }
 
 
-bool _wrap_mapStringToTextureData_empty_wrapper_8547a2e3fc9a516e(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0) {
+bool _wrap_mapStringToTextureData_empty_wrapper_0168c02bcda14bda(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0) {
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *arg1 = (std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -10826,7 +12443,7 @@ bool _wrap_mapStringToTextureData_empty_wrapper_8547a2e3fc9a516e(std::map< std::
 }
 
 
-void _wrap_mapStringToTextureData_clear_wrapper_8547a2e3fc9a516e(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0) {
+void _wrap_mapStringToTextureData_clear_wrapper_0168c02bcda14bda(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0) {
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *arg1 = (std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *) 0 ;
   
   arg1 = *(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > **)&_swig_go_0; 
@@ -10836,7 +12453,7 @@ void _wrap_mapStringToTextureData_clear_wrapper_8547a2e3fc9a516e(std::map< std::
 }
 
 
-dragonBones::TextureData **_wrap_mapStringToTextureData_get_wrapper_8547a2e3fc9a516e(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0, _gostring_ _swig_go_1) {
+dragonBones::TextureData **_wrap_mapStringToTextureData_get_wrapper_0168c02bcda14bda(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0, _gostring_ _swig_go_1) {
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *arg1 = (std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::TextureData **result = 0 ;
@@ -10858,7 +12475,7 @@ dragonBones::TextureData **_wrap_mapStringToTextureData_get_wrapper_8547a2e3fc9a
 }
 
 
-void _wrap_mapStringToTextureData_set_wrapper_8547a2e3fc9a516e(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0, _gostring_ _swig_go_1, dragonBones::TextureData **_swig_go_2) {
+void _wrap_mapStringToTextureData_set_wrapper_0168c02bcda14bda(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0, _gostring_ _swig_go_1, dragonBones::TextureData **_swig_go_2) {
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *arg1 = (std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *) 0 ;
   std::string *arg2 = 0 ;
   dragonBones::TextureData **arg3 = 0 ;
@@ -10879,7 +12496,7 @@ void _wrap_mapStringToTextureData_set_wrapper_8547a2e3fc9a516e(std::map< std::st
 }
 
 
-void _wrap_mapStringToTextureData_del_wrapper_8547a2e3fc9a516e(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_mapStringToTextureData_del_wrapper_0168c02bcda14bda(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0, _gostring_ _swig_go_1) {
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *arg1 = (std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *) 0 ;
   std::string *arg2 = 0 ;
   
@@ -10898,7 +12515,7 @@ void _wrap_mapStringToTextureData_del_wrapper_8547a2e3fc9a516e(std::map< std::st
 }
 
 
-bool _wrap_mapStringToTextureData_has_key_wrapper_8547a2e3fc9a516e(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0, _gostring_ _swig_go_1) {
+bool _wrap_mapStringToTextureData_has_key_wrapper_0168c02bcda14bda(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0, _gostring_ _swig_go_1) {
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *arg1 = (std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *) 0 ;
   std::string *arg2 = 0 ;
   bool result;
@@ -10916,7 +12533,7 @@ bool _wrap_mapStringToTextureData_has_key_wrapper_8547a2e3fc9a516e(std::map< std
 }
 
 
-std::vector< std::string > *_wrap_mapStringToTextureData_keys_wrapper_8547a2e3fc9a516e(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0) {
+std::vector< std::string > *_wrap_mapStringToTextureData_keys_wrapper_0168c02bcda14bda(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0) {
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *arg1 = (std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *) 0 ;
   std::vector< std::string > result;
   std::vector< std::string > *_swig_go_result;
@@ -10929,7 +12546,7 @@ std::vector< std::string > *_wrap_mapStringToTextureData_keys_wrapper_8547a2e3fc
 }
 
 
-std::vector< dragonBones::TextureData * > *_wrap_mapStringToTextureData_values_wrapper_8547a2e3fc9a516e(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0) {
+std::vector< dragonBones::TextureData * > *_wrap_mapStringToTextureData_values_wrapper_0168c02bcda14bda(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0) {
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *arg1 = (std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *) 0 ;
   std::vector< dragonBones::TextureData * > result;
   std::vector< dragonBones::TextureData * > *_swig_go_result;
@@ -10942,7 +12559,7 @@ std::vector< dragonBones::TextureData * > *_wrap_mapStringToTextureData_values_w
 }
 
 
-void _wrap_delete_mapStringToTextureData_wrapper_8547a2e3fc9a516e(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0) {
+void _wrap_delete_mapStringToTextureData_wrapper_0168c02bcda14bda(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *_swig_go_0) {
   std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *arg1 = (std::map< std::string,dragonBones::TextureData *,std::less< std::string > > *) 0 ;
   
   arg1 = *(std::map< std::string,dragonBones::TextureData *,std::less< std::string > > **)&_swig_go_0; 
@@ -10952,7 +12569,7 @@ void _wrap_delete_mapStringToTextureData_wrapper_8547a2e3fc9a516e(std::map< std:
 }
 
 
-std::vector< std::string > *_wrap_new_vectorString__SWIG_0_wrapper_8547a2e3fc9a516e() {
+std::vector< std::string > *_wrap_new_vectorString__SWIG_0_wrapper_0168c02bcda14bda() {
   std::vector< std::string > *result = 0 ;
   std::vector< std::string > *_swig_go_result;
   
@@ -10963,7 +12580,7 @@ std::vector< std::string > *_wrap_new_vectorString__SWIG_0_wrapper_8547a2e3fc9a5
 }
 
 
-std::vector< std::string > *_wrap_new_vectorString__SWIG_1_wrapper_8547a2e3fc9a516e(long long _swig_go_0) {
+std::vector< std::string > *_wrap_new_vectorString__SWIG_1_wrapper_0168c02bcda14bda(long long _swig_go_0) {
   std::vector< std::string >::size_type arg1 ;
   std::vector< std::string > *result = 0 ;
   std::vector< std::string > *_swig_go_result;
@@ -10976,7 +12593,7 @@ std::vector< std::string > *_wrap_new_vectorString__SWIG_1_wrapper_8547a2e3fc9a5
 }
 
 
-std::vector< std::string > *_wrap_new_vectorString__SWIG_2_wrapper_8547a2e3fc9a516e(std::vector< std::string > *_swig_go_0) {
+std::vector< std::string > *_wrap_new_vectorString__SWIG_2_wrapper_0168c02bcda14bda(std::vector< std::string > *_swig_go_0) {
   std::vector< std::string > *arg1 = 0 ;
   std::vector< std::string > *result = 0 ;
   std::vector< std::string > *_swig_go_result;
@@ -10989,7 +12606,7 @@ std::vector< std::string > *_wrap_new_vectorString__SWIG_2_wrapper_8547a2e3fc9a5
 }
 
 
-long long _wrap_vectorString_size_wrapper_8547a2e3fc9a516e(std::vector< std::string > *_swig_go_0) {
+long long _wrap_vectorString_size_wrapper_0168c02bcda14bda(std::vector< std::string > *_swig_go_0) {
   std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
   std::vector< std::string >::size_type result;
   long long _swig_go_result;
@@ -11002,7 +12619,7 @@ long long _wrap_vectorString_size_wrapper_8547a2e3fc9a516e(std::vector< std::str
 }
 
 
-long long _wrap_vectorString_capacity_wrapper_8547a2e3fc9a516e(std::vector< std::string > *_swig_go_0) {
+long long _wrap_vectorString_capacity_wrapper_0168c02bcda14bda(std::vector< std::string > *_swig_go_0) {
   std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
   std::vector< std::string >::size_type result;
   long long _swig_go_result;
@@ -11015,7 +12632,7 @@ long long _wrap_vectorString_capacity_wrapper_8547a2e3fc9a516e(std::vector< std:
 }
 
 
-void _wrap_vectorString_reserve_wrapper_8547a2e3fc9a516e(std::vector< std::string > *_swig_go_0, long long _swig_go_1) {
+void _wrap_vectorString_reserve_wrapper_0168c02bcda14bda(std::vector< std::string > *_swig_go_0, long long _swig_go_1) {
   std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
   std::vector< std::string >::size_type arg2 ;
   
@@ -11027,7 +12644,7 @@ void _wrap_vectorString_reserve_wrapper_8547a2e3fc9a516e(std::vector< std::strin
 }
 
 
-bool _wrap_vectorString_isEmpty_wrapper_8547a2e3fc9a516e(std::vector< std::string > *_swig_go_0) {
+bool _wrap_vectorString_isEmpty_wrapper_0168c02bcda14bda(std::vector< std::string > *_swig_go_0) {
   std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -11040,7 +12657,7 @@ bool _wrap_vectorString_isEmpty_wrapper_8547a2e3fc9a516e(std::vector< std::strin
 }
 
 
-void _wrap_vectorString_clear_wrapper_8547a2e3fc9a516e(std::vector< std::string > *_swig_go_0) {
+void _wrap_vectorString_clear_wrapper_0168c02bcda14bda(std::vector< std::string > *_swig_go_0) {
   std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
   
   arg1 = *(std::vector< std::string > **)&_swig_go_0; 
@@ -11050,7 +12667,7 @@ void _wrap_vectorString_clear_wrapper_8547a2e3fc9a516e(std::vector< std::string 
 }
 
 
-void _wrap_vectorString_add_wrapper_8547a2e3fc9a516e(std::vector< std::string > *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_vectorString_add_wrapper_0168c02bcda14bda(std::vector< std::string > *_swig_go_0, _gostring_ _swig_go_1) {
   std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
   std::vector< std::string >::value_type *arg2 = 0 ;
   
@@ -11065,7 +12682,7 @@ void _wrap_vectorString_add_wrapper_8547a2e3fc9a516e(std::vector< std::string > 
 }
 
 
-_gostring_ _wrap_vectorString_get_wrapper_8547a2e3fc9a516e(std::vector< std::string > *_swig_go_0, intgo _swig_go_1) {
+_gostring_ _wrap_vectorString_get_wrapper_0168c02bcda14bda(std::vector< std::string > *_swig_go_0, intgo _swig_go_1) {
   std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
   int arg2 ;
   std::vector< std::string >::value_type *result = 0 ;
@@ -11084,7 +12701,7 @@ _gostring_ _wrap_vectorString_get_wrapper_8547a2e3fc9a516e(std::vector< std::str
 }
 
 
-void _wrap_vectorString_set_wrapper_8547a2e3fc9a516e(std::vector< std::string > *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_vectorString_set_wrapper_0168c02bcda14bda(std::vector< std::string > *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
   std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
   int arg2 ;
   std::vector< std::string >::value_type *arg3 = 0 ;
@@ -11105,7 +12722,7 @@ void _wrap_vectorString_set_wrapper_8547a2e3fc9a516e(std::vector< std::string > 
 }
 
 
-void _wrap_delete_vectorString_wrapper_8547a2e3fc9a516e(std::vector< std::string > *_swig_go_0) {
+void _wrap_delete_vectorString_wrapper_0168c02bcda14bda(std::vector< std::string > *_swig_go_0) {
   std::vector< std::string > *arg1 = (std::vector< std::string > *) 0 ;
   
   arg1 = *(std::vector< std::string > **)&_swig_go_0; 
@@ -11115,7 +12732,7 @@ void _wrap_delete_vectorString_wrapper_8547a2e3fc9a516e(std::vector< std::string
 }
 
 
-std::vector< dragonBones::TextureData * > *_wrap_new_vectorTextureData__SWIG_0_wrapper_8547a2e3fc9a516e() {
+std::vector< dragonBones::TextureData * > *_wrap_new_vectorTextureData__SWIG_0_wrapper_0168c02bcda14bda() {
   std::vector< dragonBones::TextureData * > *result = 0 ;
   std::vector< dragonBones::TextureData * > *_swig_go_result;
   
@@ -11126,7 +12743,7 @@ std::vector< dragonBones::TextureData * > *_wrap_new_vectorTextureData__SWIG_0_w
 }
 
 
-std::vector< dragonBones::TextureData * > *_wrap_new_vectorTextureData__SWIG_1_wrapper_8547a2e3fc9a516e(long long _swig_go_0) {
+std::vector< dragonBones::TextureData * > *_wrap_new_vectorTextureData__SWIG_1_wrapper_0168c02bcda14bda(long long _swig_go_0) {
   std::vector< dragonBones::TextureData * >::size_type arg1 ;
   std::vector< dragonBones::TextureData * > *result = 0 ;
   std::vector< dragonBones::TextureData * > *_swig_go_result;
@@ -11139,7 +12756,7 @@ std::vector< dragonBones::TextureData * > *_wrap_new_vectorTextureData__SWIG_1_w
 }
 
 
-std::vector< dragonBones::TextureData * > *_wrap_new_vectorTextureData__SWIG_2_wrapper_8547a2e3fc9a516e(std::vector< dragonBones::TextureData * > *_swig_go_0) {
+std::vector< dragonBones::TextureData * > *_wrap_new_vectorTextureData__SWIG_2_wrapper_0168c02bcda14bda(std::vector< dragonBones::TextureData * > *_swig_go_0) {
   std::vector< dragonBones::TextureData * > *arg1 = 0 ;
   std::vector< dragonBones::TextureData * > *result = 0 ;
   std::vector< dragonBones::TextureData * > *_swig_go_result;
@@ -11152,7 +12769,7 @@ std::vector< dragonBones::TextureData * > *_wrap_new_vectorTextureData__SWIG_2_w
 }
 
 
-long long _wrap_vectorTextureData_size_wrapper_8547a2e3fc9a516e(std::vector< dragonBones::TextureData * > *_swig_go_0) {
+long long _wrap_vectorTextureData_size_wrapper_0168c02bcda14bda(std::vector< dragonBones::TextureData * > *_swig_go_0) {
   std::vector< dragonBones::TextureData * > *arg1 = (std::vector< dragonBones::TextureData * > *) 0 ;
   std::vector< dragonBones::TextureData * >::size_type result;
   long long _swig_go_result;
@@ -11165,7 +12782,7 @@ long long _wrap_vectorTextureData_size_wrapper_8547a2e3fc9a516e(std::vector< dra
 }
 
 
-long long _wrap_vectorTextureData_capacity_wrapper_8547a2e3fc9a516e(std::vector< dragonBones::TextureData * > *_swig_go_0) {
+long long _wrap_vectorTextureData_capacity_wrapper_0168c02bcda14bda(std::vector< dragonBones::TextureData * > *_swig_go_0) {
   std::vector< dragonBones::TextureData * > *arg1 = (std::vector< dragonBones::TextureData * > *) 0 ;
   std::vector< dragonBones::TextureData * >::size_type result;
   long long _swig_go_result;
@@ -11178,7 +12795,7 @@ long long _wrap_vectorTextureData_capacity_wrapper_8547a2e3fc9a516e(std::vector<
 }
 
 
-void _wrap_vectorTextureData_reserve_wrapper_8547a2e3fc9a516e(std::vector< dragonBones::TextureData * > *_swig_go_0, long long _swig_go_1) {
+void _wrap_vectorTextureData_reserve_wrapper_0168c02bcda14bda(std::vector< dragonBones::TextureData * > *_swig_go_0, long long _swig_go_1) {
   std::vector< dragonBones::TextureData * > *arg1 = (std::vector< dragonBones::TextureData * > *) 0 ;
   std::vector< dragonBones::TextureData * >::size_type arg2 ;
   
@@ -11190,7 +12807,7 @@ void _wrap_vectorTextureData_reserve_wrapper_8547a2e3fc9a516e(std::vector< drago
 }
 
 
-bool _wrap_vectorTextureData_isEmpty_wrapper_8547a2e3fc9a516e(std::vector< dragonBones::TextureData * > *_swig_go_0) {
+bool _wrap_vectorTextureData_isEmpty_wrapper_0168c02bcda14bda(std::vector< dragonBones::TextureData * > *_swig_go_0) {
   std::vector< dragonBones::TextureData * > *arg1 = (std::vector< dragonBones::TextureData * > *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -11203,7 +12820,7 @@ bool _wrap_vectorTextureData_isEmpty_wrapper_8547a2e3fc9a516e(std::vector< drago
 }
 
 
-void _wrap_vectorTextureData_clear_wrapper_8547a2e3fc9a516e(std::vector< dragonBones::TextureData * > *_swig_go_0) {
+void _wrap_vectorTextureData_clear_wrapper_0168c02bcda14bda(std::vector< dragonBones::TextureData * > *_swig_go_0) {
   std::vector< dragonBones::TextureData * > *arg1 = (std::vector< dragonBones::TextureData * > *) 0 ;
   
   arg1 = *(std::vector< dragonBones::TextureData * > **)&_swig_go_0; 
@@ -11213,7 +12830,7 @@ void _wrap_vectorTextureData_clear_wrapper_8547a2e3fc9a516e(std::vector< dragonB
 }
 
 
-void _wrap_vectorTextureData_add_wrapper_8547a2e3fc9a516e(std::vector< dragonBones::TextureData * > *_swig_go_0, dragonBones::TextureData **_swig_go_1) {
+void _wrap_vectorTextureData_add_wrapper_0168c02bcda14bda(std::vector< dragonBones::TextureData * > *_swig_go_0, dragonBones::TextureData **_swig_go_1) {
   std::vector< dragonBones::TextureData * > *arg1 = (std::vector< dragonBones::TextureData * > *) 0 ;
   std::vector< dragonBones::TextureData * >::value_type *arg2 = 0 ;
   std::vector< dragonBones::TextureData * >::value_type temp2 = 0 ;
@@ -11229,7 +12846,7 @@ void _wrap_vectorTextureData_add_wrapper_8547a2e3fc9a516e(std::vector< dragonBon
 }
 
 
-dragonBones::TextureData **_wrap_vectorTextureData_get_wrapper_8547a2e3fc9a516e(std::vector< dragonBones::TextureData * > *_swig_go_0, intgo _swig_go_1) {
+dragonBones::TextureData **_wrap_vectorTextureData_get_wrapper_0168c02bcda14bda(std::vector< dragonBones::TextureData * > *_swig_go_0, intgo _swig_go_1) {
   std::vector< dragonBones::TextureData * > *arg1 = (std::vector< dragonBones::TextureData * > *) 0 ;
   int arg2 ;
   std::vector< dragonBones::TextureData * >::value_type *result = 0 ;
@@ -11248,7 +12865,7 @@ dragonBones::TextureData **_wrap_vectorTextureData_get_wrapper_8547a2e3fc9a516e(
 }
 
 
-void _wrap_vectorTextureData_set_wrapper_8547a2e3fc9a516e(std::vector< dragonBones::TextureData * > *_swig_go_0, intgo _swig_go_1, dragonBones::TextureData **_swig_go_2) {
+void _wrap_vectorTextureData_set_wrapper_0168c02bcda14bda(std::vector< dragonBones::TextureData * > *_swig_go_0, intgo _swig_go_1, dragonBones::TextureData **_swig_go_2) {
   std::vector< dragonBones::TextureData * > *arg1 = (std::vector< dragonBones::TextureData * > *) 0 ;
   int arg2 ;
   std::vector< dragonBones::TextureData * >::value_type *arg3 = 0 ;
@@ -11270,7 +12887,7 @@ void _wrap_vectorTextureData_set_wrapper_8547a2e3fc9a516e(std::vector< dragonBon
 }
 
 
-void _wrap_delete_vectorTextureData_wrapper_8547a2e3fc9a516e(std::vector< dragonBones::TextureData * > *_swig_go_0) {
+void _wrap_delete_vectorTextureData_wrapper_0168c02bcda14bda(std::vector< dragonBones::TextureData * > *_swig_go_0) {
   std::vector< dragonBones::TextureData * > *arg1 = (std::vector< dragonBones::TextureData * > *) 0 ;
   
   arg1 = *(std::vector< dragonBones::TextureData * > **)&_swig_go_0; 

@@ -3,6 +3,8 @@ package bone
 import (
 	wrapper "dragonBones/dragonBones"
 	"log"
+
+	"github.com/EngoEngine/engo"
 )
 
 type SlotInterface interface {
@@ -40,6 +42,7 @@ func DeleteSlot(s SlotInterface) {
 type overwrittenMethodsOnSlot struct {
 	slot wrapper.Slot
 
+	textureScale  float32
 	renderDisplay IDisplay
 }
 
@@ -85,6 +88,7 @@ func (om *overwrittenMethodsOnSlot) X_replaceDisplay(value uintptr, isArmatureDi
 	case IDisplay:
 		display.RemoveChild(prevDisplay)
 	}
+	om.textureScale = 1.0
 }
 
 func (om *overwrittenMethodsOnSlot) X_removeDisplay() {
@@ -102,12 +106,12 @@ func (om *overwrittenMethodsOnSlot) X_updateFrame() {
 	if textureData.Swigcptr() == 0 || om.renderDisplay == nil {
 		return
 	}
+	om.textureScale = textureData.GetParent().GetScale() * om.slot.GetX_armature().GetX_armatureData().GetScale()
 	textureDataImpl := boneObjectLookup(textureData.Swigcptr()).(*TextureDataImpl)
 	switch frameDisplay := om.renderDisplay.(type) {
 	case *Sprite:
 		frameDisplay.setSpriteFrame(textureDataImpl.TextureResource)
 	}
-	log.Println("UpdateFrame:", textureData)
 }
 
 func (om *overwrittenMethodsOnSlot) X_updateMesh() {
@@ -134,20 +138,34 @@ func (om *overwrittenMethodsOnSlot) X_updateTransform() {
 	om.slot.UpdateGlobalTransform()
 
 	// rawDisplay := om.slot.GetRawDisplay()
-	transform := om.slot.GetGlobal()
+	// transform := om.slot.GetGlobal()
 	pivotX := om.slot.GetX_pivotX()
 	pivotY := om.slot.GetX_pivotY()
 	globalTransformMatrix := om.slot.GetGlobalTransformMatrix()
+	a, b, c, d := globalTransformMatrix.GetA(), globalTransformMatrix.GetB(), globalTransformMatrix.GetC(), globalTransformMatrix.GetD()
+	tx, ty := globalTransformMatrix.GetTx(), globalTransformMatrix.GetTy()
 
-	x := transform.GetX() - (globalTransformMatrix.GetA()*pivotX + globalTransformMatrix.GetC()*pivotY)
-	y := transform.GetY() - (globalTransformMatrix.GetB()*pivotX + globalTransformMatrix.GetD()*pivotY)
+	transformMatrix := engo.IdentityMatrix()
+
+	transformMatrix.Val[0] = a
+	transformMatrix.Val[1] = b
+	transformMatrix.Val[3] = c
+	transformMatrix.Val[4] = d
 
 	switch frameDisplay := om.renderDisplay.(type) {
 	case *Sprite:
-		frameDisplay.SpaceComponent.Position.X = x
-		frameDisplay.SpaceComponent.Position.Y = y
-		log.Println("Update Sprite Transform", frameDisplay.SpaceComponent.Position)
+		if om.textureScale != 1.0 {
+			transformMatrix.Val[0] *= om.textureScale
+			transformMatrix.Val[1] *= om.textureScale
+			transformMatrix.Val[4] *= om.textureScale
+			transformMatrix.Val[3] *= om.textureScale
+		}
+		transformMatrix.Val[6] = tx - (a*pivotX + c*pivotY)
+		transformMatrix.Val[7] = ty - (b*pivotX + d*pivotY)
+		frameDisplay.SetTransform(transformMatrix)
 	case *ArmatureDisplay:
-		log.Println("Update ArmatureDisplay Transform")
+		transformMatrix.Val[6] = tx
+		transformMatrix.Val[7] = ty
+		frameDisplay.SetTransform(transformMatrix)
 	}
 }

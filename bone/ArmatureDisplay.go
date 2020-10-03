@@ -29,9 +29,10 @@ func NewArmatureDisplay() *ArmatureDisplay {
 	face := wrapper.NewDirectorIArmatureProxy(om)
 	om.base = face
 
-	data := &ArmatureDisplay{IArmatureProxy: face, om: om}
-	boneObjectAdd(data.Swigcptr(), data)
-	return data
+	display := &ArmatureDisplay{IArmatureProxy: face, om: om}
+	display.RenderComponent.Drawable = display
+	boneObjectAdd(display.Swigcptr(), display)
+	return display
 }
 
 type overwrittenMethodsOnArmatureDisplay struct {
@@ -50,7 +51,7 @@ func (om *overwrittenMethodsOnArmatureDisplay) DbClear() {
 }
 
 func (om *overwrittenMethodsOnArmatureDisplay) DbUpdate() {
-	log.Println("DbUpdate")
+	// log.Println("DbUpdate")
 }
 
 func (om *overwrittenMethodsOnArmatureDisplay) Dispose(bool) {
@@ -60,6 +61,14 @@ func (om *overwrittenMethodsOnArmatureDisplay) Dispose(bool) {
 	}
 }
 
+func (om *overwrittenMethodsOnArmatureDisplay) GetArmature() wrapper.Armature {
+	return om.armature
+}
+
 func (om *overwrittenMethodsOnArmatureDisplay) HasDBEventListener(name string) bool {
 	return false
+}
+
+func (om *overwrittenMethodsOnArmatureDisplay) GetAnimation() wrapper.Animation {
+	return om.armature.GetAnimation()
 }

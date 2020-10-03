@@ -25,11 +25,11 @@ func (d *DragonBoneSystem) New(world *ecs.World) {
 }
 
 func (d *DragonBoneSystem) Add(basic *ecs.BasicEntity, render *common.RenderComponent, space *common.SpaceComponent) {
-	_, ok := render.Drawable.(IDisplay)
+	_, ok := render.Drawable.(*ArmatureDisplay)
 	if !ok {
 		panic("Add Wrong Render To DragonBoneSystem")
 	}
-	render.SetShader(DragonBoneHUDShader)
+	render.SetShader(DragonBoneDefaultShader)
 	d.renderer.Add(basic, render, space)
 }
 
