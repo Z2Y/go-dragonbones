@@ -81,14 +81,8 @@ func (om *overwrittenMethodsOnSlot) X_addDisplay() {
 
 func (om *overwrittenMethodsOnSlot) X_replaceDisplay(value uintptr, isArmatureDisplay bool) {
 	display := boneObjectLookup(om.slot.GetX_armature().GetDisplay()).(*ArmatureDisplay)
-	if om.renderDisplay != nil {
-		display.AddChild(om.renderDisplay)
-	}
-
-	switch prevDisplay := boneObjectLookup(value).(type) {
-	case IDisplay:
-		display.RemoveChild(prevDisplay)
-	}
+	prevDisplay := boneObjectLookup(value).(IDisplay)
+	display.ReplaceChildAt(om.renderDisplay, display.GetChildIndex(prevDisplay))
 	om.textureScale = 1.0
 }
 
@@ -206,9 +200,6 @@ func (om *overwrittenMethodsOnSlot) X_updateMesh() {
 
 	hasFFD := !deformVertices.IsEmpty()
 
-	// textureData := wrapper.SwigcptrSlot(om.slot.Swigcptr()).GetX_textureData()
-	// textureDataImpl := boneObjectLookup(textureData.Swigcptr()).(*TextureDataImpl)
-
 	meshDisplay := om.renderDisplay.(*MeshSprite)
 
 	if weightData.Swigcptr() != 0 {
@@ -313,10 +304,6 @@ func (om *overwrittenMethodsOnSlot) GetClassTypeIndex() int64 {
 }
 
 func (om *overwrittenMethodsOnSlot) X_updateTransform() {
-	om.slot.UpdateGlobalTransform()
-
-	// rawDisplay := om.slot.GetRawDisplay()
-	// transform := om.slot.GetGlobal()
 	pivotX := om.slot.GetX_pivotX()
 	pivotY := om.slot.GetX_pivotY()
 	globalTransformMatrix := om.slot.GetGlobalTransformMatrix()
@@ -331,7 +318,7 @@ func (om *overwrittenMethodsOnSlot) X_updateTransform() {
 	transformMatrix.Val[4] = d
 
 	switch frameDisplay := om.renderDisplay.(type) {
-	case *Sprite:
+	case *Sprite, *MeshSprite:
 		if om.textureScale != 1.0 {
 			transformMatrix.Val[0] *= om.textureScale
 			transformMatrix.Val[1] *= om.textureScale
@@ -341,17 +328,6 @@ func (om *overwrittenMethodsOnSlot) X_updateTransform() {
 		transformMatrix.Val[6] = tx - (a*pivotX + c*pivotY)
 		transformMatrix.Val[7] = ty - (b*pivotX + d*pivotY)
 		frameDisplay.SetTransform(transformMatrix)
-	case *MeshSprite:
-		if om.textureScale != 1.0 {
-			transformMatrix.Val[0] *= om.textureScale
-			transformMatrix.Val[1] *= om.textureScale
-			transformMatrix.Val[4] *= om.textureScale
-			transformMatrix.Val[3] *= om.textureScale
-		}
-		transformMatrix.Val[6] = tx - (a*pivotX + c*pivotY)
-		transformMatrix.Val[7] = ty - (b*pivotX + d*pivotY)
-		frameDisplay.SetTransform(transformMatrix)
-		log.Println("Update Mesh Display Transform")
 	case *ArmatureDisplay:
 		transformMatrix.Val[6] = tx
 		transformMatrix.Val[7] = ty

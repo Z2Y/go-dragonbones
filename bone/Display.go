@@ -11,6 +11,8 @@ type IDisplay interface {
 	SetParent(IDisplay)
 	AddChild(IDisplay)
 	RemoveChild(IDisplay)
+	GetChildIndex(IDisplay) int
+	ReplaceChildAt(IDisplay, int)
 	GetChildren() []IDisplay
 	RemoveFromParent()
 	UpdateTransform(force bool)
@@ -61,6 +63,22 @@ func (d *Display) RemoveChild(child IDisplay) {
 
 func (d *Display) GetChildren() []IDisplay {
 	return d.Children
+}
+
+func (d *Display) GetChildIndex(child IDisplay) int {
+	for id, c := range d.Children {
+		if c == child {
+			return id
+		}
+	}
+	return -1
+}
+
+func (d *Display) ReplaceChildAt(child IDisplay, index int) {
+	prev := d.Children[index]
+	child.SetParent(d)
+	prev.SetParent(nil)
+	d.Children[index] = child
 }
 
 func (d *Display) RemoveFromParent() {
