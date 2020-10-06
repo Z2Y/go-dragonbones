@@ -3,6 +3,7 @@ package bone
 import (
 	"github.com/EngoEngine/engo"
 	"github.com/EngoEngine/engo/common"
+	"github.com/EngoEngine/engo/math"
 	"github.com/EngoEngine/gl"
 )
 
@@ -98,14 +99,47 @@ func (d *Display) GetGlobalTransform() *engo.Matrix {
 	return d.globalTransform
 }
 
+func (d *Display) restoreTransform() {
+	ta, tb, tc, td := d.globalTransform.Val[0], d.globalTransform.Val[1], d.globalTransform.Val[3], d.globalTransform.Val[4]
+	tx, ty := d.globalTransform.Val[6], d.globalTransform.Val[7]
+
+	determ := (ta * td) - (tb * tc)
+
+	if ta != 0 || tb != 0 {
+		r := math.Sqrt((ta * ta) + (tb * tb))
+
+		if tb > 0 {
+			d.SpaceComponent.Rotation = math.Acos(ta/r) * engo.RadToDeg
+		} else {
+			d.SpaceComponent.Rotation = -math.Acos(ta/r) * engo.RadToDeg
+		}
+
+		d.RenderComponent.Scale.X = r
+		d.RenderComponent.Scale.Y = determ / r
+	} else if tc != 0 || td != 0 {
+		s := math.Sqrt((tc * tc) + (td * td))
+		if td > 0 {
+			d.SpaceComponent.Rotation = (math.Pi/2 - math.Acos(-tc/s)) * engo.RadToDeg
+		} else {
+			d.SpaceComponent.Rotation = (math.Pi/2 + math.Acos(tc/s)) * engo.RadToDeg
+		}
+		d.RenderComponent.Scale.X = determ / s
+		d.RenderComponent.Scale.Y = s
+	} else {
+		d.RenderComponent.Scale.X = 0
+		d.RenderComponent.Scale.Y = 0
+	}
+
+	d.SpaceComponent.Position.X, d.SpaceComponent.Position.Y = tx, ty
+}
+
 func (d *Display) UpdateTransform(force bool) {
 	if d.Parent == nil {
 		d.globalTransform = engo.IdentityMatrix().Translate(d.Position.X, d.Position.Y).Rotate(d.Rotation)
 	} else if d.transformMatrix != nil && (d.transformDirty || force) {
 		d.globalTransform = engo.IdentityMatrix().Set(d.Parent.GetGlobalTransform().Val[:]).Multiply(d.transformMatrix)
 
-		d.SpaceComponent.Position.X, d.SpaceComponent.Position.Y = d.globalTransform.TranslationComponent()
-		d.SpaceComponent.Rotation = d.globalTransform.RotationComponent()
+		d.restoreTransform()
 	}
 
 	for _, child := range d.Children {
