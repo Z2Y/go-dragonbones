@@ -69,6 +69,7 @@ protected:
     virtual void _onClear() override;
 
 public: // For WebAssembly.
+    /*
     int getType() const { return (int)type; }
     void setType(int value) { type = (DisplayType)value; }
 
@@ -76,6 +77,7 @@ public: // For WebAssembly.
 
     SkinData* getParent() const { return parent; }
     void setParent(SkinData* value) { parent = value; }
+    */
 };
 /**
  * @internal

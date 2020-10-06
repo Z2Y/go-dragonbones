@@ -7,12 +7,15 @@ import (
 
 var (
 	DragonBoneHUDShader     = NewDragonBoneShader(common.HUDShader)
-	DragonBoneDefaultShader = NewDragonBoneShader(common.DefaultShader)
+	DragonBoneDefaultShader = NewDragonBoneShader(common.HUDShader)
 )
 
 type DragonBoneShader struct {
 	wrappedShader common.Shader
+	meshShader    *basicMeshShader
 	culling       common.CullingShader
+
+	isRenderMesh bool
 }
 
 func NewDragonBoneShader(shader common.Shader) *DragonBoneShader {
@@ -26,6 +29,9 @@ func (db *DragonBoneShader) PrepareCulling() {
 	if db.culling != nil {
 		db.culling.PrepareCulling()
 	}
+	if db.meshShader != nil {
+		db.meshShader.PrepareCulling()
+	}
 }
 
 func (db *DragonBoneShader) ShouldDraw(rc *common.RenderComponent, sc *common.SpaceComponent) bool {
@@ -34,6 +40,10 @@ func (db *DragonBoneShader) ShouldDraw(rc *common.RenderComponent, sc *common.Sp
 }
 
 func (db *DragonBoneShader) Pre() {
+	if db.meshShader == nil {
+		db.meshShader = &basicMeshShader{}
+		db.meshShader.Setup()
+	}
 	db.wrappedShader.Pre()
 }
 
@@ -54,8 +64,23 @@ func (db *DragonBoneShader) DrawDisplay(iDisplay IDisplay) {
 
 	switch display := iDisplay.(type) {
 	case *Sprite:
-		if display.RenderComponent.Drawable != nil {
+		if db.isRenderMesh {
+			db.wrappedShader.Pre()
+			db.isRenderMesh = false
+		}
+		if !display.Hidden && display.Drawable != nil {
 			db.wrappedShader.Draw(&display.RenderComponent, &display.SpaceComponent)
+		}
+	case *MeshSprite:
+		if !db.isRenderMesh {
+			db.wrappedShader.Post()
+			db.isRenderMesh = true
+		}
+		if !display.Hidden && display.Drawable != nil {
+			db.meshShader.Pre()
+			db.meshShader.Draw(display, &display.SpaceComponent)
+			db.meshShader.Post()
+			//db.wrappedShader.Draw(&display.RenderComponent, &display.SpaceComponent)
 		}
 	}
 }
@@ -64,7 +89,7 @@ func (db *DragonBoneShader) Post() {
 	db.wrappedShader.Post()
 }
 
-func (db *DragonBoneShader) Setup(*ecs.World) error {
+func (db *DragonBoneShader) Setup(w *ecs.World) error {
 	return nil
 }
 

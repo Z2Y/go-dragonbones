@@ -86,8 +86,8 @@ typedef _gostring_ swig_type_55;
 typedef long long swig_type_56;
 typedef long long swig_type_57;
 typedef _gostring_ swig_type_58;
-typedef _gostring_ swig_type_59;
-typedef _gostring_ swig_type_60;
+typedef long long swig_type_59;
+typedef long long swig_type_60;
 typedef _gostring_ swig_type_61;
 typedef _gostring_ swig_type_62;
 typedef _gostring_ swig_type_63;
@@ -97,24 +97,24 @@ typedef _gostring_ swig_type_66;
 typedef _gostring_ swig_type_67;
 typedef _gostring_ swig_type_68;
 typedef _gostring_ swig_type_69;
-typedef long long swig_type_70;
+typedef _gostring_ swig_type_70;
 typedef _gostring_ swig_type_71;
 typedef _gostring_ swig_type_72;
 typedef long long swig_type_73;
-typedef long long swig_type_74;
-typedef long long swig_type_75;
-typedef _gostring_ swig_type_76;
-typedef _gostring_ swig_type_77;
-typedef _gostring_ swig_type_78;
+typedef _gostring_ swig_type_74;
+typedef _gostring_ swig_type_75;
+typedef long long swig_type_76;
+typedef long long swig_type_77;
+typedef long long swig_type_78;
 typedef _gostring_ swig_type_79;
 typedef _gostring_ swig_type_80;
 typedef _gostring_ swig_type_81;
 typedef _gostring_ swig_type_82;
-typedef _gostring_ swig_type_83;
-typedef _gostring_ swig_type_84;
-typedef _gostring_ swig_type_85;
-typedef long long swig_type_86;
-typedef long long swig_type_87;
+typedef long long swig_type_83;
+typedef long long swig_type_84;
+typedef long long swig_type_85;
+typedef _gostring_ swig_type_86;
+typedef _gostring_ swig_type_87;
 typedef _gostring_ swig_type_88;
 typedef _gostring_ swig_type_89;
 typedef long long swig_type_90;
@@ -123,22 +123,22 @@ typedef _gostring_ swig_type_92;
 typedef _gostring_ swig_type_93;
 typedef _gostring_ swig_type_94;
 typedef _gostring_ swig_type_95;
-typedef _gostring_ swig_type_96;
-typedef _gostring_ swig_type_97;
+typedef long long swig_type_96;
+typedef long long swig_type_97;
 typedef _gostring_ swig_type_98;
 typedef _gostring_ swig_type_99;
 typedef _gostring_ swig_type_100;
 typedef _gostring_ swig_type_101;
-typedef _gostring_ swig_type_102;
-typedef _gostring_ swig_type_103;
+typedef long long swig_type_102;
+typedef long long swig_type_103;
 typedef _gostring_ swig_type_104;
 typedef _gostring_ swig_type_105;
 typedef _gostring_ swig_type_106;
 typedef _gostring_ swig_type_107;
-typedef _gostring_ swig_type_108;
-typedef _gostring_ swig_type_109;
-typedef _gostring_ swig_type_110;
-typedef _gostring_ swig_type_111;
+typedef long long swig_type_108;
+typedef long long swig_type_109;
+typedef long long swig_type_110;
+typedef long long swig_type_111;
 typedef _gostring_ swig_type_112;
 typedef _gostring_ swig_type_113;
 typedef _gostring_ swig_type_114;
@@ -149,12 +149,12 @@ typedef _gostring_ swig_type_118;
 typedef _gostring_ swig_type_119;
 typedef _gostring_ swig_type_120;
 typedef _gostring_ swig_type_121;
-typedef _gostring_ swig_type_122;
-typedef _gostring_ swig_type_123;
+typedef long long swig_type_122;
+typedef long long swig_type_123;
 typedef _gostring_ swig_type_124;
 typedef _gostring_ swig_type_125;
-typedef _gostring_ swig_type_126;
-typedef _gostring_ swig_type_127;
+typedef long long swig_type_126;
+typedef long long swig_type_127;
 typedef _gostring_ swig_type_128;
 typedef _gostring_ swig_type_129;
 typedef _gostring_ swig_type_130;
@@ -173,872 +173,1156 @@ typedef _gostring_ swig_type_142;
 typedef _gostring_ swig_type_143;
 typedef _gostring_ swig_type_144;
 typedef _gostring_ swig_type_145;
-typedef long long swig_type_146;
-typedef long long swig_type_147;
+typedef _gostring_ swig_type_146;
+typedef _gostring_ swig_type_147;
 typedef _gostring_ swig_type_148;
 typedef _gostring_ swig_type_149;
 typedef _gostring_ swig_type_150;
 typedef _gostring_ swig_type_151;
-typedef long long swig_type_152;
-typedef long long swig_type_153;
-typedef long long swig_type_154;
-typedef long long swig_type_155;
+typedef _gostring_ swig_type_152;
+typedef _gostring_ swig_type_153;
+typedef _gostring_ swig_type_154;
+typedef _gostring_ swig_type_155;
 typedef _gostring_ swig_type_156;
 typedef _gostring_ swig_type_157;
 typedef _gostring_ swig_type_158;
-typedef long long swig_type_159;
-typedef long long swig_type_160;
-typedef long long swig_type_161;
-typedef long long swig_type_162;
-extern void _wrap_Swig_free_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Swig_malloc_wrapper_0168c02bcda14bda(swig_intgo arg1);
-extern swig_intgo _wrap_BinaryOffset_WeigthBoneCount_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_WeigthFloatOffset_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_WeigthBoneIndices_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_MeshVertexCount_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_MeshTriangleCount_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_MeshFloatOffset_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_MeshWeightOffset_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_MeshVertexIndices_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_TimelineScale_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_TimelineOffset_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_TimelineKeyFrameCount_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_TimelineFrameValueCount_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_TimelineFrameValueOffset_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_TimelineFrameOffset_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_FramePosition_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_FrameTweenType_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_FrameTweenEasingOrCurveSampleCount_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_FrameCurveSamples_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_DeformVertexOffset_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_DeformCount_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_DeformValueCount_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_DeformValueOffset_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BinaryOffset_DeformFloatOffset_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_ArmatureType_Armature_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_ArmatureType_MovieClip_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_ArmatureType_Stage_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_OffsetMode_None_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_OffsetMode_Additive_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_OffsetMode_Override_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_DisplayType_Image_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_DisplayType_Armature_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_DisplayType_Mesh_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_DisplayType_BoundingBox_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_DisplayType_Path_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BoundingBoxType_Rectangle_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BoundingBoxType_Ellipse_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BoundingBoxType_Polygon_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_ActionType_Play_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_ActionType_Frame_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_ActionType_Sound_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BlendMode_Normal_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BlendMode_Add_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BlendMode_Alpha_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BlendMode_Darken_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BlendMode_Difference_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BlendMode_Erase_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BlendMode_HardLight_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BlendMode_Invert_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BlendMode_Layer_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BlendMode_Lighten_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BlendMode_Multiply_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BlendMode_Overlay_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BlendMode_Screen_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BlendMode_Subtract_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TweenType_None_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TweenType_Line_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TweenType_Curve_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TweenType_QuadIn_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TweenType_QuadOut_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TweenType_QuadInOut_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TimelineType_Action_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TimelineType_ZOrder_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TimelineType_BoneAll_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TimelineType_BoneTranslate_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TimelineType_BoneRotate_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TimelineType_BoneScale_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TimelineType_SlotDisplay_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TimelineType_SlotColor_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TimelineType_SlotDeform_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TimelineType_IKConstraint_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TimelineType_AnimationTime_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TimelineType_AnimationWeight_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_AnimationFadeOutMode_None_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_AnimationFadeOutMode_SameLayer_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_AnimationFadeOutMode_SameGroup_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_AnimationFadeOutMode_SameLayerAndGroup_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_AnimationFadeOutMode_All_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_AnimationFadeOutMode_Single_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TextureFormat_DEFAULT_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TextureFormat_RGBA8888_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TextureFormat_BGRA8888_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TextureFormat_RGBA4444_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TextureFormat_RGB888_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TextureFormat_RGB565_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_TextureFormat_RGBA5551_wrapper_0168c02bcda14bda(void);
-extern swig_type_1 _wrap_DragonBones_VEISION_get_wrapper_0168c02bcda14bda(void);
-extern void _wrap_DragonBones_yDown_set_wrapper_0168c02bcda14bda(_Bool arg1);
-extern _Bool _wrap_DragonBones_yDown_get_wrapper_0168c02bcda14bda(void);
-extern void _wrap_DragonBones_debug_set_wrapper_0168c02bcda14bda(_Bool arg1);
-extern _Bool _wrap_DragonBones_debug_get_wrapper_0168c02bcda14bda(void);
-extern void _wrap_DragonBones_debugDraw_set_wrapper_0168c02bcda14bda(_Bool arg1);
-extern _Bool _wrap_DragonBones_debugDraw_get_wrapper_0168c02bcda14bda(void);
-extern void _wrap_DragonBones_webAssembly_set_wrapper_0168c02bcda14bda(_Bool arg1);
-extern _Bool _wrap_DragonBones_webAssembly_get_wrapper_0168c02bcda14bda(void);
-extern uintptr_t _wrap_new_DragonBones_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_delete_DragonBones_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBones_advanceTime_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern void _wrap_DragonBones_bufferEvent_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_DragonBones_bufferObject_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_DragonBones_getClock_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_DragonBones_getEventManager_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BaseObject_setMaxCount_wrapper_0168c02bcda14bda(swig_type_2 arg1, swig_intgo arg2);
-extern void _wrap_BaseObject_clearPool__SWIG_0_wrapper_0168c02bcda14bda(swig_type_3 arg1);
-extern void _wrap_BaseObject_clearPool__SWIG_1_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_BaseObject_hashCode_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_delete_BaseObject_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern swig_type_4 _wrap_BaseObject_getClassTypeIndex_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BaseObject_returnToPool_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_BaseObject_borrowArmatureObject_wrapper_0168c02bcda14bda(void);
-extern swig_type_5 _wrap_Animation_getTypeIndex_wrapper_0168c02bcda14bda(void);
-extern swig_type_6 _wrap_Animation_getClassTypeIndex_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Animation_timeScale_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Animation_timeScale_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_new_Animation_wrapper_0168c02bcda14bda(void);
-extern void _wrap_delete_Animation_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Animation_init_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Animation_advanceTime_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern void _wrap_Animation_reset_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Animation_stop_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_7 arg2);
-extern uintptr_t _wrap_Animation_playConfig_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Animation_play__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_8 arg2, swig_intgo arg3);
-extern uintptr_t _wrap_Animation_play__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_9 arg2);
-extern uintptr_t _wrap_Animation_play__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Animation_fadeIn__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_10 arg2, float arg3, swig_intgo arg4, swig_intgo arg5, swig_type_11 arg6, swig_intgo arg7);
-extern uintptr_t _wrap_Animation_fadeIn__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_12 arg2, float arg3, swig_intgo arg4, swig_intgo arg5, swig_type_13 arg6);
-extern uintptr_t _wrap_Animation_fadeIn__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_14 arg2, float arg3, swig_intgo arg4, swig_intgo arg5);
-extern uintptr_t _wrap_Animation_fadeIn__SWIG_3_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_15 arg2, float arg3, swig_intgo arg4);
-extern uintptr_t _wrap_Animation_fadeIn__SWIG_4_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_16 arg2, float arg3);
-extern uintptr_t _wrap_Animation_fadeIn__SWIG_5_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_17 arg2);
-extern uintptr_t _wrap_Animation_gotoAndPlayByTime__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_18 arg2, float arg3, swig_intgo arg4);
-extern uintptr_t _wrap_Animation_gotoAndPlayByTime__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_19 arg2, float arg3);
-extern uintptr_t _wrap_Animation_gotoAndPlayByTime__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_20 arg2);
-extern uintptr_t _wrap_Animation_gotoAndPlayByFrame__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_21 arg2, swig_intgo arg3, swig_intgo arg4);
-extern uintptr_t _wrap_Animation_gotoAndPlayByFrame__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_22 arg2, swig_intgo arg3);
-extern uintptr_t _wrap_Animation_gotoAndPlayByFrame__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_23 arg2);
-extern uintptr_t _wrap_Animation_gotoAndPlayByProgress__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_24 arg2, float arg3, swig_intgo arg4);
-extern uintptr_t _wrap_Animation_gotoAndPlayByProgress__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_25 arg2, float arg3);
-extern uintptr_t _wrap_Animation_gotoAndPlayByProgress__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_26 arg2);
-extern uintptr_t _wrap_Animation_gotoAndStopByTime__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_27 arg2, float arg3);
-extern uintptr_t _wrap_Animation_gotoAndStopByTime__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_28 arg2);
-extern uintptr_t _wrap_Animation_gotoAndStopByFrame__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_29 arg2, swig_intgo arg3);
-extern uintptr_t _wrap_Animation_gotoAndStopByFrame__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_30 arg2);
-extern uintptr_t _wrap_Animation_gotoAndStopByProgress__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_31 arg2, float arg3);
-extern uintptr_t _wrap_Animation_gotoAndStopByProgress__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_32 arg2);
-extern uintptr_t _wrap_Animation_getState_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_33 arg2);
-extern _Bool _wrap_Animation_hasAnimation_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_34 arg2);
-extern uintptr_t _wrap_Animation_getStates_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern _Bool _wrap_Animation_isPlaying_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern _Bool _wrap_Animation_isCompleted_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern swig_type_35 _wrap_Animation_getLastAnimationName_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Animation_getAnimationNames_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Animation_getAnimations_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Animation_setAnimations_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Animation_getAnimationConfig_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Animation_getLastAnimationState_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Animation_setMaxCount_wrapper_0168c02bcda14bda(swig_type_2 arg1, swig_intgo arg2);
-extern void _wrap_Animation_clearPool__SWIG_0_wrapper_0168c02bcda14bda(swig_type_3 arg1);
-extern void _wrap_Animation_clearPool__SWIG_1_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_GetAnimation_HashCode_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_Animation_returnToPool_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern uintptr_t _wrap_Animation_borrowArmatureObject_wrapper_0168c02bcda14bda(void);
-extern void _wrap_delete_TransformObject_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TransformObject_globalTransformMatrix_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_TransformObject_globalTransformMatrix_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TransformObject_global_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_TransformObject_global_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TransformObject_offset_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_TransformObject_offset_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TransformObject_origin_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_TransformObject_origin_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TransformObject_userData_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_TransformObject_userData_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TransformObject__armature_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_TransformObject__armature_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TransformObject_updateGlobalTransform_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_TransformObject_getArmature_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TransformObject_setMaxCount_wrapper_0168c02bcda14bda(swig_type_2 arg1, swig_intgo arg2);
-extern void _wrap_TransformObject_clearPool__SWIG_0_wrapper_0168c02bcda14bda(swig_type_3 arg1);
-extern void _wrap_TransformObject_clearPool__SWIG_1_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_GetTransformObject_HashCode_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern swig_type_36 _wrap_TransformObject_getClassTypeIndex_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_TransformObject_returnToPool_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern uintptr_t _wrap_TransformObject_borrowArmatureObject_wrapper_0168c02bcda14bda(void);
-extern void _wrap_delete_IEventDispatcher_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern _Bool _wrap_IEventDispatcher_hasDBEventListener_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_37 arg2);
-extern void _wrap_IEventDispatcher_dispatchDBEvent_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_38 arg2, uintptr_t arg3);
-extern void _wrap_IEventDispatcher_addDBEventListener_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_39 arg2, uintptr_t arg3);
-extern void _wrap_IEventDispatcher_removeDBEventListener_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_40 arg2, uintptr_t arg3);
-extern uintptr_t _wrap__swig_NewDirectorIArmatureProxyIArmatureProxy_wrapper_0168c02bcda14bda(int);
-extern void _wrap_DeleteDirectorIArmatureProxy_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_delete_IArmatureProxy_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_IArmatureProxy_dbInit_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_IArmatureProxy_dbClear_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_IArmatureProxy_dbUpdate_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_IArmatureProxy_dispose_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern uintptr_t _wrap_IArmatureProxy_getArmature_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_IArmatureProxy_getAnimation_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern _Bool _wrap_IArmatureProxy_hasDBEventListener_wrapper_0168c02bcda14bda(uintptr_t _swig_base, swig_type_41 arg1);
-extern void _wrap_IArmatureProxy_dispatchDBEvent_wrapper_0168c02bcda14bda(uintptr_t _swig_base, swig_type_42 arg1, uintptr_t arg2);
-extern void _wrap_IArmatureProxy_addDBEventListener_wrapper_0168c02bcda14bda(uintptr_t _swig_base, swig_type_43 arg1, uintptr_t arg2);
-extern void _wrap_IArmatureProxy_removeDBEventListener_wrapper_0168c02bcda14bda(uintptr_t _swig_base, swig_type_44 arg1, uintptr_t arg2);
-extern void _wrap_delete_IAnimatable_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_IAnimatable_advanceTime_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern uintptr_t _wrap_IAnimatable_getClock_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_IAnimatable_setClock_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap__swig_NewDirectorSlotSlot_wrapper_0168c02bcda14bda(int);
-extern void _wrap_DeleteDirectorSlot_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap__swig_DirectorSlot_upcall_X_onClear_wrapper_0168c02bcda14bda(uintptr_t);
-extern void _wrap_Slot_displayController_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_45 arg2);
-extern swig_type_46 _wrap_Slot_displayController_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__colorDirty_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_Slot__colorDirty_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__blendMode_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Slot__blendMode_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__zOrder_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Slot__zOrder_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__pivotX_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Slot__pivotX_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__pivotY_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Slot__pivotY_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__colorTransform_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__colorTransform_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__slotData_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__slotData_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__displayData_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__displayData_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__deformVertices_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__deformVertices_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__rawDisplay_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__rawDisplay_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__meshDisplay_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__meshDisplay_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__cachedFrameIndices_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__cachedFrameIndices_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__displayDirty_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_Slot__displayDirty_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__zOrderDirty_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_Slot__zOrderDirty_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__visibleDirty_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_Slot__visibleDirty_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__blendModeDirty_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_Slot__blendModeDirty_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__transformDirty_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_Slot__transformDirty_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__visible_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_Slot__visible_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__displayIndex_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Slot__displayIndex_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__animationDisplayIndex_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Slot__animationDisplayIndex_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__cachedFrameIndex_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Slot__cachedFrameIndex_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__localMatrix_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__localMatrix_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__displayDatas_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__displayDatas_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__displayList_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__displayList_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__rawDisplayDatas_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__rawDisplayDatas_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__boundingBoxData_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__boundingBoxData_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__textureData_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__textureData_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__display_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__display_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__childArmature_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__childArmature_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__parent_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot__parent_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_delete_Slot_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__updateVisible_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__updateBlendMode_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot__updateColor_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern _Bool _wrap_Slot__setDisplayIndex__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2, _Bool arg3);
-extern _Bool _wrap_Slot__setDisplayIndex__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern _Bool _wrap_Slot__setZorder_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern _Bool _wrap_Slot__setColor_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern _Bool _wrap_Slot__setDisplayList_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Slot_init_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
-extern void _wrap_Slot_update_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_Slot_updateTransformAndMatrix_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot_replaceDisplayData_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern _Bool _wrap_Slot_containsPoint_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2, float arg3);
-extern swig_intgo _wrap_Slot_intersectsSegment__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5, uintptr_t arg6, uintptr_t arg7, uintptr_t arg8);
-extern swig_intgo _wrap_Slot_intersectsSegment__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5, uintptr_t arg6, uintptr_t arg7);
-extern swig_intgo _wrap_Slot_intersectsSegment__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5, uintptr_t arg6);
-extern swig_intgo _wrap_Slot_intersectsSegment__SWIG_3_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5);
-extern void _wrap_Slot_invalidUpdate_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern _Bool _wrap_Slot_getVisible_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot_setVisible_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern swig_intgo _wrap_Slot_getDisplayIndex_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot_setDisplayIndex_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_type_47 _wrap_Slot_getName_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Slot_getDisplayList_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot_setDisplayList_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot_getRawDisplayDatas_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot_setRawDisplayDatas_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot_getSlotData_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Slot_getBoundingBoxData_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Slot_getRawDisplay_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Slot_getMeshDisplay_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Slot_getDisplay_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot_setDisplay_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern uintptr_t _wrap_Slot_getChildArmature_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Slot_setChildArmature_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Slot_getParent_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_SetSlot_GlobalTransformMatrix_wrapper_0168c02bcda14bda(uintptr_t _swig_base, uintptr_t arg1);
-extern uintptr_t _wrap_GetSlot_GlobalTransformMatrix_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_SetSlot_Global_wrapper_0168c02bcda14bda(uintptr_t _swig_base, uintptr_t arg1);
-extern uintptr_t _wrap_GetSlot_Global_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_SetSlot_Offset_wrapper_0168c02bcda14bda(uintptr_t _swig_base, uintptr_t arg1);
-extern uintptr_t _wrap_GetSlot_Offset_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_SetSlot_Origin_wrapper_0168c02bcda14bda(uintptr_t _swig_base, uintptr_t arg1);
-extern uintptr_t _wrap_GetSlot_Origin_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_SetSlot_UserData_wrapper_0168c02bcda14bda(uintptr_t _swig_base, uintptr_t arg1);
-extern uintptr_t _wrap_GetSlot_UserData_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_SetSlot_X_armature_wrapper_0168c02bcda14bda(uintptr_t _swig_base, uintptr_t arg1);
-extern uintptr_t _wrap_GetSlot_X_armature_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_Slot_updateGlobalTransform_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern uintptr_t _wrap_Slot_getArmature_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_Slot_setMaxCount_wrapper_0168c02bcda14bda(swig_type_2 arg1, swig_intgo arg2);
-extern void _wrap_Slot_clearPool__SWIG_0_wrapper_0168c02bcda14bda(swig_type_3 arg1);
-extern void _wrap_Slot_clearPool__SWIG_1_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_GetSlot_HashCode_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern swig_type_48 _wrap_Slot_getClassTypeIndex_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_Slot_returnToPool_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern uintptr_t _wrap_Slot_borrowArmatureObject_wrapper_0168c02bcda14bda(void);
-extern swig_type_49 _wrap_Armature_getTypeIndex_wrapper_0168c02bcda14bda(void);
-extern swig_type_50 _wrap_Armature_getClassTypeIndex_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature_inheritAnimation_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_Armature_inheritAnimation_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature_userData_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Armature_userData_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature__cacheFrameIndex_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Armature__cacheFrameIndex_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature__armatureData_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Armature__armatureData_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature__dragonBones_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Armature__dragonBones_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature__parent_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Armature__parent_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature__replaceTextureAtlasData_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Armature__replaceTextureAtlasData_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature__constraints_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Armature__constraints_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_new_Armature_wrapper_0168c02bcda14bda(void);
-extern void _wrap_delete_Armature_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature__sortZOrder_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern void _wrap_Armature__addBone_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Armature__addSlot_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Armature__addConstraint_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Armature__bufferAction_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, _Bool arg3);
-extern void _wrap_Armature_dispose_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature_init_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
-extern void _wrap_Armature_advanceTime_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern void _wrap_Armature_invalidUpdate__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_51 arg2, _Bool arg3);
-extern void _wrap_Armature_invalidUpdate__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_52 arg2);
-extern void _wrap_Armature_invalidUpdate__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Armature_containsPoint_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2, float arg3);
-extern uintptr_t _wrap_Armature_intersectsSegment__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5, uintptr_t arg6, uintptr_t arg7, uintptr_t arg8);
-extern uintptr_t _wrap_Armature_intersectsSegment__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5, uintptr_t arg6, uintptr_t arg7);
-extern uintptr_t _wrap_Armature_intersectsSegment__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5, uintptr_t arg6);
-extern uintptr_t _wrap_Armature_intersectsSegment__SWIG_3_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5);
-extern uintptr_t _wrap_Armature_getBone_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_53 arg2);
-extern uintptr_t _wrap_Armature_getBoneByDisplay_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Armature_getSlot_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_54 arg2);
-extern uintptr_t _wrap_Armature_getSlotByDisplay_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Armature_getBones_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Armature_getSlots_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern _Bool _wrap_Armature_getFlipX_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature_setFlipX_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_Armature_getFlipY_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature_setFlipY_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern swig_intgo _wrap_Armature_getCacheFrameRate_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature_setCacheFrameRate_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_type_55 _wrap_Armature_getName_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Armature_getArmatureData_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Armature_getAnimation_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Armature_getProxy_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Armature_getEventDispatcher_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Armature_getDisplay_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Armature_getReplacedTexture_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature_setReplacedTexture_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Armature_getClock_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature_setClock_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Armature_getParent_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Armature_getAnimatable_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Armature_setMaxCount_wrapper_0168c02bcda14bda(swig_type_2 arg1, swig_intgo arg2);
-extern void _wrap_Armature_clearPool__SWIG_0_wrapper_0168c02bcda14bda(swig_type_3 arg1);
-extern void _wrap_Armature_clearPool__SWIG_1_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_GetArmature_HashCode_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_Armature_returnToPool_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern uintptr_t _wrap_Armature_borrowArmatureObject_wrapper_0168c02bcda14bda(void);
-extern uintptr_t _wrap_Armature_SwigGetBaseObject_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern swig_type_56 _wrap_DragonBonesData_getTypeIndex_wrapper_0168c02bcda14bda(void);
-extern swig_type_57 _wrap_DragonBonesData_getClassTypeIndex_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_autoSearch_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_DragonBonesData_autoSearch_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_frameRate_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_DragonBonesData_frameRate_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_version_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_58 arg2);
-extern swig_type_59 _wrap_DragonBonesData_version_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_name_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_60 arg2);
-extern swig_type_61 _wrap_DragonBonesData_name_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_frameIndices_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_DragonBonesData_frameIndices_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_cachedFrames_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_DragonBonesData_cachedFrames_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_armatureNames_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_DragonBonesData_armatureNames_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_armatures_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_DragonBonesData_armatures_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_binary_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_62 arg2);
-extern swig_type_63 _wrap_DragonBonesData_binary_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_intArray_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_DragonBonesData_intArray_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_floatArray_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_voidp arg2);
-extern swig_voidp _wrap_DragonBonesData_floatArray_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_frameIntArray_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_DragonBonesData_frameIntArray_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_frameFloatArray_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_voidp arg2);
-extern swig_voidp _wrap_DragonBonesData_frameFloatArray_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_frameArray_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_DragonBonesData_frameArray_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_timelineArray_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_DragonBonesData_timelineArray_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_userData_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_DragonBonesData_userData_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_new_DragonBonesData_wrapper_0168c02bcda14bda(void);
-extern void _wrap_delete_DragonBonesData_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_DragonBonesData_addArmature_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_DragonBonesData_getArmature_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_64 arg2);
-extern void _wrap_DragonBonesData_setMaxCount_wrapper_0168c02bcda14bda(swig_type_2 arg1, swig_intgo arg2);
-extern void _wrap_DragonBonesData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(swig_type_3 arg1);
-extern void _wrap_DragonBonesData_clearPool__SWIG_1_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_GetDragonBonesData_HashCode_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_DragonBonesData_returnToPool_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern uintptr_t _wrap_DragonBonesData_borrowArmatureObject_wrapper_0168c02bcda14bda(void);
-extern uintptr_t _wrap__swig_NewDirectorTextureAtlasDataTextureAtlasData_wrapper_0168c02bcda14bda(int);
-extern void _wrap_DeleteDirectorTextureAtlasData_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap__swig_DirectorTextureAtlasData_upcall_X_onClear_wrapper_0168c02bcda14bda(uintptr_t);
-extern void _wrap__swig_DirectorTextureAtlasData_upcall_AddTexture_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t value);
-extern void _wrap_delete_TextureAtlasData_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureAtlasData_autoSearch_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_TextureAtlasData_autoSearch_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureAtlasData_format_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_TextureAtlasData_format_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureAtlasData_width_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_TextureAtlasData_width_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureAtlasData_height_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_TextureAtlasData_height_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureAtlasData_scale_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_TextureAtlasData_scale_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureAtlasData_name_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_65 arg2);
-extern swig_type_66 _wrap_TextureAtlasData_name_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureAtlasData_imagePath_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_67 arg2);
-extern swig_type_68 _wrap_TextureAtlasData_imagePath_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureAtlasData_textures_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_TextureAtlasData_textures_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureAtlasData_copyFrom_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_TextureAtlasData_createTexture_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureAtlasData_addTexture_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_TextureAtlasData_getTexture_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_69 arg2);
-extern void _wrap_TextureAtlasData_setMaxCount_wrapper_0168c02bcda14bda(swig_type_2 arg1, swig_intgo arg2);
-extern void _wrap_TextureAtlasData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(swig_type_3 arg1);
-extern void _wrap_TextureAtlasData_clearPool__SWIG_1_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_GetTextureAtlasData_HashCode_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern swig_type_70 _wrap_TextureAtlasData_getClassTypeIndex_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_TextureAtlasData_returnToPool_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern uintptr_t _wrap_TextureAtlasData_borrowArmatureObject_wrapper_0168c02bcda14bda(void);
-extern uintptr_t _wrap__swig_NewDirectorTextureDataTextureData_wrapper_0168c02bcda14bda(int);
-extern void _wrap_DeleteDirectorTextureData_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap__swig_DirectorTextureData_upcall_X_onClear_wrapper_0168c02bcda14bda(uintptr_t);
-extern uintptr_t _wrap_TextureData_createRectangle_wrapper_0168c02bcda14bda(void);
-extern void _wrap_TextureData_rotated_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_TextureData_rotated_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureData_name_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_71 arg2);
-extern swig_type_72 _wrap_TextureData_name_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureData_region_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_TextureData_region_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureData_frame_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_TextureData_frame_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureData_parent_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_TextureData_parent_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_delete_TextureData_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_TextureData_copyFrom_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_TextureData_setMaxCount_wrapper_0168c02bcda14bda(swig_type_2 arg1, swig_intgo arg2);
-extern void _wrap_TextureData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(swig_type_3 arg1);
-extern void _wrap_TextureData_clearPool__SWIG_1_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_GetTextureData_HashCode_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern swig_type_73 _wrap_TextureData_getClassTypeIndex_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_TextureData_returnToPool_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern uintptr_t _wrap_TextureData_borrowArmatureObject_wrapper_0168c02bcda14bda(void);
-extern swig_type_74 _wrap_ArmatureData_getTypeIndex_wrapper_0168c02bcda14bda(void);
-extern swig_type_75 _wrap_ArmatureData_getClassTypeIndex_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_Xtype_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_ArmatureData_Xtype_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_frameRate_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_ArmatureData_frameRate_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_cacheFrameRate_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_ArmatureData_cacheFrameRate_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_scale_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_ArmatureData_scale_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_name_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_76 arg2);
-extern swig_type_77 _wrap_ArmatureData_name_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_aabb_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_aabb_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_animationNames_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_animationNames_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_sortedBones_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_sortedBones_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_sortedSlots_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_sortedSlots_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_defaultActions_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_defaultActions_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_actions_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_actions_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_bones_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_bones_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_slots_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_slots_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_constraints_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_constraints_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_skins_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_skins_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_animations_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_animations_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_defaultSkin_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_defaultSkin_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_defaultAnimation_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_defaultAnimation_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_canvas_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_canvas_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_userData_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_userData_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_parent_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArmatureData_parent_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_new_ArmatureData_wrapper_0168c02bcda14bda(void);
-extern void _wrap_delete_ArmatureData_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_sortBones_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_cacheFrames_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_ArmatureData_setCacheFrame_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_ArmatureData_getCacheFrame_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, swig_intgo arg4);
-extern void _wrap_ArmatureData_addBone_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_ArmatureData_addSlot_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_ArmatureData_addConstraint_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_ArmatureData_addSkin_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_ArmatureData_addAnimation_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_ArmatureData_addAction_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, _Bool arg3);
-extern uintptr_t _wrap_ArmatureData_getBone_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_78 arg2);
-extern uintptr_t _wrap_ArmatureData_getSlot_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_79 arg2);
-extern uintptr_t _wrap_ArmatureData_getConstraint_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_80 arg2);
-extern uintptr_t _wrap_ArmatureData_getSkin_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_81 arg2);
-extern uintptr_t _wrap_ArmatureData_getMesh_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_82 arg2, swig_type_83 arg3, swig_type_84 arg4);
-extern uintptr_t _wrap_ArmatureData_getAnimation_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_85 arg2);
-extern swig_intgo _wrap_ArmatureData_getType_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_setType_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_ArmatureData_getAABB_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_ArmatureData_setMaxCount_wrapper_0168c02bcda14bda(swig_type_2 arg1, swig_intgo arg2);
-extern void _wrap_ArmatureData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(swig_type_3 arg1);
-extern void _wrap_ArmatureData_clearPool__SWIG_1_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_GetArmatureData_HashCode_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_ArmatureData_returnToPool_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern uintptr_t _wrap_ArmatureData_borrowArmatureObject_wrapper_0168c02bcda14bda(void);
-extern swig_type_86 _wrap_BoneData_getTypeIndex_wrapper_0168c02bcda14bda(void);
-extern swig_type_87 _wrap_BoneData_getClassTypeIndex_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BoneData_inheritTranslation_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_BoneData_inheritTranslation_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BoneData_inheritRotation_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_BoneData_inheritRotation_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BoneData_inheritScale_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_BoneData_inheritScale_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BoneData_inheritReflection_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_BoneData_inheritReflection_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BoneData_length_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_BoneData_length_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BoneData_name_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_88 arg2);
-extern swig_type_89 _wrap_BoneData_name_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BoneData_transform_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BoneData_transform_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BoneData_userData_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BoneData_userData_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BoneData_parent_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BoneData_parent_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_new_BoneData_wrapper_0168c02bcda14bda(void);
-extern void _wrap_delete_BoneData_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_BoneData_getTransfrom_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BoneData_setMaxCount_wrapper_0168c02bcda14bda(swig_type_2 arg1, swig_intgo arg2);
-extern void _wrap_BoneData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(swig_type_3 arg1);
-extern void _wrap_BoneData_clearPool__SWIG_1_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_GetBoneData_HashCode_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_BoneData_returnToPool_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern uintptr_t _wrap_BoneData_borrowArmatureObject_wrapper_0168c02bcda14bda(void);
-extern swig_type_90 _wrap_SlotData_getTypeIndex_wrapper_0168c02bcda14bda(void);
-extern swig_type_91 _wrap_SlotData_getClassTypeIndex_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_SlotData_DEFAULT_COLOR_set_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_SlotData_DEFAULT_COLOR_get_wrapper_0168c02bcda14bda(void);
-extern uintptr_t _wrap_SlotData_createColor_wrapper_0168c02bcda14bda(void);
-extern void _wrap_SlotData_blendMode_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_SlotData_blendMode_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_SlotData_displayIndex_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_SlotData_displayIndex_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_SlotData_zOrder_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_SlotData_zOrder_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_SlotData_name_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_92 arg2);
-extern swig_type_93 _wrap_SlotData_name_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_SlotData_color_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_SlotData_color_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_SlotData_userData_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_SlotData_userData_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_SlotData_parent_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_SlotData_parent_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_new_SlotData_wrapper_0168c02bcda14bda(void);
-extern void _wrap_delete_SlotData_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_SlotData_getDefaultColor_wrapper_0168c02bcda14bda(void);
-extern void _wrap_SlotData_setMaxCount_wrapper_0168c02bcda14bda(swig_type_2 arg1, swig_intgo arg2);
-extern void _wrap_SlotData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(swig_type_3 arg1);
-extern void _wrap_SlotData_clearPool__SWIG_1_wrapper_0168c02bcda14bda(void);
-extern swig_intgo _wrap_GetSlotData_HashCode_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern void _wrap_SlotData_returnToPool_wrapper_0168c02bcda14bda(uintptr_t _swig_base);
-extern uintptr_t _wrap_SlotData_borrowArmatureObject_wrapper_0168c02bcda14bda(void);
-extern uintptr_t _wrap__swig_NewDirectorBaseFactoryBaseFactory__SWIG_0_wrapper_0168c02bcda14bda(int, uintptr_t arg1);
-extern uintptr_t _wrap__swig_NewDirectorBaseFactoryBaseFactory__SWIG_1_wrapper_0168c02bcda14bda(int);
-extern void _wrap_DeleteDirectorBaseFactory_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern _Bool _wrap__swig_DirectorBaseFactory_upcall_X_isSupportMesh_wrapper_0168c02bcda14bda(uintptr_t);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_X_getTextureData_wrapper_0168c02bcda14bda(uintptr_t, swig_type_94 textureAtlasName, swig_type_95 textureName);
-extern _Bool _wrap__swig_DirectorBaseFactory_upcall_X_fillBuildArmaturePackage_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t dataPackage, swig_type_96 dragonBonesName, swig_type_97 armatureName, swig_type_98 skinName, swig_type_99 textureAtlasName);
-extern void _wrap__swig_DirectorBaseFactory_upcall_X_buildBones_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t dataPackage, uintptr_t armature);
-extern void _wrap__swig_DirectorBaseFactory_upcall_X_buildSlots_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t dataPackage, uintptr_t armature);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_X_buildChildArmature_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t dataPackage, uintptr_t slot, uintptr_t displayData);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_X_getSlotDisplay_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t dataPackage, uintptr_t displayData, uintptr_t rawDisplayData, uintptr_t slot);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t, swig_type_100 rawData, swig_type_101 name, float scale);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t, swig_type_102 rawData, swig_type_103 name);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t, swig_type_104 rawData);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t, swig_type_105 rawData, uintptr_t textureAtlas, swig_type_106 name, float scale);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t, swig_type_107 rawData, uintptr_t textureAtlas, swig_type_108 name);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t, swig_type_109 rawData, uintptr_t textureAtlas);
-extern void _wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t data, swig_type_110 name);
-extern void _wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t data);
-extern void _wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t, swig_type_111 name, _Bool disposeData);
-extern void _wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t, swig_type_112 name);
-extern void _wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t data, swig_type_113 name);
-extern void _wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t data);
-extern void _wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t, swig_type_114 name, _Bool disposeData);
-extern void _wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t, swig_type_115 name);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t, swig_type_116 name, swig_type_117 dragonBonesName);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t, swig_type_118 name);
-extern void _wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t, _Bool disposeData);
-extern void _wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t, swig_type_119 armatureName, swig_type_120 dragonBonesName, swig_type_121 skinName, swig_type_122 textureAtlasName);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t, swig_type_123 armatureName, swig_type_124 dragonBonesName, swig_type_125 skinName);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t, swig_type_126 armatureName, swig_type_127 dragonBonesName);
-extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_3_wrapper_0168c02bcda14bda(uintptr_t, swig_type_128 armatureName);
-extern void _wrap__swig_DirectorBaseFactory_upcall_ReplaceDisplay_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t slot, uintptr_t displayData, swig_intgo displayIndex);
-extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t, swig_type_129 dragonBonesName, swig_type_130 armatureName, swig_type_131 slotName, swig_type_132 displayName, uintptr_t slot, swig_intgo displayIndex);
-extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t, swig_type_133 dragonBonesName, swig_type_134 armatureName, swig_type_135 slotName, swig_type_136 displayName, uintptr_t slot);
-extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplayList_wrapper_0168c02bcda14bda(uintptr_t, swig_type_137 dragonBonesName, swig_type_138 armatureName, swig_type_139 slotName, uintptr_t slot);
-extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t armature, uintptr_t skin, _Bool isOverride, uintptr_t exclude);
-extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t armature, uintptr_t skin, _Bool isOverride);
-extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t armature, uintptr_t skin);
-extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t armature, uintptr_t armatureData, _Bool isReplaceAll);
-extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t, uintptr_t armature, uintptr_t armatureData);
-extern void _wrap_BaseFactory__jsonParser_set_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_BaseFactory__jsonParser_get_wrapper_0168c02bcda14bda(void);
-extern void _wrap_BaseFactory__binaryParser_set_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_BaseFactory__binaryParser_get_wrapper_0168c02bcda14bda(void);
-extern void _wrap_BaseFactory_autoSearch_set_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern _Bool _wrap_BaseFactory_autoSearch_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BaseFactory__dragonBonesDataMap_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BaseFactory__dragonBonesDataMap_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BaseFactory__textureAtlasDataMap_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BaseFactory__textureAtlasDataMap_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BaseFactory__dragonBones_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BaseFactory__dragonBones_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BaseFactory__dataParser_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BaseFactory__dataParser_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_delete_BaseFactory_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_BaseFactory_parseDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_100 arg2, swig_type_101 arg3, float arg4);
-extern uintptr_t _wrap_BaseFactory_parseDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_102 arg2, swig_type_103 arg3);
-extern uintptr_t _wrap_BaseFactory_parseDragonBonesData__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_104 arg2);
-extern uintptr_t _wrap_BaseFactory_parseTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_105 arg2, uintptr_t arg3, swig_type_106 arg4, float arg5);
-extern uintptr_t _wrap_BaseFactory_parseTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_107 arg2, uintptr_t arg3, swig_type_108 arg4);
-extern uintptr_t _wrap_BaseFactory_parseTextureAtlasData__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_109 arg2, uintptr_t arg3);
-extern uintptr_t _wrap_BaseFactory_getDragonBonesData_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_140 arg2);
-extern void _wrap_BaseFactory_addDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, swig_type_110 arg3);
-extern void _wrap_BaseFactory_addDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_BaseFactory_removeDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_111 arg2, _Bool arg3);
-extern void _wrap_BaseFactory_removeDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_112 arg2);
-extern uintptr_t _wrap_BaseFactory_getTextureAtlasData_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_141 arg2);
-extern void _wrap_BaseFactory_addTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, swig_type_113 arg3);
-extern void _wrap_BaseFactory_addTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_BaseFactory_removeTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_114 arg2, _Bool arg3);
-extern void _wrap_BaseFactory_removeTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_115 arg2);
-extern uintptr_t _wrap_BaseFactory_getArmatureData__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_116 arg2, swig_type_117 arg3);
-extern uintptr_t _wrap_BaseFactory_getArmatureData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_118 arg2);
-extern void _wrap_BaseFactory_clear__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, _Bool arg2);
-extern void _wrap_BaseFactory_clear__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_BaseFactory_buildArmature__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_119 arg2, swig_type_120 arg3, swig_type_121 arg4, swig_type_122 arg5);
-extern uintptr_t _wrap_BaseFactory_buildArmature__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_123 arg2, swig_type_124 arg3, swig_type_125 arg4);
-extern uintptr_t _wrap_BaseFactory_buildArmature__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_126 arg2, swig_type_127 arg3);
-extern uintptr_t _wrap_BaseFactory_buildArmature__SWIG_3_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_128 arg2);
-extern void _wrap_BaseFactory_replaceDisplay_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, swig_intgo arg4);
-extern _Bool _wrap_BaseFactory_replaceSlotDisplay__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_129 arg2, swig_type_130 arg3, swig_type_131 arg4, swig_type_132 arg5, uintptr_t arg6, swig_intgo arg7);
-extern _Bool _wrap_BaseFactory_replaceSlotDisplay__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_133 arg2, swig_type_134 arg3, swig_type_135 arg4, swig_type_136 arg5, uintptr_t arg6);
-extern _Bool _wrap_BaseFactory_replaceSlotDisplayList_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_137 arg2, swig_type_138 arg3, swig_type_139 arg4, uintptr_t arg5);
-extern _Bool _wrap_BaseFactory_replaceSkin__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, _Bool arg4, uintptr_t arg5);
-extern _Bool _wrap_BaseFactory_replaceSkin__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, _Bool arg4);
-extern _Bool _wrap_BaseFactory_replaceSkin__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern _Bool _wrap_BaseFactory_replaceAnimation__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, _Bool arg4);
-extern _Bool _wrap_BaseFactory_replaceAnimation__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_BaseFactory_getAllTextureAtlasData_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_BaseFactory_getAllDragonBonesData_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_BaseFactory_getClock_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern _Bool _wrap_BaseFactory_changeSkin__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern _Bool _wrap_BaseFactory_changeSkin__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_BuildArmaturePackage_dataName_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_142 arg2);
-extern swig_type_143 _wrap_BuildArmaturePackage_dataName_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BuildArmaturePackage_textureAtlasName_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_144 arg2);
-extern swig_type_145 _wrap_BuildArmaturePackage_textureAtlasName_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BuildArmaturePackage_data_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BuildArmaturePackage_data_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BuildArmaturePackage_armature_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BuildArmaturePackage_armature_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_BuildArmaturePackage_skin_set_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_BuildArmaturePackage_skin_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_new_BuildArmaturePackage_wrapper_0168c02bcda14bda(void);
-extern void _wrap_delete_BuildArmaturePackage_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Rectangle_x_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Rectangle_x_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Rectangle_y_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Rectangle_y_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Rectangle_width_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Rectangle_width_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Rectangle_height_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Rectangle_height_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_new_Rectangle__SWIG_0_wrapper_0168c02bcda14bda(void);
-extern uintptr_t _wrap_new_Rectangle__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_delete_Rectangle_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Rectangle_opEqual_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Rectangle_clear_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern float _wrap_Transform_PI_get_wrapper_0168c02bcda14bda(void);
-extern float _wrap_Transform_PI_D_get_wrapper_0168c02bcda14bda(void);
-extern float _wrap_Transform_PI_H_get_wrapper_0168c02bcda14bda(void);
-extern float _wrap_Transform_PI_Q_get_wrapper_0168c02bcda14bda(void);
-extern float _wrap_Transform_DEG_RAD_get_wrapper_0168c02bcda14bda(void);
-extern float _wrap_Transform_RAD_DEG_get_wrapper_0168c02bcda14bda(void);
-extern float _wrap_Transform_normalizeRadian_wrapper_0168c02bcda14bda(float arg1);
-extern void _wrap_Transform_x_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Transform_x_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Transform_y_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Transform_y_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Transform_skew_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Transform_skew_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Transform_rotation_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Transform_rotation_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Transform_scaleX_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Transform_scaleX_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Transform_scaleY_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Transform_scaleY_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_new_Transform__SWIG_0_wrapper_0168c02bcda14bda(void);
-extern uintptr_t _wrap_new_Transform__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_delete_Transform_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Transform_opEqual_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Transform_identity_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_Transform_add_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Transform_minus_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Transform_fromMatrix_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Transform_toMatrix_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Matrix_a_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Matrix_a_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Matrix_b_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Matrix_b_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Matrix_c_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Matrix_c_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Matrix_d_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Matrix_d_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Matrix_tx_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Matrix_tx_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Matrix_ty_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_Matrix_ty_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_new_Matrix__SWIG_0_wrapper_0168c02bcda14bda(void);
-extern uintptr_t _wrap_new_Matrix__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_delete_Matrix_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Matrix_opEqual_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Matrix_identity_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Matrix_concat_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Matrix_invert_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_Matrix_transformPoint__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2, float arg3, uintptr_t arg4, _Bool arg5);
-extern void _wrap_Matrix_transformPoint__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2, float arg3, uintptr_t arg4);
-extern void _wrap_Matrix_transformRectangle__SWIG_0_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2, _Bool arg3);
-extern void _wrap_Matrix_transformRectangle__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_WorldClock_clock_get_wrapper_0168c02bcda14bda(void);
-extern void _wrap_WorldClock_time_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_WorldClock_time_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_WorldClock_timeScale_set_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern float _wrap_WorldClock_timeScale_get_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_new_WorldClock__SWIG_0_wrapper_0168c02bcda14bda(float arg1);
-extern uintptr_t _wrap_new_WorldClock__SWIG_1_wrapper_0168c02bcda14bda(void);
-extern void _wrap_delete_WorldClock_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_WorldClock_advanceTime_wrapper_0168c02bcda14bda(uintptr_t arg1, float arg2);
-extern _Bool _wrap_WorldClock_contains_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_WorldClock_add_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_WorldClock_remove_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_WorldClock_clear_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_WorldClock_getClock_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_WorldClock_setClock_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_WorldClock_getStaticClock_wrapper_0168c02bcda14bda(void);
-extern void _wrap_WorldClock_addArmature_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern swig_type_146 _wrap_getSlotTypeIndex_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern swig_type_147 _wrap_getTextureAtlasDataTypeIndex_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_new_mapStringToTextureData__SWIG_0_wrapper_0168c02bcda14bda(void);
-extern uintptr_t _wrap_new_mapStringToTextureData__SWIG_1_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern swig_intgo _wrap_mapStringToTextureData_size_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern _Bool _wrap_mapStringToTextureData_empty_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_mapStringToTextureData_clear_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_mapStringToTextureData_get_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_148 arg2);
-extern void _wrap_mapStringToTextureData_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_149 arg2, uintptr_t arg3);
-extern void _wrap_mapStringToTextureData_del_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_150 arg2);
-extern _Bool _wrap_mapStringToTextureData_has_key_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_151 arg2);
-extern uintptr_t _wrap_mapStringToTextureData_keys_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_mapStringToTextureData_values_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_delete_mapStringToTextureData_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_new_vectorString__SWIG_0_wrapper_0168c02bcda14bda(void);
-extern uintptr_t _wrap_new_vectorString__SWIG_1_wrapper_0168c02bcda14bda(swig_type_152 arg1);
-extern uintptr_t _wrap_new_vectorString__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern swig_type_153 _wrap_vectorString_size_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern swig_type_154 _wrap_vectorString_capacity_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_vectorString_reserve_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_155 arg2);
-extern _Bool _wrap_vectorString_isEmpty_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_vectorString_clear_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_vectorString_add_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_156 arg2);
-extern swig_type_157 _wrap_vectorString_get_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_vectorString_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2, swig_type_158 arg3);
-extern void _wrap_delete_vectorString_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern uintptr_t _wrap_new_vectorTextureData__SWIG_0_wrapper_0168c02bcda14bda(void);
-extern uintptr_t _wrap_new_vectorTextureData__SWIG_1_wrapper_0168c02bcda14bda(swig_type_159 arg1);
-extern uintptr_t _wrap_new_vectorTextureData__SWIG_2_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern swig_type_160 _wrap_vectorTextureData_size_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern swig_type_161 _wrap_vectorTextureData_capacity_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_vectorTextureData_reserve_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_type_162 arg2);
-extern _Bool _wrap_vectorTextureData_isEmpty_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_vectorTextureData_clear_wrapper_0168c02bcda14bda(uintptr_t arg1);
-extern void _wrap_vectorTextureData_add_wrapper_0168c02bcda14bda(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_vectorTextureData_get_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_vectorTextureData_set_wrapper_0168c02bcda14bda(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
-extern void _wrap_delete_vectorTextureData_wrapper_0168c02bcda14bda(uintptr_t arg1);
+typedef _gostring_ swig_type_159;
+typedef _gostring_ swig_type_160;
+typedef _gostring_ swig_type_161;
+typedef _gostring_ swig_type_162;
+typedef _gostring_ swig_type_163;
+typedef _gostring_ swig_type_164;
+typedef _gostring_ swig_type_165;
+typedef _gostring_ swig_type_166;
+typedef _gostring_ swig_type_167;
+typedef _gostring_ swig_type_168;
+typedef _gostring_ swig_type_169;
+typedef _gostring_ swig_type_170;
+typedef _gostring_ swig_type_171;
+typedef _gostring_ swig_type_172;
+typedef _gostring_ swig_type_173;
+typedef _gostring_ swig_type_174;
+typedef _gostring_ swig_type_175;
+typedef _gostring_ swig_type_176;
+typedef _gostring_ swig_type_177;
+typedef _gostring_ swig_type_178;
+typedef _gostring_ swig_type_179;
+typedef _gostring_ swig_type_180;
+typedef _gostring_ swig_type_181;
+typedef long long swig_type_182;
+typedef long long swig_type_183;
+typedef _gostring_ swig_type_184;
+typedef _gostring_ swig_type_185;
+typedef _gostring_ swig_type_186;
+typedef _gostring_ swig_type_187;
+typedef long long swig_type_188;
+typedef long long swig_type_189;
+typedef long long swig_type_190;
+typedef long long swig_type_191;
+typedef _gostring_ swig_type_192;
+typedef _gostring_ swig_type_193;
+typedef _gostring_ swig_type_194;
+typedef long long swig_type_195;
+typedef long long swig_type_196;
+typedef long long swig_type_197;
+typedef long long swig_type_198;
+typedef long long swig_type_199;
+typedef long long swig_type_200;
+typedef long long swig_type_201;
+typedef long long swig_type_202;
+typedef long long swig_type_203;
+typedef long long swig_type_204;
+typedef long long swig_type_205;
+typedef long long swig_type_206;
+extern void _wrap_Swig_free_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Swig_malloc_wrapper_49f4652e7e4716be(swig_intgo arg1);
+extern swig_intgo _wrap_BinaryOffset_WeigthBoneCount_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_WeigthFloatOffset_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_WeigthBoneIndices_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_MeshVertexCount_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_MeshTriangleCount_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_MeshFloatOffset_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_MeshWeightOffset_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_MeshVertexIndices_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_TimelineScale_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_TimelineOffset_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_TimelineKeyFrameCount_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_TimelineFrameValueCount_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_TimelineFrameValueOffset_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_TimelineFrameOffset_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_FramePosition_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_FrameTweenType_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_FrameTweenEasingOrCurveSampleCount_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_FrameCurveSamples_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_DeformVertexOffset_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_DeformCount_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_DeformValueCount_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_DeformValueOffset_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BinaryOffset_DeformFloatOffset_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_ArmatureType_Armature_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_ArmatureType_MovieClip_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_ArmatureType_Stage_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_OffsetMode_None_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_OffsetMode_Additive_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_OffsetMode_Override_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_DisplayType_Image_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_DisplayType_Armature_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_DisplayType_Mesh_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_DisplayType_BoundingBox_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_DisplayType_Path_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BoundingBoxType_Rectangle_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BoundingBoxType_Ellipse_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BoundingBoxType_Polygon_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_ActionType_Play_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_ActionType_Frame_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_ActionType_Sound_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BlendMode_Normal_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BlendMode_Add_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BlendMode_Alpha_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BlendMode_Darken_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BlendMode_Difference_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BlendMode_Erase_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BlendMode_HardLight_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BlendMode_Invert_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BlendMode_Layer_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BlendMode_Lighten_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BlendMode_Multiply_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BlendMode_Overlay_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BlendMode_Screen_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BlendMode_Subtract_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TweenType_None_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TweenType_Line_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TweenType_Curve_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TweenType_QuadIn_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TweenType_QuadOut_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TweenType_QuadInOut_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TimelineType_Action_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TimelineType_ZOrder_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TimelineType_BoneAll_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TimelineType_BoneTranslate_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TimelineType_BoneRotate_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TimelineType_BoneScale_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TimelineType_SlotDisplay_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TimelineType_SlotColor_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TimelineType_SlotDeform_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TimelineType_IKConstraint_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TimelineType_AnimationTime_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TimelineType_AnimationWeight_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_AnimationFadeOutMode_None_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_AnimationFadeOutMode_SameLayer_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_AnimationFadeOutMode_SameGroup_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_AnimationFadeOutMode_SameLayerAndGroup_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_AnimationFadeOutMode_All_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_AnimationFadeOutMode_Single_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TextureFormat_DEFAULT_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TextureFormat_RGBA8888_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TextureFormat_BGRA8888_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TextureFormat_RGBA4444_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TextureFormat_RGB888_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TextureFormat_RGB565_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_TextureFormat_RGBA5551_wrapper_49f4652e7e4716be(void);
+extern swig_type_1 _wrap_DragonBones_VEISION_get_wrapper_49f4652e7e4716be(void);
+extern void _wrap_DragonBones_yDown_set_wrapper_49f4652e7e4716be(_Bool arg1);
+extern _Bool _wrap_DragonBones_yDown_get_wrapper_49f4652e7e4716be(void);
+extern void _wrap_DragonBones_debug_set_wrapper_49f4652e7e4716be(_Bool arg1);
+extern _Bool _wrap_DragonBones_debug_get_wrapper_49f4652e7e4716be(void);
+extern void _wrap_DragonBones_debugDraw_set_wrapper_49f4652e7e4716be(_Bool arg1);
+extern _Bool _wrap_DragonBones_debugDraw_get_wrapper_49f4652e7e4716be(void);
+extern void _wrap_DragonBones_webAssembly_set_wrapper_49f4652e7e4716be(_Bool arg1);
+extern _Bool _wrap_DragonBones_webAssembly_get_wrapper_49f4652e7e4716be(void);
+extern uintptr_t _wrap_new_DragonBones_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_delete_DragonBones_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBones_advanceTime_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern void _wrap_DragonBones_bufferEvent_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_DragonBones_bufferObject_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_DragonBones_getClock_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_DragonBones_getEventManager_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BaseObject_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_BaseObject_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_BaseObject_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_BaseObject_hashCode_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_delete_BaseObject_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern swig_type_4 _wrap_BaseObject_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BaseObject_returnToPool_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_BaseObject_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern swig_type_5 _wrap_Animation_getTypeIndex_wrapper_49f4652e7e4716be(void);
+extern swig_type_6 _wrap_Animation_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Animation_timeScale_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Animation_timeScale_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_Animation_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_Animation_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Animation_init_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Animation_advanceTime_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern void _wrap_Animation_reset_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Animation_stop_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_7 arg2);
+extern uintptr_t _wrap_Animation_playConfig_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Animation_play__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_8 arg2, swig_intgo arg3);
+extern uintptr_t _wrap_Animation_play__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_9 arg2);
+extern uintptr_t _wrap_Animation_play__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Animation_fadeIn__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_10 arg2, float arg3, swig_intgo arg4, swig_intgo arg5, swig_type_11 arg6, swig_intgo arg7);
+extern uintptr_t _wrap_Animation_fadeIn__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_12 arg2, float arg3, swig_intgo arg4, swig_intgo arg5, swig_type_13 arg6);
+extern uintptr_t _wrap_Animation_fadeIn__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_14 arg2, float arg3, swig_intgo arg4, swig_intgo arg5);
+extern uintptr_t _wrap_Animation_fadeIn__SWIG_3_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_15 arg2, float arg3, swig_intgo arg4);
+extern uintptr_t _wrap_Animation_fadeIn__SWIG_4_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_16 arg2, float arg3);
+extern uintptr_t _wrap_Animation_fadeIn__SWIG_5_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_17 arg2);
+extern uintptr_t _wrap_Animation_gotoAndPlayByTime__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_18 arg2, float arg3, swig_intgo arg4);
+extern uintptr_t _wrap_Animation_gotoAndPlayByTime__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_19 arg2, float arg3);
+extern uintptr_t _wrap_Animation_gotoAndPlayByTime__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_20 arg2);
+extern uintptr_t _wrap_Animation_gotoAndPlayByFrame__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_21 arg2, swig_intgo arg3, swig_intgo arg4);
+extern uintptr_t _wrap_Animation_gotoAndPlayByFrame__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_22 arg2, swig_intgo arg3);
+extern uintptr_t _wrap_Animation_gotoAndPlayByFrame__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_23 arg2);
+extern uintptr_t _wrap_Animation_gotoAndPlayByProgress__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_24 arg2, float arg3, swig_intgo arg4);
+extern uintptr_t _wrap_Animation_gotoAndPlayByProgress__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_25 arg2, float arg3);
+extern uintptr_t _wrap_Animation_gotoAndPlayByProgress__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_26 arg2);
+extern uintptr_t _wrap_Animation_gotoAndStopByTime__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_27 arg2, float arg3);
+extern uintptr_t _wrap_Animation_gotoAndStopByTime__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_28 arg2);
+extern uintptr_t _wrap_Animation_gotoAndStopByFrame__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_29 arg2, swig_intgo arg3);
+extern uintptr_t _wrap_Animation_gotoAndStopByFrame__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_30 arg2);
+extern uintptr_t _wrap_Animation_gotoAndStopByProgress__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_31 arg2, float arg3);
+extern uintptr_t _wrap_Animation_gotoAndStopByProgress__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_32 arg2);
+extern uintptr_t _wrap_Animation_getState_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_33 arg2);
+extern _Bool _wrap_Animation_hasAnimation_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_34 arg2);
+extern uintptr_t _wrap_Animation_getStates_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern _Bool _wrap_Animation_isPlaying_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern _Bool _wrap_Animation_isCompleted_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern swig_type_35 _wrap_Animation_getLastAnimationName_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Animation_getAnimationNames_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Animation_getAnimations_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Animation_setAnimations_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Animation_getAnimationConfig_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Animation_getLastAnimationState_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Animation_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_Animation_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_Animation_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetAnimation_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_Animation_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_Animation_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_TransformObject_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TransformObject_globalTransformMatrix_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_TransformObject_globalTransformMatrix_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TransformObject_global_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_TransformObject_global_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TransformObject_offset_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_TransformObject_offset_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TransformObject_origin_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_TransformObject_origin_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TransformObject_userData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_TransformObject_userData_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TransformObject__armature_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_TransformObject__armature_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TransformObject_updateGlobalTransform_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_TransformObject_getArmature_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TransformObject_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_TransformObject_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_TransformObject_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetTransformObject_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern swig_type_36 _wrap_TransformObject_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_TransformObject_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_TransformObject_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_IEventDispatcher_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern _Bool _wrap_IEventDispatcher_hasDBEventListener_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_37 arg2);
+extern void _wrap_IEventDispatcher_dispatchDBEvent_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_38 arg2, uintptr_t arg3);
+extern void _wrap_IEventDispatcher_addDBEventListener_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_39 arg2, uintptr_t arg3);
+extern void _wrap_IEventDispatcher_removeDBEventListener_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_40 arg2, uintptr_t arg3);
+extern uintptr_t _wrap__swig_NewDirectorIArmatureProxyIArmatureProxy_wrapper_49f4652e7e4716be(int);
+extern void _wrap_DeleteDirectorIArmatureProxy_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_delete_IArmatureProxy_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_IArmatureProxy_dbInit_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_IArmatureProxy_dbClear_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_IArmatureProxy_dbUpdate_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_IArmatureProxy_dispose_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern uintptr_t _wrap_IArmatureProxy_getArmature_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_IArmatureProxy_getAnimation_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern _Bool _wrap_IArmatureProxy_hasDBEventListener_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_type_41 arg1);
+extern void _wrap_IArmatureProxy_dispatchDBEvent_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_type_42 arg1, uintptr_t arg2);
+extern void _wrap_IArmatureProxy_addDBEventListener_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_type_43 arg1, uintptr_t arg2);
+extern void _wrap_IArmatureProxy_removeDBEventListener_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_type_44 arg1, uintptr_t arg2);
+extern void _wrap_delete_IAnimatable_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_IAnimatable_advanceTime_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern uintptr_t _wrap_IAnimatable_getClock_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_IAnimatable_setClock_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap__swig_NewDirectorSlotSlot_wrapper_49f4652e7e4716be(int);
+extern void _wrap_DeleteDirectorSlot_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap__swig_DirectorSlot_upcall_X_onClear_wrapper_49f4652e7e4716be(uintptr_t);
+extern void _wrap_Slot_displayController_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_45 arg2);
+extern swig_type_46 _wrap_Slot_displayController_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__colorDirty_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_Slot__colorDirty_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__blendMode_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_Slot__blendMode_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__zOrder_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_Slot__zOrder_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__pivotX_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Slot__pivotX_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__pivotY_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Slot__pivotY_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__colorTransform_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__colorTransform_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__slotData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__slotData_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__displayData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__displayData_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__deformVertices_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__deformVertices_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__rawDisplay_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__rawDisplay_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__meshDisplay_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__meshDisplay_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__cachedFrameIndices_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__cachedFrameIndices_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__displayDirty_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_Slot__displayDirty_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__zOrderDirty_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_Slot__zOrderDirty_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__visibleDirty_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_Slot__visibleDirty_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__blendModeDirty_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_Slot__blendModeDirty_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__transformDirty_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_Slot__transformDirty_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__visible_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_Slot__visible_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__displayIndex_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_Slot__displayIndex_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__animationDisplayIndex_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_Slot__animationDisplayIndex_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__cachedFrameIndex_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_Slot__cachedFrameIndex_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__localMatrix_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__localMatrix_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__displayDatas_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__displayDatas_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__displayList_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__displayList_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__rawDisplayDatas_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__rawDisplayDatas_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__boundingBoxData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__boundingBoxData_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__textureData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__textureData_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__display_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__display_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__childArmature_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__childArmature_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__parent_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot__parent_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_delete_Slot_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__updateVisible_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__updateBlendMode_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot__updateColor_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern _Bool _wrap_Slot__setDisplayIndex__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2, _Bool arg3);
+extern _Bool _wrap_Slot__setDisplayIndex__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern _Bool _wrap_Slot__setZorder_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern _Bool _wrap_Slot__setColor_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern _Bool _wrap_Slot__setDisplayList_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Slot_init_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
+extern void _wrap_Slot_update_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_Slot_updateTransformAndMatrix_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot_replaceDisplayData_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern _Bool _wrap_Slot_containsPoint_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2, float arg3);
+extern swig_intgo _wrap_Slot_intersectsSegment__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5, uintptr_t arg6, uintptr_t arg7, uintptr_t arg8);
+extern swig_intgo _wrap_Slot_intersectsSegment__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5, uintptr_t arg6, uintptr_t arg7);
+extern swig_intgo _wrap_Slot_intersectsSegment__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5, uintptr_t arg6);
+extern swig_intgo _wrap_Slot_intersectsSegment__SWIG_3_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5);
+extern void _wrap_Slot_invalidUpdate_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern _Bool _wrap_Slot_getVisible_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot_setVisible_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern swig_intgo _wrap_Slot_getDisplayIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot_setDisplayIndex_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_type_47 _wrap_Slot_getName_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Slot_getDisplayList_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot_setDisplayList_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot_getRawDisplayDatas_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot_setRawDisplayDatas_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot_getSlotData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Slot_getBoundingBoxData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Slot_getRawDisplay_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Slot_getMeshDisplay_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Slot_getDisplay_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot_setDisplay_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern uintptr_t _wrap_Slot_getChildArmature_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Slot_setChildArmature_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Slot_getParent_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_SetSlot_GlobalTransformMatrix_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetSlot_GlobalTransformMatrix_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetSlot_Global_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetSlot_Global_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetSlot_Offset_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetSlot_Offset_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetSlot_Origin_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetSlot_Origin_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetSlot_UserData_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetSlot_UserData_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetSlot_X_armature_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetSlot_X_armature_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_Slot_updateGlobalTransform_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_Slot_getArmature_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_Slot_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_Slot_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_Slot_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetSlot_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern swig_type_48 _wrap_Slot_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_Slot_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_Slot_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern swig_type_49 _wrap_Armature_getTypeIndex_wrapper_49f4652e7e4716be(void);
+extern swig_type_50 _wrap_Armature_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature_inheritAnimation_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_Armature_inheritAnimation_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature_userData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Armature_userData_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature__cacheFrameIndex_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_Armature__cacheFrameIndex_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature__armatureData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Armature__armatureData_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature__dragonBones_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Armature__dragonBones_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature__parent_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Armature__parent_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature__replaceTextureAtlasData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Armature__replaceTextureAtlasData_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature__constraints_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Armature__constraints_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_Armature_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_Armature_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature__sortZOrder_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_voidp arg2, swig_intgo arg3);
+extern void _wrap_Armature__addBone_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Armature__addSlot_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Armature__addConstraint_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Armature__bufferAction_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, _Bool arg3);
+extern void _wrap_Armature_dispose_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature_init_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
+extern void _wrap_Armature_advanceTime_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern void _wrap_Armature_invalidUpdate__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_51 arg2, _Bool arg3);
+extern void _wrap_Armature_invalidUpdate__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_52 arg2);
+extern void _wrap_Armature_invalidUpdate__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Armature_containsPoint_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2, float arg3);
+extern uintptr_t _wrap_Armature_intersectsSegment__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5, uintptr_t arg6, uintptr_t arg7, uintptr_t arg8);
+extern uintptr_t _wrap_Armature_intersectsSegment__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5, uintptr_t arg6, uintptr_t arg7);
+extern uintptr_t _wrap_Armature_intersectsSegment__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5, uintptr_t arg6);
+extern uintptr_t _wrap_Armature_intersectsSegment__SWIG_3_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5);
+extern uintptr_t _wrap_Armature_getBone_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_53 arg2);
+extern uintptr_t _wrap_Armature_getBoneByDisplay_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Armature_getSlot_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_54 arg2);
+extern uintptr_t _wrap_Armature_getSlotByDisplay_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Armature_getBones_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Armature_getSlots_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern _Bool _wrap_Armature_getFlipX_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature_setFlipX_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_Armature_getFlipY_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature_setFlipY_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern swig_intgo _wrap_Armature_getCacheFrameRate_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature_setCacheFrameRate_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_type_55 _wrap_Armature_getName_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Armature_getArmatureData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Armature_getAnimation_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Armature_getProxy_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Armature_getEventDispatcher_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Armature_getDisplay_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Armature_getReplacedTexture_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature_setReplacedTexture_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Armature_getClock_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature_setClock_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Armature_getParent_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Armature_getAnimatable_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Armature_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_Armature_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_Armature_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetArmature_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_Armature_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_Armature_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern uintptr_t _wrap_Armature_SwigGetBaseObject_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern swig_type_56 _wrap_Bone_getTypeIndex_wrapper_49f4652e7e4716be(void);
+extern swig_type_57 _wrap_Bone_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_Bone_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_Bone_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Bone_offsetMode_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_Bone_offsetMode_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Bone_animationPose_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Bone_animationPose_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Bone__transformDirty_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_Bone__transformDirty_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Bone__childrenTransformDirty_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_Bone__childrenTransformDirty_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Bone__hasConstraint_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_Bone__hasConstraint_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Bone__blendState_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Bone__blendState_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Bone__boneData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Bone__boneData_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Bone__cachedFrameIndices_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Bone__cachedFrameIndices_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Bone_init_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_Bone_update_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_Bone_updateByConstraint_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Bone_invalidUpdate_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern _Bool _wrap_Bone_contains_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Bone_getBoneData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern _Bool _wrap_Bone_getVisible_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Bone_setVisible_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern swig_type_58 _wrap_Bone_getName_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Bone_getParent_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_SetBone_GlobalTransformMatrix_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetBone_GlobalTransformMatrix_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetBone_Global_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetBone_Global_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetBone_Offset_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetBone_Offset_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetBone_Origin_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetBone_Origin_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetBone_UserData_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetBone_UserData_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetBone_X_armature_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetBone_X_armature_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_Bone_updateGlobalTransform_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_Bone_getArmature_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_Bone_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_Bone_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_Bone_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetBone_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_Bone_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_Bone_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern swig_type_59 _wrap_DragonBonesData_getTypeIndex_wrapper_49f4652e7e4716be(void);
+extern swig_type_60 _wrap_DragonBonesData_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_autoSearch_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_DragonBonesData_autoSearch_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_frameRate_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_DragonBonesData_frameRate_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_version_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_61 arg2);
+extern swig_type_62 _wrap_DragonBonesData_version_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_name_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_63 arg2);
+extern swig_type_64 _wrap_DragonBonesData_name_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_frameIndices_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_DragonBonesData_frameIndices_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_cachedFrames_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_DragonBonesData_cachedFrames_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_armatureNames_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_DragonBonesData_armatureNames_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_armatures_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_DragonBonesData_armatures_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_binary_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_65 arg2);
+extern swig_type_66 _wrap_DragonBonesData_binary_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_intArray_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_DragonBonesData_intArray_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_floatArray_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_DragonBonesData_floatArray_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_frameIntArray_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_DragonBonesData_frameIntArray_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_frameFloatArray_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_DragonBonesData_frameFloatArray_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_frameArray_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_DragonBonesData_frameArray_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_timelineArray_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_DragonBonesData_timelineArray_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_userData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_DragonBonesData_userData_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_DragonBonesData_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_DragonBonesData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DragonBonesData_addArmature_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_DragonBonesData_getArmature_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_67 arg2);
+extern void _wrap_DragonBonesData_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_DragonBonesData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_DragonBonesData_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetDragonBonesData_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_DragonBonesData_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_DragonBonesData_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern uintptr_t _wrap__swig_NewDirectorTextureAtlasDataTextureAtlasData_wrapper_49f4652e7e4716be(int);
+extern void _wrap_DeleteDirectorTextureAtlasData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap__swig_DirectorTextureAtlasData_upcall_X_onClear_wrapper_49f4652e7e4716be(uintptr_t);
+extern void _wrap__swig_DirectorTextureAtlasData_upcall_AddTexture_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t value);
+extern void _wrap_delete_TextureAtlasData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureAtlasData_autoSearch_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_TextureAtlasData_autoSearch_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureAtlasData_format_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_TextureAtlasData_format_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureAtlasData_width_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_TextureAtlasData_width_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureAtlasData_height_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_TextureAtlasData_height_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureAtlasData_scale_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_TextureAtlasData_scale_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureAtlasData_name_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_68 arg2);
+extern swig_type_69 _wrap_TextureAtlasData_name_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureAtlasData_imagePath_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_70 arg2);
+extern swig_type_71 _wrap_TextureAtlasData_imagePath_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureAtlasData_textures_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_TextureAtlasData_textures_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureAtlasData_copyFrom_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_TextureAtlasData_createTexture_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureAtlasData_addTexture_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_TextureAtlasData_getTexture_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_72 arg2);
+extern void _wrap_TextureAtlasData_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_TextureAtlasData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_TextureAtlasData_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetTextureAtlasData_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern swig_type_73 _wrap_TextureAtlasData_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_TextureAtlasData_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_TextureAtlasData_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern uintptr_t _wrap__swig_NewDirectorTextureDataTextureData_wrapper_49f4652e7e4716be(int);
+extern void _wrap_DeleteDirectorTextureData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap__swig_DirectorTextureData_upcall_X_onClear_wrapper_49f4652e7e4716be(uintptr_t);
+extern uintptr_t _wrap_TextureData_createRectangle_wrapper_49f4652e7e4716be(void);
+extern void _wrap_TextureData_rotated_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_TextureData_rotated_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureData_name_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_74 arg2);
+extern swig_type_75 _wrap_TextureData_name_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureData_region_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_TextureData_region_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureData_frame_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_TextureData_frame_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureData_parent_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_TextureData_parent_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_delete_TextureData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_TextureData_copyFrom_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_TextureData_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_TextureData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_TextureData_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetTextureData_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern swig_type_76 _wrap_TextureData_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_TextureData_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_TextureData_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern swig_type_77 _wrap_DeformVertices_getTypeIndex_wrapper_49f4652e7e4716be(void);
+extern swig_type_78 _wrap_DeformVertices_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_DeformVertices_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_DeformVertices_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DeformVertices_verticesDirty_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_DeformVertices_verticesDirty_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DeformVertices_vertices_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_DeformVertices_vertices_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DeformVertices_bones_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_DeformVertices_bones_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DeformVertices_verticesData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_DeformVertices_verticesData_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DeformVertices_init_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern _Bool _wrap_DeformVertices_isBonesUpdate_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DeformVertices_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_DeformVertices_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_DeformVertices_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetDeformVertices_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_DeformVertices_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_DeformVertices_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern void _wrap_VerticesData_isShared_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_VerticesData_isShared_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_VerticesData_inheritDeform_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_VerticesData_inheritDeform_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_VerticesData_offset_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_VerticesData_offset_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_VerticesData_data_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_VerticesData_data_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_VerticesData_weight_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_VerticesData_weight_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_VerticesData_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_VerticesData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_VerticesData_clear_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_VerticesData_shareFrom_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_delete_DisplayData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DisplayData_Xtype_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_DisplayData_Xtype_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DisplayData_name_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_79 arg2);
+extern swig_type_80 _wrap_DisplayData_name_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DisplayData_path_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_81 arg2);
+extern swig_type_82 _wrap_DisplayData_path_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DisplayData_transform_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_DisplayData_transform_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DisplayData_parent_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_DisplayData_parent_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_DisplayData_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_DisplayData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_DisplayData_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetDisplayData_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern swig_type_83 _wrap_DisplayData_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_DisplayData_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_DisplayData_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern swig_type_84 _wrap_ImageDisplayData_getTypeIndex_wrapper_49f4652e7e4716be(void);
+extern swig_type_85 _wrap_ImageDisplayData_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_ImageDisplayData_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_ImageDisplayData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ImageDisplayData_pivot_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ImageDisplayData_pivot_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ImageDisplayData_texture_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ImageDisplayData_texture_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_SetImageDisplayData_Xtype_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_GetImageDisplayData_Xtype_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetImageDisplayData_Name_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_type_86 arg1);
+extern swig_type_87 _wrap_GetImageDisplayData_Name_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetImageDisplayData_Path_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_type_88 arg1);
+extern swig_type_89 _wrap_GetImageDisplayData_Path_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetImageDisplayData_Transform_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetImageDisplayData_Transform_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetImageDisplayData_Parent_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetImageDisplayData_Parent_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_ImageDisplayData_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_ImageDisplayData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_ImageDisplayData_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetImageDisplayData_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_ImageDisplayData_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_ImageDisplayData_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern swig_type_90 _wrap_ArmatureDisplayData_getTypeIndex_wrapper_49f4652e7e4716be(void);
+extern swig_type_91 _wrap_ArmatureDisplayData_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_ArmatureDisplayData_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_ArmatureDisplayData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureDisplayData_inheritAnimation_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_ArmatureDisplayData_inheritAnimation_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureDisplayData_actions_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureDisplayData_actions_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureDisplayData_armature_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureDisplayData_armature_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureDisplayData_addAction_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_SetArmatureDisplayData_Xtype_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_GetArmatureDisplayData_Xtype_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetArmatureDisplayData_Name_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_type_92 arg1);
+extern swig_type_93 _wrap_GetArmatureDisplayData_Name_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetArmatureDisplayData_Path_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_type_94 arg1);
+extern swig_type_95 _wrap_GetArmatureDisplayData_Path_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetArmatureDisplayData_Transform_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetArmatureDisplayData_Transform_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetArmatureDisplayData_Parent_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetArmatureDisplayData_Parent_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_ArmatureDisplayData_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_ArmatureDisplayData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_ArmatureDisplayData_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetArmatureDisplayData_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_ArmatureDisplayData_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_ArmatureDisplayData_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern swig_type_96 _wrap_MeshDisplayData_getTypeIndex_wrapper_49f4652e7e4716be(void);
+extern swig_type_97 _wrap_MeshDisplayData_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_MeshDisplayData_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_MeshDisplayData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_MeshDisplayData_vertices_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_MeshDisplayData_vertices_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_MeshDisplayData_texture_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_MeshDisplayData_texture_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_SetMeshDisplayData_Xtype_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_GetMeshDisplayData_Xtype_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetMeshDisplayData_Name_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_type_98 arg1);
+extern swig_type_99 _wrap_GetMeshDisplayData_Name_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetMeshDisplayData_Path_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_type_100 arg1);
+extern swig_type_101 _wrap_GetMeshDisplayData_Path_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetMeshDisplayData_Transform_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetMeshDisplayData_Transform_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetMeshDisplayData_Parent_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetMeshDisplayData_Parent_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_MeshDisplayData_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_MeshDisplayData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_MeshDisplayData_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetMeshDisplayData_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_MeshDisplayData_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_MeshDisplayData_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern swig_type_102 _wrap_BoundingBoxDisplayData_getTypeIndex_wrapper_49f4652e7e4716be(void);
+extern swig_type_103 _wrap_BoundingBoxDisplayData_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BoundingBoxDisplayData_boundingBox_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BoundingBoxDisplayData_boundingBox_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_BoundingBoxDisplayData_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_BoundingBoxDisplayData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_SetBoundingBoxDisplayData_Xtype_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_GetBoundingBoxDisplayData_Xtype_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetBoundingBoxDisplayData_Name_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_type_104 arg1);
+extern swig_type_105 _wrap_GetBoundingBoxDisplayData_Name_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetBoundingBoxDisplayData_Path_wrapper_49f4652e7e4716be(uintptr_t _swig_base, swig_type_106 arg1);
+extern swig_type_107 _wrap_GetBoundingBoxDisplayData_Path_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetBoundingBoxDisplayData_Transform_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetBoundingBoxDisplayData_Transform_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SetBoundingBoxDisplayData_Parent_wrapper_49f4652e7e4716be(uintptr_t _swig_base, uintptr_t arg1);
+extern uintptr_t _wrap_GetBoundingBoxDisplayData_Parent_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_BoundingBoxDisplayData_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_BoundingBoxDisplayData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_BoundingBoxDisplayData_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetBoundingBoxDisplayData_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_BoundingBoxDisplayData_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_BoundingBoxDisplayData_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern swig_type_108 _wrap_WeightData_getTypeIndex_wrapper_49f4652e7e4716be(void);
+extern swig_type_109 _wrap_WeightData_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_WeightData_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_WeightData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_WeightData_count_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_WeightData_count_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_WeightData_offset_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_WeightData_offset_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_WeightData_bones_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_WeightData_bones_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_WeightData_addBone_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_WeightData_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_WeightData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_WeightData_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetWeightData_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_WeightData_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_WeightData_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern swig_type_110 _wrap_ArmatureData_getTypeIndex_wrapper_49f4652e7e4716be(void);
+extern swig_type_111 _wrap_ArmatureData_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_Xtype_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ArmatureData_Xtype_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_frameRate_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ArmatureData_frameRate_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_cacheFrameRate_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ArmatureData_cacheFrameRate_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_scale_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_ArmatureData_scale_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_name_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_112 arg2);
+extern swig_type_113 _wrap_ArmatureData_name_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_aabb_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_aabb_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_animationNames_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_animationNames_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_sortedBones_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_sortedBones_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_sortedSlots_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_sortedSlots_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_defaultActions_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_defaultActions_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_actions_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_actions_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_bones_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_bones_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_slots_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_slots_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_constraints_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_constraints_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_skins_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_skins_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_animations_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_animations_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_defaultSkin_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_defaultSkin_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_defaultAnimation_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_defaultAnimation_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_canvas_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_canvas_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_userData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_userData_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_parent_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArmatureData_parent_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_ArmatureData_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_ArmatureData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_sortBones_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_cacheFrames_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ArmatureData_setCacheFrame_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_ArmatureData_getCacheFrame_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, swig_intgo arg4);
+extern void _wrap_ArmatureData_addBone_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_ArmatureData_addSlot_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_ArmatureData_addConstraint_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_ArmatureData_addSkin_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_ArmatureData_addAnimation_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_ArmatureData_addAction_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, _Bool arg3);
+extern uintptr_t _wrap_ArmatureData_getBone_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_114 arg2);
+extern uintptr_t _wrap_ArmatureData_getSlot_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_115 arg2);
+extern uintptr_t _wrap_ArmatureData_getConstraint_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_116 arg2);
+extern uintptr_t _wrap_ArmatureData_getSkin_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_117 arg2);
+extern uintptr_t _wrap_ArmatureData_getMesh_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_118 arg2, swig_type_119 arg3, swig_type_120 arg4);
+extern uintptr_t _wrap_ArmatureData_getAnimation_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_121 arg2);
+extern swig_intgo _wrap_ArmatureData_getType_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_setType_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_ArmatureData_getAABB_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_ArmatureData_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_ArmatureData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_ArmatureData_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetArmatureData_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_ArmatureData_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_ArmatureData_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern swig_type_122 _wrap_BoneData_getTypeIndex_wrapper_49f4652e7e4716be(void);
+extern swig_type_123 _wrap_BoneData_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BoneData_inheritTranslation_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_BoneData_inheritTranslation_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BoneData_inheritRotation_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_BoneData_inheritRotation_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BoneData_inheritScale_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_BoneData_inheritScale_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BoneData_inheritReflection_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_BoneData_inheritReflection_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BoneData_length_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_BoneData_length_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BoneData_name_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_124 arg2);
+extern swig_type_125 _wrap_BoneData_name_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BoneData_transform_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BoneData_transform_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BoneData_userData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BoneData_userData_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BoneData_parent_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BoneData_parent_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_BoneData_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_BoneData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_BoneData_getTransfrom_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BoneData_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_BoneData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_BoneData_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetBoneData_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_BoneData_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_BoneData_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern swig_type_126 _wrap_SlotData_getTypeIndex_wrapper_49f4652e7e4716be(void);
+extern swig_type_127 _wrap_SlotData_getClassTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_SlotData_DEFAULT_COLOR_set_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_SlotData_DEFAULT_COLOR_get_wrapper_49f4652e7e4716be(void);
+extern uintptr_t _wrap_SlotData_createColor_wrapper_49f4652e7e4716be(void);
+extern void _wrap_SlotData_blendMode_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_SlotData_blendMode_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_SlotData_displayIndex_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_SlotData_displayIndex_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_SlotData_zOrder_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_SlotData_zOrder_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_SlotData_name_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_128 arg2);
+extern swig_type_129 _wrap_SlotData_name_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_SlotData_color_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_SlotData_color_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_SlotData_userData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_SlotData_userData_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_SlotData_parent_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_SlotData_parent_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_SlotData_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_SlotData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_SlotData_getDefaultColor_wrapper_49f4652e7e4716be(void);
+extern void _wrap_SlotData_setMaxCount_wrapper_49f4652e7e4716be(swig_type_2 arg1, swig_intgo arg2);
+extern void _wrap_SlotData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(swig_type_3 arg1);
+extern void _wrap_SlotData_clearPool__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern swig_intgo _wrap_GetSlotData_HashCode_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern void _wrap_SlotData_returnToPool_wrapper_49f4652e7e4716be(uintptr_t _swig_base);
+extern uintptr_t _wrap_SlotData_borrowArmatureObject_wrapper_49f4652e7e4716be(void);
+extern uintptr_t _wrap__swig_NewDirectorBaseFactoryBaseFactory__SWIG_0_wrapper_49f4652e7e4716be(int, uintptr_t arg1);
+extern uintptr_t _wrap__swig_NewDirectorBaseFactoryBaseFactory__SWIG_1_wrapper_49f4652e7e4716be(int);
+extern void _wrap_DeleteDirectorBaseFactory_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern _Bool _wrap__swig_DirectorBaseFactory_upcall_X_isSupportMesh_wrapper_49f4652e7e4716be(uintptr_t);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_X_getTextureData_wrapper_49f4652e7e4716be(uintptr_t, swig_type_130 textureAtlasName, swig_type_131 textureName);
+extern _Bool _wrap__swig_DirectorBaseFactory_upcall_X_fillBuildArmaturePackage_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t dataPackage, swig_type_132 dragonBonesName, swig_type_133 armatureName, swig_type_134 skinName, swig_type_135 textureAtlasName);
+extern void _wrap__swig_DirectorBaseFactory_upcall_X_buildBones_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t dataPackage, uintptr_t armature);
+extern void _wrap__swig_DirectorBaseFactory_upcall_X_buildSlots_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t dataPackage, uintptr_t armature);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_X_buildChildArmature_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t dataPackage, uintptr_t slot, uintptr_t displayData);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_X_getSlotDisplay_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t dataPackage, uintptr_t displayData, uintptr_t rawDisplayData, uintptr_t slot);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t, swig_type_136 rawData, swig_type_137 name, float scale);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t, swig_type_138 rawData, swig_type_139 name);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t, swig_type_140 rawData);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t, swig_type_141 rawData, uintptr_t textureAtlas, swig_type_142 name, float scale);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t, swig_type_143 rawData, uintptr_t textureAtlas, swig_type_144 name);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t, swig_type_145 rawData, uintptr_t textureAtlas);
+extern void _wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t data, swig_type_146 name);
+extern void _wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t data);
+extern void _wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t, swig_type_147 name, _Bool disposeData);
+extern void _wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t, swig_type_148 name);
+extern void _wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t data, swig_type_149 name);
+extern void _wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t data);
+extern void _wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t, swig_type_150 name, _Bool disposeData);
+extern void _wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t, swig_type_151 name);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t, swig_type_152 name, swig_type_153 dragonBonesName);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t, swig_type_154 name);
+extern void _wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t, _Bool disposeData);
+extern void _wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t, swig_type_155 armatureName, swig_type_156 dragonBonesName, swig_type_157 skinName, swig_type_158 textureAtlasName);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t, swig_type_159 armatureName, swig_type_160 dragonBonesName, swig_type_161 skinName);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t, swig_type_162 armatureName, swig_type_163 dragonBonesName);
+extern uintptr_t _wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_3_wrapper_49f4652e7e4716be(uintptr_t, swig_type_164 armatureName);
+extern void _wrap__swig_DirectorBaseFactory_upcall_ReplaceDisplay_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t slot, uintptr_t displayData, swig_intgo displayIndex);
+extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t, swig_type_165 dragonBonesName, swig_type_166 armatureName, swig_type_167 slotName, swig_type_168 displayName, uintptr_t slot, swig_intgo displayIndex);
+extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t, swig_type_169 dragonBonesName, swig_type_170 armatureName, swig_type_171 slotName, swig_type_172 displayName, uintptr_t slot);
+extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplayList_wrapper_49f4652e7e4716be(uintptr_t, swig_type_173 dragonBonesName, swig_type_174 armatureName, swig_type_175 slotName, uintptr_t slot);
+extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t armature, uintptr_t skin, _Bool isOverride, uintptr_t exclude);
+extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t armature, uintptr_t skin, _Bool isOverride);
+extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t armature, uintptr_t skin);
+extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t armature, uintptr_t armatureData, _Bool isReplaceAll);
+extern _Bool _wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t, uintptr_t armature, uintptr_t armatureData);
+extern void _wrap_BaseFactory__jsonParser_set_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_BaseFactory__jsonParser_get_wrapper_49f4652e7e4716be(void);
+extern void _wrap_BaseFactory__binaryParser_set_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_BaseFactory__binaryParser_get_wrapper_49f4652e7e4716be(void);
+extern void _wrap_BaseFactory_autoSearch_set_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern _Bool _wrap_BaseFactory_autoSearch_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BaseFactory__dragonBonesDataMap_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BaseFactory__dragonBonesDataMap_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BaseFactory__textureAtlasDataMap_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BaseFactory__textureAtlasDataMap_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BaseFactory__dragonBones_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BaseFactory__dragonBones_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BaseFactory__dataParser_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BaseFactory__dataParser_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_delete_BaseFactory_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_BaseFactory_parseDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_136 arg2, swig_type_137 arg3, float arg4);
+extern uintptr_t _wrap_BaseFactory_parseDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_138 arg2, swig_type_139 arg3);
+extern uintptr_t _wrap_BaseFactory_parseDragonBonesData__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_140 arg2);
+extern uintptr_t _wrap_BaseFactory_parseTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_141 arg2, uintptr_t arg3, swig_type_142 arg4, float arg5);
+extern uintptr_t _wrap_BaseFactory_parseTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_143 arg2, uintptr_t arg3, swig_type_144 arg4);
+extern uintptr_t _wrap_BaseFactory_parseTextureAtlasData__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_145 arg2, uintptr_t arg3);
+extern uintptr_t _wrap_BaseFactory_getDragonBonesData_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_176 arg2);
+extern void _wrap_BaseFactory_addDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, swig_type_146 arg3);
+extern void _wrap_BaseFactory_addDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_BaseFactory_removeDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_147 arg2, _Bool arg3);
+extern void _wrap_BaseFactory_removeDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_148 arg2);
+extern uintptr_t _wrap_BaseFactory_getTextureAtlasData_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_177 arg2);
+extern void _wrap_BaseFactory_addTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, swig_type_149 arg3);
+extern void _wrap_BaseFactory_addTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_BaseFactory_removeTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_150 arg2, _Bool arg3);
+extern void _wrap_BaseFactory_removeTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_151 arg2);
+extern uintptr_t _wrap_BaseFactory_getArmatureData__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_152 arg2, swig_type_153 arg3);
+extern uintptr_t _wrap_BaseFactory_getArmatureData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_154 arg2);
+extern void _wrap_BaseFactory_clear__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, _Bool arg2);
+extern void _wrap_BaseFactory_clear__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_BaseFactory_buildArmature__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_155 arg2, swig_type_156 arg3, swig_type_157 arg4, swig_type_158 arg5);
+extern uintptr_t _wrap_BaseFactory_buildArmature__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_159 arg2, swig_type_160 arg3, swig_type_161 arg4);
+extern uintptr_t _wrap_BaseFactory_buildArmature__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_162 arg2, swig_type_163 arg3);
+extern uintptr_t _wrap_BaseFactory_buildArmature__SWIG_3_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_164 arg2);
+extern void _wrap_BaseFactory_replaceDisplay_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, swig_intgo arg4);
+extern _Bool _wrap_BaseFactory_replaceSlotDisplay__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_165 arg2, swig_type_166 arg3, swig_type_167 arg4, swig_type_168 arg5, uintptr_t arg6, swig_intgo arg7);
+extern _Bool _wrap_BaseFactory_replaceSlotDisplay__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_169 arg2, swig_type_170 arg3, swig_type_171 arg4, swig_type_172 arg5, uintptr_t arg6);
+extern _Bool _wrap_BaseFactory_replaceSlotDisplayList_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_173 arg2, swig_type_174 arg3, swig_type_175 arg4, uintptr_t arg5);
+extern _Bool _wrap_BaseFactory_replaceSkin__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, _Bool arg4, uintptr_t arg5);
+extern _Bool _wrap_BaseFactory_replaceSkin__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, _Bool arg4);
+extern _Bool _wrap_BaseFactory_replaceSkin__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern _Bool _wrap_BaseFactory_replaceAnimation__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, _Bool arg4);
+extern _Bool _wrap_BaseFactory_replaceAnimation__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_BaseFactory_getAllTextureAtlasData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_BaseFactory_getAllDragonBonesData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_BaseFactory_getClock_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern _Bool _wrap_BaseFactory_changeSkin__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern _Bool _wrap_BaseFactory_changeSkin__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_BuildArmaturePackage_dataName_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_178 arg2);
+extern swig_type_179 _wrap_BuildArmaturePackage_dataName_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BuildArmaturePackage_textureAtlasName_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_180 arg2);
+extern swig_type_181 _wrap_BuildArmaturePackage_textureAtlasName_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BuildArmaturePackage_data_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BuildArmaturePackage_data_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BuildArmaturePackage_armature_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BuildArmaturePackage_armature_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_BuildArmaturePackage_skin_set_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_BuildArmaturePackage_skin_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_BuildArmaturePackage_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_BuildArmaturePackage_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Rectangle_x_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Rectangle_x_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Rectangle_y_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Rectangle_y_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Rectangle_width_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Rectangle_width_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Rectangle_height_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Rectangle_height_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_Rectangle__SWIG_0_wrapper_49f4652e7e4716be(void);
+extern uintptr_t _wrap_new_Rectangle__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_delete_Rectangle_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Rectangle_opEqual_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Rectangle_clear_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern float _wrap_Transform_PI_get_wrapper_49f4652e7e4716be(void);
+extern float _wrap_Transform_PI_D_get_wrapper_49f4652e7e4716be(void);
+extern float _wrap_Transform_PI_H_get_wrapper_49f4652e7e4716be(void);
+extern float _wrap_Transform_PI_Q_get_wrapper_49f4652e7e4716be(void);
+extern float _wrap_Transform_DEG_RAD_get_wrapper_49f4652e7e4716be(void);
+extern float _wrap_Transform_RAD_DEG_get_wrapper_49f4652e7e4716be(void);
+extern float _wrap_Transform_normalizeRadian_wrapper_49f4652e7e4716be(float arg1);
+extern void _wrap_Transform_x_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Transform_x_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Transform_y_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Transform_y_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Transform_skew_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Transform_skew_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Transform_rotation_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Transform_rotation_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Transform_scaleX_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Transform_scaleX_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Transform_scaleY_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Transform_scaleY_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_Transform__SWIG_0_wrapper_49f4652e7e4716be(void);
+extern uintptr_t _wrap_new_Transform__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_delete_Transform_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Transform_opEqual_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Transform_identity_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_Transform_add_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Transform_minus_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Transform_fromMatrix_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Transform_toMatrix_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Matrix_a_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Matrix_a_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Matrix_b_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Matrix_b_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Matrix_c_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Matrix_c_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Matrix_d_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Matrix_d_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Matrix_tx_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Matrix_tx_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Matrix_ty_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_Matrix_ty_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_Matrix__SWIG_0_wrapper_49f4652e7e4716be(void);
+extern uintptr_t _wrap_new_Matrix__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_delete_Matrix_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Matrix_opEqual_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Matrix_identity_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Matrix_concat_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Matrix_invert_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_Matrix_transformPoint__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2, float arg3, uintptr_t arg4, _Bool arg5);
+extern void _wrap_Matrix_transformPoint__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2, float arg3, uintptr_t arg4);
+extern void _wrap_Matrix_transformRectangle__SWIG_0_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2, _Bool arg3);
+extern void _wrap_Matrix_transformRectangle__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_WorldClock_clock_get_wrapper_49f4652e7e4716be(void);
+extern void _wrap_WorldClock_time_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_WorldClock_time_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_WorldClock_timeScale_set_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_WorldClock_timeScale_get_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_WorldClock__SWIG_0_wrapper_49f4652e7e4716be(float arg1);
+extern uintptr_t _wrap_new_WorldClock__SWIG_1_wrapper_49f4652e7e4716be(void);
+extern void _wrap_delete_WorldClock_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_WorldClock_advanceTime_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern _Bool _wrap_WorldClock_contains_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_WorldClock_add_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_WorldClock_remove_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_WorldClock_clear_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_WorldClock_getClock_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_WorldClock_setClock_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_WorldClock_getStaticClock_wrapper_49f4652e7e4716be(void);
+extern void _wrap_WorldClock_addArmature_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern swig_type_182 _wrap_getSlotTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern swig_type_183 _wrap_getTextureAtlasDataTypeIndex_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_mapStringToTextureData__SWIG_0_wrapper_49f4652e7e4716be(void);
+extern uintptr_t _wrap_new_mapStringToTextureData__SWIG_1_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern swig_intgo _wrap_mapStringToTextureData_size_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern _Bool _wrap_mapStringToTextureData_empty_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_mapStringToTextureData_clear_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_mapStringToTextureData_get_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_184 arg2);
+extern void _wrap_mapStringToTextureData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_185 arg2, uintptr_t arg3);
+extern void _wrap_mapStringToTextureData_del_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_186 arg2);
+extern _Bool _wrap_mapStringToTextureData_has_key_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_187 arg2);
+extern uintptr_t _wrap_mapStringToTextureData_keys_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_mapStringToTextureData_values_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_delete_mapStringToTextureData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_vectorString__SWIG_0_wrapper_49f4652e7e4716be(void);
+extern uintptr_t _wrap_new_vectorString__SWIG_1_wrapper_49f4652e7e4716be(swig_type_188 arg1);
+extern uintptr_t _wrap_new_vectorString__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern swig_type_189 _wrap_vectorString_size_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern swig_type_190 _wrap_vectorString_capacity_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_vectorString_reserve_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_191 arg2);
+extern _Bool _wrap_vectorString_isEmpty_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_vectorString_clear_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_vectorString_add_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_192 arg2);
+extern swig_type_193 _wrap_vectorString_get_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_vectorString_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2, swig_type_194 arg3);
+extern void _wrap_delete_vectorString_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_vectorTextureData__SWIG_0_wrapper_49f4652e7e4716be(void);
+extern uintptr_t _wrap_new_vectorTextureData__SWIG_1_wrapper_49f4652e7e4716be(swig_type_195 arg1);
+extern uintptr_t _wrap_new_vectorTextureData__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern swig_type_196 _wrap_vectorTextureData_size_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern swig_type_197 _wrap_vectorTextureData_capacity_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_vectorTextureData_reserve_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_198 arg2);
+extern _Bool _wrap_vectorTextureData_isEmpty_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_vectorTextureData_clear_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_vectorTextureData_add_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_vectorTextureData_get_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_vectorTextureData_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
+extern void _wrap_delete_vectorTextureData_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_vectorFloat__SWIG_0_wrapper_49f4652e7e4716be(void);
+extern uintptr_t _wrap_new_vectorFloat__SWIG_1_wrapper_49f4652e7e4716be(swig_type_199 arg1);
+extern uintptr_t _wrap_new_vectorFloat__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern swig_type_200 _wrap_vectorFloat_size_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern swig_type_201 _wrap_vectorFloat_capacity_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_vectorFloat_reserve_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_202 arg2);
+extern _Bool _wrap_vectorFloat_isEmpty_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_vectorFloat_clear_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_vectorFloat_add_wrapper_49f4652e7e4716be(uintptr_t arg1, float arg2);
+extern float _wrap_vectorFloat_get_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_vectorFloat_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2, float arg3);
+extern void _wrap_delete_vectorFloat_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern uintptr_t _wrap_new_vectorBone__SWIG_0_wrapper_49f4652e7e4716be(void);
+extern uintptr_t _wrap_new_vectorBone__SWIG_1_wrapper_49f4652e7e4716be(swig_type_203 arg1);
+extern uintptr_t _wrap_new_vectorBone__SWIG_2_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern swig_type_204 _wrap_vectorBone_size_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern swig_type_205 _wrap_vectorBone_capacity_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_vectorBone_reserve_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_type_206 arg2);
+extern _Bool _wrap_vectorBone_isEmpty_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_vectorBone_clear_wrapper_49f4652e7e4716be(uintptr_t arg1);
+extern void _wrap_vectorBone_add_wrapper_49f4652e7e4716be(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_vectorBone_get_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_vectorBone_set_wrapper_49f4652e7e4716be(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
+extern void _wrap_delete_vectorBone_wrapper_49f4652e7e4716be(uintptr_t arg1);
 #undef intgo
 */
 import "C"
@@ -1073,174 +1357,174 @@ func swigCopyString(s string) string {
 
 func Swig_free(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_Swig_free_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_Swig_free_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Swig_malloc_wrapper_0168c02bcda14bda(C.swig_intgo(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Swig_malloc_wrapper_49f4652e7e4716be(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
 type DragonBonesBinaryOffset int
 func _swig_getBinaryOffset_WeigthBoneCount() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_WeigthBoneCount_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_WeigthBoneCount_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_WeigthBoneCount DragonBonesBinaryOffset = _swig_getBinaryOffset_WeigthBoneCount()
 func _swig_getBinaryOffset_WeigthFloatOffset() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_WeigthFloatOffset_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_WeigthFloatOffset_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_WeigthFloatOffset DragonBonesBinaryOffset = _swig_getBinaryOffset_WeigthFloatOffset()
 func _swig_getBinaryOffset_WeigthBoneIndices() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_WeigthBoneIndices_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_WeigthBoneIndices_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_WeigthBoneIndices DragonBonesBinaryOffset = _swig_getBinaryOffset_WeigthBoneIndices()
 func _swig_getBinaryOffset_MeshVertexCount() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_MeshVertexCount_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_MeshVertexCount_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_MeshVertexCount DragonBonesBinaryOffset = _swig_getBinaryOffset_MeshVertexCount()
 func _swig_getBinaryOffset_MeshTriangleCount() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_MeshTriangleCount_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_MeshTriangleCount_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_MeshTriangleCount DragonBonesBinaryOffset = _swig_getBinaryOffset_MeshTriangleCount()
 func _swig_getBinaryOffset_MeshFloatOffset() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_MeshFloatOffset_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_MeshFloatOffset_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_MeshFloatOffset DragonBonesBinaryOffset = _swig_getBinaryOffset_MeshFloatOffset()
 func _swig_getBinaryOffset_MeshWeightOffset() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_MeshWeightOffset_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_MeshWeightOffset_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_MeshWeightOffset DragonBonesBinaryOffset = _swig_getBinaryOffset_MeshWeightOffset()
 func _swig_getBinaryOffset_MeshVertexIndices() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_MeshVertexIndices_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_MeshVertexIndices_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_MeshVertexIndices DragonBonesBinaryOffset = _swig_getBinaryOffset_MeshVertexIndices()
 func _swig_getBinaryOffset_TimelineScale() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_TimelineScale_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_TimelineScale_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_TimelineScale DragonBonesBinaryOffset = _swig_getBinaryOffset_TimelineScale()
 func _swig_getBinaryOffset_TimelineOffset() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_TimelineOffset_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_TimelineOffset_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_TimelineOffset DragonBonesBinaryOffset = _swig_getBinaryOffset_TimelineOffset()
 func _swig_getBinaryOffset_TimelineKeyFrameCount() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_TimelineKeyFrameCount_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_TimelineKeyFrameCount_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_TimelineKeyFrameCount DragonBonesBinaryOffset = _swig_getBinaryOffset_TimelineKeyFrameCount()
 func _swig_getBinaryOffset_TimelineFrameValueCount() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_TimelineFrameValueCount_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_TimelineFrameValueCount_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_TimelineFrameValueCount DragonBonesBinaryOffset = _swig_getBinaryOffset_TimelineFrameValueCount()
 func _swig_getBinaryOffset_TimelineFrameValueOffset() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_TimelineFrameValueOffset_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_TimelineFrameValueOffset_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_TimelineFrameValueOffset DragonBonesBinaryOffset = _swig_getBinaryOffset_TimelineFrameValueOffset()
 func _swig_getBinaryOffset_TimelineFrameOffset() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_TimelineFrameOffset_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_TimelineFrameOffset_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_TimelineFrameOffset DragonBonesBinaryOffset = _swig_getBinaryOffset_TimelineFrameOffset()
 func _swig_getBinaryOffset_FramePosition() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_FramePosition_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_FramePosition_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_FramePosition DragonBonesBinaryOffset = _swig_getBinaryOffset_FramePosition()
 func _swig_getBinaryOffset_FrameTweenType() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_FrameTweenType_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_FrameTweenType_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_FrameTweenType DragonBonesBinaryOffset = _swig_getBinaryOffset_FrameTweenType()
 func _swig_getBinaryOffset_FrameTweenEasingOrCurveSampleCount() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_FrameTweenEasingOrCurveSampleCount_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_FrameTweenEasingOrCurveSampleCount_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_FrameTweenEasingOrCurveSampleCount DragonBonesBinaryOffset = _swig_getBinaryOffset_FrameTweenEasingOrCurveSampleCount()
 func _swig_getBinaryOffset_FrameCurveSamples() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_FrameCurveSamples_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_FrameCurveSamples_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_FrameCurveSamples DragonBonesBinaryOffset = _swig_getBinaryOffset_FrameCurveSamples()
 func _swig_getBinaryOffset_DeformVertexOffset() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_DeformVertexOffset_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_DeformVertexOffset_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_DeformVertexOffset DragonBonesBinaryOffset = _swig_getBinaryOffset_DeformVertexOffset()
 func _swig_getBinaryOffset_DeformCount() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_DeformCount_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_DeformCount_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_DeformCount DragonBonesBinaryOffset = _swig_getBinaryOffset_DeformCount()
 func _swig_getBinaryOffset_DeformValueCount() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_DeformValueCount_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_DeformValueCount_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_DeformValueCount DragonBonesBinaryOffset = _swig_getBinaryOffset_DeformValueCount()
 func _swig_getBinaryOffset_DeformValueOffset() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_DeformValueOffset_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_DeformValueOffset_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BinaryOffset_DeformValueOffset DragonBonesBinaryOffset = _swig_getBinaryOffset_DeformValueOffset()
 func _swig_getBinaryOffset_DeformFloatOffset() (_swig_ret DragonBonesBinaryOffset) {
 	var swig_r DragonBonesBinaryOffset
-	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_DeformFloatOffset_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBinaryOffset)(C._wrap_BinaryOffset_DeformFloatOffset_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
@@ -1248,21 +1532,21 @@ var BinaryOffset_DeformFloatOffset DragonBonesBinaryOffset = _swig_getBinaryOffs
 type DragonBonesArmatureType int
 func _swig_getArmatureType_Armature() (_swig_ret DragonBonesArmatureType) {
 	var swig_r DragonBonesArmatureType
-	swig_r = (DragonBonesArmatureType)(C._wrap_ArmatureType_Armature_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesArmatureType)(C._wrap_ArmatureType_Armature_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var ArmatureType_Armature DragonBonesArmatureType = _swig_getArmatureType_Armature()
 func _swig_getArmatureType_MovieClip() (_swig_ret DragonBonesArmatureType) {
 	var swig_r DragonBonesArmatureType
-	swig_r = (DragonBonesArmatureType)(C._wrap_ArmatureType_MovieClip_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesArmatureType)(C._wrap_ArmatureType_MovieClip_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var ArmatureType_MovieClip DragonBonesArmatureType = _swig_getArmatureType_MovieClip()
 func _swig_getArmatureType_Stage() (_swig_ret DragonBonesArmatureType) {
 	var swig_r DragonBonesArmatureType
-	swig_r = (DragonBonesArmatureType)(C._wrap_ArmatureType_Stage_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesArmatureType)(C._wrap_ArmatureType_Stage_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
@@ -1270,21 +1554,21 @@ var ArmatureType_Stage DragonBonesArmatureType = _swig_getArmatureType_Stage()
 type DragonBonesOffsetMode int
 func _swig_getOffsetMode_None() (_swig_ret DragonBonesOffsetMode) {
 	var swig_r DragonBonesOffsetMode
-	swig_r = (DragonBonesOffsetMode)(C._wrap_OffsetMode_None_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesOffsetMode)(C._wrap_OffsetMode_None_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var OffsetMode_None DragonBonesOffsetMode = _swig_getOffsetMode_None()
 func _swig_getOffsetMode_Additive() (_swig_ret DragonBonesOffsetMode) {
 	var swig_r DragonBonesOffsetMode
-	swig_r = (DragonBonesOffsetMode)(C._wrap_OffsetMode_Additive_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesOffsetMode)(C._wrap_OffsetMode_Additive_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var OffsetMode_Additive DragonBonesOffsetMode = _swig_getOffsetMode_Additive()
 func _swig_getOffsetMode_Override() (_swig_ret DragonBonesOffsetMode) {
 	var swig_r DragonBonesOffsetMode
-	swig_r = (DragonBonesOffsetMode)(C._wrap_OffsetMode_Override_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesOffsetMode)(C._wrap_OffsetMode_Override_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
@@ -1292,35 +1576,35 @@ var OffsetMode_Override DragonBonesOffsetMode = _swig_getOffsetMode_Override()
 type DragonBonesDisplayType int
 func _swig_getDisplayType_Image() (_swig_ret DragonBonesDisplayType) {
 	var swig_r DragonBonesDisplayType
-	swig_r = (DragonBonesDisplayType)(C._wrap_DisplayType_Image_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesDisplayType)(C._wrap_DisplayType_Image_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var DisplayType_Image DragonBonesDisplayType = _swig_getDisplayType_Image()
 func _swig_getDisplayType_Armature() (_swig_ret DragonBonesDisplayType) {
 	var swig_r DragonBonesDisplayType
-	swig_r = (DragonBonesDisplayType)(C._wrap_DisplayType_Armature_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesDisplayType)(C._wrap_DisplayType_Armature_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var DisplayType_Armature DragonBonesDisplayType = _swig_getDisplayType_Armature()
 func _swig_getDisplayType_Mesh() (_swig_ret DragonBonesDisplayType) {
 	var swig_r DragonBonesDisplayType
-	swig_r = (DragonBonesDisplayType)(C._wrap_DisplayType_Mesh_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesDisplayType)(C._wrap_DisplayType_Mesh_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var DisplayType_Mesh DragonBonesDisplayType = _swig_getDisplayType_Mesh()
 func _swig_getDisplayType_BoundingBox() (_swig_ret DragonBonesDisplayType) {
 	var swig_r DragonBonesDisplayType
-	swig_r = (DragonBonesDisplayType)(C._wrap_DisplayType_BoundingBox_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesDisplayType)(C._wrap_DisplayType_BoundingBox_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var DisplayType_BoundingBox DragonBonesDisplayType = _swig_getDisplayType_BoundingBox()
 func _swig_getDisplayType_Path() (_swig_ret DragonBonesDisplayType) {
 	var swig_r DragonBonesDisplayType
-	swig_r = (DragonBonesDisplayType)(C._wrap_DisplayType_Path_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesDisplayType)(C._wrap_DisplayType_Path_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
@@ -1328,21 +1612,21 @@ var DisplayType_Path DragonBonesDisplayType = _swig_getDisplayType_Path()
 type DragonBonesBoundingBoxType int
 func _swig_getBoundingBoxType_Rectangle() (_swig_ret DragonBonesBoundingBoxType) {
 	var swig_r DragonBonesBoundingBoxType
-	swig_r = (DragonBonesBoundingBoxType)(C._wrap_BoundingBoxType_Rectangle_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBoundingBoxType)(C._wrap_BoundingBoxType_Rectangle_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BoundingBoxType_Rectangle DragonBonesBoundingBoxType = _swig_getBoundingBoxType_Rectangle()
 func _swig_getBoundingBoxType_Ellipse() (_swig_ret DragonBonesBoundingBoxType) {
 	var swig_r DragonBonesBoundingBoxType
-	swig_r = (DragonBonesBoundingBoxType)(C._wrap_BoundingBoxType_Ellipse_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBoundingBoxType)(C._wrap_BoundingBoxType_Ellipse_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BoundingBoxType_Ellipse DragonBonesBoundingBoxType = _swig_getBoundingBoxType_Ellipse()
 func _swig_getBoundingBoxType_Polygon() (_swig_ret DragonBonesBoundingBoxType) {
 	var swig_r DragonBonesBoundingBoxType
-	swig_r = (DragonBonesBoundingBoxType)(C._wrap_BoundingBoxType_Polygon_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBoundingBoxType)(C._wrap_BoundingBoxType_Polygon_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
@@ -1350,21 +1634,21 @@ var BoundingBoxType_Polygon DragonBonesBoundingBoxType = _swig_getBoundingBoxTyp
 type DragonBonesActionType int
 func _swig_getActionType_Play() (_swig_ret DragonBonesActionType) {
 	var swig_r DragonBonesActionType
-	swig_r = (DragonBonesActionType)(C._wrap_ActionType_Play_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesActionType)(C._wrap_ActionType_Play_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var ActionType_Play DragonBonesActionType = _swig_getActionType_Play()
 func _swig_getActionType_Frame() (_swig_ret DragonBonesActionType) {
 	var swig_r DragonBonesActionType
-	swig_r = (DragonBonesActionType)(C._wrap_ActionType_Frame_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesActionType)(C._wrap_ActionType_Frame_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var ActionType_Frame DragonBonesActionType = _swig_getActionType_Frame()
 func _swig_getActionType_Sound() (_swig_ret DragonBonesActionType) {
 	var swig_r DragonBonesActionType
-	swig_r = (DragonBonesActionType)(C._wrap_ActionType_Sound_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesActionType)(C._wrap_ActionType_Sound_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
@@ -1372,98 +1656,98 @@ var ActionType_Sound DragonBonesActionType = _swig_getActionType_Sound()
 type DragonBonesBlendMode int
 func _swig_getBlendMode_Normal() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
-	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Normal_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Normal_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BlendMode_Normal DragonBonesBlendMode = _swig_getBlendMode_Normal()
 func _swig_getBlendMode_Add() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
-	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Add_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Add_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BlendMode_Add DragonBonesBlendMode = _swig_getBlendMode_Add()
 func _swig_getBlendMode_Alpha() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
-	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Alpha_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Alpha_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BlendMode_Alpha DragonBonesBlendMode = _swig_getBlendMode_Alpha()
 func _swig_getBlendMode_Darken() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
-	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Darken_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Darken_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BlendMode_Darken DragonBonesBlendMode = _swig_getBlendMode_Darken()
 func _swig_getBlendMode_Difference() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
-	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Difference_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Difference_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BlendMode_Difference DragonBonesBlendMode = _swig_getBlendMode_Difference()
 func _swig_getBlendMode_Erase() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
-	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Erase_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Erase_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BlendMode_Erase DragonBonesBlendMode = _swig_getBlendMode_Erase()
 func _swig_getBlendMode_HardLight() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
-	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_HardLight_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_HardLight_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BlendMode_HardLight DragonBonesBlendMode = _swig_getBlendMode_HardLight()
 func _swig_getBlendMode_Invert() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
-	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Invert_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Invert_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BlendMode_Invert DragonBonesBlendMode = _swig_getBlendMode_Invert()
 func _swig_getBlendMode_Layer() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
-	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Layer_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Layer_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BlendMode_Layer DragonBonesBlendMode = _swig_getBlendMode_Layer()
 func _swig_getBlendMode_Lighten() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
-	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Lighten_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Lighten_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BlendMode_Lighten DragonBonesBlendMode = _swig_getBlendMode_Lighten()
 func _swig_getBlendMode_Multiply() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
-	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Multiply_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Multiply_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BlendMode_Multiply DragonBonesBlendMode = _swig_getBlendMode_Multiply()
 func _swig_getBlendMode_Overlay() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
-	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Overlay_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Overlay_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BlendMode_Overlay DragonBonesBlendMode = _swig_getBlendMode_Overlay()
 func _swig_getBlendMode_Screen() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
-	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Screen_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Screen_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var BlendMode_Screen DragonBonesBlendMode = _swig_getBlendMode_Screen()
 func _swig_getBlendMode_Subtract() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
-	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Subtract_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesBlendMode)(C._wrap_BlendMode_Subtract_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
@@ -1471,42 +1755,42 @@ var BlendMode_Subtract DragonBonesBlendMode = _swig_getBlendMode_Subtract()
 type DragonBonesTweenType int
 func _swig_getTweenType_None() (_swig_ret DragonBonesTweenType) {
 	var swig_r DragonBonesTweenType
-	swig_r = (DragonBonesTweenType)(C._wrap_TweenType_None_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTweenType)(C._wrap_TweenType_None_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TweenType_None DragonBonesTweenType = _swig_getTweenType_None()
 func _swig_getTweenType_Line() (_swig_ret DragonBonesTweenType) {
 	var swig_r DragonBonesTweenType
-	swig_r = (DragonBonesTweenType)(C._wrap_TweenType_Line_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTweenType)(C._wrap_TweenType_Line_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TweenType_Line DragonBonesTweenType = _swig_getTweenType_Line()
 func _swig_getTweenType_Curve() (_swig_ret DragonBonesTweenType) {
 	var swig_r DragonBonesTweenType
-	swig_r = (DragonBonesTweenType)(C._wrap_TweenType_Curve_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTweenType)(C._wrap_TweenType_Curve_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TweenType_Curve DragonBonesTweenType = _swig_getTweenType_Curve()
 func _swig_getTweenType_QuadIn() (_swig_ret DragonBonesTweenType) {
 	var swig_r DragonBonesTweenType
-	swig_r = (DragonBonesTweenType)(C._wrap_TweenType_QuadIn_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTweenType)(C._wrap_TweenType_QuadIn_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TweenType_QuadIn DragonBonesTweenType = _swig_getTweenType_QuadIn()
 func _swig_getTweenType_QuadOut() (_swig_ret DragonBonesTweenType) {
 	var swig_r DragonBonesTweenType
-	swig_r = (DragonBonesTweenType)(C._wrap_TweenType_QuadOut_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTweenType)(C._wrap_TweenType_QuadOut_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TweenType_QuadOut DragonBonesTweenType = _swig_getTweenType_QuadOut()
 func _swig_getTweenType_QuadInOut() (_swig_ret DragonBonesTweenType) {
 	var swig_r DragonBonesTweenType
-	swig_r = (DragonBonesTweenType)(C._wrap_TweenType_QuadInOut_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTweenType)(C._wrap_TweenType_QuadInOut_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
@@ -1514,84 +1798,84 @@ var TweenType_QuadInOut DragonBonesTweenType = _swig_getTweenType_QuadInOut()
 type DragonBonesTimelineType int
 func _swig_getTimelineType_Action() (_swig_ret DragonBonesTimelineType) {
 	var swig_r DragonBonesTimelineType
-	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_Action_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_Action_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TimelineType_Action DragonBonesTimelineType = _swig_getTimelineType_Action()
 func _swig_getTimelineType_ZOrder() (_swig_ret DragonBonesTimelineType) {
 	var swig_r DragonBonesTimelineType
-	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_ZOrder_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_ZOrder_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TimelineType_ZOrder DragonBonesTimelineType = _swig_getTimelineType_ZOrder()
 func _swig_getTimelineType_BoneAll() (_swig_ret DragonBonesTimelineType) {
 	var swig_r DragonBonesTimelineType
-	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_BoneAll_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_BoneAll_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TimelineType_BoneAll DragonBonesTimelineType = _swig_getTimelineType_BoneAll()
 func _swig_getTimelineType_BoneTranslate() (_swig_ret DragonBonesTimelineType) {
 	var swig_r DragonBonesTimelineType
-	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_BoneTranslate_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_BoneTranslate_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TimelineType_BoneTranslate DragonBonesTimelineType = _swig_getTimelineType_BoneTranslate()
 func _swig_getTimelineType_BoneRotate() (_swig_ret DragonBonesTimelineType) {
 	var swig_r DragonBonesTimelineType
-	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_BoneRotate_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_BoneRotate_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TimelineType_BoneRotate DragonBonesTimelineType = _swig_getTimelineType_BoneRotate()
 func _swig_getTimelineType_BoneScale() (_swig_ret DragonBonesTimelineType) {
 	var swig_r DragonBonesTimelineType
-	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_BoneScale_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_BoneScale_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TimelineType_BoneScale DragonBonesTimelineType = _swig_getTimelineType_BoneScale()
 func _swig_getTimelineType_SlotDisplay() (_swig_ret DragonBonesTimelineType) {
 	var swig_r DragonBonesTimelineType
-	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_SlotDisplay_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_SlotDisplay_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TimelineType_SlotDisplay DragonBonesTimelineType = _swig_getTimelineType_SlotDisplay()
 func _swig_getTimelineType_SlotColor() (_swig_ret DragonBonesTimelineType) {
 	var swig_r DragonBonesTimelineType
-	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_SlotColor_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_SlotColor_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TimelineType_SlotColor DragonBonesTimelineType = _swig_getTimelineType_SlotColor()
 func _swig_getTimelineType_SlotDeform() (_swig_ret DragonBonesTimelineType) {
 	var swig_r DragonBonesTimelineType
-	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_SlotDeform_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_SlotDeform_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TimelineType_SlotDeform DragonBonesTimelineType = _swig_getTimelineType_SlotDeform()
 func _swig_getTimelineType_IKConstraint() (_swig_ret DragonBonesTimelineType) {
 	var swig_r DragonBonesTimelineType
-	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_IKConstraint_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_IKConstraint_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TimelineType_IKConstraint DragonBonesTimelineType = _swig_getTimelineType_IKConstraint()
 func _swig_getTimelineType_AnimationTime() (_swig_ret DragonBonesTimelineType) {
 	var swig_r DragonBonesTimelineType
-	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_AnimationTime_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_AnimationTime_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TimelineType_AnimationTime DragonBonesTimelineType = _swig_getTimelineType_AnimationTime()
 func _swig_getTimelineType_AnimationWeight() (_swig_ret DragonBonesTimelineType) {
 	var swig_r DragonBonesTimelineType
-	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_AnimationWeight_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTimelineType)(C._wrap_TimelineType_AnimationWeight_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
@@ -1599,42 +1883,42 @@ var TimelineType_AnimationWeight DragonBonesTimelineType = _swig_getTimelineType
 type DragonBonesAnimationFadeOutMode int
 func _swig_getAnimationFadeOutMode_None() (_swig_ret DragonBonesAnimationFadeOutMode) {
 	var swig_r DragonBonesAnimationFadeOutMode
-	swig_r = (DragonBonesAnimationFadeOutMode)(C._wrap_AnimationFadeOutMode_None_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesAnimationFadeOutMode)(C._wrap_AnimationFadeOutMode_None_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var AnimationFadeOutMode_None DragonBonesAnimationFadeOutMode = _swig_getAnimationFadeOutMode_None()
 func _swig_getAnimationFadeOutMode_SameLayer() (_swig_ret DragonBonesAnimationFadeOutMode) {
 	var swig_r DragonBonesAnimationFadeOutMode
-	swig_r = (DragonBonesAnimationFadeOutMode)(C._wrap_AnimationFadeOutMode_SameLayer_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesAnimationFadeOutMode)(C._wrap_AnimationFadeOutMode_SameLayer_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var AnimationFadeOutMode_SameLayer DragonBonesAnimationFadeOutMode = _swig_getAnimationFadeOutMode_SameLayer()
 func _swig_getAnimationFadeOutMode_SameGroup() (_swig_ret DragonBonesAnimationFadeOutMode) {
 	var swig_r DragonBonesAnimationFadeOutMode
-	swig_r = (DragonBonesAnimationFadeOutMode)(C._wrap_AnimationFadeOutMode_SameGroup_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesAnimationFadeOutMode)(C._wrap_AnimationFadeOutMode_SameGroup_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var AnimationFadeOutMode_SameGroup DragonBonesAnimationFadeOutMode = _swig_getAnimationFadeOutMode_SameGroup()
 func _swig_getAnimationFadeOutMode_SameLayerAndGroup() (_swig_ret DragonBonesAnimationFadeOutMode) {
 	var swig_r DragonBonesAnimationFadeOutMode
-	swig_r = (DragonBonesAnimationFadeOutMode)(C._wrap_AnimationFadeOutMode_SameLayerAndGroup_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesAnimationFadeOutMode)(C._wrap_AnimationFadeOutMode_SameLayerAndGroup_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var AnimationFadeOutMode_SameLayerAndGroup DragonBonesAnimationFadeOutMode = _swig_getAnimationFadeOutMode_SameLayerAndGroup()
 func _swig_getAnimationFadeOutMode_All() (_swig_ret DragonBonesAnimationFadeOutMode) {
 	var swig_r DragonBonesAnimationFadeOutMode
-	swig_r = (DragonBonesAnimationFadeOutMode)(C._wrap_AnimationFadeOutMode_All_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesAnimationFadeOutMode)(C._wrap_AnimationFadeOutMode_All_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var AnimationFadeOutMode_All DragonBonesAnimationFadeOutMode = _swig_getAnimationFadeOutMode_All()
 func _swig_getAnimationFadeOutMode_Single() (_swig_ret DragonBonesAnimationFadeOutMode) {
 	var swig_r DragonBonesAnimationFadeOutMode
-	swig_r = (DragonBonesAnimationFadeOutMode)(C._wrap_AnimationFadeOutMode_Single_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesAnimationFadeOutMode)(C._wrap_AnimationFadeOutMode_Single_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
@@ -1642,49 +1926,49 @@ var AnimationFadeOutMode_Single DragonBonesAnimationFadeOutMode = _swig_getAnima
 type DragonBonesTextureFormat int
 func _swig_getTextureFormat_DEFAULT() (_swig_ret DragonBonesTextureFormat) {
 	var swig_r DragonBonesTextureFormat
-	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureFormat_DEFAULT_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureFormat_DEFAULT_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TextureFormat_DEFAULT DragonBonesTextureFormat = _swig_getTextureFormat_DEFAULT()
 func _swig_getTextureFormat_RGBA8888() (_swig_ret DragonBonesTextureFormat) {
 	var swig_r DragonBonesTextureFormat
-	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureFormat_RGBA8888_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureFormat_RGBA8888_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TextureFormat_RGBA8888 DragonBonesTextureFormat = _swig_getTextureFormat_RGBA8888()
 func _swig_getTextureFormat_BGRA8888() (_swig_ret DragonBonesTextureFormat) {
 	var swig_r DragonBonesTextureFormat
-	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureFormat_BGRA8888_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureFormat_BGRA8888_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TextureFormat_BGRA8888 DragonBonesTextureFormat = _swig_getTextureFormat_BGRA8888()
 func _swig_getTextureFormat_RGBA4444() (_swig_ret DragonBonesTextureFormat) {
 	var swig_r DragonBonesTextureFormat
-	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureFormat_RGBA4444_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureFormat_RGBA4444_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TextureFormat_RGBA4444 DragonBonesTextureFormat = _swig_getTextureFormat_RGBA4444()
 func _swig_getTextureFormat_RGB888() (_swig_ret DragonBonesTextureFormat) {
 	var swig_r DragonBonesTextureFormat
-	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureFormat_RGB888_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureFormat_RGB888_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TextureFormat_RGB888 DragonBonesTextureFormat = _swig_getTextureFormat_RGB888()
 func _swig_getTextureFormat_RGB565() (_swig_ret DragonBonesTextureFormat) {
 	var swig_r DragonBonesTextureFormat
-	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureFormat_RGB565_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureFormat_RGB565_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 var TextureFormat_RGB565 DragonBonesTextureFormat = _swig_getTextureFormat_RGB565()
 func _swig_getTextureFormat_RGBA5551() (_swig_ret DragonBonesTextureFormat) {
 	var swig_r DragonBonesTextureFormat
-	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureFormat_RGBA5551_wrapper_0168c02bcda14bda())
+	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureFormat_RGBA5551_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
@@ -1700,7 +1984,7 @@ func (p SwigcptrDragonBones) SwigIsDragonBones() {
 
 func GetDragonBonesVEISION() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_DragonBones_VEISION_get_wrapper_0168c02bcda14bda()
+	swig_r_p := C._wrap_DragonBones_VEISION_get_wrapper_49f4652e7e4716be()
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -1709,89 +1993,89 @@ func GetDragonBonesVEISION() (_swig_ret string) {
 
 func SetDragonBonesYDown(arg1 bool) {
 	_swig_i_0 := arg1
-	C._wrap_DragonBones_yDown_set_wrapper_0168c02bcda14bda(C._Bool(_swig_i_0))
+	C._wrap_DragonBones_yDown_set_wrapper_49f4652e7e4716be(C._Bool(_swig_i_0))
 }
 
 func GetDragonBonesYDown() (_swig_ret bool) {
 	var swig_r bool
-	swig_r = (bool)(C._wrap_DragonBones_yDown_get_wrapper_0168c02bcda14bda())
+	swig_r = (bool)(C._wrap_DragonBones_yDown_get_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func SetDragonBonesDebug(arg1 bool) {
 	_swig_i_0 := arg1
-	C._wrap_DragonBones_debug_set_wrapper_0168c02bcda14bda(C._Bool(_swig_i_0))
+	C._wrap_DragonBones_debug_set_wrapper_49f4652e7e4716be(C._Bool(_swig_i_0))
 }
 
 func GetDragonBonesDebug() (_swig_ret bool) {
 	var swig_r bool
-	swig_r = (bool)(C._wrap_DragonBones_debug_get_wrapper_0168c02bcda14bda())
+	swig_r = (bool)(C._wrap_DragonBones_debug_get_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func SetDragonBonesDebugDraw(arg1 bool) {
 	_swig_i_0 := arg1
-	C._wrap_DragonBones_debugDraw_set_wrapper_0168c02bcda14bda(C._Bool(_swig_i_0))
+	C._wrap_DragonBones_debugDraw_set_wrapper_49f4652e7e4716be(C._Bool(_swig_i_0))
 }
 
 func GetDragonBonesDebugDraw() (_swig_ret bool) {
 	var swig_r bool
-	swig_r = (bool)(C._wrap_DragonBones_debugDraw_get_wrapper_0168c02bcda14bda())
+	swig_r = (bool)(C._wrap_DragonBones_debugDraw_get_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func SetDragonBonesWebAssembly(arg1 bool) {
 	_swig_i_0 := arg1
-	C._wrap_DragonBones_webAssembly_set_wrapper_0168c02bcda14bda(C._Bool(_swig_i_0))
+	C._wrap_DragonBones_webAssembly_set_wrapper_49f4652e7e4716be(C._Bool(_swig_i_0))
 }
 
 func GetDragonBonesWebAssembly() (_swig_ret bool) {
 	var swig_r bool
-	swig_r = (bool)(C._wrap_DragonBones_webAssembly_get_wrapper_0168c02bcda14bda())
+	swig_r = (bool)(C._wrap_DragonBones_webAssembly_get_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func NewDragonBones(arg1 IEventDispatcher) (_swig_ret DragonBones) {
 	var swig_r DragonBones
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (DragonBones)(SwigcptrDragonBones(C._wrap_new_DragonBones_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones)(SwigcptrDragonBones(C._wrap_new_DragonBones_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func DeleteDragonBones(arg1 DragonBones) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_DragonBones_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_DragonBones_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrDragonBones) AdvanceTime(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_DragonBones_advanceTime_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_DragonBones_advanceTime_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrDragonBones) BufferEvent(arg2 DragonBones_EventObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_DragonBones_bufferEvent_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_DragonBones_bufferEvent_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrDragonBones) BufferObject(arg2 BaseObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_DragonBones_bufferObject_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_DragonBones_bufferObject_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrDragonBones) GetClock() (_swig_ret WorldClock) {
 	var swig_r WorldClock
 	_swig_i_0 := arg1
-	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_DragonBones_getClock_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_DragonBones_getClock_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrDragonBones) GetEventManager() (_swig_ret IEventDispatcher) {
 	var swig_r IEventDispatcher
 	_swig_i_0 := arg1
-	swig_r = (IEventDispatcher)(SwigcptrIEventDispatcher(C._wrap_DragonBones_getEventManager_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (IEventDispatcher)(SwigcptrIEventDispatcher(C._wrap_DragonBones_getEventManager_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1817,16 +2101,16 @@ func (p SwigcptrBaseObject) SwigIsBaseObject() {
 func BaseObjectSetMaxCount(arg1 int64, arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BaseObject_setMaxCount_wrapper_0168c02bcda14bda(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_BaseObject_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func BaseObjectClearPool__SWIG_0(arg1 int64) {
 	_swig_i_0 := arg1
-	C._wrap_BaseObject_clearPool__SWIG_0_wrapper_0168c02bcda14bda(C.swig_type_3(_swig_i_0))
+	C._wrap_BaseObject_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
 }
 
 func BaseObjectClearPool__SWIG_1() {
-	C._wrap_BaseObject_clearPool__SWIG_1_wrapper_0168c02bcda14bda()
+	C._wrap_BaseObject_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
 }
 
 func BaseObjectClearPool(a ...interface{}) {
@@ -1845,30 +2129,30 @@ func BaseObjectClearPool(a ...interface{}) {
 func (arg1 SwigcptrBaseObject) GetHashCode() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_BaseObject_hashCode_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_BaseObject_hashCode_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func DeleteBaseObject(arg1 BaseObject) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_BaseObject_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_BaseObject_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrBaseObject) GetClassTypeIndex() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_BaseObject_getClassTypeIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_BaseObject_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrBaseObject) ReturnToPool() {
 	_swig_i_0 := arg1
-	C._wrap_BaseObject_returnToPool_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_BaseObject_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func BaseObjectBorrowArmatureObject() (_swig_ret Armature) {
 	var swig_r Armature
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_BaseObject_borrowArmatureObject_wrapper_0168c02bcda14bda()))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_BaseObject_borrowArmatureObject_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
@@ -1891,62 +2175,62 @@ func (p SwigcptrAnimation) SwigIsAnimation() {
 
 func AnimationGetTypeIndex() (_swig_ret int64) {
 	var swig_r int64
-	swig_r = (int64)(C._wrap_Animation_getTypeIndex_wrapper_0168c02bcda14bda())
+	swig_r = (int64)(C._wrap_Animation_getTypeIndex_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func (arg1 SwigcptrAnimation) GetClassTypeIndex() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_Animation_getClassTypeIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_Animation_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrAnimation) SetTimeScale(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Animation_timeScale_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Animation_timeScale_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrAnimation) GetTimeScale() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Animation_timeScale_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Animation_timeScale_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewAnimation() (_swig_ret Animation) {
 	var swig_r Animation
-	swig_r = (Animation)(SwigcptrAnimation(C._wrap_new_Animation_wrapper_0168c02bcda14bda()))
+	swig_r = (Animation)(SwigcptrAnimation(C._wrap_new_Animation_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func DeleteAnimation(arg1 Animation) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Animation_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Animation_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrAnimation) Init(arg2 Armature) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Animation_init_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Animation_init_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrAnimation) AdvanceTime(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Animation_advanceTime_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Animation_advanceTime_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrAnimation) Reset() {
 	_swig_i_0 := arg1
-	C._wrap_Animation_reset_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_Animation_reset_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrAnimation) Stop(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Animation_stop_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_7)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_Animation_stop_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_7)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1956,7 +2240,7 @@ func (arg1 SwigcptrAnimation) PlayConfig(arg2 DragonBones_AnimationConfig) (_swi
 	var swig_r DragonBones_AnimationState
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_playConfig_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_playConfig_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1965,7 +2249,7 @@ func (arg1 SwigcptrAnimation) Play__SWIG_0(arg2 string, arg3 int) (_swig_ret Dra
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_play__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_8)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_play__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_8)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1976,7 +2260,7 @@ func (arg1 SwigcptrAnimation) Play__SWIG_1(arg2 string) (_swig_ret DragonBones_A
 	var swig_r DragonBones_AnimationState
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_play__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_9)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_play__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_9)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1986,7 +2270,7 @@ func (arg1 SwigcptrAnimation) Play__SWIG_1(arg2 string) (_swig_ret DragonBones_A
 func (arg1 SwigcptrAnimation) Play__SWIG_2() (_swig_ret DragonBones_AnimationState) {
 	var swig_r DragonBones_AnimationState
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_play__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_play__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -2013,7 +2297,7 @@ func (arg1 SwigcptrAnimation) FadeIn__SWIG_0(arg2 string, arg3 float32, arg4 int
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_fadeIn__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_10)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_11)(unsafe.Pointer(&_swig_i_5)), C.swig_intgo(_swig_i_6))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_fadeIn__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_10)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_11)(unsafe.Pointer(&_swig_i_5)), C.swig_intgo(_swig_i_6))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2031,7 +2315,7 @@ func (arg1 SwigcptrAnimation) FadeIn__SWIG_1(arg2 string, arg3 float32, arg4 int
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_fadeIn__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_12)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_13)(unsafe.Pointer(&_swig_i_5)))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_fadeIn__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_12)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), *(*C.swig_type_13)(unsafe.Pointer(&_swig_i_5)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2048,7 +2332,7 @@ func (arg1 SwigcptrAnimation) FadeIn__SWIG_2(arg2 string, arg3 float32, arg4 int
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_fadeIn__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_14)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_fadeIn__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_14)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2061,7 +2345,7 @@ func (arg1 SwigcptrAnimation) FadeIn__SWIG_3(arg2 string, arg3 float32, arg4 int
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_fadeIn__SWIG_3_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_15)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.swig_intgo(_swig_i_3))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_fadeIn__SWIG_3_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_15)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.swig_intgo(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2073,7 +2357,7 @@ func (arg1 SwigcptrAnimation) FadeIn__SWIG_4(arg2 string, arg3 float32) (_swig_r
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_fadeIn__SWIG_4_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_16)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_fadeIn__SWIG_4_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_16)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2084,7 +2368,7 @@ func (arg1 SwigcptrAnimation) FadeIn__SWIG_5(arg2 string) (_swig_ret DragonBones
 	var swig_r DragonBones_AnimationState
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_fadeIn__SWIG_5_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_17)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_fadeIn__SWIG_5_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_17)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2120,7 +2404,7 @@ func (arg1 SwigcptrAnimation) GotoAndPlayByTime__SWIG_0(arg2 string, arg3 float3
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByTime__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_18)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.swig_intgo(_swig_i_3))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByTime__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_18)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.swig_intgo(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2132,7 +2416,7 @@ func (arg1 SwigcptrAnimation) GotoAndPlayByTime__SWIG_1(arg2 string, arg3 float3
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByTime__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_19)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByTime__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_19)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2143,7 +2427,7 @@ func (arg1 SwigcptrAnimation) GotoAndPlayByTime__SWIG_2(arg2 string) (_swig_ret 
 	var swig_r DragonBones_AnimationState
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByTime__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_20)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByTime__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_20)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2170,7 +2454,7 @@ func (arg1 SwigcptrAnimation) GotoAndPlayByFrame__SWIG_0(arg2 string, arg3 uint,
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByFrame__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_21)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByFrame__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_21)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2182,7 +2466,7 @@ func (arg1 SwigcptrAnimation) GotoAndPlayByFrame__SWIG_1(arg2 string, arg3 uint)
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByFrame__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_22)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByFrame__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_22)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2193,7 +2477,7 @@ func (arg1 SwigcptrAnimation) GotoAndPlayByFrame__SWIG_2(arg2 string) (_swig_ret
 	var swig_r DragonBones_AnimationState
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByFrame__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_23)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByFrame__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_23)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2220,7 +2504,7 @@ func (arg1 SwigcptrAnimation) GotoAndPlayByProgress__SWIG_0(arg2 string, arg3 fl
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByProgress__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_24)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.swig_intgo(_swig_i_3))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByProgress__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_24)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.swig_intgo(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2232,7 +2516,7 @@ func (arg1 SwigcptrAnimation) GotoAndPlayByProgress__SWIG_1(arg2 string, arg3 fl
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByProgress__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_25)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByProgress__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_25)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2243,7 +2527,7 @@ func (arg1 SwigcptrAnimation) GotoAndPlayByProgress__SWIG_2(arg2 string) (_swig_
 	var swig_r DragonBones_AnimationState
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByProgress__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_26)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndPlayByProgress__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_26)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2269,7 +2553,7 @@ func (arg1 SwigcptrAnimation) GotoAndStopByTime__SWIG_0(arg2 string, arg3 float3
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndStopByTime__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_27)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndStopByTime__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_27)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2280,7 +2564,7 @@ func (arg1 SwigcptrAnimation) GotoAndStopByTime__SWIG_1(arg2 string) (_swig_ret 
 	var swig_r DragonBones_AnimationState
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndStopByTime__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_28)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndStopByTime__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_28)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2303,7 +2587,7 @@ func (arg1 SwigcptrAnimation) GotoAndStopByFrame__SWIG_0(arg2 string, arg3 uint)
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndStopByFrame__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndStopByFrame__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2314,7 +2598,7 @@ func (arg1 SwigcptrAnimation) GotoAndStopByFrame__SWIG_1(arg2 string) (_swig_ret
 	var swig_r DragonBones_AnimationState
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndStopByFrame__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_30)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndStopByFrame__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_30)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2337,7 +2621,7 @@ func (arg1 SwigcptrAnimation) GotoAndStopByProgress__SWIG_0(arg2 string, arg3 fl
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndStopByProgress__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndStopByProgress__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2348,7 +2632,7 @@ func (arg1 SwigcptrAnimation) GotoAndStopByProgress__SWIG_1(arg2 string) (_swig_
 	var swig_r DragonBones_AnimationState
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndStopByProgress__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_32)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_gotoAndStopByProgress__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_32)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2370,7 +2654,7 @@ func (arg1 SwigcptrAnimation) GetState(arg2 string) (_swig_ret DragonBones_Anima
 	var swig_r DragonBones_AnimationState
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_getState_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_33)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_getState_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_33)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2381,7 +2665,7 @@ func (arg1 SwigcptrAnimation) HasAnimation(arg2 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_Animation_hasAnimation_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_34)(unsafe.Pointer(&_swig_i_1))))
+	swig_r = (bool)(C._wrap_Animation_hasAnimation_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_34)(unsafe.Pointer(&_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2391,28 +2675,28 @@ func (arg1 SwigcptrAnimation) HasAnimation(arg2 string) (_swig_ret bool) {
 func (arg1 SwigcptrAnimation) GetStates() (_swig_ret Std_vector_Sl_dragonBones_AnimationState_Sm__Sg_) {
 	var swig_r Std_vector_Sl_dragonBones_AnimationState_Sm__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_dragonBones_AnimationState_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_AnimationState_Sm__Sg_(C._wrap_Animation_getStates_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_vector_Sl_dragonBones_AnimationState_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_AnimationState_Sm__Sg_(C._wrap_Animation_getStates_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrAnimation) IsPlaying() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Animation_isPlaying_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Animation_isPlaying_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrAnimation) IsCompleted() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Animation_isCompleted_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Animation_isCompleted_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrAnimation) GetLastAnimationName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_Animation_getLastAnimationName_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_Animation_getLastAnimationName_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -2422,50 +2706,50 @@ func (arg1 SwigcptrAnimation) GetLastAnimationName() (_swig_ret string) {
 func (arg1 SwigcptrAnimation) GetAnimationNames() (_swig_ret VectorString) {
 	var swig_r VectorString
 	_swig_i_0 := arg1
-	swig_r = (VectorString)(SwigcptrVectorString(C._wrap_Animation_getAnimationNames_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorString)(SwigcptrVectorString(C._wrap_Animation_getAnimationNames_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrAnimation) GetAnimations() (_swig_ret Std_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	var swig_r Std_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_Animation_getAnimations_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_Animation_getAnimations_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrAnimation) SetAnimations(arg2 Std_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Animation_setAnimations_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Animation_setAnimations_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrAnimation) GetAnimationConfig() (_swig_ret DragonBones_AnimationConfig) {
 	var swig_r DragonBones_AnimationConfig
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_AnimationConfig)(SwigcptrDragonBones_AnimationConfig(C._wrap_Animation_getAnimationConfig_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_AnimationConfig)(SwigcptrDragonBones_AnimationConfig(C._wrap_Animation_getAnimationConfig_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrAnimation) GetLastAnimationState() (_swig_ret DragonBones_AnimationState) {
 	var swig_r DragonBones_AnimationState
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_getLastAnimationState_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_AnimationState)(SwigcptrDragonBones_AnimationState(C._wrap_Animation_getLastAnimationState_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func AnimationSetMaxCount(arg1 int64, arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Animation_setMaxCount_wrapper_0168c02bcda14bda(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Animation_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func AnimationClearPool__SWIG_0(arg1 int64) {
 	_swig_i_0 := arg1
-	C._wrap_Animation_clearPool__SWIG_0_wrapper_0168c02bcda14bda(C.swig_type_3(_swig_i_0))
+	C._wrap_Animation_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
 }
 
 func AnimationClearPool__SWIG_1() {
-	C._wrap_Animation_clearPool__SWIG_1_wrapper_0168c02bcda14bda()
+	C._wrap_Animation_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
 }
 
 func AnimationClearPool(a ...interface{}) {
@@ -2483,17 +2767,17 @@ func AnimationClearPool(a ...interface{}) {
 
 func (_swig_base SwigcptrAnimation) GetHashCode() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_GetAnimation_HashCode_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (uint)(C._wrap_GetAnimation_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrAnimation) ReturnToPool() {
-	C._wrap_Animation_returnToPool_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))
+	C._wrap_Animation_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
 }
 
 func AnimationBorrowArmatureObject() (_swig_ret Armature) {
 	var swig_r Armature
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_Animation_borrowArmatureObject_wrapper_0168c02bcda14bda()))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_Animation_borrowArmatureObject_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
@@ -2551,112 +2835,112 @@ func (p SwigcptrTransformObject) SwigIsTransformObject() {
 
 func DeleteTransformObject(arg1 TransformObject) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_TransformObject_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_TransformObject_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrTransformObject) SetGlobalTransformMatrix(arg2 Matrix) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_TransformObject_globalTransformMatrix_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_TransformObject_globalTransformMatrix_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrTransformObject) GetGlobalTransformMatrix() (_swig_ret Matrix) {
 	var swig_r Matrix
 	_swig_i_0 := arg1
-	swig_r = (Matrix)(SwigcptrMatrix(C._wrap_TransformObject_globalTransformMatrix_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Matrix)(SwigcptrMatrix(C._wrap_TransformObject_globalTransformMatrix_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrTransformObject) SetGlobal(arg2 Transform) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_TransformObject_global_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_TransformObject_global_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrTransformObject) GetGlobal() (_swig_ret Transform) {
 	var swig_r Transform
 	_swig_i_0 := arg1
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_TransformObject_global_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_TransformObject_global_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrTransformObject) SetOffset(arg2 Transform) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_TransformObject_offset_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_TransformObject_offset_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrTransformObject) GetOffset() (_swig_ret Transform) {
 	var swig_r Transform
 	_swig_i_0 := arg1
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_TransformObject_offset_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_TransformObject_offset_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrTransformObject) SetOrigin(arg2 Transform) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_TransformObject_origin_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_TransformObject_origin_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrTransformObject) GetOrigin() (_swig_ret Transform) {
 	var swig_r Transform
 	_swig_i_0 := arg1
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_TransformObject_origin_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_TransformObject_origin_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrTransformObject) SetUserData(arg2 uintptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TransformObject_userData_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_TransformObject_userData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrTransformObject) GetUserData() (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_TransformObject_userData_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_TransformObject_userData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTransformObject) SetX_armature(arg2 Armature) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_TransformObject__armature_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_TransformObject__armature_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrTransformObject) GetX_armature() (_swig_ret Armature) {
 	var swig_r Armature
 	_swig_i_0 := arg1
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_TransformObject__armature_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_TransformObject__armature_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrTransformObject) UpdateGlobalTransform() {
 	_swig_i_0 := arg1
-	C._wrap_TransformObject_updateGlobalTransform_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_TransformObject_updateGlobalTransform_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrTransformObject) GetArmature() (_swig_ret Armature) {
 	var swig_r Armature
 	_swig_i_0 := arg1
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_TransformObject_getArmature_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_TransformObject_getArmature_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func TransformObjectSetMaxCount(arg1 int64, arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TransformObject_setMaxCount_wrapper_0168c02bcda14bda(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_TransformObject_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func TransformObjectClearPool__SWIG_0(arg1 int64) {
 	_swig_i_0 := arg1
-	C._wrap_TransformObject_clearPool__SWIG_0_wrapper_0168c02bcda14bda(C.swig_type_3(_swig_i_0))
+	C._wrap_TransformObject_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
 }
 
 func TransformObjectClearPool__SWIG_1() {
-	C._wrap_TransformObject_clearPool__SWIG_1_wrapper_0168c02bcda14bda()
+	C._wrap_TransformObject_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
 }
 
 func TransformObjectClearPool(a ...interface{}) {
@@ -2674,23 +2958,23 @@ func TransformObjectClearPool(a ...interface{}) {
 
 func (_swig_base SwigcptrTransformObject) GetHashCode() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_GetTransformObject_HashCode_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (uint)(C._wrap_GetTransformObject_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrTransformObject) GetClassTypeIndex() (_swig_ret int64) {
 	var swig_r int64
-	swig_r = (int64)(C._wrap_TransformObject_getClassTypeIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (int64)(C._wrap_TransformObject_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrTransformObject) ReturnToPool() {
-	C._wrap_TransformObject_returnToPool_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))
+	C._wrap_TransformObject_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
 }
 
 func TransformObjectBorrowArmatureObject() (_swig_ret Armature) {
 	var swig_r Armature
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_TransformObject_borrowArmatureObject_wrapper_0168c02bcda14bda()))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_TransformObject_borrowArmatureObject_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
@@ -2736,14 +3020,14 @@ func (p SwigcptrIEventDispatcher) SwigIsIEventDispatcher() {
 
 func DeleteIEventDispatcher(arg1 IEventDispatcher) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_IEventDispatcher_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_IEventDispatcher_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrIEventDispatcher) HasDBEventListener(arg2 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_IEventDispatcher_hasDBEventListener_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_37)(unsafe.Pointer(&_swig_i_1))))
+	swig_r = (bool)(C._wrap_IEventDispatcher_hasDBEventListener_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_37)(unsafe.Pointer(&_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2754,7 +3038,7 @@ func (arg1 SwigcptrIEventDispatcher) DispatchDBEvent(arg2 string, arg3 DragonBon
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_IEventDispatcher_dispatchDBEvent_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_38)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_IEventDispatcher_dispatchDBEvent_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_38)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2764,7 +3048,7 @@ func (arg1 SwigcptrIEventDispatcher) AddDBEventListener(arg2 string, arg3 Std_fu
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_IEventDispatcher_addDBEventListener_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_39)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_IEventDispatcher_addDBEventListener_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_39)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2774,7 +3058,7 @@ func (arg1 SwigcptrIEventDispatcher) RemoveDBEventListener(arg2 string, arg3 Std
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_IEventDispatcher_removeDBEventListener_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_40)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_IEventDispatcher_removeDBEventListener_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_40)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2807,17 +3091,17 @@ func (p *_swig_DirectorIArmatureProxy) DirectorInterface() interface{} {
 
 func NewDirectorIArmatureProxy(v interface{}) IArmatureProxy {
 	p := &_swig_DirectorIArmatureProxy{0, v}
-	p.SwigcptrIArmatureProxy = SwigcptrIArmatureProxy(C._wrap__swig_NewDirectorIArmatureProxyIArmatureProxy_wrapper_0168c02bcda14bda(C.int(swigDirectorAdd(p))))
+	p.SwigcptrIArmatureProxy = SwigcptrIArmatureProxy(C._wrap__swig_NewDirectorIArmatureProxyIArmatureProxy_wrapper_49f4652e7e4716be(C.int(swigDirectorAdd(p))))
 	return p
 }
 
 func DeleteDirectorIArmatureProxy(arg1 IArmatureProxy) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_DeleteDirectorIArmatureProxy_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_DeleteDirectorIArmatureProxy_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
-//export Swiggo_DeleteDirector_IArmatureProxy_wrapper_0168c02bcda14bda
-func Swiggo_DeleteDirector_IArmatureProxy_wrapper_0168c02bcda14bda(c int) {
+//export Swiggo_DeleteDirector_IArmatureProxy_wrapper_49f4652e7e4716be
+func Swiggo_DeleteDirector_IArmatureProxy_wrapper_49f4652e7e4716be(c int) {
 	swigDirectorLookup(c).(*_swig_DirectorIArmatureProxy).SwigcptrIArmatureProxy = 0
 	swigDirectorDelete(c)
 }
@@ -2833,8 +3117,8 @@ func (swig_p *_swig_DirectorIArmatureProxy) HasDBEventListener(etype string) boo
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorIArmatureProxy_callback_hasDBEventListener_wrapper_0168c02bcda14bda
-func Swig_DirectorIArmatureProxy_callback_hasDBEventListener_wrapper_0168c02bcda14bda(swig_c int, etype string) (swig_result bool) {
+//export Swig_DirectorIArmatureProxy_callback_hasDBEventListener_wrapper_49f4652e7e4716be
+func Swig_DirectorIArmatureProxy_callback_hasDBEventListener_wrapper_49f4652e7e4716be(swig_c int, etype string) (swig_result bool) {
 	var swig_r bool
 	var _swig_i_0 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorIArmatureProxy)
@@ -2855,8 +3139,8 @@ func (swig_p *_swig_DirectorIArmatureProxy) DispatchDBEvent(etype string, value 
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorIArmatureProxy_callback_dispatchDBEvent_wrapper_0168c02bcda14bda
-func Swig_DirectorIArmatureProxy_callback_dispatchDBEvent_wrapper_0168c02bcda14bda(swig_c int, etype string, value uintptr) {
+//export Swig_DirectorIArmatureProxy_callback_dispatchDBEvent_wrapper_49f4652e7e4716be
+func Swig_DirectorIArmatureProxy_callback_dispatchDBEvent_wrapper_49f4652e7e4716be(swig_c int, etype string, value uintptr) {
 	var _swig_i_0 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorIArmatureProxy)
  _swig_i_0 = swigCopyString(etype) 
@@ -2875,8 +3159,8 @@ func (swig_p *_swig_DirectorIArmatureProxy) AddDBEventListener(etype string, lis
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorIArmatureProxy_callback_addDBEventListener_wrapper_0168c02bcda14bda
-func Swig_DirectorIArmatureProxy_callback_addDBEventListener_wrapper_0168c02bcda14bda(swig_c int, etype string, listener uintptr) {
+//export Swig_DirectorIArmatureProxy_callback_addDBEventListener_wrapper_49f4652e7e4716be
+func Swig_DirectorIArmatureProxy_callback_addDBEventListener_wrapper_49f4652e7e4716be(swig_c int, etype string, listener uintptr) {
 	var _swig_i_0 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorIArmatureProxy)
  _swig_i_0 = swigCopyString(etype) 
@@ -2895,8 +3179,8 @@ func (swig_p *_swig_DirectorIArmatureProxy) RemoveDBEventListener(etype string, 
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorIArmatureProxy_callback_removeDBEventListener_wrapper_0168c02bcda14bda
-func Swig_DirectorIArmatureProxy_callback_removeDBEventListener_wrapper_0168c02bcda14bda(swig_c int, etype string, listener uintptr) {
+//export Swig_DirectorIArmatureProxy_callback_removeDBEventListener_wrapper_49f4652e7e4716be
+func Swig_DirectorIArmatureProxy_callback_removeDBEventListener_wrapper_49f4652e7e4716be(swig_c int, etype string, listener uintptr) {
 	var _swig_i_0 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorIArmatureProxy)
  _swig_i_0 = swigCopyString(etype) 
@@ -2915,8 +3199,8 @@ func (swig_p *_swig_DirectorIArmatureProxy) DbInit(armature Armature) {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorIArmatureProxy_callback_dbInit_wrapper_0168c02bcda14bda
-func Swig_DirectorIArmatureProxy_callback_dbInit_wrapper_0168c02bcda14bda(swig_c int, armature uintptr) {
+//export Swig_DirectorIArmatureProxy_callback_dbInit_wrapper_49f4652e7e4716be
+func Swig_DirectorIArmatureProxy_callback_dbInit_wrapper_49f4652e7e4716be(swig_c int, armature uintptr) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorIArmatureProxy)
 	swig_p.DbInit(SwigcptrArmature(armature))
 }
@@ -2933,8 +3217,8 @@ func (swig_p *_swig_DirectorIArmatureProxy) DbClear() {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorIArmatureProxy_callback_dbClear_wrapper_0168c02bcda14bda
-func Swig_DirectorIArmatureProxy_callback_dbClear_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorIArmatureProxy_callback_dbClear_wrapper_49f4652e7e4716be
+func Swig_DirectorIArmatureProxy_callback_dbClear_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorIArmatureProxy)
 	swig_p.DbClear()
 }
@@ -2951,8 +3235,8 @@ func (swig_p *_swig_DirectorIArmatureProxy) DbUpdate() {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorIArmatureProxy_callback_dbUpdate_wrapper_0168c02bcda14bda
-func Swig_DirectorIArmatureProxy_callback_dbUpdate_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorIArmatureProxy_callback_dbUpdate_wrapper_49f4652e7e4716be
+func Swig_DirectorIArmatureProxy_callback_dbUpdate_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorIArmatureProxy)
 	swig_p.DbUpdate()
 }
@@ -2969,8 +3253,8 @@ func (swig_p *_swig_DirectorIArmatureProxy) Dispose(disposeProxy bool) {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorIArmatureProxy_callback_dispose_wrapper_0168c02bcda14bda
-func Swig_DirectorIArmatureProxy_callback_dispose_wrapper_0168c02bcda14bda(swig_c int, disposeProxy bool) {
+//export Swig_DirectorIArmatureProxy_callback_dispose_wrapper_49f4652e7e4716be
+func Swig_DirectorIArmatureProxy_callback_dispose_wrapper_49f4652e7e4716be(swig_c int, disposeProxy bool) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorIArmatureProxy)
 	swig_p.Dispose(disposeProxy)
 }
@@ -2986,8 +3270,8 @@ func (swig_p *_swig_DirectorIArmatureProxy) GetArmature() Armature {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorIArmatureProxy_callback_getArmature_wrapper_0168c02bcda14bda
-func Swig_DirectorIArmatureProxy_callback_getArmature_wrapper_0168c02bcda14bda(swig_c int) (swig_result SwigcptrArmature) {
+//export Swig_DirectorIArmatureProxy_callback_getArmature_wrapper_49f4652e7e4716be
+func Swig_DirectorIArmatureProxy_callback_getArmature_wrapper_49f4652e7e4716be(swig_c int) (swig_result SwigcptrArmature) {
 	var swig_r SwigcptrArmature
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorIArmatureProxy)
 	swig_r = SwigcptrArmature(swig_p.GetArmature().Swigcptr())
@@ -3005,8 +3289,8 @@ func (swig_p *_swig_DirectorIArmatureProxy) GetAnimation() Animation {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorIArmatureProxy_callback_getAnimation_wrapper_0168c02bcda14bda
-func Swig_DirectorIArmatureProxy_callback_getAnimation_wrapper_0168c02bcda14bda(swig_c int) (swig_result SwigcptrAnimation) {
+//export Swig_DirectorIArmatureProxy_callback_getAnimation_wrapper_49f4652e7e4716be
+func Swig_DirectorIArmatureProxy_callback_getAnimation_wrapper_49f4652e7e4716be(swig_c int) (swig_result SwigcptrAnimation) {
 	var swig_r SwigcptrAnimation
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorIArmatureProxy)
 	swig_r = SwigcptrAnimation(swig_p.GetAnimation().Swigcptr())
@@ -3028,49 +3312,49 @@ func (p SwigcptrIArmatureProxy) DirectorInterface() interface{} {
 
 func DeleteIArmatureProxy(arg1 IArmatureProxy) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_IArmatureProxy_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_IArmatureProxy_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrIArmatureProxy) DbInit(arg2 Armature) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_IArmatureProxy_dbInit_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_IArmatureProxy_dbInit_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrIArmatureProxy) DbClear() {
 	_swig_i_0 := arg1
-	C._wrap_IArmatureProxy_dbClear_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_IArmatureProxy_dbClear_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrIArmatureProxy) DbUpdate() {
 	_swig_i_0 := arg1
-	C._wrap_IArmatureProxy_dbUpdate_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_IArmatureProxy_dbUpdate_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrIArmatureProxy) Dispose(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_IArmatureProxy_dispose_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_IArmatureProxy_dispose_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrIArmatureProxy) GetArmature() (_swig_ret Armature) {
 	var swig_r Armature
 	_swig_i_0 := arg1
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_IArmatureProxy_getArmature_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_IArmatureProxy_getArmature_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrIArmatureProxy) GetAnimation() (_swig_ret Animation) {
 	var swig_r Animation
 	_swig_i_0 := arg1
-	swig_r = (Animation)(SwigcptrAnimation(C._wrap_IArmatureProxy_getAnimation_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Animation)(SwigcptrAnimation(C._wrap_IArmatureProxy_getAnimation_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrIArmatureProxy) HasDBEventListener(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_IArmatureProxy_hasDBEventListener_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base), *(*C.swig_type_41)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_IArmatureProxy_hasDBEventListener_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), *(*C.swig_type_41)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -3080,7 +3364,7 @@ func (_swig_base SwigcptrIArmatureProxy) HasDBEventListener(arg1 string) (_swig_
 func (_swig_base SwigcptrIArmatureProxy) DispatchDBEvent(arg1 string, arg2 DragonBones_EventObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_IArmatureProxy_dispatchDBEvent_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base), *(*C.swig_type_42)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))
+	C._wrap_IArmatureProxy_dispatchDBEvent_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), *(*C.swig_type_42)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -3089,7 +3373,7 @@ func (_swig_base SwigcptrIArmatureProxy) DispatchDBEvent(arg1 string, arg2 Drago
 func (_swig_base SwigcptrIArmatureProxy) AddDBEventListener(arg1 string, arg2 Std_function_Sl_void_Sp_dragonBones_EventObject_Sm__SP__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_IArmatureProxy_addDBEventListener_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base), *(*C.swig_type_43)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))
+	C._wrap_IArmatureProxy_addDBEventListener_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), *(*C.swig_type_43)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -3098,7 +3382,7 @@ func (_swig_base SwigcptrIArmatureProxy) AddDBEventListener(arg1 string, arg2 St
 func (_swig_base SwigcptrIArmatureProxy) RemoveDBEventListener(arg1 string, arg2 Std_function_Sl_void_Sp_dragonBones_EventObject_Sm__SP__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_IArmatureProxy_removeDBEventListener_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base), *(*C.swig_type_44)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))
+	C._wrap_IArmatureProxy_removeDBEventListener_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), *(*C.swig_type_44)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -3140,26 +3424,26 @@ func (p SwigcptrIAnimatable) SwigIsIAnimatable() {
 
 func DeleteIAnimatable(arg1 IAnimatable) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_IAnimatable_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_IAnimatable_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrIAnimatable) AdvanceTime(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_IAnimatable_advanceTime_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_IAnimatable_advanceTime_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrIAnimatable) GetClock() (_swig_ret WorldClock) {
 	var swig_r WorldClock
 	_swig_i_0 := arg1
-	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_IAnimatable_getClock_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_IAnimatable_getClock_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrIAnimatable) SetClock(arg2 WorldClock) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_IAnimatable_setClock_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_IAnimatable_setClock_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 type IAnimatable interface {
@@ -3188,17 +3472,17 @@ func (p *_swig_DirectorSlot) DirectorInterface() interface{} {
 
 func NewDirectorSlot(v interface{}) Slot {
 	p := &_swig_DirectorSlot{0, v}
-	p.SwigcptrSlot = SwigcptrSlot(C._wrap__swig_NewDirectorSlotSlot_wrapper_0168c02bcda14bda(C.int(swigDirectorAdd(p))))
+	p.SwigcptrSlot = SwigcptrSlot(C._wrap__swig_NewDirectorSlotSlot_wrapper_49f4652e7e4716be(C.int(swigDirectorAdd(p))))
 	return p
 }
 
 func DeleteDirectorSlot(arg1 Slot) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_DeleteDirectorSlot_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_DeleteDirectorSlot_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
-//export Swiggo_DeleteDirector_Slot_wrapper_0168c02bcda14bda
-func Swiggo_DeleteDirector_Slot_wrapper_0168c02bcda14bda(c int) {
+//export Swiggo_DeleteDirector_Slot_wrapper_49f4652e7e4716be
+func Swiggo_DeleteDirector_Slot_wrapper_49f4652e7e4716be(c int) {
 	swigDirectorLookup(c).(*_swig_DirectorSlot).SwigcptrSlot = 0
 	swigDirectorDelete(c)
 }
@@ -3212,15 +3496,15 @@ func (swig_p *_swig_DirectorSlot) X_onClear() {
 		swig_g.X_onClear()
 		return
 	}
-	C._wrap__swig_DirectorSlot_upcall_X_onClear_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrSlot))
+	C._wrap__swig_DirectorSlot_upcall_X_onClear_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrSlot))
 }
 
 func DirectorSlotX_onClear(p Slot) {
-	C._wrap__swig_DirectorSlot_upcall_X_onClear_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorSlot).SwigcptrSlot))
+	C._wrap__swig_DirectorSlot_upcall_X_onClear_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorSlot).SwigcptrSlot))
 }
 
-//export Swig_DirectorSlot_callback__onClear_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__onClear_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorSlot_callback__onClear_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__onClear_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_onClear()
 }
@@ -3236,8 +3520,8 @@ func (swig_p *_swig_DirectorSlot) GetClassTypeIndex() int64 {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback_getClassTypeIndex_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback_getClassTypeIndex_wrapper_0168c02bcda14bda(swig_c int) (swig_result int64) {
+//export Swig_DirectorSlot_callback_getClassTypeIndex_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback_getClassTypeIndex_wrapper_49f4652e7e4716be(swig_c int) (swig_result int64) {
 	var swig_r int64
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_r = swig_p.GetClassTypeIndex()
@@ -3256,8 +3540,8 @@ func (swig_p *_swig_DirectorSlot) X_initDisplay(value uintptr, isRetain bool) {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback__initDisplay_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__initDisplay_wrapper_0168c02bcda14bda(swig_c int, value uintptr, isRetain bool) {
+//export Swig_DirectorSlot_callback__initDisplay_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__initDisplay_wrapper_49f4652e7e4716be(swig_c int, value uintptr, isRetain bool) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_initDisplay(value, isRetain)
 }
@@ -3274,8 +3558,8 @@ func (swig_p *_swig_DirectorSlot) X_disposeDisplay(value uintptr, isRelease bool
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback__disposeDisplay_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__disposeDisplay_wrapper_0168c02bcda14bda(swig_c int, value uintptr, isRelease bool) {
+//export Swig_DirectorSlot_callback__disposeDisplay_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__disposeDisplay_wrapper_49f4652e7e4716be(swig_c int, value uintptr, isRelease bool) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_disposeDisplay(value, isRelease)
 }
@@ -3292,8 +3576,8 @@ func (swig_p *_swig_DirectorSlot) X_onUpdateDisplay() {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback__onUpdateDisplay_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__onUpdateDisplay_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorSlot_callback__onUpdateDisplay_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__onUpdateDisplay_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_onUpdateDisplay()
 }
@@ -3310,8 +3594,8 @@ func (swig_p *_swig_DirectorSlot) X_addDisplay() {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback__addDisplay_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__addDisplay_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorSlot_callback__addDisplay_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__addDisplay_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_addDisplay()
 }
@@ -3328,8 +3612,8 @@ func (swig_p *_swig_DirectorSlot) X_replaceDisplay(value uintptr, isArmatureDisp
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback__replaceDisplay_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__replaceDisplay_wrapper_0168c02bcda14bda(swig_c int, value uintptr, isArmatureDisplay bool) {
+//export Swig_DirectorSlot_callback__replaceDisplay_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__replaceDisplay_wrapper_49f4652e7e4716be(swig_c int, value uintptr, isArmatureDisplay bool) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_replaceDisplay(value, isArmatureDisplay)
 }
@@ -3346,8 +3630,8 @@ func (swig_p *_swig_DirectorSlot) X_removeDisplay() {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback__removeDisplay_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__removeDisplay_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorSlot_callback__removeDisplay_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__removeDisplay_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_removeDisplay()
 }
@@ -3364,8 +3648,8 @@ func (swig_p *_swig_DirectorSlot) X_updateZOrder() {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback__updateZOrder_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__updateZOrder_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorSlot_callback__updateZOrder_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__updateZOrder_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_updateZOrder()
 }
@@ -3382,8 +3666,8 @@ func (swig_p *_swig_DirectorSlot) X_updateFrame() {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback__updateFrame_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__updateFrame_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorSlot_callback__updateFrame_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__updateFrame_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_updateFrame()
 }
@@ -3400,8 +3684,8 @@ func (swig_p *_swig_DirectorSlot) X_updateMesh() {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback__updateMesh_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__updateMesh_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorSlot_callback__updateMesh_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__updateMesh_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_updateMesh()
 }
@@ -3418,8 +3702,8 @@ func (swig_p *_swig_DirectorSlot) X_updateTransform() {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback__updateTransform_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__updateTransform_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorSlot_callback__updateTransform_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__updateTransform_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_updateTransform()
 }
@@ -3436,8 +3720,8 @@ func (swig_p *_swig_DirectorSlot) X_identityTransform() {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback__identityTransform_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__identityTransform_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorSlot_callback__identityTransform_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__identityTransform_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_identityTransform()
 }
@@ -3454,8 +3738,8 @@ func (swig_p *_swig_DirectorSlot) X_updateVisible() {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback__updateVisible_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__updateVisible_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorSlot_callback__updateVisible_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__updateVisible_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_updateVisible()
 }
@@ -3472,8 +3756,8 @@ func (swig_p *_swig_DirectorSlot) X_updateBlendMode() {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback__updateBlendMode_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__updateBlendMode_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorSlot_callback__updateBlendMode_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__updateBlendMode_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_updateBlendMode()
 }
@@ -3490,8 +3774,8 @@ func (swig_p *_swig_DirectorSlot) X_updateColor() {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorSlot_callback__updateColor_wrapper_0168c02bcda14bda
-func Swig_DirectorSlot_callback__updateColor_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorSlot_callback__updateColor_wrapper_49f4652e7e4716be
+func Swig_DirectorSlot_callback__updateColor_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorSlot)
 	swig_p.X_updateColor()
 }
@@ -3512,7 +3796,7 @@ func (p SwigcptrSlot) DirectorInterface() interface{} {
 func (arg1 SwigcptrSlot) SetDisplayController(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot_displayController_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_45)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_Slot_displayController_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_45)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -3521,7 +3805,7 @@ func (arg1 SwigcptrSlot) SetDisplayController(arg2 string) {
 func (arg1 SwigcptrSlot) GetDisplayController() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_Slot_displayController_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_Slot_displayController_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -3531,411 +3815,411 @@ func (arg1 SwigcptrSlot) GetDisplayController() (_swig_ret string) {
 func (arg1 SwigcptrSlot) SetX_colorDirty(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__colorDirty_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_Slot__colorDirty_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_colorDirty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Slot__colorDirty_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Slot__colorDirty_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_blendMode(arg2 DragonBonesBlendMode) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__blendMode_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Slot__blendMode_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_blendMode() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
 	_swig_i_0 := arg1
-	swig_r = (DragonBonesBlendMode)(C._wrap_Slot__blendMode_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (DragonBonesBlendMode)(C._wrap_Slot__blendMode_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_zOrder(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__zOrder_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Slot__zOrder_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_zOrder() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Slot__zOrder_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_Slot__zOrder_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_pivotX(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__pivotX_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Slot__pivotX_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_pivotX() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Slot__pivotX_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Slot__pivotX_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_pivotY(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__pivotY_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Slot__pivotY_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_pivotY() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Slot__pivotY_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Slot__pivotY_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_colorTransform(arg2 DragonBones_ColorTransform) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot__colorTransform_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__colorTransform_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_colorTransform() (_swig_ret DragonBones_ColorTransform) {
 	var swig_r DragonBones_ColorTransform
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_ColorTransform)(SwigcptrDragonBones_ColorTransform(C._wrap_Slot__colorTransform_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_ColorTransform)(SwigcptrDragonBones_ColorTransform(C._wrap_Slot__colorTransform_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_slotData(arg2 SlotData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot__slotData_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__slotData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_slotData() (_swig_ret SlotData) {
 	var swig_r SlotData
 	_swig_i_0 := arg1
-	swig_r = (SlotData)(SwigcptrSlotData(C._wrap_Slot__slotData_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (SlotData)(SwigcptrSlotData(C._wrap_Slot__slotData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
-func (arg1 SwigcptrSlot) SetX_displayData(arg2 DragonBones_DisplayData) {
+func (arg1 SwigcptrSlot) SetX_displayData(arg2 DisplayData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot__displayData_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__displayData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrSlot) GetX_displayData() (_swig_ret DragonBones_DisplayData) {
-	var swig_r DragonBones_DisplayData
+func (arg1 SwigcptrSlot) GetX_displayData() (_swig_ret DisplayData) {
+	var swig_r DisplayData
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_DisplayData)(SwigcptrDragonBones_DisplayData(C._wrap_Slot__displayData_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DisplayData)(SwigcptrDisplayData(C._wrap_Slot__displayData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
-func (arg1 SwigcptrSlot) SetX_deformVertices(arg2 DragonBones_DeformVertices) {
+func (arg1 SwigcptrSlot) SetX_deformVertices(arg2 DeformVertices) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot__deformVertices_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__deformVertices_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrSlot) GetX_deformVertices() (_swig_ret DragonBones_DeformVertices) {
-	var swig_r DragonBones_DeformVertices
+func (arg1 SwigcptrSlot) GetX_deformVertices() (_swig_ret DeformVertices) {
+	var swig_r DeformVertices
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_DeformVertices)(SwigcptrDragonBones_DeformVertices(C._wrap_Slot__deformVertices_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DeformVertices)(SwigcptrDeformVertices(C._wrap_Slot__deformVertices_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_rawDisplay(arg2 uintptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__rawDisplay_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__rawDisplay_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_rawDisplay() (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Slot__rawDisplay_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Slot__rawDisplay_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_meshDisplay(arg2 uintptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__meshDisplay_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__meshDisplay_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_meshDisplay() (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Slot__meshDisplay_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Slot__meshDisplay_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_cachedFrameIndices(arg2 Std_vector_Sl_int_Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot__cachedFrameIndices_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__cachedFrameIndices_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_cachedFrameIndices() (_swig_ret Std_vector_Sl_int_Sg_) {
 	var swig_r Std_vector_Sl_int_Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_int_Sg_)(SwigcptrStd_vector_Sl_int_Sg_(C._wrap_Slot__cachedFrameIndices_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_vector_Sl_int_Sg_)(SwigcptrStd_vector_Sl_int_Sg_(C._wrap_Slot__cachedFrameIndices_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_displayDirty(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__displayDirty_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_Slot__displayDirty_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_displayDirty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Slot__displayDirty_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Slot__displayDirty_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_zOrderDirty(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__zOrderDirty_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_Slot__zOrderDirty_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_zOrderDirty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Slot__zOrderDirty_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Slot__zOrderDirty_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_visibleDirty(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__visibleDirty_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_Slot__visibleDirty_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_visibleDirty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Slot__visibleDirty_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Slot__visibleDirty_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_blendModeDirty(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__blendModeDirty_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_Slot__blendModeDirty_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_blendModeDirty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Slot__blendModeDirty_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Slot__blendModeDirty_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_transformDirty(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__transformDirty_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_Slot__transformDirty_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_transformDirty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Slot__transformDirty_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Slot__transformDirty_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_visible(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__visible_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_Slot__visible_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_visible() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Slot__visible_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Slot__visible_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_displayIndex(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__displayIndex_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Slot__displayIndex_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_displayIndex() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Slot__displayIndex_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_Slot__displayIndex_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_animationDisplayIndex(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__animationDisplayIndex_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Slot__animationDisplayIndex_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_animationDisplayIndex() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Slot__animationDisplayIndex_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_Slot__animationDisplayIndex_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_cachedFrameIndex(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__cachedFrameIndex_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Slot__cachedFrameIndex_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_cachedFrameIndex() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Slot__cachedFrameIndex_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_Slot__cachedFrameIndex_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_localMatrix(arg2 Matrix) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot__localMatrix_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__localMatrix_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_localMatrix() (_swig_ret Matrix) {
 	var swig_r Matrix
 	_swig_i_0 := arg1
-	swig_r = (Matrix)(SwigcptrMatrix(C._wrap_Slot__localMatrix_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Matrix)(SwigcptrMatrix(C._wrap_Slot__localMatrix_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_displayDatas(arg2 Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot__displayDatas_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__displayDatas_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_displayDatas() (_swig_ret Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_) {
 	var swig_r Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_DisplayData_Sm__Sg_(C._wrap_Slot__displayDatas_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_DisplayData_Sm__Sg_(C._wrap_Slot__displayDatas_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_displayList(arg2 Std_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot__displayList_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__displayList_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_displayList() (_swig_ret Std_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_) {
 	var swig_r Std_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_)(SwigcptrStd_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_(C._wrap_Slot__displayList_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_)(SwigcptrStd_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_(C._wrap_Slot__displayList_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_rawDisplayDatas(arg2 Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot__rawDisplayDatas_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__rawDisplayDatas_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_rawDisplayDatas() (_swig_ret Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_) {
 	var swig_r Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_DisplayData_Sm__Sg_(C._wrap_Slot__rawDisplayDatas_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_DisplayData_Sm__Sg_(C._wrap_Slot__rawDisplayDatas_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_boundingBoxData(arg2 DragonBones_BoundingBoxData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot__boundingBoxData_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__boundingBoxData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_boundingBoxData() (_swig_ret DragonBones_BoundingBoxData) {
 	var swig_r DragonBones_BoundingBoxData
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_BoundingBoxData)(SwigcptrDragonBones_BoundingBoxData(C._wrap_Slot__boundingBoxData_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_BoundingBoxData)(SwigcptrDragonBones_BoundingBoxData(C._wrap_Slot__boundingBoxData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_textureData(arg2 TextureData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot__textureData_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__textureData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_textureData() (_swig_ret TextureData) {
 	var swig_r TextureData
 	_swig_i_0 := arg1
-	swig_r = (TextureData)(SwigcptrTextureData(C._wrap_Slot__textureData_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (TextureData)(SwigcptrTextureData(C._wrap_Slot__textureData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_display(arg2 uintptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot__display_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__display_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_display() (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Slot__display_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Slot__display_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetX_childArmature(arg2 Armature) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot__childArmature_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__childArmature_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetX_childArmature() (_swig_ret Armature) {
 	var swig_r Armature
 	_swig_i_0 := arg1
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_Slot__childArmature_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_Slot__childArmature_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
-func (arg1 SwigcptrSlot) SetX_parent(arg2 DragonBones_Bone) {
+func (arg1 SwigcptrSlot) SetX_parent(arg2 Bone) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot__parent_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot__parent_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrSlot) GetX_parent() (_swig_ret DragonBones_Bone) {
-	var swig_r DragonBones_Bone
+func (arg1 SwigcptrSlot) GetX_parent() (_swig_ret Bone) {
+	var swig_r Bone
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_Bone)(SwigcptrDragonBones_Bone(C._wrap_Slot__parent_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Bone)(SwigcptrBone(C._wrap_Slot__parent_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func DeleteSlot(arg1 Slot) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Slot_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Slot_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrSlot) X_updateVisible() {
 	_swig_i_0 := arg1
-	C._wrap_Slot__updateVisible_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_Slot__updateVisible_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrSlot) X_updateBlendMode() {
 	_swig_i_0 := arg1
-	C._wrap_Slot__updateBlendMode_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_Slot__updateBlendMode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrSlot) X_updateColor() {
 	_swig_i_0 := arg1
-	C._wrap_Slot__updateColor_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_Slot__updateColor_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrSlot) X_setDisplayIndex__SWIG_0(arg2 int, arg3 bool) (_swig_ret bool) {
@@ -3943,7 +4227,7 @@ func (arg1 SwigcptrSlot) X_setDisplayIndex__SWIG_0(arg2 int, arg3 bool) (_swig_r
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_Slot__setDisplayIndex__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C._Bool(_swig_i_2)))
+	swig_r = (bool)(C._wrap_Slot__setDisplayIndex__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C._Bool(_swig_i_2)))
 	return swig_r
 }
 
@@ -3951,7 +4235,7 @@ func (arg1 SwigcptrSlot) X_setDisplayIndex__SWIG_1(arg2 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_Slot__setDisplayIndex__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (bool)(C._wrap_Slot__setDisplayIndex__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -3970,7 +4254,7 @@ func (arg1 SwigcptrSlot) X_setZorder(arg2 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_Slot__setZorder_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (bool)(C._wrap_Slot__setZorder_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -3978,7 +4262,7 @@ func (arg1 SwigcptrSlot) X_setColor(arg2 DragonBones_ColorTransform) (_swig_ret 
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (bool)(C._wrap_Slot__setColor_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_Slot__setColor_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -3986,7 +4270,7 @@ func (arg1 SwigcptrSlot) X_setDisplayList(arg2 Std_vector_Sl_std_pair_Sl_void_Sm
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (bool)(C._wrap_Slot__setDisplayList_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_Slot__setDisplayList_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -3996,25 +4280,25 @@ func (arg1 SwigcptrSlot) Init(arg2 SlotData, arg3 Armature, arg4 uintptr, arg5 u
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_Slot_init_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))
+	C._wrap_Slot_init_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))
 }
 
 func (arg1 SwigcptrSlot) Update(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot_update_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Slot_update_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) UpdateTransformAndMatrix() {
 	_swig_i_0 := arg1
-	C._wrap_Slot_updateTransformAndMatrix_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_Slot_updateTransformAndMatrix_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
-func (arg1 SwigcptrSlot) ReplaceDisplayData(arg2 DragonBones_DisplayData, arg3 int) {
+func (arg1 SwigcptrSlot) ReplaceDisplayData(arg2 DisplayData, arg3 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	C._wrap_Slot_replaceDisplayData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_Slot_replaceDisplayData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
 func (arg1 SwigcptrSlot) ContainsPoint(arg2 float32, arg3 float32) (_swig_ret bool) {
@@ -4022,7 +4306,7 @@ func (arg1 SwigcptrSlot) ContainsPoint(arg2 float32, arg3 float32) (_swig_ret bo
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_Slot_containsPoint_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2)))
+	swig_r = (bool)(C._wrap_Slot_containsPoint_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2)))
 	return swig_r
 }
 
@@ -4036,7 +4320,7 @@ func (arg1 SwigcptrSlot) IntersectsSegment__SWIG_0(arg2 float32, arg3 float32, a
 	_swig_i_5 := arg6.Swigcptr()
 	_swig_i_6 := arg7.Swigcptr()
 	_swig_i_7 := arg8.Swigcptr()
-	swig_r = (int)(C._wrap_Slot_intersectsSegment__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.uintptr_t(_swig_i_5), C.uintptr_t(_swig_i_6), C.uintptr_t(_swig_i_7)))
+	swig_r = (int)(C._wrap_Slot_intersectsSegment__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.uintptr_t(_swig_i_5), C.uintptr_t(_swig_i_6), C.uintptr_t(_swig_i_7)))
 	return swig_r
 }
 
@@ -4049,7 +4333,7 @@ func (arg1 SwigcptrSlot) IntersectsSegment__SWIG_1(arg2 float32, arg3 float32, a
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6.Swigcptr()
 	_swig_i_6 := arg7.Swigcptr()
-	swig_r = (int)(C._wrap_Slot_intersectsSegment__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.uintptr_t(_swig_i_5), C.uintptr_t(_swig_i_6)))
+	swig_r = (int)(C._wrap_Slot_intersectsSegment__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.uintptr_t(_swig_i_5), C.uintptr_t(_swig_i_6)))
 	return swig_r
 }
 
@@ -4061,7 +4345,7 @@ func (arg1 SwigcptrSlot) IntersectsSegment__SWIG_2(arg2 float32, arg3 float32, a
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6.Swigcptr()
-	swig_r = (int)(C._wrap_Slot_intersectsSegment__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.uintptr_t(_swig_i_5)))
+	swig_r = (int)(C._wrap_Slot_intersectsSegment__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.uintptr_t(_swig_i_5)))
 	return swig_r
 }
 
@@ -4072,7 +4356,7 @@ func (arg1 SwigcptrSlot) IntersectsSegment__SWIG_3(arg2 float32, arg3 float32, a
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (int)(C._wrap_Slot_intersectsSegment__SWIG_3_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4)))
+	swig_r = (int)(C._wrap_Slot_intersectsSegment__SWIG_3_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4)))
 	return swig_r
 }
 
@@ -4095,39 +4379,39 @@ func (p SwigcptrSlot) IntersectsSegment(a ...interface{}) int {
 
 func (arg1 SwigcptrSlot) InvalidUpdate() {
 	_swig_i_0 := arg1
-	C._wrap_Slot_invalidUpdate_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_Slot_invalidUpdate_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrSlot) GetVisible() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Slot_getVisible_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Slot_getVisible_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetVisible(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot_setVisible_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_Slot_setVisible_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetDisplayIndex() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Slot_getDisplayIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_Slot_getDisplayIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetDisplayIndex(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot_setDisplayIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Slot_setDisplayIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_Slot_getName_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_Slot_getName_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -4137,61 +4421,61 @@ func (arg1 SwigcptrSlot) GetName() (_swig_ret string) {
 func (arg1 SwigcptrSlot) GetDisplayList() (_swig_ret Std_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_) {
 	var swig_r Std_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_)(SwigcptrStd_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_(C._wrap_Slot_getDisplayList_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_)(SwigcptrStd_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_(C._wrap_Slot_getDisplayList_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetDisplayList(arg2 Std_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot_setDisplayList_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot_setDisplayList_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetRawDisplayDatas() (_swig_ret Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_) {
 	var swig_r Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_DisplayData_Sm__Sg_(C._wrap_Slot_getRawDisplayDatas_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_DisplayData_Sm__Sg_(C._wrap_Slot_getRawDisplayDatas_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetRawDisplayDatas(arg2 Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot_setRawDisplayDatas_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot_setRawDisplayDatas_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlot) GetSlotData() (_swig_ret SlotData) {
 	var swig_r SlotData
 	_swig_i_0 := arg1
-	swig_r = (SlotData)(SwigcptrSlotData(C._wrap_Slot_getSlotData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (SlotData)(SwigcptrSlotData(C._wrap_Slot_getSlotData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) GetBoundingBoxData() (_swig_ret DragonBones_BoundingBoxData) {
 	var swig_r DragonBones_BoundingBoxData
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_BoundingBoxData)(SwigcptrDragonBones_BoundingBoxData(C._wrap_Slot_getBoundingBoxData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_BoundingBoxData)(SwigcptrDragonBones_BoundingBoxData(C._wrap_Slot_getBoundingBoxData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) GetRawDisplay() (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Slot_getRawDisplay_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Slot_getRawDisplay_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) GetMeshDisplay() (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Slot_getMeshDisplay_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Slot_getMeshDisplay_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) GetDisplay() (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Slot_getDisplay_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Slot_getDisplay_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -4199,118 +4483,118 @@ func (arg1 SwigcptrSlot) SetDisplay(arg2 uintptr, arg3 DragonBonesDisplayType) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Slot_setDisplay_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_Slot_setDisplay_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
 func (arg1 SwigcptrSlot) GetChildArmature() (_swig_ret Armature) {
 	var swig_r Armature
 	_swig_i_0 := arg1
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_Slot_getChildArmature_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_Slot_getChildArmature_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlot) SetChildArmature(arg2 Armature) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Slot_setChildArmature_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Slot_setChildArmature_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrSlot) GetParent() (_swig_ret DragonBones_Bone) {
-	var swig_r DragonBones_Bone
+func (arg1 SwigcptrSlot) GetParent() (_swig_ret Bone) {
+	var swig_r Bone
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_Bone)(SwigcptrDragonBones_Bone(C._wrap_Slot_getParent_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Bone)(SwigcptrBone(C._wrap_Slot_getParent_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSlot) SetGlobalTransformMatrix(arg1 Matrix) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_SetSlot_GlobalTransformMatrix_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+	C._wrap_SetSlot_GlobalTransformMatrix_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSlot) GetGlobalTransformMatrix() (_swig_ret Matrix) {
 	var swig_r Matrix
-	swig_r = (Matrix)(SwigcptrMatrix(C._wrap_GetSlot_GlobalTransformMatrix_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))))
+	swig_r = (Matrix)(SwigcptrMatrix(C._wrap_GetSlot_GlobalTransformMatrix_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSlot) SetGlobal(arg1 Transform) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_SetSlot_Global_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+	C._wrap_SetSlot_Global_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSlot) GetGlobal() (_swig_ret Transform) {
 	var swig_r Transform
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_GetSlot_Global_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_GetSlot_Global_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSlot) SetOffset(arg1 Transform) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_SetSlot_Offset_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+	C._wrap_SetSlot_Offset_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSlot) GetOffset() (_swig_ret Transform) {
 	var swig_r Transform
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_GetSlot_Offset_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_GetSlot_Offset_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSlot) SetOrigin(arg1 Transform) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_SetSlot_Origin_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+	C._wrap_SetSlot_Origin_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSlot) GetOrigin() (_swig_ret Transform) {
 	var swig_r Transform
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_GetSlot_Origin_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_GetSlot_Origin_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSlot) SetUserData(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_SetSlot_UserData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+	C._wrap_SetSlot_UserData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSlot) GetUserData() (_swig_ret uintptr) {
 	var swig_r uintptr
-	swig_r = (uintptr)(C._wrap_GetSlot_UserData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (uintptr)(C._wrap_GetSlot_UserData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSlot) SetX_armature(arg1 Armature) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_SetSlot_X_armature_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+	C._wrap_SetSlot_X_armature_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSlot) GetX_armature() (_swig_ret Armature) {
 	var swig_r Armature
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_GetSlot_X_armature_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_GetSlot_X_armature_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSlot) UpdateGlobalTransform() {
-	C._wrap_Slot_updateGlobalTransform_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))
+	C._wrap_Slot_updateGlobalTransform_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrSlot) GetArmature() (_swig_ret Armature) {
 	var swig_r Armature
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_Slot_getArmature_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_Slot_getArmature_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
 	return swig_r
 }
 
 func SlotSetMaxCount(arg1 int64, arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Slot_setMaxCount_wrapper_0168c02bcda14bda(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Slot_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SlotClearPool__SWIG_0(arg1 int64) {
 	_swig_i_0 := arg1
-	C._wrap_Slot_clearPool__SWIG_0_wrapper_0168c02bcda14bda(C.swig_type_3(_swig_i_0))
+	C._wrap_Slot_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
 }
 
 func SlotClearPool__SWIG_1() {
-	C._wrap_Slot_clearPool__SWIG_1_wrapper_0168c02bcda14bda()
+	C._wrap_Slot_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
 }
 
 func SlotClearPool(a ...interface{}) {
@@ -4328,23 +4612,23 @@ func SlotClearPool(a ...interface{}) {
 
 func (_swig_base SwigcptrSlot) GetHashCode() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_GetSlot_HashCode_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (uint)(C._wrap_GetSlot_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSlot) GetClassTypeIndex() (_swig_ret int64) {
 	var swig_r int64
-	swig_r = (int64)(C._wrap_Slot_getClassTypeIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (int64)(C._wrap_Slot_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSlot) ReturnToPool() {
-	C._wrap_Slot_returnToPool_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))
+	C._wrap_Slot_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
 }
 
 func SlotBorrowArmatureObject() (_swig_ret Armature) {
 	var swig_r Armature
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_Slot_borrowArmatureObject_wrapper_0168c02bcda14bda()))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_Slot_borrowArmatureObject_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
@@ -4382,10 +4666,10 @@ type Slot interface {
 	GetX_colorTransform() (_swig_ret DragonBones_ColorTransform)
 	SetX_slotData(arg2 SlotData)
 	GetX_slotData() (_swig_ret SlotData)
-	SetX_displayData(arg2 DragonBones_DisplayData)
-	GetX_displayData() (_swig_ret DragonBones_DisplayData)
-	SetX_deformVertices(arg2 DragonBones_DeformVertices)
-	GetX_deformVertices() (_swig_ret DragonBones_DeformVertices)
+	SetX_displayData(arg2 DisplayData)
+	GetX_displayData() (_swig_ret DisplayData)
+	SetX_deformVertices(arg2 DeformVertices)
+	GetX_deformVertices() (_swig_ret DeformVertices)
 	SetX_rawDisplay(arg2 uintptr)
 	GetX_rawDisplay() (_swig_ret uintptr)
 	SetX_meshDisplay(arg2 uintptr)
@@ -4402,7 +4686,7 @@ type Slot interface {
 	Init(arg2 SlotData, arg3 Armature, arg4 uintptr, arg5 uintptr)
 	Update(arg2 int)
 	UpdateTransformAndMatrix()
-	ReplaceDisplayData(arg2 DragonBones_DisplayData, arg3 int)
+	ReplaceDisplayData(arg2 DisplayData, arg3 int)
 	ContainsPoint(arg2 float32, arg3 float32) (_swig_ret bool)
 	IntersectsSegment(a ...interface{}) int
 	InvalidUpdate()
@@ -4423,7 +4707,7 @@ type Slot interface {
 	SetDisplay(arg2 uintptr, arg3 DragonBonesDisplayType)
 	GetChildArmature() (_swig_ret Armature)
 	SetChildArmature(arg2 Armature)
-	GetParent() (_swig_ret DragonBones_Bone)
+	GetParent() (_swig_ret Bone)
 	SetGlobalTransformMatrix(arg1 Matrix)
 	GetGlobalTransformMatrix() (_swig_ret Matrix)
 	SetGlobal(arg1 Transform)
@@ -4458,167 +4742,167 @@ func (p SwigcptrArmature) SwigIsArmature() {
 
 func ArmatureGetTypeIndex() (_swig_ret int64) {
 	var swig_r int64
-	swig_r = (int64)(C._wrap_Armature_getTypeIndex_wrapper_0168c02bcda14bda())
+	swig_r = (int64)(C._wrap_Armature_getTypeIndex_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) GetClassTypeIndex() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_Armature_getClassTypeIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_Armature_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) SetInheritAnimation(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Armature_inheritAnimation_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_Armature_inheritAnimation_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) GetInheritAnimation() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Armature_inheritAnimation_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Armature_inheritAnimation_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) SetUserData(arg2 uintptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Armature_userData_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Armature_userData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) GetUserData() (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Armature_userData_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Armature_userData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) SetX_cacheFrameIndex(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Armature__cacheFrameIndex_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Armature__cacheFrameIndex_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) GetX_cacheFrameIndex() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Armature__cacheFrameIndex_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_Armature__cacheFrameIndex_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) SetX_armatureData(arg2 ArmatureData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Armature__armatureData_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Armature__armatureData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) GetX_armatureData() (_swig_ret ArmatureData) {
 	var swig_r ArmatureData
 	_swig_i_0 := arg1
-	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_Armature__armatureData_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_Armature__armatureData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) SetX_dragonBones(arg2 DragonBones) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Armature__dragonBones_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Armature__dragonBones_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) GetX_dragonBones() (_swig_ret DragonBones) {
 	var swig_r DragonBones
 	_swig_i_0 := arg1
-	swig_r = (DragonBones)(SwigcptrDragonBones(C._wrap_Armature__dragonBones_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones)(SwigcptrDragonBones(C._wrap_Armature__dragonBones_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) SetX_parent(arg2 Slot) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Armature__parent_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Armature__parent_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) GetX_parent() (_swig_ret Slot) {
 	var swig_r Slot
 	_swig_i_0 := arg1
-	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature__parent_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature__parent_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) SetX_replaceTextureAtlasData(arg2 TextureAtlasData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Armature__replaceTextureAtlasData_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Armature__replaceTextureAtlasData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) GetX_replaceTextureAtlasData() (_swig_ret TextureAtlasData) {
 	var swig_r TextureAtlasData
 	_swig_i_0 := arg1
-	swig_r = (TextureAtlasData)(SwigcptrTextureAtlasData(C._wrap_Armature__replaceTextureAtlasData_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (TextureAtlasData)(SwigcptrTextureAtlasData(C._wrap_Armature__replaceTextureAtlasData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) SetX_constraints(arg2 Std_vector_Sl_dragonBones_Constraint_Sm__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Armature__constraints_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Armature__constraints_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) GetX_constraints() (_swig_ret Std_vector_Sl_dragonBones_Constraint_Sm__Sg_) {
 	var swig_r Std_vector_Sl_dragonBones_Constraint_Sm__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_dragonBones_Constraint_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_Constraint_Sm__Sg_(C._wrap_Armature__constraints_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_vector_Sl_dragonBones_Constraint_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_Constraint_Sm__Sg_(C._wrap_Armature__constraints_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewArmature() (_swig_ret Armature) {
 	var swig_r Armature
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_new_Armature_wrapper_0168c02bcda14bda()))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_new_Armature_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func DeleteArmature(arg1 Armature) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Armature_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Armature_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
-func (arg1 SwigcptrArmature) X_sortZOrder(arg2 Int16_t, arg3 uint) {
+func (arg1 SwigcptrArmature) X_sortZOrder(arg2 *int16, arg3 uint) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
+	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Armature__sortZOrder_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_Armature__sortZOrder_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
-func (arg1 SwigcptrArmature) X_addBone(arg2 DragonBones_Bone) {
+func (arg1 SwigcptrArmature) X_addBone(arg2 Bone) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Armature__addBone_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Armature__addBone_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) X_addSlot(arg2 Slot) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Armature__addSlot_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Armature__addSlot_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) X_addConstraint(arg2 DragonBones_Constraint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Armature__addConstraint_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Armature__addConstraint_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) X_bufferAction(arg2 DragonBones_EventObject, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	C._wrap_Armature__bufferAction_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2))
+	C._wrap_Armature__bufferAction_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2))
 }
 
 func (arg1 SwigcptrArmature) Dispose() {
 	_swig_i_0 := arg1
-	C._wrap_Armature_dispose_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_Armature_dispose_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrArmature) Init(arg2 ArmatureData, arg3 IArmatureProxy, arg4 uintptr, arg5 DragonBones) {
@@ -4627,20 +4911,20 @@ func (arg1 SwigcptrArmature) Init(arg2 ArmatureData, arg3 IArmatureProxy, arg4 u
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5.Swigcptr()
-	C._wrap_Armature_init_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))
+	C._wrap_Armature_init_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))
 }
 
 func (arg1 SwigcptrArmature) AdvanceTime(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Armature_advanceTime_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Armature_advanceTime_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) InvalidUpdate__SWIG_0(arg2 string, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Armature_invalidUpdate__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_51)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))
+	C._wrap_Armature_invalidUpdate__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_51)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4649,7 +4933,7 @@ func (arg1 SwigcptrArmature) InvalidUpdate__SWIG_0(arg2 string, arg3 bool) {
 func (arg1 SwigcptrArmature) InvalidUpdate__SWIG_1(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Armature_invalidUpdate__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_52)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_Armature_invalidUpdate__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_52)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4657,7 +4941,7 @@ func (arg1 SwigcptrArmature) InvalidUpdate__SWIG_1(arg2 string) {
 
 func (arg1 SwigcptrArmature) InvalidUpdate__SWIG_2() {
 	_swig_i_0 := arg1
-	C._wrap_Armature_invalidUpdate__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_Armature_invalidUpdate__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (p SwigcptrArmature) InvalidUpdate(a ...interface{}) {
@@ -4682,7 +4966,7 @@ func (arg1 SwigcptrArmature) ContainsPoint(arg2 float32, arg3 float32) (_swig_re
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_containsPoint_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2))))
+	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_containsPoint_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2))))
 	return swig_r
 }
 
@@ -4696,7 +4980,7 @@ func (arg1 SwigcptrArmature) IntersectsSegment__SWIG_0(arg2 float32, arg3 float3
 	_swig_i_5 := arg6.Swigcptr()
 	_swig_i_6 := arg7.Swigcptr()
 	_swig_i_7 := arg8.Swigcptr()
-	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_intersectsSegment__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.uintptr_t(_swig_i_5), C.uintptr_t(_swig_i_6), C.uintptr_t(_swig_i_7))))
+	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_intersectsSegment__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.uintptr_t(_swig_i_5), C.uintptr_t(_swig_i_6), C.uintptr_t(_swig_i_7))))
 	return swig_r
 }
 
@@ -4709,7 +4993,7 @@ func (arg1 SwigcptrArmature) IntersectsSegment__SWIG_1(arg2 float32, arg3 float3
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6.Swigcptr()
 	_swig_i_6 := arg7.Swigcptr()
-	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_intersectsSegment__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.uintptr_t(_swig_i_5), C.uintptr_t(_swig_i_6))))
+	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_intersectsSegment__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.uintptr_t(_swig_i_5), C.uintptr_t(_swig_i_6))))
 	return swig_r
 }
 
@@ -4721,7 +5005,7 @@ func (arg1 SwigcptrArmature) IntersectsSegment__SWIG_2(arg2 float32, arg3 float3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6.Swigcptr()
-	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_intersectsSegment__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.uintptr_t(_swig_i_5))))
+	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_intersectsSegment__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.uintptr_t(_swig_i_5))))
 	return swig_r
 }
 
@@ -4732,7 +5016,7 @@ func (arg1 SwigcptrArmature) IntersectsSegment__SWIG_3(arg2 float32, arg3 float3
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_intersectsSegment__SWIG_3_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4))))
+	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_intersectsSegment__SWIG_3_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4))))
 	return swig_r
 }
 
@@ -4753,22 +5037,22 @@ func (p SwigcptrArmature) IntersectsSegment(a ...interface{}) Slot {
 	panic("No match for overloaded function call")
 }
 
-func (arg1 SwigcptrArmature) GetBone(arg2 string) (_swig_ret DragonBones_Bone) {
-	var swig_r DragonBones_Bone
+func (arg1 SwigcptrArmature) GetBone(arg2 string) (_swig_ret Bone) {
+	var swig_r Bone
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBones_Bone)(SwigcptrDragonBones_Bone(C._wrap_Armature_getBone_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_53)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Bone)(SwigcptrBone(C._wrap_Armature_getBone_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_53)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
 	return swig_r
 }
 
-func (arg1 SwigcptrArmature) GetBoneByDisplay(arg2 uintptr) (_swig_ret DragonBones_Bone) {
-	var swig_r DragonBones_Bone
+func (arg1 SwigcptrArmature) GetBoneByDisplay(arg2 uintptr) (_swig_ret Bone) {
+	var swig_r Bone
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBones_Bone)(SwigcptrDragonBones_Bone(C._wrap_Armature_getBoneByDisplay_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Bone)(SwigcptrBone(C._wrap_Armature_getBoneByDisplay_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -4776,7 +5060,7 @@ func (arg1 SwigcptrArmature) GetSlot(arg2 string) (_swig_ret Slot) {
 	var swig_r Slot
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_getSlot_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_54)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_getSlot_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_54)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4787,67 +5071,67 @@ func (arg1 SwigcptrArmature) GetSlotByDisplay(arg2 uintptr) (_swig_ret Slot) {
 	var swig_r Slot
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_getSlotByDisplay_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_getSlotByDisplay_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
-func (arg1 SwigcptrArmature) GetBones() (_swig_ret Std_vector_Sl_dragonBones_Bone_Sm__Sg_) {
-	var swig_r Std_vector_Sl_dragonBones_Bone_Sm__Sg_
+func (arg1 SwigcptrArmature) GetBones() (_swig_ret VectorBone) {
+	var swig_r VectorBone
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_dragonBones_Bone_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_Bone_Sm__Sg_(C._wrap_Armature_getBones_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorBone)(SwigcptrVectorBone(C._wrap_Armature_getBones_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) GetSlots() (_swig_ret Std_vector_Sl_dragonBones_Slot_Sm__Sg_) {
 	var swig_r Std_vector_Sl_dragonBones_Slot_Sm__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_dragonBones_Slot_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_Slot_Sm__Sg_(C._wrap_Armature_getSlots_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_vector_Sl_dragonBones_Slot_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_Slot_Sm__Sg_(C._wrap_Armature_getSlots_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) GetFlipX() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Armature_getFlipX_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Armature_getFlipX_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) SetFlipX(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Armature_setFlipX_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_Armature_setFlipX_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) GetFlipY() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Armature_getFlipY_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Armature_getFlipY_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) SetFlipY(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Armature_setFlipY_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_Armature_setFlipY_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) GetCacheFrameRate() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_Armature_getCacheFrameRate_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_Armature_getCacheFrameRate_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) SetCacheFrameRate(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Armature_setCacheFrameRate_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Armature_setCacheFrameRate_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) GetName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_Armature_getName_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_Armature_getName_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -4857,91 +5141,91 @@ func (arg1 SwigcptrArmature) GetName() (_swig_ret string) {
 func (arg1 SwigcptrArmature) GetArmatureData() (_swig_ret ArmatureData) {
 	var swig_r ArmatureData
 	_swig_i_0 := arg1
-	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_Armature_getArmatureData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_Armature_getArmatureData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) GetAnimation() (_swig_ret Animation) {
 	var swig_r Animation
 	_swig_i_0 := arg1
-	swig_r = (Animation)(SwigcptrAnimation(C._wrap_Armature_getAnimation_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Animation)(SwigcptrAnimation(C._wrap_Armature_getAnimation_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) GetProxy() (_swig_ret IArmatureProxy) {
 	var swig_r IArmatureProxy
 	_swig_i_0 := arg1
-	swig_r = (IArmatureProxy)(SwigcptrIArmatureProxy(C._wrap_Armature_getProxy_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (IArmatureProxy)(SwigcptrIArmatureProxy(C._wrap_Armature_getProxy_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) GetEventDispatcher() (_swig_ret IEventDispatcher) {
 	var swig_r IEventDispatcher
 	_swig_i_0 := arg1
-	swig_r = (IEventDispatcher)(SwigcptrIEventDispatcher(C._wrap_Armature_getEventDispatcher_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (IEventDispatcher)(SwigcptrIEventDispatcher(C._wrap_Armature_getEventDispatcher_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) GetDisplay() (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Armature_getDisplay_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Armature_getDisplay_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) GetReplacedTexture() (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Armature_getReplacedTexture_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Armature_getReplacedTexture_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) SetReplacedTexture(arg2 uintptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Armature_setReplacedTexture_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Armature_setReplacedTexture_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) GetClock() (_swig_ret WorldClock) {
 	var swig_r WorldClock
 	_swig_i_0 := arg1
-	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_Armature_getClock_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_Armature_getClock_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) SetClock(arg2 WorldClock) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Armature_setClock_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Armature_setClock_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmature) GetParent() (_swig_ret Slot) {
 	var swig_r Slot
 	_swig_i_0 := arg1
-	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_getParent_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Slot)(SwigcptrSlot(C._wrap_Armature_getParent_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmature) GetAnimatable() (_swig_ret IAnimatable) {
 	var swig_r IAnimatable
 	_swig_i_0 := arg1
-	swig_r = (IAnimatable)(SwigcptrIAnimatable(C._wrap_Armature_getAnimatable_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (IAnimatable)(SwigcptrIAnimatable(C._wrap_Armature_getAnimatable_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func ArmatureSetMaxCount(arg1 int64, arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Armature_setMaxCount_wrapper_0168c02bcda14bda(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Armature_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func ArmatureClearPool__SWIG_0(arg1 int64) {
 	_swig_i_0 := arg1
-	C._wrap_Armature_clearPool__SWIG_0_wrapper_0168c02bcda14bda(C.swig_type_3(_swig_i_0))
+	C._wrap_Armature_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
 }
 
 func ArmatureClearPool__SWIG_1() {
-	C._wrap_Armature_clearPool__SWIG_1_wrapper_0168c02bcda14bda()
+	C._wrap_Armature_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
 }
 
 func ArmatureClearPool(a ...interface{}) {
@@ -4959,17 +5243,17 @@ func ArmatureClearPool(a ...interface{}) {
 
 func (_swig_base SwigcptrArmature) GetHashCode() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_GetArmature_HashCode_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (uint)(C._wrap_GetArmature_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrArmature) ReturnToPool() {
-	C._wrap_Armature_returnToPool_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))
+	C._wrap_Armature_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
 }
 
 func ArmatureBorrowArmatureObject() (_swig_ret Armature) {
 	var swig_r Armature
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_Armature_borrowArmatureObject_wrapper_0168c02bcda14bda()))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_Armature_borrowArmatureObject_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
@@ -4983,7 +5267,7 @@ func (p SwigcptrArmature) SwigGetIAnimatable() IAnimatable {
 func (arg1 SwigcptrArmature) SwigGetBaseObject() (_swig_ret BaseObject) {
 	var swig_r BaseObject
 	_swig_i_0 := arg1
-	swig_r = (BaseObject)(SwigcptrBaseObject(C._wrap_Armature_SwigGetBaseObject_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (BaseObject)(SwigcptrBaseObject(C._wrap_Armature_SwigGetBaseObject_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5007,8 +5291,8 @@ type Armature interface {
 	GetX_replaceTextureAtlasData() (_swig_ret TextureAtlasData)
 	SetX_constraints(arg2 Std_vector_Sl_dragonBones_Constraint_Sm__Sg_)
 	GetX_constraints() (_swig_ret Std_vector_Sl_dragonBones_Constraint_Sm__Sg_)
-	X_sortZOrder(arg2 Int16_t, arg3 uint)
-	X_addBone(arg2 DragonBones_Bone)
+	X_sortZOrder(arg2 *int16, arg3 uint)
+	X_addBone(arg2 Bone)
 	X_addSlot(arg2 Slot)
 	X_addConstraint(arg2 DragonBones_Constraint)
 	X_bufferAction(arg2 DragonBones_EventObject, arg3 bool)
@@ -5018,11 +5302,11 @@ type Armature interface {
 	InvalidUpdate(a ...interface{})
 	ContainsPoint(arg2 float32, arg3 float32) (_swig_ret Slot)
 	IntersectsSegment(a ...interface{}) Slot
-	GetBone(arg2 string) (_swig_ret DragonBones_Bone)
-	GetBoneByDisplay(arg2 uintptr) (_swig_ret DragonBones_Bone)
+	GetBone(arg2 string) (_swig_ret Bone)
+	GetBoneByDisplay(arg2 uintptr) (_swig_ret Bone)
 	GetSlot(arg2 string) (_swig_ret Slot)
 	GetSlotByDisplay(arg2 uintptr) (_swig_ret Slot)
-	GetBones() (_swig_ret Std_vector_Sl_dragonBones_Bone_Sm__Sg_)
+	GetBones() (_swig_ret VectorBone)
 	GetSlots() (_swig_ret Std_vector_Sl_dragonBones_Slot_Sm__Sg_)
 	GetFlipX() (_swig_ret bool)
 	SetFlipX(arg2 bool)
@@ -5049,6 +5333,397 @@ type Armature interface {
 	SwigGetBaseObject() (_swig_ret BaseObject)
 }
 
+type SwigcptrBone uintptr
+
+func (p SwigcptrBone) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrBone) SwigIsBone() {
+}
+
+func BoneGetTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	swig_r = (int64)(C._wrap_Bone_getTypeIndex_wrapper_49f4652e7e4716be())
+	return swig_r
+}
+
+func (arg1 SwigcptrBone) GetClassTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	swig_r = (int64)(C._wrap_Bone_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewBone() (_swig_ret Bone) {
+	var swig_r Bone
+	swig_r = (Bone)(SwigcptrBone(C._wrap_new_Bone_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func DeleteBone(arg1 Bone) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_Bone_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrBone) SetOffsetMode(arg2 DragonBonesOffsetMode) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Bone_offsetMode_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrBone) GetOffsetMode() (_swig_ret DragonBonesOffsetMode) {
+	var swig_r DragonBonesOffsetMode
+	_swig_i_0 := arg1
+	swig_r = (DragonBonesOffsetMode)(C._wrap_Bone_offsetMode_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrBone) SetAnimationPose(arg2 Transform) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_Bone_animationPose_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrBone) GetAnimationPose() (_swig_ret Transform) {
+	var swig_r Transform
+	_swig_i_0 := arg1
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_Bone_animationPose_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrBone) SetX_transformDirty(arg2 bool) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Bone__transformDirty_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+}
+
+func (arg1 SwigcptrBone) GetX_transformDirty() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_Bone__transformDirty_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrBone) SetX_childrenTransformDirty(arg2 bool) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Bone__childrenTransformDirty_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+}
+
+func (arg1 SwigcptrBone) GetX_childrenTransformDirty() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_Bone__childrenTransformDirty_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrBone) SetX_hasConstraint(arg2 bool) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Bone__hasConstraint_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+}
+
+func (arg1 SwigcptrBone) GetX_hasConstraint() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_Bone__hasConstraint_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrBone) SetX_blendState(arg2 DragonBones_BlendState) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_Bone__blendState_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrBone) GetX_blendState() (_swig_ret DragonBones_BlendState) {
+	var swig_r DragonBones_BlendState
+	_swig_i_0 := arg1
+	swig_r = (DragonBones_BlendState)(SwigcptrDragonBones_BlendState(C._wrap_Bone__blendState_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrBone) SetX_boneData(arg2 BoneData) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_Bone__boneData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrBone) GetX_boneData() (_swig_ret BoneData) {
+	var swig_r BoneData
+	_swig_i_0 := arg1
+	swig_r = (BoneData)(SwigcptrBoneData(C._wrap_Bone__boneData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrBone) SetX_cachedFrameIndices(arg2 Std_vector_Sl_int_Sg_) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_Bone__cachedFrameIndices_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrBone) GetX_cachedFrameIndices() (_swig_ret Std_vector_Sl_int_Sg_) {
+	var swig_r Std_vector_Sl_int_Sg_
+	_swig_i_0 := arg1
+	swig_r = (Std_vector_Sl_int_Sg_)(SwigcptrStd_vector_Sl_int_Sg_(C._wrap_Bone__cachedFrameIndices_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrBone) Init(arg2 BoneData, arg3 Armature) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	_swig_i_2 := arg3.Swigcptr()
+	C._wrap_Bone_init_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+}
+
+func (arg1 SwigcptrBone) Update(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Bone_update_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrBone) UpdateByConstraint() {
+	_swig_i_0 := arg1
+	C._wrap_Bone_updateByConstraint_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrBone) InvalidUpdate() {
+	_swig_i_0 := arg1
+	C._wrap_Bone_invalidUpdate_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrBone) Contains(arg2 Bone) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	swig_r = (bool)(C._wrap_Bone_contains_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	return swig_r
+}
+
+func (arg1 SwigcptrBone) GetBoneData() (_swig_ret BoneData) {
+	var swig_r BoneData
+	_swig_i_0 := arg1
+	swig_r = (BoneData)(SwigcptrBoneData(C._wrap_Bone_getBoneData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrBone) GetVisible() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_Bone_getVisible_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrBone) SetVisible(arg2 bool) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Bone_setVisible_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+}
+
+func (arg1 SwigcptrBone) GetName() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_Bone_getName_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrBone) GetParent() (_swig_ret Bone) {
+	var swig_r Bone
+	_swig_i_0 := arg1
+	swig_r = (Bone)(SwigcptrBone(C._wrap_Bone_getParent_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (_swig_base SwigcptrBone) SetGlobalTransformMatrix(arg1 Matrix) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SetBone_GlobalTransformMatrix_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrBone) GetGlobalTransformMatrix() (_swig_ret Matrix) {
+	var swig_r Matrix
+	swig_r = (Matrix)(SwigcptrMatrix(C._wrap_GetBone_GlobalTransformMatrix_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
+	return swig_r
+}
+
+func (_swig_base SwigcptrBone) SetGlobal(arg1 Transform) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SetBone_Global_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrBone) GetGlobal() (_swig_ret Transform) {
+	var swig_r Transform
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_GetBone_Global_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
+	return swig_r
+}
+
+func (_swig_base SwigcptrBone) SetOffset(arg1 Transform) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SetBone_Offset_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrBone) GetOffset() (_swig_ret Transform) {
+	var swig_r Transform
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_GetBone_Offset_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
+	return swig_r
+}
+
+func (_swig_base SwigcptrBone) SetOrigin(arg1 Transform) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SetBone_Origin_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrBone) GetOrigin() (_swig_ret Transform) {
+	var swig_r Transform
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_GetBone_Origin_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
+	return swig_r
+}
+
+func (_swig_base SwigcptrBone) SetUserData(arg1 uintptr) {
+	_swig_i_0 := arg1
+	C._wrap_SetBone_UserData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrBone) GetUserData() (_swig_ret uintptr) {
+	var swig_r uintptr
+	swig_r = (uintptr)(C._wrap_GetBone_UserData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrBone) SetX_armature(arg1 Armature) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SetBone_X_armature_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrBone) GetX_armature() (_swig_ret Armature) {
+	var swig_r Armature
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_GetBone_X_armature_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
+	return swig_r
+}
+
+func (_swig_base SwigcptrBone) UpdateGlobalTransform() {
+	C._wrap_Bone_updateGlobalTransform_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrBone) GetArmature() (_swig_ret Armature) {
+	var swig_r Armature
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_Bone_getArmature_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
+	return swig_r
+}
+
+func BoneSetMaxCount(arg1 int64, arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Bone_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func BoneClearPool__SWIG_0(arg1 int64) {
+	_swig_i_0 := arg1
+	C._wrap_Bone_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
+}
+
+func BoneClearPool__SWIG_1() {
+	C._wrap_Bone_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
+}
+
+func BoneClearPool(a ...interface{}) {
+	argc := len(a)
+	if argc == 0 {
+		BoneClearPool__SWIG_1()
+		return
+	}
+	if argc == 1 {
+		BoneClearPool__SWIG_0(a[0].(int64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrBone) GetHashCode() (_swig_ret uint) {
+	var swig_r uint
+	swig_r = (uint)(C._wrap_GetBone_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrBone) ReturnToPool() {
+	C._wrap_Bone_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+}
+
+func BoneBorrowArmatureObject() (_swig_ret Armature) {
+	var swig_r Armature
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_Bone_borrowArmatureObject_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func (p SwigcptrBone) SwigIsTransformObject() {
+}
+
+func (p SwigcptrBone) SwigGetTransformObject() TransformObject {
+	return SwigcptrTransformObject(p.Swigcptr())
+}
+
+func (p SwigcptrBone) SwigIsBaseObject() {
+}
+
+func (p SwigcptrBone) SwigGetBaseObject() BaseObject {
+	return SwigcptrBaseObject(p.Swigcptr())
+}
+
+type Bone interface {
+	Swigcptr() uintptr
+	SwigIsBone()
+	GetClassTypeIndex() (_swig_ret int64)
+	SetOffsetMode(arg2 DragonBonesOffsetMode)
+	GetOffsetMode() (_swig_ret DragonBonesOffsetMode)
+	SetAnimationPose(arg2 Transform)
+	GetAnimationPose() (_swig_ret Transform)
+	SetX_transformDirty(arg2 bool)
+	GetX_transformDirty() (_swig_ret bool)
+	SetX_childrenTransformDirty(arg2 bool)
+	GetX_childrenTransformDirty() (_swig_ret bool)
+	SetX_hasConstraint(arg2 bool)
+	GetX_hasConstraint() (_swig_ret bool)
+	SetX_blendState(arg2 DragonBones_BlendState)
+	GetX_blendState() (_swig_ret DragonBones_BlendState)
+	SetX_boneData(arg2 BoneData)
+	GetX_boneData() (_swig_ret BoneData)
+	SetX_cachedFrameIndices(arg2 Std_vector_Sl_int_Sg_)
+	GetX_cachedFrameIndices() (_swig_ret Std_vector_Sl_int_Sg_)
+	Init(arg2 BoneData, arg3 Armature)
+	Update(arg2 int)
+	UpdateByConstraint()
+	InvalidUpdate()
+	Contains(arg2 Bone) (_swig_ret bool)
+	GetBoneData() (_swig_ret BoneData)
+	GetVisible() (_swig_ret bool)
+	SetVisible(arg2 bool)
+	GetName() (_swig_ret string)
+	GetParent() (_swig_ret Bone)
+	SetGlobalTransformMatrix(arg1 Matrix)
+	GetGlobalTransformMatrix() (_swig_ret Matrix)
+	SetGlobal(arg1 Transform)
+	GetGlobal() (_swig_ret Transform)
+	SetOffset(arg1 Transform)
+	GetOffset() (_swig_ret Transform)
+	SetOrigin(arg1 Transform)
+	GetOrigin() (_swig_ret Transform)
+	SetUserData(arg1 uintptr)
+	GetUserData() (_swig_ret uintptr)
+	SetX_armature(arg1 Armature)
+	GetX_armature() (_swig_ret Armature)
+	UpdateGlobalTransform()
+	GetArmature() (_swig_ret Armature)
+	GetHashCode() (_swig_ret uint)
+	ReturnToPool()
+	SwigIsTransformObject()
+	SwigGetTransformObject() TransformObject
+	SwigIsBaseObject()
+	SwigGetBaseObject() BaseObject
+}
+
 type SwigcptrDragonBonesData uintptr
 
 func (p SwigcptrDragonBonesData) Swigcptr() uintptr {
@@ -5060,47 +5735,47 @@ func (p SwigcptrDragonBonesData) SwigIsDragonBonesData() {
 
 func DragonBonesDataGetTypeIndex() (_swig_ret int64) {
 	var swig_r int64
-	swig_r = (int64)(C._wrap_DragonBonesData_getTypeIndex_wrapper_0168c02bcda14bda())
+	swig_r = (int64)(C._wrap_DragonBonesData_getTypeIndex_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func (arg1 SwigcptrDragonBonesData) GetClassTypeIndex() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_DragonBonesData_getClassTypeIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_DragonBonesData_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrDragonBonesData) SetAutoSearch(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_DragonBonesData_autoSearch_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_DragonBonesData_autoSearch_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrDragonBonesData) GetAutoSearch() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_DragonBonesData_autoSearch_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_DragonBonesData_autoSearch_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrDragonBonesData) SetFrameRate(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_DragonBonesData_frameRate_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_DragonBonesData_frameRate_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrDragonBonesData) GetFrameRate() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_DragonBonesData_frameRate_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_DragonBonesData_frameRate_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrDragonBonesData) SetVersion(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_DragonBonesData_version_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_58)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_DragonBonesData_version_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_61)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -5109,7 +5784,7 @@ func (arg1 SwigcptrDragonBonesData) SetVersion(arg2 string) {
 func (arg1 SwigcptrDragonBonesData) GetVersion() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_DragonBonesData_version_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_DragonBonesData_version_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -5119,7 +5794,7 @@ func (arg1 SwigcptrDragonBonesData) GetVersion() (_swig_ret string) {
 func (arg1 SwigcptrDragonBonesData) SetName(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_DragonBonesData_name_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_60)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_DragonBonesData_name_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_63)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -5128,7 +5803,7 @@ func (arg1 SwigcptrDragonBonesData) SetName(arg2 string) {
 func (arg1 SwigcptrDragonBonesData) GetName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_DragonBonesData_name_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_DragonBonesData_name_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -5138,59 +5813,59 @@ func (arg1 SwigcptrDragonBonesData) GetName() (_swig_ret string) {
 func (arg1 SwigcptrDragonBonesData) SetFrameIndices(arg2 Std_vector_Sl_unsigned_SS_int_Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_DragonBonesData_frameIndices_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_DragonBonesData_frameIndices_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrDragonBonesData) GetFrameIndices() (_swig_ret Std_vector_Sl_unsigned_SS_int_Sg_) {
 	var swig_r Std_vector_Sl_unsigned_SS_int_Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_unsigned_SS_int_Sg_)(SwigcptrStd_vector_Sl_unsigned_SS_int_Sg_(C._wrap_DragonBonesData_frameIndices_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_vector_Sl_unsigned_SS_int_Sg_)(SwigcptrStd_vector_Sl_unsigned_SS_int_Sg_(C._wrap_DragonBonesData_frameIndices_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
-func (arg1 SwigcptrDragonBonesData) SetCachedFrames(arg2 Std_vector_Sl_float_Sg_) {
+func (arg1 SwigcptrDragonBonesData) SetCachedFrames(arg2 VectorFloat) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_DragonBonesData_cachedFrames_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_DragonBonesData_cachedFrames_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrDragonBonesData) GetCachedFrames() (_swig_ret Std_vector_Sl_float_Sg_) {
-	var swig_r Std_vector_Sl_float_Sg_
+func (arg1 SwigcptrDragonBonesData) GetCachedFrames() (_swig_ret VectorFloat) {
+	var swig_r VectorFloat
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_float_Sg_)(SwigcptrStd_vector_Sl_float_Sg_(C._wrap_DragonBonesData_cachedFrames_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorFloat)(SwigcptrVectorFloat(C._wrap_DragonBonesData_cachedFrames_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrDragonBonesData) SetArmatureNames(arg2 VectorString) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_DragonBonesData_armatureNames_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_DragonBonesData_armatureNames_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrDragonBonesData) GetArmatureNames() (_swig_ret VectorString) {
 	var swig_r VectorString
 	_swig_i_0 := arg1
-	swig_r = (VectorString)(SwigcptrVectorString(C._wrap_DragonBonesData_armatureNames_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorString)(SwigcptrVectorString(C._wrap_DragonBonesData_armatureNames_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrDragonBonesData) SetArmatures(arg2 Std_map_Sl_std_string_Sc_dragonBones_ArmatureData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_DragonBonesData_armatures_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_DragonBonesData_armatures_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrDragonBonesData) GetArmatures() (_swig_ret Std_map_Sl_std_string_Sc_dragonBones_ArmatureData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	var swig_r Std_map_Sl_std_string_Sc_dragonBones_ArmatureData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_ArmatureData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_ArmatureData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_DragonBonesData_armatures_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_ArmatureData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_ArmatureData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_DragonBonesData_armatures_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrDragonBonesData) SetBinary(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_DragonBonesData_binary_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_62)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_DragonBonesData_binary_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_65)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -5199,126 +5874,126 @@ func (arg1 SwigcptrDragonBonesData) SetBinary(arg2 string) {
 func (arg1 SwigcptrDragonBonesData) GetBinary() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_DragonBonesData_binary_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_DragonBonesData_binary_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
-func (arg1 SwigcptrDragonBonesData) SetIntArray(arg2 Int16_t) {
+func (arg1 SwigcptrDragonBonesData) SetIntArray(arg2 *int16) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_DragonBonesData_intArray_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_DragonBonesData_intArray_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
-func (arg1 SwigcptrDragonBonesData) GetIntArray() (_swig_ret Int16_t) {
-	var swig_r Int16_t
+func (arg1 SwigcptrDragonBonesData) GetIntArray() (_swig_ret *int16) {
+	var swig_r *int16
 	_swig_i_0 := arg1
-	swig_r = (Int16_t)(SwigcptrInt16_t(C._wrap_DragonBonesData_intArray_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (*int16)(C._wrap_DragonBonesData_intArray_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrDragonBonesData) SetFloatArray(arg2 *float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_DragonBonesData_floatArray_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_DragonBonesData_floatArray_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrDragonBonesData) GetFloatArray() (_swig_ret *float32) {
 	var swig_r *float32
 	_swig_i_0 := arg1
-	swig_r = (*float32)(C._wrap_DragonBonesData_floatArray_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (*float32)(C._wrap_DragonBonesData_floatArray_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
-func (arg1 SwigcptrDragonBonesData) SetFrameIntArray(arg2 Int16_t) {
+func (arg1 SwigcptrDragonBonesData) SetFrameIntArray(arg2 *int16) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_DragonBonesData_frameIntArray_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_DragonBonesData_frameIntArray_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
-func (arg1 SwigcptrDragonBonesData) GetFrameIntArray() (_swig_ret Int16_t) {
-	var swig_r Int16_t
+func (arg1 SwigcptrDragonBonesData) GetFrameIntArray() (_swig_ret *int16) {
+	var swig_r *int16
 	_swig_i_0 := arg1
-	swig_r = (Int16_t)(SwigcptrInt16_t(C._wrap_DragonBonesData_frameIntArray_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (*int16)(C._wrap_DragonBonesData_frameIntArray_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrDragonBonesData) SetFrameFloatArray(arg2 *float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_DragonBonesData_frameFloatArray_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_DragonBonesData_frameFloatArray_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrDragonBonesData) GetFrameFloatArray() (_swig_ret *float32) {
 	var swig_r *float32
 	_swig_i_0 := arg1
-	swig_r = (*float32)(C._wrap_DragonBonesData_frameFloatArray_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (*float32)(C._wrap_DragonBonesData_frameFloatArray_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
-func (arg1 SwigcptrDragonBonesData) SetFrameArray(arg2 Int16_t) {
+func (arg1 SwigcptrDragonBonesData) SetFrameArray(arg2 *int16) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_DragonBonesData_frameArray_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_DragonBonesData_frameArray_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
-func (arg1 SwigcptrDragonBonesData) GetFrameArray() (_swig_ret Int16_t) {
-	var swig_r Int16_t
+func (arg1 SwigcptrDragonBonesData) GetFrameArray() (_swig_ret *int16) {
+	var swig_r *int16
 	_swig_i_0 := arg1
-	swig_r = (Int16_t)(SwigcptrInt16_t(C._wrap_DragonBonesData_frameArray_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (*int16)(C._wrap_DragonBonesData_frameArray_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrDragonBonesData) SetTimelineArray(arg2 Uint16_t) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_DragonBonesData_timelineArray_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_DragonBonesData_timelineArray_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrDragonBonesData) GetTimelineArray() (_swig_ret Uint16_t) {
 	var swig_r Uint16_t
 	_swig_i_0 := arg1
-	swig_r = (Uint16_t)(SwigcptrUint16_t(C._wrap_DragonBonesData_timelineArray_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Uint16_t)(SwigcptrUint16_t(C._wrap_DragonBonesData_timelineArray_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrDragonBonesData) SetUserData(arg2 DragonBones_UserData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_DragonBonesData_userData_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_DragonBonesData_userData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrDragonBonesData) GetUserData() (_swig_ret DragonBones_UserData) {
 	var swig_r DragonBones_UserData
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_UserData)(SwigcptrDragonBones_UserData(C._wrap_DragonBonesData_userData_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_UserData)(SwigcptrDragonBones_UserData(C._wrap_DragonBonesData_userData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewDragonBonesData() (_swig_ret DragonBonesData) {
 	var swig_r DragonBonesData
-	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_new_DragonBonesData_wrapper_0168c02bcda14bda()))
+	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_new_DragonBonesData_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func DeleteDragonBonesData(arg1 DragonBonesData) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_DragonBonesData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_DragonBonesData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrDragonBonesData) AddArmature(arg2 ArmatureData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_DragonBonesData_addArmature_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_DragonBonesData_addArmature_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrDragonBonesData) GetArmature(arg2 string) (_swig_ret ArmatureData) {
 	var swig_r ArmatureData
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_DragonBonesData_getArmature_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_64)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_DragonBonesData_getArmature_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_67)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -5328,16 +6003,16 @@ func (arg1 SwigcptrDragonBonesData) GetArmature(arg2 string) (_swig_ret Armature
 func DragonBonesDataSetMaxCount(arg1 int64, arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_DragonBonesData_setMaxCount_wrapper_0168c02bcda14bda(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_DragonBonesData_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func DragonBonesDataClearPool__SWIG_0(arg1 int64) {
 	_swig_i_0 := arg1
-	C._wrap_DragonBonesData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(C.swig_type_3(_swig_i_0))
+	C._wrap_DragonBonesData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
 }
 
 func DragonBonesDataClearPool__SWIG_1() {
-	C._wrap_DragonBonesData_clearPool__SWIG_1_wrapper_0168c02bcda14bda()
+	C._wrap_DragonBonesData_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
 }
 
 func DragonBonesDataClearPool(a ...interface{}) {
@@ -5355,17 +6030,17 @@ func DragonBonesDataClearPool(a ...interface{}) {
 
 func (_swig_base SwigcptrDragonBonesData) GetHashCode() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_GetDragonBonesData_HashCode_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (uint)(C._wrap_GetDragonBonesData_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrDragonBonesData) ReturnToPool() {
-	C._wrap_DragonBonesData_returnToPool_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))
+	C._wrap_DragonBonesData_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
 }
 
 func DragonBonesDataBorrowArmatureObject() (_swig_ret Armature) {
 	var swig_r Armature
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_DragonBonesData_borrowArmatureObject_wrapper_0168c02bcda14bda()))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_DragonBonesData_borrowArmatureObject_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
@@ -5390,24 +6065,24 @@ type DragonBonesData interface {
 	GetName() (_swig_ret string)
 	SetFrameIndices(arg2 Std_vector_Sl_unsigned_SS_int_Sg_)
 	GetFrameIndices() (_swig_ret Std_vector_Sl_unsigned_SS_int_Sg_)
-	SetCachedFrames(arg2 Std_vector_Sl_float_Sg_)
-	GetCachedFrames() (_swig_ret Std_vector_Sl_float_Sg_)
+	SetCachedFrames(arg2 VectorFloat)
+	GetCachedFrames() (_swig_ret VectorFloat)
 	SetArmatureNames(arg2 VectorString)
 	GetArmatureNames() (_swig_ret VectorString)
 	SetArmatures(arg2 Std_map_Sl_std_string_Sc_dragonBones_ArmatureData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)
 	GetArmatures() (_swig_ret Std_map_Sl_std_string_Sc_dragonBones_ArmatureData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)
 	SetBinary(arg2 string)
 	GetBinary() (_swig_ret string)
-	SetIntArray(arg2 Int16_t)
-	GetIntArray() (_swig_ret Int16_t)
+	SetIntArray(arg2 *int16)
+	GetIntArray() (_swig_ret *int16)
 	SetFloatArray(arg2 *float32)
 	GetFloatArray() (_swig_ret *float32)
-	SetFrameIntArray(arg2 Int16_t)
-	GetFrameIntArray() (_swig_ret Int16_t)
+	SetFrameIntArray(arg2 *int16)
+	GetFrameIntArray() (_swig_ret *int16)
 	SetFrameFloatArray(arg2 *float32)
 	GetFrameFloatArray() (_swig_ret *float32)
-	SetFrameArray(arg2 Int16_t)
-	GetFrameArray() (_swig_ret Int16_t)
+	SetFrameArray(arg2 *int16)
+	GetFrameArray() (_swig_ret *int16)
 	SetTimelineArray(arg2 Uint16_t)
 	GetTimelineArray() (_swig_ret Uint16_t)
 	SetUserData(arg2 DragonBones_UserData)
@@ -5438,17 +6113,17 @@ func (p *_swig_DirectorTextureAtlasData) DirectorInterface() interface{} {
 
 func NewDirectorTextureAtlasData(v interface{}) TextureAtlasData {
 	p := &_swig_DirectorTextureAtlasData{0, v}
-	p.SwigcptrTextureAtlasData = SwigcptrTextureAtlasData(C._wrap__swig_NewDirectorTextureAtlasDataTextureAtlasData_wrapper_0168c02bcda14bda(C.int(swigDirectorAdd(p))))
+	p.SwigcptrTextureAtlasData = SwigcptrTextureAtlasData(C._wrap__swig_NewDirectorTextureAtlasDataTextureAtlasData_wrapper_49f4652e7e4716be(C.int(swigDirectorAdd(p))))
 	return p
 }
 
 func DeleteDirectorTextureAtlasData(arg1 TextureAtlasData) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_DeleteDirectorTextureAtlasData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_DeleteDirectorTextureAtlasData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
-//export Swiggo_DeleteDirector_TextureAtlasData_wrapper_0168c02bcda14bda
-func Swiggo_DeleteDirector_TextureAtlasData_wrapper_0168c02bcda14bda(c int) {
+//export Swiggo_DeleteDirector_TextureAtlasData_wrapper_49f4652e7e4716be
+func Swiggo_DeleteDirector_TextureAtlasData_wrapper_49f4652e7e4716be(c int) {
 	swigDirectorLookup(c).(*_swig_DirectorTextureAtlasData).SwigcptrTextureAtlasData = 0
 	swigDirectorDelete(c)
 }
@@ -5462,15 +6137,15 @@ func (swig_p *_swig_DirectorTextureAtlasData) X_onClear() {
 		swig_g.X_onClear()
 		return
 	}
-	C._wrap__swig_DirectorTextureAtlasData_upcall_X_onClear_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrTextureAtlasData))
+	C._wrap__swig_DirectorTextureAtlasData_upcall_X_onClear_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrTextureAtlasData))
 }
 
 func DirectorTextureAtlasDataX_onClear(p TextureAtlasData) {
-	C._wrap__swig_DirectorTextureAtlasData_upcall_X_onClear_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorTextureAtlasData).SwigcptrTextureAtlasData))
+	C._wrap__swig_DirectorTextureAtlasData_upcall_X_onClear_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorTextureAtlasData).SwigcptrTextureAtlasData))
 }
 
-//export Swig_DirectorTextureAtlasData_callback__onClear_wrapper_0168c02bcda14bda
-func Swig_DirectorTextureAtlasData_callback__onClear_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorTextureAtlasData_callback__onClear_wrapper_49f4652e7e4716be
+func Swig_DirectorTextureAtlasData_callback__onClear_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorTextureAtlasData)
 	swig_p.X_onClear()
 }
@@ -5486,8 +6161,8 @@ func (swig_p *_swig_DirectorTextureAtlasData) GetClassTypeIndex() int64 {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorTextureAtlasData_callback_getClassTypeIndex_wrapper_0168c02bcda14bda
-func Swig_DirectorTextureAtlasData_callback_getClassTypeIndex_wrapper_0168c02bcda14bda(swig_c int) (swig_result int64) {
+//export Swig_DirectorTextureAtlasData_callback_getClassTypeIndex_wrapper_49f4652e7e4716be
+func Swig_DirectorTextureAtlasData_callback_getClassTypeIndex_wrapper_49f4652e7e4716be(swig_c int) (swig_result int64) {
 	var swig_r int64
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorTextureAtlasData)
 	swig_r = swig_p.GetClassTypeIndex()
@@ -5505,8 +6180,8 @@ func (swig_p *_swig_DirectorTextureAtlasData) CreateTexture() TextureData {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorTextureAtlasData_callback_createTexture_wrapper_0168c02bcda14bda
-func Swig_DirectorTextureAtlasData_callback_createTexture_wrapper_0168c02bcda14bda(swig_c int) (swig_result SwigcptrTextureData) {
+//export Swig_DirectorTextureAtlasData_callback_createTexture_wrapper_49f4652e7e4716be
+func Swig_DirectorTextureAtlasData_callback_createTexture_wrapper_49f4652e7e4716be(swig_c int) (swig_result SwigcptrTextureData) {
 	var swig_r SwigcptrTextureData
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorTextureAtlasData)
 	swig_r = SwigcptrTextureData(swig_p.CreateTexture().Swigcptr())
@@ -5523,16 +6198,16 @@ func (swig_p *_swig_DirectorTextureAtlasData) AddTexture(value TextureData) {
 		return
 	}
 	_swig_i_0 := value.Swigcptr()
-	C._wrap__swig_DirectorTextureAtlasData_upcall_AddTexture_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrTextureAtlasData), C.uintptr_t(_swig_i_0))
+	C._wrap__swig_DirectorTextureAtlasData_upcall_AddTexture_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrTextureAtlasData), C.uintptr_t(_swig_i_0))
 }
 
 func DirectorTextureAtlasDataAddTexture(p TextureAtlasData, arg2 TextureData) {
 	_swig_i_0 := arg2.Swigcptr()
-	C._wrap__swig_DirectorTextureAtlasData_upcall_AddTexture_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorTextureAtlasData).SwigcptrTextureAtlasData), C.uintptr_t(_swig_i_0))
+	C._wrap__swig_DirectorTextureAtlasData_upcall_AddTexture_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorTextureAtlasData).SwigcptrTextureAtlasData), C.uintptr_t(_swig_i_0))
 }
 
-//export Swig_DirectorTextureAtlasData_callback_addTexture_wrapper_0168c02bcda14bda
-func Swig_DirectorTextureAtlasData_callback_addTexture_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr) {
+//export Swig_DirectorTextureAtlasData_callback_addTexture_wrapper_49f4652e7e4716be
+func Swig_DirectorTextureAtlasData_callback_addTexture_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorTextureAtlasData)
 	swig_p.AddTexture(SwigcptrTextureData(arg2))
 }
@@ -5552,78 +6227,78 @@ func (p SwigcptrTextureAtlasData) DirectorInterface() interface{} {
 
 func DeleteTextureAtlasData(arg1 TextureAtlasData) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_TextureAtlasData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_TextureAtlasData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrTextureAtlasData) SetAutoSearch(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TextureAtlasData_autoSearch_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_TextureAtlasData_autoSearch_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrTextureAtlasData) GetAutoSearch() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_TextureAtlasData_autoSearch_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_TextureAtlasData_autoSearch_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTextureAtlasData) SetFormat(arg2 DragonBonesTextureFormat) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TextureAtlasData_format_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_TextureAtlasData_format_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrTextureAtlasData) GetFormat() (_swig_ret DragonBonesTextureFormat) {
 	var swig_r DragonBonesTextureFormat
 	_swig_i_0 := arg1
-	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureAtlasData_format_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (DragonBonesTextureFormat)(C._wrap_TextureAtlasData_format_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTextureAtlasData) SetWidth(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TextureAtlasData_width_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_TextureAtlasData_width_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrTextureAtlasData) GetWidth() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_TextureAtlasData_width_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_TextureAtlasData_width_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTextureAtlasData) SetHeight(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TextureAtlasData_height_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_TextureAtlasData_height_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrTextureAtlasData) GetHeight() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_TextureAtlasData_height_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_TextureAtlasData_height_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTextureAtlasData) SetScale(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TextureAtlasData_scale_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_TextureAtlasData_scale_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrTextureAtlasData) GetScale() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_TextureAtlasData_scale_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_TextureAtlasData_scale_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTextureAtlasData) SetName(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TextureAtlasData_name_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_65)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_TextureAtlasData_name_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_68)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -5632,7 +6307,7 @@ func (arg1 SwigcptrTextureAtlasData) SetName(arg2 string) {
 func (arg1 SwigcptrTextureAtlasData) GetName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_TextureAtlasData_name_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_TextureAtlasData_name_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -5642,7 +6317,7 @@ func (arg1 SwigcptrTextureAtlasData) GetName() (_swig_ret string) {
 func (arg1 SwigcptrTextureAtlasData) SetImagePath(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TextureAtlasData_imagePath_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_67)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_TextureAtlasData_imagePath_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_70)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -5651,7 +6326,7 @@ func (arg1 SwigcptrTextureAtlasData) SetImagePath(arg2 string) {
 func (arg1 SwigcptrTextureAtlasData) GetImagePath() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_TextureAtlasData_imagePath_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_TextureAtlasData_imagePath_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -5661,40 +6336,40 @@ func (arg1 SwigcptrTextureAtlasData) GetImagePath() (_swig_ret string) {
 func (arg1 SwigcptrTextureAtlasData) SetTextures(arg2 MapStringToTextureData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_TextureAtlasData_textures_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_TextureAtlasData_textures_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrTextureAtlasData) GetTextures() (_swig_ret MapStringToTextureData) {
 	var swig_r MapStringToTextureData
 	_swig_i_0 := arg1
-	swig_r = (MapStringToTextureData)(SwigcptrMapStringToTextureData(C._wrap_TextureAtlasData_textures_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (MapStringToTextureData)(SwigcptrMapStringToTextureData(C._wrap_TextureAtlasData_textures_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrTextureAtlasData) CopyFrom(arg2 TextureAtlasData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_TextureAtlasData_copyFrom_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_TextureAtlasData_copyFrom_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrTextureAtlasData) CreateTexture() (_swig_ret TextureData) {
 	var swig_r TextureData
 	_swig_i_0 := arg1
-	swig_r = (TextureData)(SwigcptrTextureData(C._wrap_TextureAtlasData_createTexture_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (TextureData)(SwigcptrTextureData(C._wrap_TextureAtlasData_createTexture_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrTextureAtlasData) AddTexture(arg2 TextureData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_TextureAtlasData_addTexture_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_TextureAtlasData_addTexture_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrTextureAtlasData) GetTexture(arg2 string) (_swig_ret TextureData) {
 	var swig_r TextureData
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (TextureData)(SwigcptrTextureData(C._wrap_TextureAtlasData_getTexture_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_69)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (TextureData)(SwigcptrTextureData(C._wrap_TextureAtlasData_getTexture_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_72)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -5704,16 +6379,16 @@ func (arg1 SwigcptrTextureAtlasData) GetTexture(arg2 string) (_swig_ret TextureD
 func TextureAtlasDataSetMaxCount(arg1 int64, arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TextureAtlasData_setMaxCount_wrapper_0168c02bcda14bda(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_TextureAtlasData_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func TextureAtlasDataClearPool__SWIG_0(arg1 int64) {
 	_swig_i_0 := arg1
-	C._wrap_TextureAtlasData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(C.swig_type_3(_swig_i_0))
+	C._wrap_TextureAtlasData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
 }
 
 func TextureAtlasDataClearPool__SWIG_1() {
-	C._wrap_TextureAtlasData_clearPool__SWIG_1_wrapper_0168c02bcda14bda()
+	C._wrap_TextureAtlasData_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
 }
 
 func TextureAtlasDataClearPool(a ...interface{}) {
@@ -5731,23 +6406,23 @@ func TextureAtlasDataClearPool(a ...interface{}) {
 
 func (_swig_base SwigcptrTextureAtlasData) GetHashCode() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_GetTextureAtlasData_HashCode_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (uint)(C._wrap_GetTextureAtlasData_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrTextureAtlasData) GetClassTypeIndex() (_swig_ret int64) {
 	var swig_r int64
-	swig_r = (int64)(C._wrap_TextureAtlasData_getClassTypeIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (int64)(C._wrap_TextureAtlasData_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrTextureAtlasData) ReturnToPool() {
-	C._wrap_TextureAtlasData_returnToPool_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))
+	C._wrap_TextureAtlasData_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
 }
 
 func TextureAtlasDataBorrowArmatureObject() (_swig_ret Armature) {
 	var swig_r Armature
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_TextureAtlasData_borrowArmatureObject_wrapper_0168c02bcda14bda()))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_TextureAtlasData_borrowArmatureObject_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
@@ -5807,17 +6482,17 @@ func (p *_swig_DirectorTextureData) DirectorInterface() interface{} {
 
 func NewDirectorTextureData(v interface{}) TextureData {
 	p := &_swig_DirectorTextureData{0, v}
-	p.SwigcptrTextureData = SwigcptrTextureData(C._wrap__swig_NewDirectorTextureDataTextureData_wrapper_0168c02bcda14bda(C.int(swigDirectorAdd(p))))
+	p.SwigcptrTextureData = SwigcptrTextureData(C._wrap__swig_NewDirectorTextureDataTextureData_wrapper_49f4652e7e4716be(C.int(swigDirectorAdd(p))))
 	return p
 }
 
 func DeleteDirectorTextureData(arg1 TextureData) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_DeleteDirectorTextureData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_DeleteDirectorTextureData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
-//export Swiggo_DeleteDirector_TextureData_wrapper_0168c02bcda14bda
-func Swiggo_DeleteDirector_TextureData_wrapper_0168c02bcda14bda(c int) {
+//export Swiggo_DeleteDirector_TextureData_wrapper_49f4652e7e4716be
+func Swiggo_DeleteDirector_TextureData_wrapper_49f4652e7e4716be(c int) {
 	swigDirectorLookup(c).(*_swig_DirectorTextureData).SwigcptrTextureData = 0
 	swigDirectorDelete(c)
 }
@@ -5831,15 +6506,15 @@ func (swig_p *_swig_DirectorTextureData) X_onClear() {
 		swig_g.X_onClear()
 		return
 	}
-	C._wrap__swig_DirectorTextureData_upcall_X_onClear_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrTextureData))
+	C._wrap__swig_DirectorTextureData_upcall_X_onClear_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrTextureData))
 }
 
 func DirectorTextureDataX_onClear(p TextureData) {
-	C._wrap__swig_DirectorTextureData_upcall_X_onClear_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorTextureData).SwigcptrTextureData))
+	C._wrap__swig_DirectorTextureData_upcall_X_onClear_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorTextureData).SwigcptrTextureData))
 }
 
-//export Swig_DirectorTextureData_callback__onClear_wrapper_0168c02bcda14bda
-func Swig_DirectorTextureData_callback__onClear_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorTextureData_callback__onClear_wrapper_49f4652e7e4716be
+func Swig_DirectorTextureData_callback__onClear_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorTextureData)
 	swig_p.X_onClear()
 }
@@ -5855,8 +6530,8 @@ func (swig_p *_swig_DirectorTextureData) GetClassTypeIndex() int64 {
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorTextureData_callback_getClassTypeIndex_wrapper_0168c02bcda14bda
-func Swig_DirectorTextureData_callback_getClassTypeIndex_wrapper_0168c02bcda14bda(swig_c int) (swig_result int64) {
+//export Swig_DirectorTextureData_callback_getClassTypeIndex_wrapper_49f4652e7e4716be
+func Swig_DirectorTextureData_callback_getClassTypeIndex_wrapper_49f4652e7e4716be(swig_c int) (swig_result int64) {
 	var swig_r int64
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorTextureData)
 	swig_r = swig_p.GetClassTypeIndex()
@@ -5878,27 +6553,27 @@ func (p SwigcptrTextureData) DirectorInterface() interface{} {
 
 func TextureDataCreateRectangle() (_swig_ret Rectangle) {
 	var swig_r Rectangle
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_TextureData_createRectangle_wrapper_0168c02bcda14bda()))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_TextureData_createRectangle_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func (arg1 SwigcptrTextureData) SetRotated(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TextureData_rotated_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_TextureData_rotated_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrTextureData) GetRotated() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_TextureData_rotated_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_TextureData_rotated_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTextureData) SetName(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TextureData_name_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_71)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_TextureData_name_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_74)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -5907,7 +6582,7 @@ func (arg1 SwigcptrTextureData) SetName(arg2 string) {
 func (arg1 SwigcptrTextureData) GetName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_TextureData_name_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_TextureData_name_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -5917,66 +6592,66 @@ func (arg1 SwigcptrTextureData) GetName() (_swig_ret string) {
 func (arg1 SwigcptrTextureData) SetRegion(arg2 Rectangle) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_TextureData_region_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_TextureData_region_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrTextureData) GetRegion() (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_TextureData_region_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_TextureData_region_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrTextureData) SetFrame(arg2 Rectangle) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_TextureData_frame_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_TextureData_frame_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrTextureData) GetFrame() (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_TextureData_frame_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_TextureData_frame_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrTextureData) SetParent(arg2 TextureAtlasData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_TextureData_parent_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_TextureData_parent_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrTextureData) GetParent() (_swig_ret TextureAtlasData) {
 	var swig_r TextureAtlasData
 	_swig_i_0 := arg1
-	swig_r = (TextureAtlasData)(SwigcptrTextureAtlasData(C._wrap_TextureData_parent_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (TextureAtlasData)(SwigcptrTextureAtlasData(C._wrap_TextureData_parent_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func DeleteTextureData(arg1 TextureData) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_TextureData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_TextureData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrTextureData) CopyFrom(arg2 TextureData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_TextureData_copyFrom_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_TextureData_copyFrom_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func TextureDataSetMaxCount(arg1 int64, arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TextureData_setMaxCount_wrapper_0168c02bcda14bda(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_TextureData_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func TextureDataClearPool__SWIG_0(arg1 int64) {
 	_swig_i_0 := arg1
-	C._wrap_TextureData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(C.swig_type_3(_swig_i_0))
+	C._wrap_TextureData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
 }
 
 func TextureDataClearPool__SWIG_1() {
-	C._wrap_TextureData_clearPool__SWIG_1_wrapper_0168c02bcda14bda()
+	C._wrap_TextureData_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
 }
 
 func TextureDataClearPool(a ...interface{}) {
@@ -5994,23 +6669,23 @@ func TextureDataClearPool(a ...interface{}) {
 
 func (_swig_base SwigcptrTextureData) GetHashCode() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_GetTextureData_HashCode_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (uint)(C._wrap_GetTextureData_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrTextureData) GetClassTypeIndex() (_swig_ret int64) {
 	var swig_r int64
-	swig_r = (int64)(C._wrap_TextureData_getClassTypeIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (int64)(C._wrap_TextureData_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrTextureData) ReturnToPool() {
-	C._wrap_TextureData_returnToPool_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))
+	C._wrap_TextureData_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
 }
 
 func TextureDataBorrowArmatureObject() (_swig_ret Armature) {
 	var swig_r Armature
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_TextureData_borrowArmatureObject_wrapper_0168c02bcda14bda()))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_TextureData_borrowArmatureObject_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
@@ -6043,6 +6718,1450 @@ type TextureData interface {
 	SwigGetBaseObject() BaseObject
 }
 
+type SwigcptrDeformVertices uintptr
+
+func (p SwigcptrDeformVertices) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrDeformVertices) SwigIsDeformVertices() {
+}
+
+func DeformVerticesGetTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	swig_r = (int64)(C._wrap_DeformVertices_getTypeIndex_wrapper_49f4652e7e4716be())
+	return swig_r
+}
+
+func (arg1 SwigcptrDeformVertices) GetClassTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	swig_r = (int64)(C._wrap_DeformVertices_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewDeformVertices() (_swig_ret DeformVertices) {
+	var swig_r DeformVertices
+	swig_r = (DeformVertices)(SwigcptrDeformVertices(C._wrap_new_DeformVertices_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func DeleteDeformVertices(arg1 DeformVertices) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_DeformVertices_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrDeformVertices) SetVerticesDirty(arg2 bool) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_DeformVertices_verticesDirty_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+}
+
+func (arg1 SwigcptrDeformVertices) GetVerticesDirty() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_DeformVertices_verticesDirty_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrDeformVertices) SetVertices(arg2 VectorFloat) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_DeformVertices_vertices_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrDeformVertices) GetVertices() (_swig_ret VectorFloat) {
+	var swig_r VectorFloat
+	_swig_i_0 := arg1
+	swig_r = (VectorFloat)(SwigcptrVectorFloat(C._wrap_DeformVertices_vertices_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrDeformVertices) SetBones(arg2 VectorBone) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_DeformVertices_bones_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrDeformVertices) GetBones() (_swig_ret VectorBone) {
+	var swig_r VectorBone
+	_swig_i_0 := arg1
+	swig_r = (VectorBone)(SwigcptrVectorBone(C._wrap_DeformVertices_bones_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrDeformVertices) SetVerticesData(arg2 VerticesData) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_DeformVertices_verticesData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrDeformVertices) GetVerticesData() (_swig_ret VerticesData) {
+	var swig_r VerticesData
+	_swig_i_0 := arg1
+	swig_r = (VerticesData)(SwigcptrVerticesData(C._wrap_DeformVertices_verticesData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrDeformVertices) Init(arg2 VerticesData, arg3 Armature) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	_swig_i_2 := arg3.Swigcptr()
+	C._wrap_DeformVertices_init_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+}
+
+func (arg1 SwigcptrDeformVertices) IsBonesUpdate() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_DeformVertices_isBonesUpdate_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func DeformVerticesSetMaxCount(arg1 int64, arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_DeformVertices_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func DeformVerticesClearPool__SWIG_0(arg1 int64) {
+	_swig_i_0 := arg1
+	C._wrap_DeformVertices_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
+}
+
+func DeformVerticesClearPool__SWIG_1() {
+	C._wrap_DeformVertices_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
+}
+
+func DeformVerticesClearPool(a ...interface{}) {
+	argc := len(a)
+	if argc == 0 {
+		DeformVerticesClearPool__SWIG_1()
+		return
+	}
+	if argc == 1 {
+		DeformVerticesClearPool__SWIG_0(a[0].(int64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrDeformVertices) GetHashCode() (_swig_ret uint) {
+	var swig_r uint
+	swig_r = (uint)(C._wrap_GetDeformVertices_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrDeformVertices) ReturnToPool() {
+	C._wrap_DeformVertices_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+}
+
+func DeformVerticesBorrowArmatureObject() (_swig_ret Armature) {
+	var swig_r Armature
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_DeformVertices_borrowArmatureObject_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func (p SwigcptrDeformVertices) SwigIsBaseObject() {
+}
+
+func (p SwigcptrDeformVertices) SwigGetBaseObject() BaseObject {
+	return SwigcptrBaseObject(p.Swigcptr())
+}
+
+type DeformVertices interface {
+	Swigcptr() uintptr
+	SwigIsDeformVertices()
+	GetClassTypeIndex() (_swig_ret int64)
+	SetVerticesDirty(arg2 bool)
+	GetVerticesDirty() (_swig_ret bool)
+	SetVertices(arg2 VectorFloat)
+	GetVertices() (_swig_ret VectorFloat)
+	SetBones(arg2 VectorBone)
+	GetBones() (_swig_ret VectorBone)
+	SetVerticesData(arg2 VerticesData)
+	GetVerticesData() (_swig_ret VerticesData)
+	Init(arg2 VerticesData, arg3 Armature)
+	IsBonesUpdate() (_swig_ret bool)
+	GetHashCode() (_swig_ret uint)
+	ReturnToPool()
+	SwigIsBaseObject()
+	SwigGetBaseObject() BaseObject
+}
+
+type SwigcptrVerticesData uintptr
+
+func (p SwigcptrVerticesData) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrVerticesData) SwigIsVerticesData() {
+}
+
+func (arg1 SwigcptrVerticesData) SetIsShared(arg2 bool) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_VerticesData_isShared_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+}
+
+func (arg1 SwigcptrVerticesData) GetIsShared() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_VerticesData_isShared_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVerticesData) SetInheritDeform(arg2 bool) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_VerticesData_inheritDeform_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+}
+
+func (arg1 SwigcptrVerticesData) GetInheritDeform() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_VerticesData_inheritDeform_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVerticesData) SetOffset(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_VerticesData_offset_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrVerticesData) GetOffset() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_VerticesData_offset_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVerticesData) SetData(arg2 DragonBonesData) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_VerticesData_data_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrVerticesData) GetData() (_swig_ret DragonBonesData) {
+	var swig_r DragonBonesData
+	_swig_i_0 := arg1
+	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_VerticesData_data_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrVerticesData) SetWeight(arg2 WeightData) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_VerticesData_weight_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrVerticesData) GetWeight() (_swig_ret WeightData) {
+	var swig_r WeightData
+	_swig_i_0 := arg1
+	swig_r = (WeightData)(SwigcptrWeightData(C._wrap_VerticesData_weight_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewVerticesData() (_swig_ret VerticesData) {
+	var swig_r VerticesData
+	swig_r = (VerticesData)(SwigcptrVerticesData(C._wrap_new_VerticesData_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func DeleteVerticesData(arg1 VerticesData) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_VerticesData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrVerticesData) Clear() {
+	_swig_i_0 := arg1
+	C._wrap_VerticesData_clear_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrVerticesData) ShareFrom(arg2 VerticesData) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_VerticesData_shareFrom_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+type VerticesData interface {
+	Swigcptr() uintptr
+	SwigIsVerticesData()
+	SetIsShared(arg2 bool)
+	GetIsShared() (_swig_ret bool)
+	SetInheritDeform(arg2 bool)
+	GetInheritDeform() (_swig_ret bool)
+	SetOffset(arg2 uint)
+	GetOffset() (_swig_ret uint)
+	SetData(arg2 DragonBonesData)
+	GetData() (_swig_ret DragonBonesData)
+	SetWeight(arg2 WeightData)
+	GetWeight() (_swig_ret WeightData)
+	Clear()
+	ShareFrom(arg2 VerticesData)
+}
+
+type SwigcptrDisplayData uintptr
+
+func (p SwigcptrDisplayData) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrDisplayData) SwigIsDisplayData() {
+}
+
+func DeleteDisplayData(arg1 DisplayData) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_DisplayData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrDisplayData) SetXtype(arg2 DragonBonesDisplayType) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_DisplayData_Xtype_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrDisplayData) GetXtype() (_swig_ret DragonBonesDisplayType) {
+	var swig_r DragonBonesDisplayType
+	_swig_i_0 := arg1
+	swig_r = (DragonBonesDisplayType)(C._wrap_DisplayData_Xtype_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrDisplayData) SetName(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_DisplayData_name_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_79)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrDisplayData) GetName() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_DisplayData_name_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrDisplayData) SetPath(arg2 string) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_DisplayData_path_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_81)(unsafe.Pointer(&_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+}
+
+func (arg1 SwigcptrDisplayData) GetPath() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_DisplayData_path_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrDisplayData) SetTransform(arg2 Transform) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_DisplayData_transform_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrDisplayData) GetTransform() (_swig_ret Transform) {
+	var swig_r Transform
+	_swig_i_0 := arg1
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_DisplayData_transform_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrDisplayData) SetParent(arg2 DragonBones_SkinData) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_DisplayData_parent_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrDisplayData) GetParent() (_swig_ret DragonBones_SkinData) {
+	var swig_r DragonBones_SkinData
+	_swig_i_0 := arg1
+	swig_r = (DragonBones_SkinData)(SwigcptrDragonBones_SkinData(C._wrap_DisplayData_parent_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func DisplayDataSetMaxCount(arg1 int64, arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_DisplayData_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func DisplayDataClearPool__SWIG_0(arg1 int64) {
+	_swig_i_0 := arg1
+	C._wrap_DisplayData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
+}
+
+func DisplayDataClearPool__SWIG_1() {
+	C._wrap_DisplayData_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
+}
+
+func DisplayDataClearPool(a ...interface{}) {
+	argc := len(a)
+	if argc == 0 {
+		DisplayDataClearPool__SWIG_1()
+		return
+	}
+	if argc == 1 {
+		DisplayDataClearPool__SWIG_0(a[0].(int64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrDisplayData) GetHashCode() (_swig_ret uint) {
+	var swig_r uint
+	swig_r = (uint)(C._wrap_GetDisplayData_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrDisplayData) GetClassTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	swig_r = (int64)(C._wrap_DisplayData_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrDisplayData) ReturnToPool() {
+	C._wrap_DisplayData_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+}
+
+func DisplayDataBorrowArmatureObject() (_swig_ret Armature) {
+	var swig_r Armature
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_DisplayData_borrowArmatureObject_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func (p SwigcptrDisplayData) SwigIsBaseObject() {
+}
+
+func (p SwigcptrDisplayData) SwigGetBaseObject() BaseObject {
+	return SwigcptrBaseObject(p.Swigcptr())
+}
+
+type DisplayData interface {
+	Swigcptr() uintptr
+	SwigIsDisplayData()
+	SetXtype(arg2 DragonBonesDisplayType)
+	GetXtype() (_swig_ret DragonBonesDisplayType)
+	SetName(arg2 string)
+	GetName() (_swig_ret string)
+	SetPath(arg2 string)
+	GetPath() (_swig_ret string)
+	SetTransform(arg2 Transform)
+	GetTransform() (_swig_ret Transform)
+	SetParent(arg2 DragonBones_SkinData)
+	GetParent() (_swig_ret DragonBones_SkinData)
+	GetHashCode() (_swig_ret uint)
+	GetClassTypeIndex() (_swig_ret int64)
+	ReturnToPool()
+	SwigIsBaseObject()
+	SwigGetBaseObject() BaseObject
+}
+
+type SwigcptrImageDisplayData uintptr
+
+func (p SwigcptrImageDisplayData) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrImageDisplayData) SwigIsImageDisplayData() {
+}
+
+func ImageDisplayDataGetTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	swig_r = (int64)(C._wrap_ImageDisplayData_getTypeIndex_wrapper_49f4652e7e4716be())
+	return swig_r
+}
+
+func (arg1 SwigcptrImageDisplayData) GetClassTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	swig_r = (int64)(C._wrap_ImageDisplayData_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewImageDisplayData() (_swig_ret ImageDisplayData) {
+	var swig_r ImageDisplayData
+	swig_r = (ImageDisplayData)(SwigcptrImageDisplayData(C._wrap_new_ImageDisplayData_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func DeleteImageDisplayData(arg1 ImageDisplayData) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_ImageDisplayData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrImageDisplayData) SetPivot(arg2 DragonBones_Point) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_ImageDisplayData_pivot_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrImageDisplayData) GetPivot() (_swig_ret DragonBones_Point) {
+	var swig_r DragonBones_Point
+	_swig_i_0 := arg1
+	swig_r = (DragonBones_Point)(SwigcptrDragonBones_Point(C._wrap_ImageDisplayData_pivot_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrImageDisplayData) SetTexture(arg2 TextureData) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_ImageDisplayData_texture_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrImageDisplayData) GetTexture() (_swig_ret TextureData) {
+	var swig_r TextureData
+	_swig_i_0 := arg1
+	swig_r = (TextureData)(SwigcptrTextureData(C._wrap_ImageDisplayData_texture_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (_swig_base SwigcptrImageDisplayData) SetXtype(arg1 DragonBonesDisplayType) {
+	_swig_i_0 := arg1
+	C._wrap_SetImageDisplayData_Xtype_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+}
+
+func (_swig_base SwigcptrImageDisplayData) GetXtype() (_swig_ret DragonBonesDisplayType) {
+	var swig_r DragonBonesDisplayType
+	swig_r = (DragonBonesDisplayType)(C._wrap_GetImageDisplayData_Xtype_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrImageDisplayData) SetName(arg1 string) {
+	_swig_i_0 := arg1
+	C._wrap_SetImageDisplayData_Name_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), *(*C.swig_type_86)(unsafe.Pointer(&_swig_i_0)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+}
+
+func (_swig_base SwigcptrImageDisplayData) GetName() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_GetImageDisplayData_Name_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrImageDisplayData) SetPath(arg1 string) {
+	_swig_i_0 := arg1
+	C._wrap_SetImageDisplayData_Path_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), *(*C.swig_type_88)(unsafe.Pointer(&_swig_i_0)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+}
+
+func (_swig_base SwigcptrImageDisplayData) GetPath() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_GetImageDisplayData_Path_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrImageDisplayData) SetTransform(arg1 Transform) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SetImageDisplayData_Transform_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrImageDisplayData) GetTransform() (_swig_ret Transform) {
+	var swig_r Transform
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_GetImageDisplayData_Transform_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
+	return swig_r
+}
+
+func (_swig_base SwigcptrImageDisplayData) SetParent(arg1 DragonBones_SkinData) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SetImageDisplayData_Parent_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrImageDisplayData) GetParent() (_swig_ret DragonBones_SkinData) {
+	var swig_r DragonBones_SkinData
+	swig_r = (DragonBones_SkinData)(SwigcptrDragonBones_SkinData(C._wrap_GetImageDisplayData_Parent_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
+	return swig_r
+}
+
+func ImageDisplayDataSetMaxCount(arg1 int64, arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ImageDisplayData_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func ImageDisplayDataClearPool__SWIG_0(arg1 int64) {
+	_swig_i_0 := arg1
+	C._wrap_ImageDisplayData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
+}
+
+func ImageDisplayDataClearPool__SWIG_1() {
+	C._wrap_ImageDisplayData_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
+}
+
+func ImageDisplayDataClearPool(a ...interface{}) {
+	argc := len(a)
+	if argc == 0 {
+		ImageDisplayDataClearPool__SWIG_1()
+		return
+	}
+	if argc == 1 {
+		ImageDisplayDataClearPool__SWIG_0(a[0].(int64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrImageDisplayData) GetHashCode() (_swig_ret uint) {
+	var swig_r uint
+	swig_r = (uint)(C._wrap_GetImageDisplayData_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrImageDisplayData) ReturnToPool() {
+	C._wrap_ImageDisplayData_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+}
+
+func ImageDisplayDataBorrowArmatureObject() (_swig_ret Armature) {
+	var swig_r Armature
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_ImageDisplayData_borrowArmatureObject_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func (p SwigcptrImageDisplayData) SwigIsDisplayData() {
+}
+
+func (p SwigcptrImageDisplayData) SwigGetDisplayData() DisplayData {
+	return SwigcptrDisplayData(p.Swigcptr())
+}
+
+func (p SwigcptrImageDisplayData) SwigIsBaseObject() {
+}
+
+func (p SwigcptrImageDisplayData) SwigGetBaseObject() BaseObject {
+	return SwigcptrBaseObject(p.Swigcptr())
+}
+
+type ImageDisplayData interface {
+	Swigcptr() uintptr
+	SwigIsImageDisplayData()
+	GetClassTypeIndex() (_swig_ret int64)
+	SetPivot(arg2 DragonBones_Point)
+	GetPivot() (_swig_ret DragonBones_Point)
+	SetTexture(arg2 TextureData)
+	GetTexture() (_swig_ret TextureData)
+	SetXtype(arg1 DragonBonesDisplayType)
+	GetXtype() (_swig_ret DragonBonesDisplayType)
+	SetName(arg1 string)
+	GetName() (_swig_ret string)
+	SetPath(arg1 string)
+	GetPath() (_swig_ret string)
+	SetTransform(arg1 Transform)
+	GetTransform() (_swig_ret Transform)
+	SetParent(arg1 DragonBones_SkinData)
+	GetParent() (_swig_ret DragonBones_SkinData)
+	GetHashCode() (_swig_ret uint)
+	ReturnToPool()
+	SwigIsDisplayData()
+	SwigGetDisplayData() DisplayData
+	SwigIsBaseObject()
+	SwigGetBaseObject() BaseObject
+}
+
+type SwigcptrArmatureDisplayData uintptr
+
+func (p SwigcptrArmatureDisplayData) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrArmatureDisplayData) SwigIsArmatureDisplayData() {
+}
+
+func ArmatureDisplayDataGetTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	swig_r = (int64)(C._wrap_ArmatureDisplayData_getTypeIndex_wrapper_49f4652e7e4716be())
+	return swig_r
+}
+
+func (arg1 SwigcptrArmatureDisplayData) GetClassTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	swig_r = (int64)(C._wrap_ArmatureDisplayData_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewArmatureDisplayData() (_swig_ret ArmatureDisplayData) {
+	var swig_r ArmatureDisplayData
+	swig_r = (ArmatureDisplayData)(SwigcptrArmatureDisplayData(C._wrap_new_ArmatureDisplayData_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func DeleteArmatureDisplayData(arg1 ArmatureDisplayData) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_ArmatureDisplayData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrArmatureDisplayData) SetInheritAnimation(arg2 bool) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ArmatureDisplayData_inheritAnimation_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+}
+
+func (arg1 SwigcptrArmatureDisplayData) GetInheritAnimation() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_ArmatureDisplayData_inheritAnimation_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrArmatureDisplayData) SetActions(arg2 Std_vector_Sl_dragonBones_ActionData_Sm__Sg_) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_ArmatureDisplayData_actions_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrArmatureDisplayData) GetActions() (_swig_ret Std_vector_Sl_dragonBones_ActionData_Sm__Sg_) {
+	var swig_r Std_vector_Sl_dragonBones_ActionData_Sm__Sg_
+	_swig_i_0 := arg1
+	swig_r = (Std_vector_Sl_dragonBones_ActionData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_ActionData_Sm__Sg_(C._wrap_ArmatureDisplayData_actions_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrArmatureDisplayData) SetArmature(arg2 ArmatureData) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_ArmatureDisplayData_armature_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrArmatureDisplayData) GetArmature() (_swig_ret ArmatureData) {
+	var swig_r ArmatureData
+	_swig_i_0 := arg1
+	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_ArmatureDisplayData_armature_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrArmatureDisplayData) AddAction(arg2 DragonBones_ActionData) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_ArmatureDisplayData_addAction_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (_swig_base SwigcptrArmatureDisplayData) SetXtype(arg1 DragonBonesDisplayType) {
+	_swig_i_0 := arg1
+	C._wrap_SetArmatureDisplayData_Xtype_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+}
+
+func (_swig_base SwigcptrArmatureDisplayData) GetXtype() (_swig_ret DragonBonesDisplayType) {
+	var swig_r DragonBonesDisplayType
+	swig_r = (DragonBonesDisplayType)(C._wrap_GetArmatureDisplayData_Xtype_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrArmatureDisplayData) SetName(arg1 string) {
+	_swig_i_0 := arg1
+	C._wrap_SetArmatureDisplayData_Name_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), *(*C.swig_type_92)(unsafe.Pointer(&_swig_i_0)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+}
+
+func (_swig_base SwigcptrArmatureDisplayData) GetName() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_GetArmatureDisplayData_Name_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrArmatureDisplayData) SetPath(arg1 string) {
+	_swig_i_0 := arg1
+	C._wrap_SetArmatureDisplayData_Path_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), *(*C.swig_type_94)(unsafe.Pointer(&_swig_i_0)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+}
+
+func (_swig_base SwigcptrArmatureDisplayData) GetPath() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_GetArmatureDisplayData_Path_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrArmatureDisplayData) SetTransform(arg1 Transform) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SetArmatureDisplayData_Transform_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrArmatureDisplayData) GetTransform() (_swig_ret Transform) {
+	var swig_r Transform
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_GetArmatureDisplayData_Transform_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
+	return swig_r
+}
+
+func (_swig_base SwigcptrArmatureDisplayData) SetParent(arg1 DragonBones_SkinData) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SetArmatureDisplayData_Parent_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrArmatureDisplayData) GetParent() (_swig_ret DragonBones_SkinData) {
+	var swig_r DragonBones_SkinData
+	swig_r = (DragonBones_SkinData)(SwigcptrDragonBones_SkinData(C._wrap_GetArmatureDisplayData_Parent_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
+	return swig_r
+}
+
+func ArmatureDisplayDataSetMaxCount(arg1 int64, arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_ArmatureDisplayData_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func ArmatureDisplayDataClearPool__SWIG_0(arg1 int64) {
+	_swig_i_0 := arg1
+	C._wrap_ArmatureDisplayData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
+}
+
+func ArmatureDisplayDataClearPool__SWIG_1() {
+	C._wrap_ArmatureDisplayData_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
+}
+
+func ArmatureDisplayDataClearPool(a ...interface{}) {
+	argc := len(a)
+	if argc == 0 {
+		ArmatureDisplayDataClearPool__SWIG_1()
+		return
+	}
+	if argc == 1 {
+		ArmatureDisplayDataClearPool__SWIG_0(a[0].(int64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrArmatureDisplayData) GetHashCode() (_swig_ret uint) {
+	var swig_r uint
+	swig_r = (uint)(C._wrap_GetArmatureDisplayData_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrArmatureDisplayData) ReturnToPool() {
+	C._wrap_ArmatureDisplayData_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+}
+
+func ArmatureDisplayDataBorrowArmatureObject() (_swig_ret Armature) {
+	var swig_r Armature
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_ArmatureDisplayData_borrowArmatureObject_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func (p SwigcptrArmatureDisplayData) SwigIsDisplayData() {
+}
+
+func (p SwigcptrArmatureDisplayData) SwigGetDisplayData() DisplayData {
+	return SwigcptrDisplayData(p.Swigcptr())
+}
+
+func (p SwigcptrArmatureDisplayData) SwigIsBaseObject() {
+}
+
+func (p SwigcptrArmatureDisplayData) SwigGetBaseObject() BaseObject {
+	return SwigcptrBaseObject(p.Swigcptr())
+}
+
+type ArmatureDisplayData interface {
+	Swigcptr() uintptr
+	SwigIsArmatureDisplayData()
+	GetClassTypeIndex() (_swig_ret int64)
+	SetInheritAnimation(arg2 bool)
+	GetInheritAnimation() (_swig_ret bool)
+	SetActions(arg2 Std_vector_Sl_dragonBones_ActionData_Sm__Sg_)
+	GetActions() (_swig_ret Std_vector_Sl_dragonBones_ActionData_Sm__Sg_)
+	SetArmature(arg2 ArmatureData)
+	GetArmature() (_swig_ret ArmatureData)
+	AddAction(arg2 DragonBones_ActionData)
+	SetXtype(arg1 DragonBonesDisplayType)
+	GetXtype() (_swig_ret DragonBonesDisplayType)
+	SetName(arg1 string)
+	GetName() (_swig_ret string)
+	SetPath(arg1 string)
+	GetPath() (_swig_ret string)
+	SetTransform(arg1 Transform)
+	GetTransform() (_swig_ret Transform)
+	SetParent(arg1 DragonBones_SkinData)
+	GetParent() (_swig_ret DragonBones_SkinData)
+	GetHashCode() (_swig_ret uint)
+	ReturnToPool()
+	SwigIsDisplayData()
+	SwigGetDisplayData() DisplayData
+	SwigIsBaseObject()
+	SwigGetBaseObject() BaseObject
+}
+
+type SwigcptrMeshDisplayData uintptr
+
+func (p SwigcptrMeshDisplayData) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrMeshDisplayData) SwigIsMeshDisplayData() {
+}
+
+func MeshDisplayDataGetTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	swig_r = (int64)(C._wrap_MeshDisplayData_getTypeIndex_wrapper_49f4652e7e4716be())
+	return swig_r
+}
+
+func (arg1 SwigcptrMeshDisplayData) GetClassTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	swig_r = (int64)(C._wrap_MeshDisplayData_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewMeshDisplayData() (_swig_ret MeshDisplayData) {
+	var swig_r MeshDisplayData
+	swig_r = (MeshDisplayData)(SwigcptrMeshDisplayData(C._wrap_new_MeshDisplayData_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func DeleteMeshDisplayData(arg1 MeshDisplayData) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_MeshDisplayData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrMeshDisplayData) SetVertices(arg2 VerticesData) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_MeshDisplayData_vertices_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrMeshDisplayData) GetVertices() (_swig_ret VerticesData) {
+	var swig_r VerticesData
+	_swig_i_0 := arg1
+	swig_r = (VerticesData)(SwigcptrVerticesData(C._wrap_MeshDisplayData_vertices_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrMeshDisplayData) SetTexture(arg2 TextureData) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_MeshDisplayData_texture_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrMeshDisplayData) GetTexture() (_swig_ret TextureData) {
+	var swig_r TextureData
+	_swig_i_0 := arg1
+	swig_r = (TextureData)(SwigcptrTextureData(C._wrap_MeshDisplayData_texture_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (_swig_base SwigcptrMeshDisplayData) SetXtype(arg1 DragonBonesDisplayType) {
+	_swig_i_0 := arg1
+	C._wrap_SetMeshDisplayData_Xtype_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+}
+
+func (_swig_base SwigcptrMeshDisplayData) GetXtype() (_swig_ret DragonBonesDisplayType) {
+	var swig_r DragonBonesDisplayType
+	swig_r = (DragonBonesDisplayType)(C._wrap_GetMeshDisplayData_Xtype_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrMeshDisplayData) SetName(arg1 string) {
+	_swig_i_0 := arg1
+	C._wrap_SetMeshDisplayData_Name_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), *(*C.swig_type_98)(unsafe.Pointer(&_swig_i_0)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+}
+
+func (_swig_base SwigcptrMeshDisplayData) GetName() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_GetMeshDisplayData_Name_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrMeshDisplayData) SetPath(arg1 string) {
+	_swig_i_0 := arg1
+	C._wrap_SetMeshDisplayData_Path_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), *(*C.swig_type_100)(unsafe.Pointer(&_swig_i_0)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+}
+
+func (_swig_base SwigcptrMeshDisplayData) GetPath() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_GetMeshDisplayData_Path_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrMeshDisplayData) SetTransform(arg1 Transform) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SetMeshDisplayData_Transform_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrMeshDisplayData) GetTransform() (_swig_ret Transform) {
+	var swig_r Transform
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_GetMeshDisplayData_Transform_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
+	return swig_r
+}
+
+func (_swig_base SwigcptrMeshDisplayData) SetParent(arg1 DragonBones_SkinData) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SetMeshDisplayData_Parent_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrMeshDisplayData) GetParent() (_swig_ret DragonBones_SkinData) {
+	var swig_r DragonBones_SkinData
+	swig_r = (DragonBones_SkinData)(SwigcptrDragonBones_SkinData(C._wrap_GetMeshDisplayData_Parent_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
+	return swig_r
+}
+
+func MeshDisplayDataSetMaxCount(arg1 int64, arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_MeshDisplayData_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func MeshDisplayDataClearPool__SWIG_0(arg1 int64) {
+	_swig_i_0 := arg1
+	C._wrap_MeshDisplayData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
+}
+
+func MeshDisplayDataClearPool__SWIG_1() {
+	C._wrap_MeshDisplayData_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
+}
+
+func MeshDisplayDataClearPool(a ...interface{}) {
+	argc := len(a)
+	if argc == 0 {
+		MeshDisplayDataClearPool__SWIG_1()
+		return
+	}
+	if argc == 1 {
+		MeshDisplayDataClearPool__SWIG_0(a[0].(int64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrMeshDisplayData) GetHashCode() (_swig_ret uint) {
+	var swig_r uint
+	swig_r = (uint)(C._wrap_GetMeshDisplayData_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrMeshDisplayData) ReturnToPool() {
+	C._wrap_MeshDisplayData_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+}
+
+func MeshDisplayDataBorrowArmatureObject() (_swig_ret Armature) {
+	var swig_r Armature
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_MeshDisplayData_borrowArmatureObject_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func (p SwigcptrMeshDisplayData) SwigIsDisplayData() {
+}
+
+func (p SwigcptrMeshDisplayData) SwigGetDisplayData() DisplayData {
+	return SwigcptrDisplayData(p.Swigcptr())
+}
+
+func (p SwigcptrMeshDisplayData) SwigIsBaseObject() {
+}
+
+func (p SwigcptrMeshDisplayData) SwigGetBaseObject() BaseObject {
+	return SwigcptrBaseObject(p.Swigcptr())
+}
+
+type MeshDisplayData interface {
+	Swigcptr() uintptr
+	SwigIsMeshDisplayData()
+	GetClassTypeIndex() (_swig_ret int64)
+	SetVertices(arg2 VerticesData)
+	GetVertices() (_swig_ret VerticesData)
+	SetTexture(arg2 TextureData)
+	GetTexture() (_swig_ret TextureData)
+	SetXtype(arg1 DragonBonesDisplayType)
+	GetXtype() (_swig_ret DragonBonesDisplayType)
+	SetName(arg1 string)
+	GetName() (_swig_ret string)
+	SetPath(arg1 string)
+	GetPath() (_swig_ret string)
+	SetTransform(arg1 Transform)
+	GetTransform() (_swig_ret Transform)
+	SetParent(arg1 DragonBones_SkinData)
+	GetParent() (_swig_ret DragonBones_SkinData)
+	GetHashCode() (_swig_ret uint)
+	ReturnToPool()
+	SwigIsDisplayData()
+	SwigGetDisplayData() DisplayData
+	SwigIsBaseObject()
+	SwigGetBaseObject() BaseObject
+}
+
+type SwigcptrBoundingBoxDisplayData uintptr
+
+func (p SwigcptrBoundingBoxDisplayData) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrBoundingBoxDisplayData) SwigIsBoundingBoxDisplayData() {
+}
+
+func BoundingBoxDisplayDataGetTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	swig_r = (int64)(C._wrap_BoundingBoxDisplayData_getTypeIndex_wrapper_49f4652e7e4716be())
+	return swig_r
+}
+
+func (arg1 SwigcptrBoundingBoxDisplayData) GetClassTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	swig_r = (int64)(C._wrap_BoundingBoxDisplayData_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrBoundingBoxDisplayData) SetBoundingBox(arg2 DragonBones_BoundingBoxData) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_BoundingBoxDisplayData_boundingBox_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrBoundingBoxDisplayData) GetBoundingBox() (_swig_ret DragonBones_BoundingBoxData) {
+	var swig_r DragonBones_BoundingBoxData
+	_swig_i_0 := arg1
+	swig_r = (DragonBones_BoundingBoxData)(SwigcptrDragonBones_BoundingBoxData(C._wrap_BoundingBoxDisplayData_boundingBox_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewBoundingBoxDisplayData() (_swig_ret BoundingBoxDisplayData) {
+	var swig_r BoundingBoxDisplayData
+	swig_r = (BoundingBoxDisplayData)(SwigcptrBoundingBoxDisplayData(C._wrap_new_BoundingBoxDisplayData_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func DeleteBoundingBoxDisplayData(arg1 BoundingBoxDisplayData) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_BoundingBoxDisplayData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrBoundingBoxDisplayData) SetXtype(arg1 DragonBonesDisplayType) {
+	_swig_i_0 := arg1
+	C._wrap_SetBoundingBoxDisplayData_Xtype_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+}
+
+func (_swig_base SwigcptrBoundingBoxDisplayData) GetXtype() (_swig_ret DragonBonesDisplayType) {
+	var swig_r DragonBonesDisplayType
+	swig_r = (DragonBonesDisplayType)(C._wrap_GetBoundingBoxDisplayData_Xtype_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrBoundingBoxDisplayData) SetName(arg1 string) {
+	_swig_i_0 := arg1
+	C._wrap_SetBoundingBoxDisplayData_Name_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), *(*C.swig_type_104)(unsafe.Pointer(&_swig_i_0)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+}
+
+func (_swig_base SwigcptrBoundingBoxDisplayData) GetName() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_GetBoundingBoxDisplayData_Name_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrBoundingBoxDisplayData) SetPath(arg1 string) {
+	_swig_i_0 := arg1
+	C._wrap_SetBoundingBoxDisplayData_Path_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), *(*C.swig_type_106)(unsafe.Pointer(&_swig_i_0)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+}
+
+func (_swig_base SwigcptrBoundingBoxDisplayData) GetPath() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_GetBoundingBoxDisplayData_Path_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrBoundingBoxDisplayData) SetTransform(arg1 Transform) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SetBoundingBoxDisplayData_Transform_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrBoundingBoxDisplayData) GetTransform() (_swig_ret Transform) {
+	var swig_r Transform
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_GetBoundingBoxDisplayData_Transform_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
+	return swig_r
+}
+
+func (_swig_base SwigcptrBoundingBoxDisplayData) SetParent(arg1 DragonBones_SkinData) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SetBoundingBoxDisplayData_Parent_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrBoundingBoxDisplayData) GetParent() (_swig_ret DragonBones_SkinData) {
+	var swig_r DragonBones_SkinData
+	swig_r = (DragonBones_SkinData)(SwigcptrDragonBones_SkinData(C._wrap_GetBoundingBoxDisplayData_Parent_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))))
+	return swig_r
+}
+
+func BoundingBoxDisplayDataSetMaxCount(arg1 int64, arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_BoundingBoxDisplayData_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func BoundingBoxDisplayDataClearPool__SWIG_0(arg1 int64) {
+	_swig_i_0 := arg1
+	C._wrap_BoundingBoxDisplayData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
+}
+
+func BoundingBoxDisplayDataClearPool__SWIG_1() {
+	C._wrap_BoundingBoxDisplayData_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
+}
+
+func BoundingBoxDisplayDataClearPool(a ...interface{}) {
+	argc := len(a)
+	if argc == 0 {
+		BoundingBoxDisplayDataClearPool__SWIG_1()
+		return
+	}
+	if argc == 1 {
+		BoundingBoxDisplayDataClearPool__SWIG_0(a[0].(int64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrBoundingBoxDisplayData) GetHashCode() (_swig_ret uint) {
+	var swig_r uint
+	swig_r = (uint)(C._wrap_GetBoundingBoxDisplayData_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrBoundingBoxDisplayData) ReturnToPool() {
+	C._wrap_BoundingBoxDisplayData_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+}
+
+func BoundingBoxDisplayDataBorrowArmatureObject() (_swig_ret Armature) {
+	var swig_r Armature
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_BoundingBoxDisplayData_borrowArmatureObject_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func (p SwigcptrBoundingBoxDisplayData) SwigIsDisplayData() {
+}
+
+func (p SwigcptrBoundingBoxDisplayData) SwigGetDisplayData() DisplayData {
+	return SwigcptrDisplayData(p.Swigcptr())
+}
+
+func (p SwigcptrBoundingBoxDisplayData) SwigIsBaseObject() {
+}
+
+func (p SwigcptrBoundingBoxDisplayData) SwigGetBaseObject() BaseObject {
+	return SwigcptrBaseObject(p.Swigcptr())
+}
+
+type BoundingBoxDisplayData interface {
+	Swigcptr() uintptr
+	SwigIsBoundingBoxDisplayData()
+	GetClassTypeIndex() (_swig_ret int64)
+	SetBoundingBox(arg2 DragonBones_BoundingBoxData)
+	GetBoundingBox() (_swig_ret DragonBones_BoundingBoxData)
+	SetXtype(arg1 DragonBonesDisplayType)
+	GetXtype() (_swig_ret DragonBonesDisplayType)
+	SetName(arg1 string)
+	GetName() (_swig_ret string)
+	SetPath(arg1 string)
+	GetPath() (_swig_ret string)
+	SetTransform(arg1 Transform)
+	GetTransform() (_swig_ret Transform)
+	SetParent(arg1 DragonBones_SkinData)
+	GetParent() (_swig_ret DragonBones_SkinData)
+	GetHashCode() (_swig_ret uint)
+	ReturnToPool()
+	SwigIsDisplayData()
+	SwigGetDisplayData() DisplayData
+	SwigIsBaseObject()
+	SwigGetBaseObject() BaseObject
+}
+
+type SwigcptrWeightData uintptr
+
+func (p SwigcptrWeightData) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrWeightData) SwigIsWeightData() {
+}
+
+func WeightDataGetTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	swig_r = (int64)(C._wrap_WeightData_getTypeIndex_wrapper_49f4652e7e4716be())
+	return swig_r
+}
+
+func (arg1 SwigcptrWeightData) GetClassTypeIndex() (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	swig_r = (int64)(C._wrap_WeightData_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewWeightData() (_swig_ret WeightData) {
+	var swig_r WeightData
+	swig_r = (WeightData)(SwigcptrWeightData(C._wrap_new_WeightData_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func DeleteWeightData(arg1 WeightData) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_WeightData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrWeightData) SetCount(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_WeightData_count_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrWeightData) GetCount() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_WeightData_count_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrWeightData) SetOffset(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_WeightData_offset_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrWeightData) GetOffset() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_WeightData_offset_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrWeightData) SetBones(arg2 Std_vector_Sl_dragonBones_BoneData_Sm__Sg_) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_WeightData_bones_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrWeightData) GetBones() (_swig_ret Std_vector_Sl_dragonBones_BoneData_Sm__Sg_) {
+	var swig_r Std_vector_Sl_dragonBones_BoneData_Sm__Sg_
+	_swig_i_0 := arg1
+	swig_r = (Std_vector_Sl_dragonBones_BoneData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_BoneData_Sm__Sg_(C._wrap_WeightData_bones_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrWeightData) AddBone(arg2 BoneData) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_WeightData_addBone_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func WeightDataSetMaxCount(arg1 int64, arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_WeightData_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func WeightDataClearPool__SWIG_0(arg1 int64) {
+	_swig_i_0 := arg1
+	C._wrap_WeightData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
+}
+
+func WeightDataClearPool__SWIG_1() {
+	C._wrap_WeightData_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
+}
+
+func WeightDataClearPool(a ...interface{}) {
+	argc := len(a)
+	if argc == 0 {
+		WeightDataClearPool__SWIG_1()
+		return
+	}
+	if argc == 1 {
+		WeightDataClearPool__SWIG_0(a[0].(int64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrWeightData) GetHashCode() (_swig_ret uint) {
+	var swig_r uint
+	swig_r = (uint)(C._wrap_GetWeightData_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrWeightData) ReturnToPool() {
+	C._wrap_WeightData_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
+}
+
+func WeightDataBorrowArmatureObject() (_swig_ret Armature) {
+	var swig_r Armature
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_WeightData_borrowArmatureObject_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func (p SwigcptrWeightData) SwigIsBaseObject() {
+}
+
+func (p SwigcptrWeightData) SwigGetBaseObject() BaseObject {
+	return SwigcptrBaseObject(p.Swigcptr())
+}
+
+type WeightData interface {
+	Swigcptr() uintptr
+	SwigIsWeightData()
+	GetClassTypeIndex() (_swig_ret int64)
+	SetCount(arg2 uint)
+	GetCount() (_swig_ret uint)
+	SetOffset(arg2 uint)
+	GetOffset() (_swig_ret uint)
+	SetBones(arg2 Std_vector_Sl_dragonBones_BoneData_Sm__Sg_)
+	GetBones() (_swig_ret Std_vector_Sl_dragonBones_BoneData_Sm__Sg_)
+	AddBone(arg2 BoneData)
+	GetHashCode() (_swig_ret uint)
+	ReturnToPool()
+	SwigIsBaseObject()
+	SwigGetBaseObject() BaseObject
+}
+
 type SwigcptrArmatureData uintptr
 
 func (p SwigcptrArmatureData) Swigcptr() uintptr {
@@ -6054,73 +8173,73 @@ func (p SwigcptrArmatureData) SwigIsArmatureData() {
 
 func ArmatureDataGetTypeIndex() (_swig_ret int64) {
 	var swig_r int64
-	swig_r = (int64)(C._wrap_ArmatureData_getTypeIndex_wrapper_0168c02bcda14bda())
+	swig_r = (int64)(C._wrap_ArmatureData_getTypeIndex_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) GetClassTypeIndex() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_ArmatureData_getClassTypeIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_ArmatureData_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetXtype(arg2 DragonBonesArmatureType) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ArmatureData_Xtype_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_ArmatureData_Xtype_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetXtype() (_swig_ret DragonBonesArmatureType) {
 	var swig_r DragonBonesArmatureType
 	_swig_i_0 := arg1
-	swig_r = (DragonBonesArmatureType)(C._wrap_ArmatureData_Xtype_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (DragonBonesArmatureType)(C._wrap_ArmatureData_Xtype_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetFrameRate(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ArmatureData_frameRate_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_ArmatureData_frameRate_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetFrameRate() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_ArmatureData_frameRate_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_ArmatureData_frameRate_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetCacheFrameRate(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ArmatureData_cacheFrameRate_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_ArmatureData_cacheFrameRate_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetCacheFrameRate() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_ArmatureData_cacheFrameRate_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_ArmatureData_cacheFrameRate_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetScale(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ArmatureData_scale_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_ArmatureData_scale_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetScale() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_ArmatureData_scale_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_ArmatureData_scale_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetName(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ArmatureData_name_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_76)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_ArmatureData_name_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_112)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -6129,7 +8248,7 @@ func (arg1 SwigcptrArmatureData) SetName(arg2 string) {
 func (arg1 SwigcptrArmatureData) GetName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_ArmatureData_name_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_ArmatureData_name_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -6139,231 +8258,231 @@ func (arg1 SwigcptrArmatureData) GetName() (_swig_ret string) {
 func (arg1 SwigcptrArmatureData) SetAabb(arg2 Rectangle) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_aabb_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_aabb_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetAabb() (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_ArmatureData_aabb_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_ArmatureData_aabb_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetAnimationNames(arg2 VectorString) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_animationNames_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_animationNames_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetAnimationNames() (_swig_ret VectorString) {
 	var swig_r VectorString
 	_swig_i_0 := arg1
-	swig_r = (VectorString)(SwigcptrVectorString(C._wrap_ArmatureData_animationNames_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorString)(SwigcptrVectorString(C._wrap_ArmatureData_animationNames_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetSortedBones(arg2 Std_vector_Sl_dragonBones_BoneData_Sm__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_sortedBones_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_sortedBones_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetSortedBones() (_swig_ret Std_vector_Sl_dragonBones_BoneData_Sm__Sg_) {
 	var swig_r Std_vector_Sl_dragonBones_BoneData_Sm__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_dragonBones_BoneData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_BoneData_Sm__Sg_(C._wrap_ArmatureData_sortedBones_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_vector_Sl_dragonBones_BoneData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_BoneData_Sm__Sg_(C._wrap_ArmatureData_sortedBones_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetSortedSlots(arg2 Std_vector_Sl_dragonBones_SlotData_Sm__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_sortedSlots_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_sortedSlots_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetSortedSlots() (_swig_ret Std_vector_Sl_dragonBones_SlotData_Sm__Sg_) {
 	var swig_r Std_vector_Sl_dragonBones_SlotData_Sm__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_dragonBones_SlotData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_SlotData_Sm__Sg_(C._wrap_ArmatureData_sortedSlots_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_vector_Sl_dragonBones_SlotData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_SlotData_Sm__Sg_(C._wrap_ArmatureData_sortedSlots_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetDefaultActions(arg2 Std_vector_Sl_dragonBones_ActionData_Sm__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_defaultActions_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_defaultActions_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetDefaultActions() (_swig_ret Std_vector_Sl_dragonBones_ActionData_Sm__Sg_) {
 	var swig_r Std_vector_Sl_dragonBones_ActionData_Sm__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_dragonBones_ActionData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_ActionData_Sm__Sg_(C._wrap_ArmatureData_defaultActions_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_vector_Sl_dragonBones_ActionData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_ActionData_Sm__Sg_(C._wrap_ArmatureData_defaultActions_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetActions(arg2 Std_vector_Sl_dragonBones_ActionData_Sm__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_actions_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_actions_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetActions() (_swig_ret Std_vector_Sl_dragonBones_ActionData_Sm__Sg_) {
 	var swig_r Std_vector_Sl_dragonBones_ActionData_Sm__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_vector_Sl_dragonBones_ActionData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_ActionData_Sm__Sg_(C._wrap_ArmatureData_actions_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_vector_Sl_dragonBones_ActionData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_ActionData_Sm__Sg_(C._wrap_ArmatureData_actions_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetBones(arg2 Std_map_Sl_std_string_Sc_dragonBones_BoneData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_bones_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_bones_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetBones() (_swig_ret Std_map_Sl_std_string_Sc_dragonBones_BoneData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	var swig_r Std_map_Sl_std_string_Sc_dragonBones_BoneData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_BoneData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_BoneData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_ArmatureData_bones_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_BoneData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_BoneData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_ArmatureData_bones_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetSlots(arg2 Std_map_Sl_std_string_Sc_dragonBones_SlotData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_slots_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_slots_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetSlots() (_swig_ret Std_map_Sl_std_string_Sc_dragonBones_SlotData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	var swig_r Std_map_Sl_std_string_Sc_dragonBones_SlotData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_SlotData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_SlotData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_ArmatureData_slots_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_SlotData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_SlotData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_ArmatureData_slots_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetConstraints(arg2 Std_map_Sl_std_string_Sc_dragonBones_ConstraintData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_constraints_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_constraints_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetConstraints() (_swig_ret Std_map_Sl_std_string_Sc_dragonBones_ConstraintData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	var swig_r Std_map_Sl_std_string_Sc_dragonBones_ConstraintData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_ConstraintData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_ConstraintData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_ArmatureData_constraints_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_ConstraintData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_ConstraintData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_ArmatureData_constraints_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetSkins(arg2 Std_map_Sl_std_string_Sc_dragonBones_SkinData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_skins_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_skins_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetSkins() (_swig_ret Std_map_Sl_std_string_Sc_dragonBones_SkinData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	var swig_r Std_map_Sl_std_string_Sc_dragonBones_SkinData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_SkinData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_SkinData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_ArmatureData_skins_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_SkinData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_SkinData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_ArmatureData_skins_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetAnimations(arg2 Std_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_animations_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_animations_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetAnimations() (_swig_ret Std_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	var swig_r Std_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_ArmatureData_animations_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_ArmatureData_animations_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetDefaultSkin(arg2 DragonBones_SkinData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_defaultSkin_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_defaultSkin_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetDefaultSkin() (_swig_ret DragonBones_SkinData) {
 	var swig_r DragonBones_SkinData
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_SkinData)(SwigcptrDragonBones_SkinData(C._wrap_ArmatureData_defaultSkin_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_SkinData)(SwigcptrDragonBones_SkinData(C._wrap_ArmatureData_defaultSkin_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetDefaultAnimation(arg2 DragonBones_AnimationData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_defaultAnimation_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_defaultAnimation_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetDefaultAnimation() (_swig_ret DragonBones_AnimationData) {
 	var swig_r DragonBones_AnimationData
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_AnimationData)(SwigcptrDragonBones_AnimationData(C._wrap_ArmatureData_defaultAnimation_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_AnimationData)(SwigcptrDragonBones_AnimationData(C._wrap_ArmatureData_defaultAnimation_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetCanvas(arg2 DragonBones_CanvasData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_canvas_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_canvas_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetCanvas() (_swig_ret DragonBones_CanvasData) {
 	var swig_r DragonBones_CanvasData
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_CanvasData)(SwigcptrDragonBones_CanvasData(C._wrap_ArmatureData_canvas_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_CanvasData)(SwigcptrDragonBones_CanvasData(C._wrap_ArmatureData_canvas_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetUserData(arg2 DragonBones_UserData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_userData_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_userData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetUserData() (_swig_ret DragonBones_UserData) {
 	var swig_r DragonBones_UserData
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_UserData)(SwigcptrDragonBones_UserData(C._wrap_ArmatureData_userData_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_UserData)(SwigcptrDragonBones_UserData(C._wrap_ArmatureData_userData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetParent(arg2 DragonBonesData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_parent_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_parent_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetParent() (_swig_ret DragonBonesData) {
 	var swig_r DragonBonesData
 	_swig_i_0 := arg1
-	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_ArmatureData_parent_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_ArmatureData_parent_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewArmatureData() (_swig_ret ArmatureData) {
 	var swig_r ArmatureData
-	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_new_ArmatureData_wrapper_0168c02bcda14bda()))
+	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_new_ArmatureData_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func DeleteArmatureData(arg1 ArmatureData) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_ArmatureData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_ArmatureData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrArmatureData) SortBones() {
 	_swig_i_0 := arg1
-	C._wrap_ArmatureData_sortBones_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_ArmatureData_sortBones_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrArmatureData) CacheFrames(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ArmatureData_cacheFrames_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_ArmatureData_cacheFrames_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) SetCacheFrame(arg2 Matrix, arg3 Transform) (_swig_ret int) {
@@ -6371,7 +8490,7 @@ func (arg1 SwigcptrArmatureData) SetCacheFrame(arg2 Matrix, arg3 Transform) (_sw
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (int)(C._wrap_ArmatureData_setCacheFrame_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2)))
+	swig_r = (int)(C._wrap_ArmatureData_setCacheFrame_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2)))
 	return swig_r
 }
 
@@ -6380,51 +8499,51 @@ func (arg1 SwigcptrArmatureData) GetCacheFrame(arg2 Matrix, arg3 Transform, arg4
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4
-	C._wrap_ArmatureData_getCacheFrame_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_ArmatureData_getCacheFrame_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3))
 }
 
 func (arg1 SwigcptrArmatureData) AddBone(arg2 BoneData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_addBone_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_addBone_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) AddSlot(arg2 SlotData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_addSlot_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_addSlot_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) AddConstraint(arg2 DragonBones_ConstraintData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_addConstraint_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_addConstraint_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) AddSkin(arg2 DragonBones_SkinData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_addSkin_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_addSkin_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) AddAnimation(arg2 DragonBones_AnimationData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArmatureData_addAnimation_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArmatureData_addAnimation_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) AddAction(arg2 DragonBones_ActionData, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	C._wrap_ArmatureData_addAction_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2))
+	C._wrap_ArmatureData_addAction_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2))
 }
 
 func (arg1 SwigcptrArmatureData) GetBone(arg2 string) (_swig_ret BoneData) {
 	var swig_r BoneData
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (BoneData)(SwigcptrBoneData(C._wrap_ArmatureData_getBone_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_78)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (BoneData)(SwigcptrBoneData(C._wrap_ArmatureData_getBone_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_114)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -6435,7 +8554,7 @@ func (arg1 SwigcptrArmatureData) GetSlot(arg2 string) (_swig_ret SlotData) {
 	var swig_r SlotData
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (SlotData)(SwigcptrSlotData(C._wrap_ArmatureData_getSlot_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_79)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (SlotData)(SwigcptrSlotData(C._wrap_ArmatureData_getSlot_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_115)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -6446,7 +8565,7 @@ func (arg1 SwigcptrArmatureData) GetConstraint(arg2 string) (_swig_ret DragonBon
 	var swig_r DragonBones_ConstraintData
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBones_ConstraintData)(SwigcptrDragonBones_ConstraintData(C._wrap_ArmatureData_getConstraint_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_80)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBones_ConstraintData)(SwigcptrDragonBones_ConstraintData(C._wrap_ArmatureData_getConstraint_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_116)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -6457,20 +8576,20 @@ func (arg1 SwigcptrArmatureData) GetSkin(arg2 string) (_swig_ret DragonBones_Ski
 	var swig_r DragonBones_SkinData
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBones_SkinData)(SwigcptrDragonBones_SkinData(C._wrap_ArmatureData_getSkin_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_81)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBones_SkinData)(SwigcptrDragonBones_SkinData(C._wrap_ArmatureData_getSkin_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_117)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
 	return swig_r
 }
 
-func (arg1 SwigcptrArmatureData) GetMesh(arg2 string, arg3 string, arg4 string) (_swig_ret DragonBones_MeshDisplayData) {
-	var swig_r DragonBones_MeshDisplayData
+func (arg1 SwigcptrArmatureData) GetMesh(arg2 string, arg3 string, arg4 string) (_swig_ret MeshDisplayData) {
+	var swig_r MeshDisplayData
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (DragonBones_MeshDisplayData)(SwigcptrDragonBones_MeshDisplayData(C._wrap_ArmatureData_getMesh_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_82)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_83)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_84)(unsafe.Pointer(&_swig_i_3)))))
+	swig_r = (MeshDisplayData)(SwigcptrMeshDisplayData(C._wrap_ArmatureData_getMesh_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_118)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_119)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_120)(unsafe.Pointer(&_swig_i_3)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -6487,7 +8606,7 @@ func (arg1 SwigcptrArmatureData) GetAnimation(arg2 string) (_swig_ret DragonBone
 	var swig_r DragonBones_AnimationData
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBones_AnimationData)(SwigcptrDragonBones_AnimationData(C._wrap_ArmatureData_getAnimation_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_85)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBones_AnimationData)(SwigcptrDragonBones_AnimationData(C._wrap_ArmatureData_getAnimation_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_121)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -6497,36 +8616,36 @@ func (arg1 SwigcptrArmatureData) GetAnimation(arg2 string) (_swig_ret DragonBone
 func (arg1 SwigcptrArmatureData) GetType() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_ArmatureData_getType_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_ArmatureData_getType_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArmatureData) SetType(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ArmatureData_setType_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_ArmatureData_setType_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrArmatureData) GetAABB() (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_ArmatureData_getAABB_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_ArmatureData_getAABB_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func ArmatureDataSetMaxCount(arg1 int64, arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ArmatureData_setMaxCount_wrapper_0168c02bcda14bda(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_ArmatureData_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func ArmatureDataClearPool__SWIG_0(arg1 int64) {
 	_swig_i_0 := arg1
-	C._wrap_ArmatureData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(C.swig_type_3(_swig_i_0))
+	C._wrap_ArmatureData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
 }
 
 func ArmatureDataClearPool__SWIG_1() {
-	C._wrap_ArmatureData_clearPool__SWIG_1_wrapper_0168c02bcda14bda()
+	C._wrap_ArmatureData_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
 }
 
 func ArmatureDataClearPool(a ...interface{}) {
@@ -6544,17 +8663,17 @@ func ArmatureDataClearPool(a ...interface{}) {
 
 func (_swig_base SwigcptrArmatureData) GetHashCode() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_GetArmatureData_HashCode_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (uint)(C._wrap_GetArmatureData_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrArmatureData) ReturnToPool() {
-	C._wrap_ArmatureData_returnToPool_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))
+	C._wrap_ArmatureData_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
 }
 
 func ArmatureDataBorrowArmatureObject() (_swig_ret Armature) {
 	var swig_r Armature
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_ArmatureData_borrowArmatureObject_wrapper_0168c02bcda14bda()))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_ArmatureData_borrowArmatureObject_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
@@ -6625,7 +8744,7 @@ type ArmatureData interface {
 	GetSlot(arg2 string) (_swig_ret SlotData)
 	GetConstraint(arg2 string) (_swig_ret DragonBones_ConstraintData)
 	GetSkin(arg2 string) (_swig_ret DragonBones_SkinData)
-	GetMesh(arg2 string, arg3 string, arg4 string) (_swig_ret DragonBones_MeshDisplayData)
+	GetMesh(arg2 string, arg3 string, arg4 string) (_swig_ret MeshDisplayData)
 	GetAnimation(arg2 string) (_swig_ret DragonBones_AnimationData)
 	GetType() (_swig_ret int)
 	SetType(arg2 int)
@@ -6647,86 +8766,86 @@ func (p SwigcptrBoneData) SwigIsBoneData() {
 
 func BoneDataGetTypeIndex() (_swig_ret int64) {
 	var swig_r int64
-	swig_r = (int64)(C._wrap_BoneData_getTypeIndex_wrapper_0168c02bcda14bda())
+	swig_r = (int64)(C._wrap_BoneData_getTypeIndex_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func (arg1 SwigcptrBoneData) GetClassTypeIndex() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_BoneData_getClassTypeIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_BoneData_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrBoneData) SetInheritTranslation(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BoneData_inheritTranslation_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_BoneData_inheritTranslation_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrBoneData) GetInheritTranslation() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_BoneData_inheritTranslation_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_BoneData_inheritTranslation_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrBoneData) SetInheritRotation(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BoneData_inheritRotation_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_BoneData_inheritRotation_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrBoneData) GetInheritRotation() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_BoneData_inheritRotation_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_BoneData_inheritRotation_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrBoneData) SetInheritScale(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BoneData_inheritScale_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_BoneData_inheritScale_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrBoneData) GetInheritScale() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_BoneData_inheritScale_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_BoneData_inheritScale_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrBoneData) SetInheritReflection(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BoneData_inheritReflection_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_BoneData_inheritReflection_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrBoneData) GetInheritReflection() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_BoneData_inheritReflection_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_BoneData_inheritReflection_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrBoneData) SetLength(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BoneData_length_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_BoneData_length_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrBoneData) GetLength() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_BoneData_length_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_BoneData_length_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrBoneData) SetName(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BoneData_name_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_88)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_BoneData_name_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_124)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -6735,7 +8854,7 @@ func (arg1 SwigcptrBoneData) SetName(arg2 string) {
 func (arg1 SwigcptrBoneData) GetName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_BoneData_name_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_BoneData_name_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -6745,73 +8864,73 @@ func (arg1 SwigcptrBoneData) GetName() (_swig_ret string) {
 func (arg1 SwigcptrBoneData) SetTransform(arg2 Transform) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_BoneData_transform_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_BoneData_transform_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrBoneData) GetTransform() (_swig_ret Transform) {
 	var swig_r Transform
 	_swig_i_0 := arg1
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_BoneData_transform_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_BoneData_transform_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrBoneData) SetUserData(arg2 DragonBones_UserData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_BoneData_userData_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_BoneData_userData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrBoneData) GetUserData() (_swig_ret DragonBones_UserData) {
 	var swig_r DragonBones_UserData
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_UserData)(SwigcptrDragonBones_UserData(C._wrap_BoneData_userData_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_UserData)(SwigcptrDragonBones_UserData(C._wrap_BoneData_userData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrBoneData) SetParent(arg2 BoneData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_BoneData_parent_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_BoneData_parent_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrBoneData) GetParent() (_swig_ret BoneData) {
 	var swig_r BoneData
 	_swig_i_0 := arg1
-	swig_r = (BoneData)(SwigcptrBoneData(C._wrap_BoneData_parent_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (BoneData)(SwigcptrBoneData(C._wrap_BoneData_parent_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewBoneData() (_swig_ret BoneData) {
 	var swig_r BoneData
-	swig_r = (BoneData)(SwigcptrBoneData(C._wrap_new_BoneData_wrapper_0168c02bcda14bda()))
+	swig_r = (BoneData)(SwigcptrBoneData(C._wrap_new_BoneData_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func DeleteBoneData(arg1 BoneData) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_BoneData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_BoneData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrBoneData) GetTransfrom() (_swig_ret Transform) {
 	var swig_r Transform
 	_swig_i_0 := arg1
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_BoneData_getTransfrom_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_BoneData_getTransfrom_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func BoneDataSetMaxCount(arg1 int64, arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BoneData_setMaxCount_wrapper_0168c02bcda14bda(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_BoneData_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func BoneDataClearPool__SWIG_0(arg1 int64) {
 	_swig_i_0 := arg1
-	C._wrap_BoneData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(C.swig_type_3(_swig_i_0))
+	C._wrap_BoneData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
 }
 
 func BoneDataClearPool__SWIG_1() {
-	C._wrap_BoneData_clearPool__SWIG_1_wrapper_0168c02bcda14bda()
+	C._wrap_BoneData_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
 }
 
 func BoneDataClearPool(a ...interface{}) {
@@ -6829,17 +8948,17 @@ func BoneDataClearPool(a ...interface{}) {
 
 func (_swig_base SwigcptrBoneData) GetHashCode() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_GetBoneData_HashCode_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (uint)(C._wrap_GetBoneData_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrBoneData) ReturnToPool() {
-	C._wrap_BoneData_returnToPool_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))
+	C._wrap_BoneData_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
 }
 
 func BoneDataBorrowArmatureObject() (_swig_ret Armature) {
 	var swig_r Armature
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_BoneData_borrowArmatureObject_wrapper_0168c02bcda14bda()))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_BoneData_borrowArmatureObject_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
@@ -6890,77 +9009,77 @@ func (p SwigcptrSlotData) SwigIsSlotData() {
 
 func SlotDataGetTypeIndex() (_swig_ret int64) {
 	var swig_r int64
-	swig_r = (int64)(C._wrap_SlotData_getTypeIndex_wrapper_0168c02bcda14bda())
+	swig_r = (int64)(C._wrap_SlotData_getTypeIndex_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func (arg1 SwigcptrSlotData) GetClassTypeIndex() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_SlotData_getClassTypeIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_SlotData_getClassTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SetSlotDataDEFAULT_COLOR(arg1 DragonBones_ColorTransform) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_SlotData_DEFAULT_COLOR_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_SlotData_DEFAULT_COLOR_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func GetSlotDataDEFAULT_COLOR() (_swig_ret DragonBones_ColorTransform) {
 	var swig_r DragonBones_ColorTransform
-	swig_r = (DragonBones_ColorTransform)(SwigcptrDragonBones_ColorTransform(C._wrap_SlotData_DEFAULT_COLOR_get_wrapper_0168c02bcda14bda()))
+	swig_r = (DragonBones_ColorTransform)(SwigcptrDragonBones_ColorTransform(C._wrap_SlotData_DEFAULT_COLOR_get_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func SlotDataCreateColor() (_swig_ret DragonBones_ColorTransform) {
 	var swig_r DragonBones_ColorTransform
-	swig_r = (DragonBones_ColorTransform)(SwigcptrDragonBones_ColorTransform(C._wrap_SlotData_createColor_wrapper_0168c02bcda14bda()))
+	swig_r = (DragonBones_ColorTransform)(SwigcptrDragonBones_ColorTransform(C._wrap_SlotData_createColor_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlotData) SetBlendMode(arg2 DragonBonesBlendMode) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SlotData_blendMode_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_SlotData_blendMode_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlotData) GetBlendMode() (_swig_ret DragonBonesBlendMode) {
 	var swig_r DragonBonesBlendMode
 	_swig_i_0 := arg1
-	swig_r = (DragonBonesBlendMode)(C._wrap_SlotData_blendMode_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (DragonBonesBlendMode)(C._wrap_SlotData_blendMode_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlotData) SetDisplayIndex(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SlotData_displayIndex_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_SlotData_displayIndex_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlotData) GetDisplayIndex() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_SlotData_displayIndex_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_SlotData_displayIndex_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlotData) SetZOrder(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SlotData_zOrder_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_SlotData_zOrder_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlotData) GetZOrder() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_SlotData_zOrder_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_SlotData_zOrder_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlotData) SetName(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SlotData_name_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_92)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_SlotData_name_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_128)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -6969,7 +9088,7 @@ func (arg1 SwigcptrSlotData) SetName(arg2 string) {
 func (arg1 SwigcptrSlotData) GetName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_SlotData_name_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_SlotData_name_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -6979,72 +9098,72 @@ func (arg1 SwigcptrSlotData) GetName() (_swig_ret string) {
 func (arg1 SwigcptrSlotData) SetColor(arg2 DragonBones_ColorTransform) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_SlotData_color_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_SlotData_color_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlotData) GetColor() (_swig_ret DragonBones_ColorTransform) {
 	var swig_r DragonBones_ColorTransform
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_ColorTransform)(SwigcptrDragonBones_ColorTransform(C._wrap_SlotData_color_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_ColorTransform)(SwigcptrDragonBones_ColorTransform(C._wrap_SlotData_color_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlotData) SetUserData(arg2 DragonBones_UserData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_SlotData_userData_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_SlotData_userData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlotData) GetUserData() (_swig_ret DragonBones_UserData) {
 	var swig_r DragonBones_UserData
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_UserData)(SwigcptrDragonBones_UserData(C._wrap_SlotData_userData_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_UserData)(SwigcptrDragonBones_UserData(C._wrap_SlotData_userData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSlotData) SetParent(arg2 BoneData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_SlotData_parent_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_SlotData_parent_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSlotData) GetParent() (_swig_ret BoneData) {
 	var swig_r BoneData
 	_swig_i_0 := arg1
-	swig_r = (BoneData)(SwigcptrBoneData(C._wrap_SlotData_parent_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (BoneData)(SwigcptrBoneData(C._wrap_SlotData_parent_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewSlotData() (_swig_ret SlotData) {
 	var swig_r SlotData
-	swig_r = (SlotData)(SwigcptrSlotData(C._wrap_new_SlotData_wrapper_0168c02bcda14bda()))
+	swig_r = (SlotData)(SwigcptrSlotData(C._wrap_new_SlotData_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func DeleteSlotData(arg1 SlotData) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_SlotData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_SlotData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func SlotDataGetDefaultColor() (_swig_ret DragonBones_ColorTransform) {
 	var swig_r DragonBones_ColorTransform
-	swig_r = (DragonBones_ColorTransform)(SwigcptrDragonBones_ColorTransform(C._wrap_SlotData_getDefaultColor_wrapper_0168c02bcda14bda()))
+	swig_r = (DragonBones_ColorTransform)(SwigcptrDragonBones_ColorTransform(C._wrap_SlotData_getDefaultColor_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func SlotDataSetMaxCount(arg1 int64, arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SlotData_setMaxCount_wrapper_0168c02bcda14bda(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_SlotData_setMaxCount_wrapper_49f4652e7e4716be(C.swig_type_2(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SlotDataClearPool__SWIG_0(arg1 int64) {
 	_swig_i_0 := arg1
-	C._wrap_SlotData_clearPool__SWIG_0_wrapper_0168c02bcda14bda(C.swig_type_3(_swig_i_0))
+	C._wrap_SlotData_clearPool__SWIG_0_wrapper_49f4652e7e4716be(C.swig_type_3(_swig_i_0))
 }
 
 func SlotDataClearPool__SWIG_1() {
-	C._wrap_SlotData_clearPool__SWIG_1_wrapper_0168c02bcda14bda()
+	C._wrap_SlotData_clearPool__SWIG_1_wrapper_49f4652e7e4716be()
 }
 
 func SlotDataClearPool(a ...interface{}) {
@@ -7062,17 +9181,17 @@ func SlotDataClearPool(a ...interface{}) {
 
 func (_swig_base SwigcptrSlotData) GetHashCode() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_GetSlotData_HashCode_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base)))
+	swig_r = (uint)(C._wrap_GetSlotData_HashCode_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSlotData) ReturnToPool() {
-	C._wrap_SlotData_returnToPool_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_base))
+	C._wrap_SlotData_returnToPool_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_base))
 }
 
 func SlotDataBorrowArmatureObject() (_swig_ret Armature) {
 	var swig_r Armature
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_SlotData_borrowArmatureObject_wrapper_0168c02bcda14bda()))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_SlotData_borrowArmatureObject_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
@@ -7126,13 +9245,13 @@ func (p *_swig_DirectorBaseFactory) DirectorInterface() interface{} {
 func NewDirectorBaseFactory__SWIG_0(v interface{}, arg1 DragonBones_DataParser) BaseFactory {
 	p := &_swig_DirectorBaseFactory{0, v}
 	_swig_i_0 := arg1.Swigcptr()
-	p.SwigcptrBaseFactory = SwigcptrBaseFactory(C._wrap__swig_NewDirectorBaseFactoryBaseFactory__SWIG_0_wrapper_0168c02bcda14bda(C.int(swigDirectorAdd(p)), C.uintptr_t(_swig_i_0)))
+	p.SwigcptrBaseFactory = SwigcptrBaseFactory(C._wrap__swig_NewDirectorBaseFactoryBaseFactory__SWIG_0_wrapper_49f4652e7e4716be(C.int(swigDirectorAdd(p)), C.uintptr_t(_swig_i_0)))
 	return p
 }
 
 func NewDirectorBaseFactory__SWIG_1(v interface{}) BaseFactory {
 	p := &_swig_DirectorBaseFactory{0, v}
-	p.SwigcptrBaseFactory = SwigcptrBaseFactory(C._wrap__swig_NewDirectorBaseFactoryBaseFactory__SWIG_1_wrapper_0168c02bcda14bda(C.int(swigDirectorAdd(p))))
+	p.SwigcptrBaseFactory = SwigcptrBaseFactory(C._wrap__swig_NewDirectorBaseFactoryBaseFactory__SWIG_1_wrapper_49f4652e7e4716be(C.int(swigDirectorAdd(p))))
 	return p
 }
 
@@ -7149,11 +9268,11 @@ func NewDirectorBaseFactory(abi interface{}, a ...interface{}) BaseFactory {
 
 func DeleteDirectorBaseFactory(arg1 BaseFactory) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_DeleteDirectorBaseFactory_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_DeleteDirectorBaseFactory_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
-//export Swiggo_DeleteDirector_BaseFactory_wrapper_0168c02bcda14bda
-func Swiggo_DeleteDirector_BaseFactory_wrapper_0168c02bcda14bda(c int) {
+//export Swiggo_DeleteDirector_BaseFactory_wrapper_49f4652e7e4716be
+func Swiggo_DeleteDirector_BaseFactory_wrapper_49f4652e7e4716be(c int) {
 	swigDirectorLookup(c).(*_swig_DirectorBaseFactory).SwigcptrBaseFactory = 0
 	swigDirectorDelete(c)
 }
@@ -7167,18 +9286,18 @@ func (swig_p *_swig_DirectorBaseFactory) X_isSupportMesh() bool {
 		return swig_g.X_isSupportMesh()
 	}
 	var swig_r bool
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_X_isSupportMesh_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_X_isSupportMesh_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory)))
 	return swig_r
 }
 
 func DirectorBaseFactoryX_isSupportMesh(p BaseFactory) bool {
 	var swig_r bool
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_X_isSupportMesh_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_X_isSupportMesh_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory)))
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback__isSupportMesh_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback__isSupportMesh_wrapper_0168c02bcda14bda(swig_c int) (swig_result bool) {
+//export Swig_DirectorBaseFactory_callback__isSupportMesh_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback__isSupportMesh_wrapper_49f4652e7e4716be(swig_c int) (swig_result bool) {
 	var swig_r bool
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_r = swig_p.X_isSupportMesh()
@@ -7196,7 +9315,7 @@ func (swig_p *_swig_DirectorBaseFactory) X_getTextureData(textureAtlasName strin
 	var swig_r TextureData
 	_swig_i_0 := textureAtlasName
 	_swig_i_1 := textureName
-	swig_r = (TextureData)((SwigcptrTextureData)(C._wrap__swig_DirectorBaseFactory_upcall_X_getTextureData_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_94)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_95)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (TextureData)((SwigcptrTextureData)(C._wrap__swig_DirectorBaseFactory_upcall_X_getTextureData_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_130)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_131)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -7210,7 +9329,7 @@ func DirectorBaseFactoryX_getTextureData(p BaseFactory, arg2 string, arg3 string
 	var swig_r TextureData
 	_swig_i_0 := arg2
 	_swig_i_1 := arg3
-	swig_r = (TextureData)((SwigcptrTextureData)(C._wrap__swig_DirectorBaseFactory_upcall_X_getTextureData_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_94)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_95)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (TextureData)((SwigcptrTextureData)(C._wrap__swig_DirectorBaseFactory_upcall_X_getTextureData_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_130)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_131)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -7220,8 +9339,8 @@ func DirectorBaseFactoryX_getTextureData(p BaseFactory, arg2 string, arg3 string
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback__getTextureData_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback__getTextureData_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 string) (swig_result SwigcptrTextureData) {
+//export Swig_DirectorBaseFactory_callback__getTextureData_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback__getTextureData_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 string) (swig_result SwigcptrTextureData) {
 	var swig_r SwigcptrTextureData
 	var _swig_i_0 string
 	var _swig_i_1 string
@@ -7246,7 +9365,7 @@ func (swig_p *_swig_DirectorBaseFactory) X_fillBuildArmaturePackage(dataPackage 
 	_swig_i_2 := armatureName
 	_swig_i_3 := skinName
 	_swig_i_4 := textureAtlasName
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_X_fillBuildArmaturePackage_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), *(*C.swig_type_96)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_97)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_98)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_99)(unsafe.Pointer(&_swig_i_4))))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_X_fillBuildArmaturePackage_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), *(*C.swig_type_132)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_133)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_134)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_135)(unsafe.Pointer(&_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_1
 	}
@@ -7269,7 +9388,7 @@ func DirectorBaseFactoryX_fillBuildArmaturePackage(p BaseFactory, arg2 BuildArma
 	_swig_i_2 := arg4
 	_swig_i_3 := arg5
 	_swig_i_4 := arg6
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_X_fillBuildArmaturePackage_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), *(*C.swig_type_96)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_97)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_98)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_99)(unsafe.Pointer(&_swig_i_4))))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_X_fillBuildArmaturePackage_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), *(*C.swig_type_132)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_133)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_134)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_135)(unsafe.Pointer(&_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_1
 	}
@@ -7285,8 +9404,8 @@ func DirectorBaseFactoryX_fillBuildArmaturePackage(p BaseFactory, arg2 BuildArma
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback__fillBuildArmaturePackage_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback__fillBuildArmaturePackage_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr, arg3 string, arg4 string, arg5 string, arg6 string) (swig_result bool) {
+//export Swig_DirectorBaseFactory_callback__fillBuildArmaturePackage_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback__fillBuildArmaturePackage_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr, arg3 string, arg4 string, arg5 string, arg6 string) (swig_result bool) {
 	var swig_r bool
 	var _swig_i_1 string
 	var _swig_i_2 string
@@ -7312,17 +9431,17 @@ func (swig_p *_swig_DirectorBaseFactory) X_buildBones(dataPackage BuildArmatureP
 	}
 	_swig_i_0 := dataPackage.Swigcptr()
 	_swig_i_1 := armature.Swigcptr()
-	C._wrap__swig_DirectorBaseFactory_upcall_X_buildBones_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap__swig_DirectorBaseFactory_upcall_X_buildBones_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func DirectorBaseFactoryX_buildBones(p BaseFactory, arg2 BuildArmaturePackage, arg3 Armature) {
 	_swig_i_0 := arg2.Swigcptr()
 	_swig_i_1 := arg3.Swigcptr()
-	C._wrap__swig_DirectorBaseFactory_upcall_X_buildBones_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap__swig_DirectorBaseFactory_upcall_X_buildBones_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-//export Swig_DirectorBaseFactory_callback__buildBones_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback__buildBones_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr, arg3 uintptr) {
+//export Swig_DirectorBaseFactory_callback__buildBones_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback__buildBones_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr, arg3 uintptr) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_p.X_buildBones(SwigcptrBuildArmaturePackage(arg2), SwigcptrArmature(arg3))
 }
@@ -7338,26 +9457,26 @@ func (swig_p *_swig_DirectorBaseFactory) X_buildSlots(dataPackage BuildArmatureP
 	}
 	_swig_i_0 := dataPackage.Swigcptr()
 	_swig_i_1 := armature.Swigcptr()
-	C._wrap__swig_DirectorBaseFactory_upcall_X_buildSlots_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap__swig_DirectorBaseFactory_upcall_X_buildSlots_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func DirectorBaseFactoryX_buildSlots(p BaseFactory, arg2 BuildArmaturePackage, arg3 Armature) {
 	_swig_i_0 := arg2.Swigcptr()
 	_swig_i_1 := arg3.Swigcptr()
-	C._wrap__swig_DirectorBaseFactory_upcall_X_buildSlots_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap__swig_DirectorBaseFactory_upcall_X_buildSlots_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-//export Swig_DirectorBaseFactory_callback__buildSlots_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback__buildSlots_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr, arg3 uintptr) {
+//export Swig_DirectorBaseFactory_callback__buildSlots_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback__buildSlots_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr, arg3 uintptr) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_p.X_buildSlots(SwigcptrBuildArmaturePackage(arg2), SwigcptrArmature(arg3))
 }
 
 type _swig_DirectorInterfaceBaseFactoryX_buildChildArmature interface {
-	X_buildChildArmature(BuildArmaturePackage, Slot, DragonBones_DisplayData) Armature
+	X_buildChildArmature(BuildArmaturePackage, Slot, DisplayData) Armature
 }
 
-func (swig_p *_swig_DirectorBaseFactory) X_buildChildArmature(dataPackage BuildArmaturePackage, slot Slot, displayData DragonBones_DisplayData) Armature {
+func (swig_p *_swig_DirectorBaseFactory) X_buildChildArmature(dataPackage BuildArmaturePackage, slot Slot, displayData DisplayData) Armature {
 	if swig_g, swig_ok := swig_p.v.(_swig_DirectorInterfaceBaseFactoryX_buildChildArmature); swig_ok {
 		return swig_g.X_buildChildArmature(dataPackage, slot, displayData)
 	}
@@ -7365,32 +9484,32 @@ func (swig_p *_swig_DirectorBaseFactory) X_buildChildArmature(dataPackage BuildA
 	_swig_i_0 := dataPackage.Swigcptr()
 	_swig_i_1 := slot.Swigcptr()
 	_swig_i_2 := displayData.Swigcptr()
-	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_X_buildChildArmature_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_X_buildChildArmature_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
-func DirectorBaseFactoryX_buildChildArmature(p BaseFactory, arg2 BuildArmaturePackage, arg3 Slot, arg4 DragonBones_DisplayData) Armature {
+func DirectorBaseFactoryX_buildChildArmature(p BaseFactory, arg2 BuildArmaturePackage, arg3 Slot, arg4 DisplayData) Armature {
 	var swig_r Armature
 	_swig_i_0 := arg2.Swigcptr()
 	_swig_i_1 := arg3.Swigcptr()
 	_swig_i_2 := arg4.Swigcptr()
-	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_X_buildChildArmature_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_X_buildChildArmature_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback__buildChildArmature_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback__buildChildArmature_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr, arg3 uintptr, arg4 uintptr) (swig_result SwigcptrArmature) {
+//export Swig_DirectorBaseFactory_callback__buildChildArmature_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback__buildChildArmature_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr, arg3 uintptr, arg4 uintptr) (swig_result SwigcptrArmature) {
 	var swig_r SwigcptrArmature
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
-	swig_r = SwigcptrArmature(swig_p.X_buildChildArmature(SwigcptrBuildArmaturePackage(arg2), SwigcptrSlot(arg3), SwigcptrDragonBones_DisplayData(arg4)).Swigcptr())
+	swig_r = SwigcptrArmature(swig_p.X_buildChildArmature(SwigcptrBuildArmaturePackage(arg2), SwigcptrSlot(arg3), SwigcptrDisplayData(arg4)).Swigcptr())
 	return swig_r
 }
 
 type _swig_DirectorInterfaceBaseFactoryX_getSlotDisplay interface {
-	X_getSlotDisplay(BuildArmaturePackage, DragonBones_DisplayData, DragonBones_DisplayData, Slot) Std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_
+	X_getSlotDisplay(BuildArmaturePackage, DisplayData, DisplayData, Slot) Std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_
 }
 
-func (swig_p *_swig_DirectorBaseFactory) X_getSlotDisplay(dataPackage BuildArmaturePackage, displayData DragonBones_DisplayData, rawDisplayData DragonBones_DisplayData, slot Slot) Std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_ {
+func (swig_p *_swig_DirectorBaseFactory) X_getSlotDisplay(dataPackage BuildArmaturePackage, displayData DisplayData, rawDisplayData DisplayData, slot Slot) Std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_ {
 	if swig_g, swig_ok := swig_p.v.(_swig_DirectorInterfaceBaseFactoryX_getSlotDisplay); swig_ok {
 		return swig_g.X_getSlotDisplay(dataPackage, displayData, rawDisplayData, slot)
 	}
@@ -7399,25 +9518,25 @@ func (swig_p *_swig_DirectorBaseFactory) X_getSlotDisplay(dataPackage BuildArmat
 	_swig_i_1 := displayData.Swigcptr()
 	_swig_i_2 := rawDisplayData.Swigcptr()
 	_swig_i_3 := slot.Swigcptr()
-	swig_r = (Std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_)((SwigcptrStd_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_)(C._wrap__swig_DirectorBaseFactory_upcall_X_getSlotDisplay_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_)((SwigcptrStd_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_)(C._wrap__swig_DirectorBaseFactory_upcall_X_getSlotDisplay_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
-func DirectorBaseFactoryX_getSlotDisplay(p BaseFactory, arg2 BuildArmaturePackage, arg3 DragonBones_DisplayData, arg4 DragonBones_DisplayData, arg5 Slot) Std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_ {
+func DirectorBaseFactoryX_getSlotDisplay(p BaseFactory, arg2 BuildArmaturePackage, arg3 DisplayData, arg4 DisplayData, arg5 Slot) Std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_ {
 	var swig_r Std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_
 	_swig_i_0 := arg2.Swigcptr()
 	_swig_i_1 := arg3.Swigcptr()
 	_swig_i_2 := arg4.Swigcptr()
 	_swig_i_3 := arg5.Swigcptr()
-	swig_r = (Std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_)((SwigcptrStd_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_)(C._wrap__swig_DirectorBaseFactory_upcall_X_getSlotDisplay_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (Std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_)((SwigcptrStd_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_)(C._wrap__swig_DirectorBaseFactory_upcall_X_getSlotDisplay_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback__getSlotDisplay_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback__getSlotDisplay_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr, arg3 uintptr, arg4 uintptr, arg5 uintptr) (swig_result SwigcptrStd_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_) {
+//export Swig_DirectorBaseFactory_callback__getSlotDisplay_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback__getSlotDisplay_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr, arg3 uintptr, arg4 uintptr, arg5 uintptr) (swig_result SwigcptrStd_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_) {
 	var swig_r SwigcptrStd_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
-	swig_r = SwigcptrStd_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_(swig_p.X_getSlotDisplay(SwigcptrBuildArmaturePackage(arg2), SwigcptrDragonBones_DisplayData(arg3), SwigcptrDragonBones_DisplayData(arg4), SwigcptrSlot(arg5)).Swigcptr())
+	swig_r = SwigcptrStd_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_(swig_p.X_getSlotDisplay(SwigcptrBuildArmaturePackage(arg2), SwigcptrDisplayData(arg3), SwigcptrDisplayData(arg4), SwigcptrSlot(arg5)).Swigcptr())
 	return swig_r
 }
 
@@ -7432,8 +9551,8 @@ func (swig_p *_swig_DirectorBaseFactory) X_buildTextureAtlasData(textureAtlasDat
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorBaseFactory_callback__buildTextureAtlasData_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback__buildTextureAtlasData_wrapper_0168c02bcda14bda(swig_c int, textureAtlasData uintptr, textureAtlas uintptr) (swig_result SwigcptrTextureAtlasData) {
+//export Swig_DirectorBaseFactory_callback__buildTextureAtlasData_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback__buildTextureAtlasData_wrapper_49f4652e7e4716be(swig_c int, textureAtlasData uintptr, textureAtlas uintptr) (swig_result SwigcptrTextureAtlasData) {
 	var swig_r SwigcptrTextureAtlasData
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_r = SwigcptrTextureAtlasData(swig_p.X_buildTextureAtlasData(SwigcptrTextureAtlasData(textureAtlasData), textureAtlas).Swigcptr())
@@ -7451,8 +9570,8 @@ func (swig_p *_swig_DirectorBaseFactory) X_buildArmature(dataPackage BuildArmatu
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorBaseFactory_callback__buildArmature_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback__buildArmature_wrapper_0168c02bcda14bda(swig_c int, dataPackage uintptr) (swig_result SwigcptrArmature) {
+//export Swig_DirectorBaseFactory_callback__buildArmature_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback__buildArmature_wrapper_49f4652e7e4716be(swig_c int, dataPackage uintptr) (swig_result SwigcptrArmature) {
 	var swig_r SwigcptrArmature
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_r = SwigcptrArmature(swig_p.X_buildArmature(SwigcptrBuildArmaturePackage(dataPackage)).Swigcptr())
@@ -7470,8 +9589,8 @@ func (swig_p *_swig_DirectorBaseFactory) X_buildSlot(dataPackage BuildArmaturePa
 	panic("call to pure virtual method")
 }
 
-//export Swig_DirectorBaseFactory_callback__buildSlot_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback__buildSlot_wrapper_0168c02bcda14bda(swig_c int, dataPackage uintptr, slotData uintptr, armature uintptr) (swig_result SwigcptrSlot) {
+//export Swig_DirectorBaseFactory_callback__buildSlot_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback__buildSlot_wrapper_49f4652e7e4716be(swig_c int, dataPackage uintptr, slotData uintptr, armature uintptr) (swig_result SwigcptrSlot) {
 	var swig_r SwigcptrSlot
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_r = SwigcptrSlot(swig_p.X_buildSlot(SwigcptrBuildArmaturePackage(dataPackage), SwigcptrSlotData(slotData), SwigcptrArmature(armature)).Swigcptr())
@@ -7490,7 +9609,7 @@ func (swig_p *_swig_DirectorBaseFactory) ParseDragonBonesData__SWIG_0(rawData st
 	_swig_i_0 := rawData
 	_swig_i_1 := name
 	_swig_i_2 := scale
-	swig_r = (DragonBonesData)((SwigcptrDragonBonesData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_100)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_101)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
+	swig_r = (DragonBonesData)((SwigcptrDragonBonesData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_136)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_137)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -7505,7 +9624,7 @@ func DirectorBaseFactoryParseDragonBonesData__SWIG_0(p BaseFactory, arg2 string,
 	_swig_i_0 := arg2
 	_swig_i_1 := arg3
 	_swig_i_2 := arg4
-	swig_r = (DragonBonesData)((SwigcptrDragonBonesData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_100)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_101)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
+	swig_r = (DragonBonesData)((SwigcptrDragonBonesData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_136)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_137)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -7515,8 +9634,8 @@ func DirectorBaseFactoryParseDragonBonesData__SWIG_0(p BaseFactory, arg2 string,
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 string, arg4 float32) (swig_result SwigcptrDragonBonesData) {
+//export Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 string, arg4 float32) (swig_result SwigcptrDragonBonesData) {
 	var swig_r SwigcptrDragonBonesData
 	var _swig_i_0 string
 	var _swig_i_1 string
@@ -7540,7 +9659,7 @@ func (swig_p *_swig_DirectorBaseFactory) ParseDragonBonesData__SWIG_1(rawData st
 	var swig_r DragonBonesData
 	_swig_i_0 := rawData
 	_swig_i_1 := name
-	swig_r = (DragonBonesData)((SwigcptrDragonBonesData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_102)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_103)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBonesData)((SwigcptrDragonBonesData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_138)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_139)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -7554,7 +9673,7 @@ func DirectorBaseFactoryParseDragonBonesData__SWIG_1(p BaseFactory, arg2 string,
 	var swig_r DragonBonesData
 	_swig_i_0 := arg2
 	_swig_i_1 := arg3
-	swig_r = (DragonBonesData)((SwigcptrDragonBonesData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_102)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_103)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBonesData)((SwigcptrDragonBonesData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_138)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_139)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -7564,8 +9683,8 @@ func DirectorBaseFactoryParseDragonBonesData__SWIG_1(p BaseFactory, arg2 string,
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 string) (swig_result SwigcptrDragonBonesData) {
+//export Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 string) (swig_result SwigcptrDragonBonesData) {
 	var swig_r SwigcptrDragonBonesData
 	var _swig_i_0 string
 	var _swig_i_1 string
@@ -7588,7 +9707,7 @@ func (swig_p *_swig_DirectorBaseFactory) ParseDragonBonesData__SWIG_2(rawData st
 	}
 	var swig_r DragonBonesData
 	_swig_i_0 := rawData
-	swig_r = (DragonBonesData)((SwigcptrDragonBonesData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_104)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (DragonBonesData)((SwigcptrDragonBonesData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_140)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -7598,15 +9717,15 @@ func (swig_p *_swig_DirectorBaseFactory) ParseDragonBonesData__SWIG_2(rawData st
 func DirectorBaseFactoryParseDragonBonesData__SWIG_2(p BaseFactory, arg2 string) DragonBonesData {
 	var swig_r DragonBonesData
 	_swig_i_0 := arg2
-	swig_r = (DragonBonesData)((SwigcptrDragonBonesData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_104)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (DragonBonesData)((SwigcptrDragonBonesData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseDragonBonesData__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_140)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_2_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_2_wrapper_0168c02bcda14bda(swig_c int, arg2 string) (swig_result SwigcptrDragonBonesData) {
+//export Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_2_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_parseDragonBonesData__SWIG_2_wrapper_49f4652e7e4716be(swig_c int, arg2 string) (swig_result SwigcptrDragonBonesData) {
 	var swig_r SwigcptrDragonBonesData
 	var _swig_i_0 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
@@ -7658,7 +9777,7 @@ func (swig_p *_swig_DirectorBaseFactory) ParseTextureAtlasData__SWIG_0(rawData s
 	_swig_i_1 := textureAtlas
 	_swig_i_2 := name
 	_swig_i_3 := scale
-	swig_r = (TextureAtlasData)((SwigcptrTextureAtlasData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_105)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), *(*C.swig_type_106)(unsafe.Pointer(&_swig_i_2)), C.float(_swig_i_3))))
+	swig_r = (TextureAtlasData)((SwigcptrTextureAtlasData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_141)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), *(*C.swig_type_142)(unsafe.Pointer(&_swig_i_2)), C.float(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -7674,7 +9793,7 @@ func DirectorBaseFactoryParseTextureAtlasData__SWIG_0(p BaseFactory, arg2 string
 	_swig_i_1 := arg3
 	_swig_i_2 := arg4
 	_swig_i_3 := arg5
-	swig_r = (TextureAtlasData)((SwigcptrTextureAtlasData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_105)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), *(*C.swig_type_106)(unsafe.Pointer(&_swig_i_2)), C.float(_swig_i_3))))
+	swig_r = (TextureAtlasData)((SwigcptrTextureAtlasData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_141)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), *(*C.swig_type_142)(unsafe.Pointer(&_swig_i_2)), C.float(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -7684,8 +9803,8 @@ func DirectorBaseFactoryParseTextureAtlasData__SWIG_0(p BaseFactory, arg2 string
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 uintptr, arg4 string, arg5 float32) (swig_result SwigcptrTextureAtlasData) {
+//export Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 uintptr, arg4 string, arg5 float32) (swig_result SwigcptrTextureAtlasData) {
 	var swig_r SwigcptrTextureAtlasData
 	var _swig_i_0 string
 	var _swig_i_2 string
@@ -7710,7 +9829,7 @@ func (swig_p *_swig_DirectorBaseFactory) ParseTextureAtlasData__SWIG_1(rawData s
 	_swig_i_0 := rawData
 	_swig_i_1 := textureAtlas
 	_swig_i_2 := name
-	swig_r = (TextureAtlasData)((SwigcptrTextureAtlasData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_107)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), *(*C.swig_type_108)(unsafe.Pointer(&_swig_i_2)))))
+	swig_r = (TextureAtlasData)((SwigcptrTextureAtlasData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_143)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), *(*C.swig_type_144)(unsafe.Pointer(&_swig_i_2)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -7725,7 +9844,7 @@ func DirectorBaseFactoryParseTextureAtlasData__SWIG_1(p BaseFactory, arg2 string
 	_swig_i_0 := arg2
 	_swig_i_1 := arg3
 	_swig_i_2 := arg4
-	swig_r = (TextureAtlasData)((SwigcptrTextureAtlasData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_107)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), *(*C.swig_type_108)(unsafe.Pointer(&_swig_i_2)))))
+	swig_r = (TextureAtlasData)((SwigcptrTextureAtlasData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_143)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1), *(*C.swig_type_144)(unsafe.Pointer(&_swig_i_2)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -7735,8 +9854,8 @@ func DirectorBaseFactoryParseTextureAtlasData__SWIG_1(p BaseFactory, arg2 string
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 uintptr, arg4 string) (swig_result SwigcptrTextureAtlasData) {
+//export Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 uintptr, arg4 string) (swig_result SwigcptrTextureAtlasData) {
 	var swig_r SwigcptrTextureAtlasData
 	var _swig_i_0 string
 	var _swig_i_2 string
@@ -7760,7 +9879,7 @@ func (swig_p *_swig_DirectorBaseFactory) ParseTextureAtlasData__SWIG_2(rawData s
 	var swig_r TextureAtlasData
 	_swig_i_0 := rawData
 	_swig_i_1 := textureAtlas
-	swig_r = (TextureAtlasData)((SwigcptrTextureAtlasData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_109)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))))
+	swig_r = (TextureAtlasData)((SwigcptrTextureAtlasData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_145)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -7771,15 +9890,15 @@ func DirectorBaseFactoryParseTextureAtlasData__SWIG_2(p BaseFactory, arg2 string
 	var swig_r TextureAtlasData
 	_swig_i_0 := arg2
 	_swig_i_1 := arg3
-	swig_r = (TextureAtlasData)((SwigcptrTextureAtlasData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_109)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))))
+	swig_r = (TextureAtlasData)((SwigcptrTextureAtlasData)(C._wrap__swig_DirectorBaseFactory_upcall_ParseTextureAtlasData__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_145)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_2_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_2_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 uintptr) (swig_result SwigcptrTextureAtlasData) {
+//export Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_2_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_parseTextureAtlasData__SWIG_2_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 uintptr) (swig_result SwigcptrTextureAtlasData) {
 	var swig_r SwigcptrTextureAtlasData
 	var _swig_i_0 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
@@ -7829,7 +9948,7 @@ func (swig_p *_swig_DirectorBaseFactory) AddDragonBonesData__SWIG_0(data DragonB
 	}
 	_swig_i_0 := data.Swigcptr()
 	_swig_i_1 := name
-	C._wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), *(*C.swig_type_110)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), *(*C.swig_type_146)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_1
 	}
@@ -7838,14 +9957,14 @@ func (swig_p *_swig_DirectorBaseFactory) AddDragonBonesData__SWIG_0(data DragonB
 func DirectorBaseFactoryAddDragonBonesData__SWIG_0(p BaseFactory, arg2 DragonBonesData, arg3 string) {
 	_swig_i_0 := arg2.Swigcptr()
 	_swig_i_1 := arg3
-	C._wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), *(*C.swig_type_110)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), *(*C.swig_type_146)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_1
 	}
 }
 
-//export Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr, arg3 string) {
+//export Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr, arg3 string) {
 	var _swig_i_1 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
  _swig_i_1 = swigCopyString(arg3) 
@@ -7862,16 +9981,16 @@ func (swig_p *_swig_DirectorBaseFactory) AddDragonBonesData__SWIG_1(data DragonB
 		return
 	}
 	_swig_i_0 := data.Swigcptr()
-	C._wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0))
+	C._wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0))
 }
 
 func DirectorBaseFactoryAddDragonBonesData__SWIG_1(p BaseFactory, arg2 DragonBonesData) {
 	_swig_i_0 := arg2.Swigcptr()
-	C._wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0))
+	C._wrap__swig_DirectorBaseFactory_upcall_AddDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0))
 }
 
-//export Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr) {
+//export Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_addDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_p.AddDragonBonesData__SWIG_1(SwigcptrDragonBonesData(arg2))
 }
@@ -7913,7 +10032,7 @@ func (swig_p *_swig_DirectorBaseFactory) RemoveDragonBonesData__SWIG_0(name stri
 	}
 	_swig_i_0 := name
 	_swig_i_1 := disposeData
-	C._wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_111)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1))
+	C._wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_147)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -7922,14 +10041,14 @@ func (swig_p *_swig_DirectorBaseFactory) RemoveDragonBonesData__SWIG_0(name stri
 func DirectorBaseFactoryRemoveDragonBonesData__SWIG_0(p BaseFactory, arg2 string, arg3 bool) {
 	_swig_i_0 := arg2
 	_swig_i_1 := arg3
-	C._wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_111)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1))
+	C._wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_147)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
 }
 
-//export Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 bool) {
+//export Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 bool) {
 	var _swig_i_0 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
  _swig_i_0 = swigCopyString(arg2) 
@@ -7946,7 +10065,7 @@ func (swig_p *_swig_DirectorBaseFactory) RemoveDragonBonesData__SWIG_1(name stri
 		return
 	}
 	_swig_i_0 := name
-	C._wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_112)(unsafe.Pointer(&_swig_i_0)))
+	C._wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_148)(unsafe.Pointer(&_swig_i_0)))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -7954,14 +10073,14 @@ func (swig_p *_swig_DirectorBaseFactory) RemoveDragonBonesData__SWIG_1(name stri
 
 func DirectorBaseFactoryRemoveDragonBonesData__SWIG_1(p BaseFactory, arg2 string) {
 	_swig_i_0 := arg2
-	C._wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_112)(unsafe.Pointer(&_swig_i_0)))
+	C._wrap__swig_DirectorBaseFactory_upcall_RemoveDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_148)(unsafe.Pointer(&_swig_i_0)))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
 }
 
-//export Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(swig_c int, arg2 string) {
+//export Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_removeDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(swig_c int, arg2 string) {
 	var _swig_i_0 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
  _swig_i_0 = swigCopyString(arg2) 
@@ -8005,7 +10124,7 @@ func (swig_p *_swig_DirectorBaseFactory) AddTextureAtlasData__SWIG_0(data Textur
 	}
 	_swig_i_0 := data.Swigcptr()
 	_swig_i_1 := name
-	C._wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), *(*C.swig_type_113)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), *(*C.swig_type_149)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_1
 	}
@@ -8014,14 +10133,14 @@ func (swig_p *_swig_DirectorBaseFactory) AddTextureAtlasData__SWIG_0(data Textur
 func DirectorBaseFactoryAddTextureAtlasData__SWIG_0(p BaseFactory, arg2 TextureAtlasData, arg3 string) {
 	_swig_i_0 := arg2.Swigcptr()
 	_swig_i_1 := arg3
-	C._wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), *(*C.swig_type_113)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), *(*C.swig_type_149)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_1
 	}
 }
 
-//export Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr, arg3 string) {
+//export Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr, arg3 string) {
 	var _swig_i_1 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
  _swig_i_1 = swigCopyString(arg3) 
@@ -8038,16 +10157,16 @@ func (swig_p *_swig_DirectorBaseFactory) AddTextureAtlasData__SWIG_1(data Textur
 		return
 	}
 	_swig_i_0 := data.Swigcptr()
-	C._wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0))
+	C._wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0))
 }
 
 func DirectorBaseFactoryAddTextureAtlasData__SWIG_1(p BaseFactory, arg2 TextureAtlasData) {
 	_swig_i_0 := arg2.Swigcptr()
-	C._wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0))
+	C._wrap__swig_DirectorBaseFactory_upcall_AddTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0))
 }
 
-//export Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr) {
+//export Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_addTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_p.AddTextureAtlasData__SWIG_1(SwigcptrTextureAtlasData(arg2))
 }
@@ -8089,7 +10208,7 @@ func (swig_p *_swig_DirectorBaseFactory) RemoveTextureAtlasData__SWIG_0(name str
 	}
 	_swig_i_0 := name
 	_swig_i_1 := disposeData
-	C._wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_114)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1))
+	C._wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_150)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8098,14 +10217,14 @@ func (swig_p *_swig_DirectorBaseFactory) RemoveTextureAtlasData__SWIG_0(name str
 func DirectorBaseFactoryRemoveTextureAtlasData__SWIG_0(p BaseFactory, arg2 string, arg3 bool) {
 	_swig_i_0 := arg2
 	_swig_i_1 := arg3
-	C._wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_114)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1))
+	C._wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_150)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
 }
 
-//export Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 bool) {
+//export Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 bool) {
 	var _swig_i_0 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
  _swig_i_0 = swigCopyString(arg2) 
@@ -8122,7 +10241,7 @@ func (swig_p *_swig_DirectorBaseFactory) RemoveTextureAtlasData__SWIG_1(name str
 		return
 	}
 	_swig_i_0 := name
-	C._wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_115)(unsafe.Pointer(&_swig_i_0)))
+	C._wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_151)(unsafe.Pointer(&_swig_i_0)))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8130,14 +10249,14 @@ func (swig_p *_swig_DirectorBaseFactory) RemoveTextureAtlasData__SWIG_1(name str
 
 func DirectorBaseFactoryRemoveTextureAtlasData__SWIG_1(p BaseFactory, arg2 string) {
 	_swig_i_0 := arg2
-	C._wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_115)(unsafe.Pointer(&_swig_i_0)))
+	C._wrap__swig_DirectorBaseFactory_upcall_RemoveTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_151)(unsafe.Pointer(&_swig_i_0)))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
 }
 
-//export Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(swig_c int, arg2 string) {
+//export Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_removeTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(swig_c int, arg2 string) {
 	var _swig_i_0 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
  _swig_i_0 = swigCopyString(arg2) 
@@ -8181,7 +10300,7 @@ func (swig_p *_swig_DirectorBaseFactory) GetArmatureData__SWIG_0(name string, dr
 	var swig_r ArmatureData
 	_swig_i_0 := name
 	_swig_i_1 := dragonBonesName
-	swig_r = (ArmatureData)((SwigcptrArmatureData)(C._wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_116)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_117)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (ArmatureData)((SwigcptrArmatureData)(C._wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_152)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_153)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8195,7 +10314,7 @@ func DirectorBaseFactoryGetArmatureData__SWIG_0(p BaseFactory, arg2 string, arg3
 	var swig_r ArmatureData
 	_swig_i_0 := arg2
 	_swig_i_1 := arg3
-	swig_r = (ArmatureData)((SwigcptrArmatureData)(C._wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_116)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_117)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (ArmatureData)((SwigcptrArmatureData)(C._wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_152)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_153)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8205,8 +10324,8 @@ func DirectorBaseFactoryGetArmatureData__SWIG_0(p BaseFactory, arg2 string, arg3
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_0_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_0_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 string) (swig_result SwigcptrArmatureData) {
+//export Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_0_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_0_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 string) (swig_result SwigcptrArmatureData) {
 	var swig_r SwigcptrArmatureData
 	var _swig_i_0 string
 	var _swig_i_1 string
@@ -8227,7 +10346,7 @@ func (swig_p *_swig_DirectorBaseFactory) GetArmatureData__SWIG_1(name string) Ar
 	}
 	var swig_r ArmatureData
 	_swig_i_0 := name
-	swig_r = (ArmatureData)((SwigcptrArmatureData)(C._wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_118)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (ArmatureData)((SwigcptrArmatureData)(C._wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_154)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8237,15 +10356,15 @@ func (swig_p *_swig_DirectorBaseFactory) GetArmatureData__SWIG_1(name string) Ar
 func DirectorBaseFactoryGetArmatureData__SWIG_1(p BaseFactory, arg2 string) ArmatureData {
 	var swig_r ArmatureData
 	_swig_i_0 := arg2
-	swig_r = (ArmatureData)((SwigcptrArmatureData)(C._wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_118)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (ArmatureData)((SwigcptrArmatureData)(C._wrap__swig_DirectorBaseFactory_upcall_GetArmatureData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_154)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_1_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_1_wrapper_0168c02bcda14bda(swig_c int, arg2 string) (swig_result SwigcptrArmatureData) {
+//export Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_1_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_getArmatureData__SWIG_1_wrapper_49f4652e7e4716be(swig_c int, arg2 string) (swig_result SwigcptrArmatureData) {
 	var swig_r SwigcptrArmatureData
 	var _swig_i_0 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
@@ -8286,16 +10405,16 @@ func (swig_p *_swig_DirectorBaseFactory) Clear__SWIG_0(disposeData bool) {
 		return
 	}
 	_swig_i_0 := disposeData
-	C._wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C._Bool(_swig_i_0))
+	C._wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C._Bool(_swig_i_0))
 }
 
 func DirectorBaseFactoryClear__SWIG_0(p BaseFactory, arg2 bool) {
 	_swig_i_0 := arg2
-	C._wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C._Bool(_swig_i_0))
+	C._wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C._Bool(_swig_i_0))
 }
 
-//export Swig_DirectorBaseFactory_callback_clear__SWIG_0_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_clear__SWIG_0_wrapper_0168c02bcda14bda(swig_c int, arg2 bool) {
+//export Swig_DirectorBaseFactory_callback_clear__SWIG_0_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_clear__SWIG_0_wrapper_49f4652e7e4716be(swig_c int, arg2 bool) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_p.Clear__SWIG_0(arg2)
 }
@@ -8309,15 +10428,15 @@ func (swig_p *_swig_DirectorBaseFactory) Clear__SWIG_1() {
 		swig_g.Clear__SWIG_1()
 		return
 	}
-	C._wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory))
+	C._wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory))
 }
 
 func DirectorBaseFactoryClear__SWIG_1(p BaseFactory) {
-	C._wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory))
+	C._wrap__swig_DirectorBaseFactory_upcall_Clear__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory))
 }
 
-//export Swig_DirectorBaseFactory_callback_clear__SWIG_1_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_clear__SWIG_1_wrapper_0168c02bcda14bda(swig_c int) {
+//export Swig_DirectorBaseFactory_callback_clear__SWIG_1_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_clear__SWIG_1_wrapper_49f4652e7e4716be(swig_c int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_p.Clear__SWIG_1()
 }
@@ -8361,7 +10480,7 @@ func (swig_p *_swig_DirectorBaseFactory) BuildArmature__SWIG_0(armatureName stri
 	_swig_i_1 := dragonBonesName
 	_swig_i_2 := skinName
 	_swig_i_3 := textureAtlasName
-	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_119)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_120)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_121)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_122)(unsafe.Pointer(&_swig_i_3)))))
+	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_155)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_156)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_157)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_158)(unsafe.Pointer(&_swig_i_3)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8383,7 +10502,7 @@ func DirectorBaseFactoryBuildArmature__SWIG_0(p BaseFactory, arg2 string, arg3 s
 	_swig_i_1 := arg3
 	_swig_i_2 := arg4
 	_swig_i_3 := arg5
-	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_119)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_120)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_121)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_122)(unsafe.Pointer(&_swig_i_3)))))
+	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_155)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_156)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_157)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_158)(unsafe.Pointer(&_swig_i_3)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8399,8 +10518,8 @@ func DirectorBaseFactoryBuildArmature__SWIG_0(p BaseFactory, arg2 string, arg3 s
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_buildArmature__SWIG_0_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_buildArmature__SWIG_0_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 string, arg4 string, arg5 string) (swig_result SwigcptrArmature) {
+//export Swig_DirectorBaseFactory_callback_buildArmature__SWIG_0_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_buildArmature__SWIG_0_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 string, arg4 string, arg5 string) (swig_result SwigcptrArmature) {
 	var swig_r SwigcptrArmature
 	var _swig_i_0 string
 	var _swig_i_1 string
@@ -8427,7 +10546,7 @@ func (swig_p *_swig_DirectorBaseFactory) BuildArmature__SWIG_1(armatureName stri
 	_swig_i_0 := armatureName
 	_swig_i_1 := dragonBonesName
 	_swig_i_2 := skinName
-	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_123)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_124)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_125)(unsafe.Pointer(&_swig_i_2)))))
+	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_159)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_160)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_161)(unsafe.Pointer(&_swig_i_2)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8445,7 +10564,7 @@ func DirectorBaseFactoryBuildArmature__SWIG_1(p BaseFactory, arg2 string, arg3 s
 	_swig_i_0 := arg2
 	_swig_i_1 := arg3
 	_swig_i_2 := arg4
-	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_123)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_124)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_125)(unsafe.Pointer(&_swig_i_2)))))
+	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_159)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_160)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_161)(unsafe.Pointer(&_swig_i_2)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8458,8 +10577,8 @@ func DirectorBaseFactoryBuildArmature__SWIG_1(p BaseFactory, arg2 string, arg3 s
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_buildArmature__SWIG_1_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_buildArmature__SWIG_1_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 string, arg4 string) (swig_result SwigcptrArmature) {
+//export Swig_DirectorBaseFactory_callback_buildArmature__SWIG_1_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_buildArmature__SWIG_1_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 string, arg4 string) (swig_result SwigcptrArmature) {
 	var swig_r SwigcptrArmature
 	var _swig_i_0 string
 	var _swig_i_1 string
@@ -8483,7 +10602,7 @@ func (swig_p *_swig_DirectorBaseFactory) BuildArmature__SWIG_2(armatureName stri
 	var swig_r Armature
 	_swig_i_0 := armatureName
 	_swig_i_1 := dragonBonesName
-	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_126)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_127)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_162)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_163)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8497,7 +10616,7 @@ func DirectorBaseFactoryBuildArmature__SWIG_2(p BaseFactory, arg2 string, arg3 s
 	var swig_r Armature
 	_swig_i_0 := arg2
 	_swig_i_1 := arg3
-	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_126)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_127)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_162)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_163)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8507,8 +10626,8 @@ func DirectorBaseFactoryBuildArmature__SWIG_2(p BaseFactory, arg2 string, arg3 s
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_buildArmature__SWIG_2_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_buildArmature__SWIG_2_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 string) (swig_result SwigcptrArmature) {
+//export Swig_DirectorBaseFactory_callback_buildArmature__SWIG_2_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_buildArmature__SWIG_2_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 string) (swig_result SwigcptrArmature) {
 	var swig_r SwigcptrArmature
 	var _swig_i_0 string
 	var _swig_i_1 string
@@ -8529,7 +10648,7 @@ func (swig_p *_swig_DirectorBaseFactory) BuildArmature__SWIG_3(armatureName stri
 	}
 	var swig_r Armature
 	_swig_i_0 := armatureName
-	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_3_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_128)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_3_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_164)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8539,15 +10658,15 @@ func (swig_p *_swig_DirectorBaseFactory) BuildArmature__SWIG_3(armatureName stri
 func DirectorBaseFactoryBuildArmature__SWIG_3(p BaseFactory, arg2 string) Armature {
 	var swig_r Armature
 	_swig_i_0 := arg2
-	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_3_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_128)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (Armature)((SwigcptrArmature)(C._wrap__swig_DirectorBaseFactory_upcall_BuildArmature__SWIG_3_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_164)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_buildArmature__SWIG_3_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_buildArmature__SWIG_3_wrapper_0168c02bcda14bda(swig_c int, arg2 string) (swig_result SwigcptrArmature) {
+//export Swig_DirectorBaseFactory_callback_buildArmature__SWIG_3_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_buildArmature__SWIG_3_wrapper_49f4652e7e4716be(swig_c int, arg2 string) (swig_result SwigcptrArmature) {
 	var swig_r SwigcptrArmature
 	var _swig_i_0 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
@@ -8591,10 +10710,10 @@ func DirectorBaseFactoryBuildArmature(p *_swig_DirectorBaseFactory, a ...interfa
 }
 
 type _swig_DirectorInterfaceBaseFactoryReplaceDisplay interface {
-	ReplaceDisplay(Slot, DragonBones_DisplayData, int)
+	ReplaceDisplay(Slot, DisplayData, int)
 }
 
-func (swig_p *_swig_DirectorBaseFactory) ReplaceDisplay(slot Slot, displayData DragonBones_DisplayData, displayIndex int) {
+func (swig_p *_swig_DirectorBaseFactory) ReplaceDisplay(slot Slot, displayData DisplayData, displayIndex int) {
 	if swig_g, swig_ok := swig_p.v.(_swig_DirectorInterfaceBaseFactoryReplaceDisplay); swig_ok {
 		swig_g.ReplaceDisplay(slot, displayData, displayIndex)
 		return
@@ -8602,20 +10721,20 @@ func (swig_p *_swig_DirectorBaseFactory) ReplaceDisplay(slot Slot, displayData D
 	_swig_i_0 := slot.Swigcptr()
 	_swig_i_1 := displayData.Swigcptr()
 	_swig_i_2 := displayIndex
-	C._wrap__swig_DirectorBaseFactory_upcall_ReplaceDisplay_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap__swig_DirectorBaseFactory_upcall_ReplaceDisplay_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
-func DirectorBaseFactoryReplaceDisplay(p BaseFactory, arg2 Slot, arg3 DragonBones_DisplayData, arg4 int) {
+func DirectorBaseFactoryReplaceDisplay(p BaseFactory, arg2 Slot, arg3 DisplayData, arg4 int) {
 	_swig_i_0 := arg2.Swigcptr()
 	_swig_i_1 := arg3.Swigcptr()
 	_swig_i_2 := arg4
-	C._wrap__swig_DirectorBaseFactory_upcall_ReplaceDisplay_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap__swig_DirectorBaseFactory_upcall_ReplaceDisplay_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
-//export Swig_DirectorBaseFactory_callback_replaceDisplay_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_replaceDisplay_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr, arg3 uintptr, arg4 int) {
+//export Swig_DirectorBaseFactory_callback_replaceDisplay_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_replaceDisplay_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr, arg3 uintptr, arg4 int) {
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
-	swig_p.ReplaceDisplay(SwigcptrSlot(arg2), SwigcptrDragonBones_DisplayData(arg3), arg4)
+	swig_p.ReplaceDisplay(SwigcptrSlot(arg2), SwigcptrDisplayData(arg3), arg4)
 }
 
 type _swig_DirectorInterfaceBaseFactoryReplaceSlotDisplay__SWIG_0 interface {
@@ -8633,7 +10752,7 @@ func (swig_p *_swig_DirectorBaseFactory) ReplaceSlotDisplay__SWIG_0(dragonBonesN
 	_swig_i_3 := displayName
 	_swig_i_4 := slot.Swigcptr()
 	_swig_i_5 := displayIndex
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_129)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_130)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_131)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_132)(unsafe.Pointer(&_swig_i_3)), C.uintptr_t(_swig_i_4), C.swig_intgo(_swig_i_5)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_165)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_166)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_167)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_168)(unsafe.Pointer(&_swig_i_3)), C.uintptr_t(_swig_i_4), C.swig_intgo(_swig_i_5)))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8657,7 +10776,7 @@ func DirectorBaseFactoryReplaceSlotDisplay__SWIG_0(p BaseFactory, arg2 string, a
 	_swig_i_3 := arg5
 	_swig_i_4 := arg6.Swigcptr()
 	_swig_i_5 := arg7
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_129)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_130)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_131)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_132)(unsafe.Pointer(&_swig_i_3)), C.uintptr_t(_swig_i_4), C.swig_intgo(_swig_i_5)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_165)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_166)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_167)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_168)(unsafe.Pointer(&_swig_i_3)), C.uintptr_t(_swig_i_4), C.swig_intgo(_swig_i_5)))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8673,8 +10792,8 @@ func DirectorBaseFactoryReplaceSlotDisplay__SWIG_0(p BaseFactory, arg2 string, a
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_0_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_0_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 string, arg4 string, arg5 string, arg6 uintptr, arg7 int) (swig_result bool) {
+//export Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_0_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_0_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 string, arg4 string, arg5 string, arg6 uintptr, arg7 int) (swig_result bool) {
 	var swig_r bool
 	var _swig_i_0 string
 	var _swig_i_1 string
@@ -8703,7 +10822,7 @@ func (swig_p *_swig_DirectorBaseFactory) ReplaceSlotDisplay__SWIG_1(dragonBonesN
 	_swig_i_2 := slotName
 	_swig_i_3 := displayName
 	_swig_i_4 := slot.Swigcptr()
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_133)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_134)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_135)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_136)(unsafe.Pointer(&_swig_i_3)), C.uintptr_t(_swig_i_4)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_169)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_170)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_171)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_172)(unsafe.Pointer(&_swig_i_3)), C.uintptr_t(_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8726,7 +10845,7 @@ func DirectorBaseFactoryReplaceSlotDisplay__SWIG_1(p BaseFactory, arg2 string, a
 	_swig_i_2 := arg4
 	_swig_i_3 := arg5
 	_swig_i_4 := arg6.Swigcptr()
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_133)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_134)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_135)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_136)(unsafe.Pointer(&_swig_i_3)), C.uintptr_t(_swig_i_4)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplay__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_169)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_170)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_171)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_172)(unsafe.Pointer(&_swig_i_3)), C.uintptr_t(_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8742,8 +10861,8 @@ func DirectorBaseFactoryReplaceSlotDisplay__SWIG_1(p BaseFactory, arg2 string, a
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_1_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_1_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 string, arg4 string, arg5 string, arg6 uintptr) (swig_result bool) {
+//export Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_1_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_replaceSlotDisplay__SWIG_1_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 string, arg4 string, arg5 string, arg6 uintptr) (swig_result bool) {
 	var swig_r bool
 	var _swig_i_0 string
 	var _swig_i_1 string
@@ -8793,7 +10912,7 @@ func (swig_p *_swig_DirectorBaseFactory) ReplaceSlotDisplayList(dragonBonesName 
 	_swig_i_1 := armatureName
 	_swig_i_2 := slotName
 	_swig_i_3 := slot.Swigcptr()
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplayList_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_137)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_138)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_139)(unsafe.Pointer(&_swig_i_2)), C.uintptr_t(_swig_i_3)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplayList_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), *(*C.swig_type_173)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_174)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_175)(unsafe.Pointer(&_swig_i_2)), C.uintptr_t(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8812,7 +10931,7 @@ func DirectorBaseFactoryReplaceSlotDisplayList(p BaseFactory, arg2 string, arg3 
 	_swig_i_1 := arg3
 	_swig_i_2 := arg4
 	_swig_i_3 := arg5.Swigcptr()
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplayList_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_137)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_138)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_139)(unsafe.Pointer(&_swig_i_2)), C.uintptr_t(_swig_i_3)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSlotDisplayList_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), *(*C.swig_type_173)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_174)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_175)(unsafe.Pointer(&_swig_i_2)), C.uintptr_t(_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = _swig_i_0
 	}
@@ -8825,8 +10944,8 @@ func DirectorBaseFactoryReplaceSlotDisplayList(p BaseFactory, arg2 string, arg3 
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_replaceSlotDisplayList_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_replaceSlotDisplayList_wrapper_0168c02bcda14bda(swig_c int, arg2 string, arg3 string, arg4 string, arg5 uintptr) (swig_result bool) {
+//export Swig_DirectorBaseFactory_callback_replaceSlotDisplayList_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_replaceSlotDisplayList_wrapper_49f4652e7e4716be(swig_c int, arg2 string, arg3 string, arg4 string, arg5 uintptr) (swig_result bool) {
 	var swig_r bool
 	var _swig_i_0 string
 	var _swig_i_1 string
@@ -8852,7 +10971,7 @@ func (swig_p *_swig_DirectorBaseFactory) ReplaceSkin__SWIG_0(armature Armature, 
 	_swig_i_1 := skin.Swigcptr()
 	_swig_i_2 := isOverride
 	_swig_i_3 := exclude.Swigcptr()
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2), C.uintptr_t(_swig_i_3)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2), C.uintptr_t(_swig_i_3)))
 	return swig_r
 }
 
@@ -8862,12 +10981,12 @@ func DirectorBaseFactoryReplaceSkin__SWIG_0(p BaseFactory, arg2 Armature, arg3 D
 	_swig_i_1 := arg3.Swigcptr()
 	_swig_i_2 := arg4
 	_swig_i_3 := arg5.Swigcptr()
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2), C.uintptr_t(_swig_i_3)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2), C.uintptr_t(_swig_i_3)))
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_0_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_0_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr, arg3 uintptr, arg4 bool, arg5 uintptr) (swig_result bool) {
+//export Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_0_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_0_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr, arg3 uintptr, arg4 bool, arg5 uintptr) (swig_result bool) {
 	var swig_r bool
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_r = swig_p.ReplaceSkin__SWIG_0(SwigcptrArmature(arg2), SwigcptrDragonBones_SkinData(arg3), arg4, SwigcptrVectorString(arg5))
@@ -8886,7 +11005,7 @@ func (swig_p *_swig_DirectorBaseFactory) ReplaceSkin__SWIG_1(armature Armature, 
 	_swig_i_0 := armature.Swigcptr()
 	_swig_i_1 := skin.Swigcptr()
 	_swig_i_2 := isOverride
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2)))
 	return swig_r
 }
 
@@ -8895,12 +11014,12 @@ func DirectorBaseFactoryReplaceSkin__SWIG_1(p BaseFactory, arg2 Armature, arg3 D
 	_swig_i_0 := arg2.Swigcptr()
 	_swig_i_1 := arg3.Swigcptr()
 	_swig_i_2 := arg4
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2)))
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_1_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_1_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr, arg3 uintptr, arg4 bool) (swig_result bool) {
+//export Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_1_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_1_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr, arg3 uintptr, arg4 bool) (swig_result bool) {
 	var swig_r bool
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_r = swig_p.ReplaceSkin__SWIG_1(SwigcptrArmature(arg2), SwigcptrDragonBones_SkinData(arg3), arg4)
@@ -8918,7 +11037,7 @@ func (swig_p *_swig_DirectorBaseFactory) ReplaceSkin__SWIG_2(armature Armature, 
 	var swig_r bool
 	_swig_i_0 := armature.Swigcptr()
 	_swig_i_1 := skin.Swigcptr()
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -8926,12 +11045,12 @@ func DirectorBaseFactoryReplaceSkin__SWIG_2(p BaseFactory, arg2 Armature, arg3 D
 	var swig_r bool
 	_swig_i_0 := arg2.Swigcptr()
 	_swig_i_1 := arg3.Swigcptr()
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceSkin__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_2_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_2_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr, arg3 uintptr) (swig_result bool) {
+//export Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_2_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_replaceSkin__SWIG_2_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr, arg3 uintptr) (swig_result bool) {
 	var swig_r bool
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_r = swig_p.ReplaceSkin__SWIG_2(SwigcptrArmature(arg2), SwigcptrDragonBones_SkinData(arg3))
@@ -8978,7 +11097,7 @@ func (swig_p *_swig_DirectorBaseFactory) ReplaceAnimation__SWIG_0(armature Armat
 	_swig_i_0 := armature.Swigcptr()
 	_swig_i_1 := armatureData.Swigcptr()
 	_swig_i_2 := isReplaceAll
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2)))
 	return swig_r
 }
 
@@ -8987,12 +11106,12 @@ func DirectorBaseFactoryReplaceAnimation__SWIG_0(p BaseFactory, arg2 Armature, a
 	_swig_i_0 := arg2.Swigcptr()
 	_swig_i_1 := arg3.Swigcptr()
 	_swig_i_2 := arg4
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2)))
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_0_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_0_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr, arg3 uintptr, arg4 bool) (swig_result bool) {
+//export Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_0_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_0_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr, arg3 uintptr, arg4 bool) (swig_result bool) {
 	var swig_r bool
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_r = swig_p.ReplaceAnimation__SWIG_0(SwigcptrArmature(arg2), SwigcptrArmatureData(arg3), arg4)
@@ -9010,7 +11129,7 @@ func (swig_p *_swig_DirectorBaseFactory) ReplaceAnimation__SWIG_1(armature Armat
 	var swig_r bool
 	_swig_i_0 := armature.Swigcptr()
 	_swig_i_1 := armatureData.Swigcptr()
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(swig_p.SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -9018,12 +11137,12 @@ func DirectorBaseFactoryReplaceAnimation__SWIG_1(p BaseFactory, arg2 Armature, a
 	var swig_r bool
 	_swig_i_0 := arg2.Swigcptr()
 	_swig_i_1 := arg3.Swigcptr()
-	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap__swig_DirectorBaseFactory_upcall_ReplaceAnimation__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(p.(*_swig_DirectorBaseFactory).SwigcptrBaseFactory), C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
-//export Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_1_wrapper_0168c02bcda14bda
-func Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_1_wrapper_0168c02bcda14bda(swig_c int, arg2 uintptr, arg3 uintptr) (swig_result bool) {
+//export Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_1_wrapper_49f4652e7e4716be
+func Swig_DirectorBaseFactory_callback_replaceAnimation__SWIG_1_wrapper_49f4652e7e4716be(swig_c int, arg2 uintptr, arg3 uintptr) (swig_result bool) {
 	var swig_r bool
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorBaseFactory)
 	swig_r = swig_p.ReplaceAnimation__SWIG_1(SwigcptrArmature(arg2), SwigcptrArmatureData(arg3))
@@ -9067,94 +11186,94 @@ func (p SwigcptrBaseFactory) DirectorInterface() interface{} {
 
 func SetBaseFactoryX_jsonParser(arg1 DragonBones_JSONDataParser) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_BaseFactory__jsonParser_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_BaseFactory__jsonParser_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func GetBaseFactoryX_jsonParser() (_swig_ret DragonBones_JSONDataParser) {
 	var swig_r DragonBones_JSONDataParser
-	swig_r = (DragonBones_JSONDataParser)(SwigcptrDragonBones_JSONDataParser(C._wrap_BaseFactory__jsonParser_get_wrapper_0168c02bcda14bda()))
+	swig_r = (DragonBones_JSONDataParser)(SwigcptrDragonBones_JSONDataParser(C._wrap_BaseFactory__jsonParser_get_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func SetBaseFactoryX_binaryParser(arg1 DragonBones_BinaryDataParser) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_BaseFactory__binaryParser_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_BaseFactory__binaryParser_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func GetBaseFactoryX_binaryParser() (_swig_ret DragonBones_BinaryDataParser) {
 	var swig_r DragonBones_BinaryDataParser
-	swig_r = (DragonBones_BinaryDataParser)(SwigcptrDragonBones_BinaryDataParser(C._wrap_BaseFactory__binaryParser_get_wrapper_0168c02bcda14bda()))
+	swig_r = (DragonBones_BinaryDataParser)(SwigcptrDragonBones_BinaryDataParser(C._wrap_BaseFactory__binaryParser_get_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func (arg1 SwigcptrBaseFactory) SetAutoSearch(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BaseFactory_autoSearch_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_BaseFactory_autoSearch_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrBaseFactory) GetAutoSearch() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_BaseFactory_autoSearch_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_BaseFactory_autoSearch_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrBaseFactory) SetX_dragonBonesDataMap(arg2 Std_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_BaseFactory__dragonBonesDataMap_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_BaseFactory__dragonBonesDataMap_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrBaseFactory) GetX_dragonBonesDataMap() (_swig_ret Std_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	var swig_r Std_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_BaseFactory__dragonBonesDataMap_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_BaseFactory__dragonBonesDataMap_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrBaseFactory) SetX_textureAtlasDataMap(arg2 Std_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_BaseFactory__textureAtlasDataMap_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_BaseFactory__textureAtlasDataMap_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrBaseFactory) GetX_textureAtlasDataMap() (_swig_ret Std_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	var swig_r Std_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_BaseFactory__textureAtlasDataMap_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_BaseFactory__textureAtlasDataMap_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrBaseFactory) SetX_dragonBones(arg2 DragonBones) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_BaseFactory__dragonBones_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_BaseFactory__dragonBones_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrBaseFactory) GetX_dragonBones() (_swig_ret DragonBones) {
 	var swig_r DragonBones
 	_swig_i_0 := arg1
-	swig_r = (DragonBones)(SwigcptrDragonBones(C._wrap_BaseFactory__dragonBones_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones)(SwigcptrDragonBones(C._wrap_BaseFactory__dragonBones_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrBaseFactory) SetX_dataParser(arg2 DragonBones_DataParser) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_BaseFactory__dataParser_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_BaseFactory__dataParser_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrBaseFactory) GetX_dataParser() (_swig_ret DragonBones_DataParser) {
 	var swig_r DragonBones_DataParser
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_DataParser)(SwigcptrDragonBones_DataParser(C._wrap_BaseFactory__dataParser_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_DataParser)(SwigcptrDragonBones_DataParser(C._wrap_BaseFactory__dataParser_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func DeleteBaseFactory(arg1 BaseFactory) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_BaseFactory_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_BaseFactory_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrBaseFactory) ParseDragonBonesData__SWIG_0(arg2 string, arg3 string, arg4 float32) (_swig_ret DragonBonesData) {
@@ -9163,7 +11282,7 @@ func (arg1 SwigcptrBaseFactory) ParseDragonBonesData__SWIG_0(arg2 string, arg3 s
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_BaseFactory_parseDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_100)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_101)(unsafe.Pointer(&_swig_i_2)), C.float(_swig_i_3))))
+	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_BaseFactory_parseDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_136)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_137)(unsafe.Pointer(&_swig_i_2)), C.float(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9178,7 +11297,7 @@ func (arg1 SwigcptrBaseFactory) ParseDragonBonesData__SWIG_1(arg2 string, arg3 s
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_BaseFactory_parseDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_102)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_103)(unsafe.Pointer(&_swig_i_2)))))
+	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_BaseFactory_parseDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_138)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_139)(unsafe.Pointer(&_swig_i_2)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9192,7 +11311,7 @@ func (arg1 SwigcptrBaseFactory) ParseDragonBonesData__SWIG_2(arg2 string) (_swig
 	var swig_r DragonBonesData
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_BaseFactory_parseDragonBonesData__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_104)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_BaseFactory_parseDragonBonesData__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_140)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9220,7 +11339,7 @@ func (arg1 SwigcptrBaseFactory) ParseTextureAtlasData__SWIG_0(arg2 string, arg3 
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (TextureAtlasData)(SwigcptrTextureAtlasData(C._wrap_BaseFactory_parseTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_105)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), *(*C.swig_type_106)(unsafe.Pointer(&_swig_i_3)), C.float(_swig_i_4))))
+	swig_r = (TextureAtlasData)(SwigcptrTextureAtlasData(C._wrap_BaseFactory_parseTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_141)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), *(*C.swig_type_142)(unsafe.Pointer(&_swig_i_3)), C.float(_swig_i_4))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9236,7 +11355,7 @@ func (arg1 SwigcptrBaseFactory) ParseTextureAtlasData__SWIG_1(arg2 string, arg3 
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (TextureAtlasData)(SwigcptrTextureAtlasData(C._wrap_BaseFactory_parseTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_107)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), *(*C.swig_type_108)(unsafe.Pointer(&_swig_i_3)))))
+	swig_r = (TextureAtlasData)(SwigcptrTextureAtlasData(C._wrap_BaseFactory_parseTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_143)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), *(*C.swig_type_144)(unsafe.Pointer(&_swig_i_3)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9251,7 +11370,7 @@ func (arg1 SwigcptrBaseFactory) ParseTextureAtlasData__SWIG_2(arg2 string, arg3 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (TextureAtlasData)(SwigcptrTextureAtlasData(C._wrap_BaseFactory_parseTextureAtlasData__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_109)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))))
+	swig_r = (TextureAtlasData)(SwigcptrTextureAtlasData(C._wrap_BaseFactory_parseTextureAtlasData__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_145)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9276,7 +11395,7 @@ func (arg1 SwigcptrBaseFactory) GetDragonBonesData(arg2 string) (_swig_ret Drago
 	var swig_r DragonBonesData
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_BaseFactory_getDragonBonesData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_140)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_BaseFactory_getDragonBonesData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_176)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9287,7 +11406,7 @@ func (arg1 SwigcptrBaseFactory) AddDragonBonesData__SWIG_0(arg2 DragonBonesData,
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	C._wrap_BaseFactory_addDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), *(*C.swig_type_110)(unsafe.Pointer(&_swig_i_2)))
+	C._wrap_BaseFactory_addDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), *(*C.swig_type_146)(unsafe.Pointer(&_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg3
 	}
@@ -9296,7 +11415,7 @@ func (arg1 SwigcptrBaseFactory) AddDragonBonesData__SWIG_0(arg2 DragonBonesData,
 func (arg1 SwigcptrBaseFactory) AddDragonBonesData__SWIG_1(arg2 DragonBonesData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_BaseFactory_addDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_BaseFactory_addDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (p SwigcptrBaseFactory) AddDragonBonesData(a ...interface{}) {
@@ -9316,7 +11435,7 @@ func (arg1 SwigcptrBaseFactory) RemoveDragonBonesData__SWIG_0(arg2 string, arg3 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_BaseFactory_removeDragonBonesData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_111)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))
+	C._wrap_BaseFactory_removeDragonBonesData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_147)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9325,7 +11444,7 @@ func (arg1 SwigcptrBaseFactory) RemoveDragonBonesData__SWIG_0(arg2 string, arg3 
 func (arg1 SwigcptrBaseFactory) RemoveDragonBonesData__SWIG_1(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BaseFactory_removeDragonBonesData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_112)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_BaseFactory_removeDragonBonesData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_148)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9348,7 +11467,7 @@ func (arg1 SwigcptrBaseFactory) GetTextureAtlasData(arg2 string) (_swig_ret Std_
 	var swig_r Std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg_
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg_(C._wrap_BaseFactory_getTextureAtlasData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_141)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg_)(SwigcptrStd_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg_(C._wrap_BaseFactory_getTextureAtlasData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_177)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9359,7 +11478,7 @@ func (arg1 SwigcptrBaseFactory) AddTextureAtlasData__SWIG_0(arg2 TextureAtlasDat
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	C._wrap_BaseFactory_addTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), *(*C.swig_type_113)(unsafe.Pointer(&_swig_i_2)))
+	C._wrap_BaseFactory_addTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), *(*C.swig_type_149)(unsafe.Pointer(&_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg3
 	}
@@ -9368,7 +11487,7 @@ func (arg1 SwigcptrBaseFactory) AddTextureAtlasData__SWIG_0(arg2 TextureAtlasDat
 func (arg1 SwigcptrBaseFactory) AddTextureAtlasData__SWIG_1(arg2 TextureAtlasData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_BaseFactory_addTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_BaseFactory_addTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (p SwigcptrBaseFactory) AddTextureAtlasData(a ...interface{}) {
@@ -9388,7 +11507,7 @@ func (arg1 SwigcptrBaseFactory) RemoveTextureAtlasData__SWIG_0(arg2 string, arg3
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_BaseFactory_removeTextureAtlasData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_114)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))
+	C._wrap_BaseFactory_removeTextureAtlasData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_150)(unsafe.Pointer(&_swig_i_1)), C._Bool(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9397,7 +11516,7 @@ func (arg1 SwigcptrBaseFactory) RemoveTextureAtlasData__SWIG_0(arg2 string, arg3
 func (arg1 SwigcptrBaseFactory) RemoveTextureAtlasData__SWIG_1(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BaseFactory_removeTextureAtlasData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_115)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_BaseFactory_removeTextureAtlasData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_151)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9421,7 +11540,7 @@ func (arg1 SwigcptrBaseFactory) GetArmatureData__SWIG_0(arg2 string, arg3 string
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_BaseFactory_getArmatureData__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_116)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_117)(unsafe.Pointer(&_swig_i_2)))))
+	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_BaseFactory_getArmatureData__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_152)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_153)(unsafe.Pointer(&_swig_i_2)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9435,7 +11554,7 @@ func (arg1 SwigcptrBaseFactory) GetArmatureData__SWIG_1(arg2 string) (_swig_ret 
 	var swig_r ArmatureData
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_BaseFactory_getArmatureData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_118)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_BaseFactory_getArmatureData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_154)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9456,12 +11575,12 @@ func (p SwigcptrBaseFactory) GetArmatureData(a ...interface{}) ArmatureData {
 func (arg1 SwigcptrBaseFactory) Clear__SWIG_0(arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BaseFactory_clear__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
+	C._wrap_BaseFactory_clear__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 }
 
 func (arg1 SwigcptrBaseFactory) Clear__SWIG_1() {
 	_swig_i_0 := arg1
-	C._wrap_BaseFactory_clear__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_BaseFactory_clear__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (p SwigcptrBaseFactory) Clear(a ...interface{}) {
@@ -9484,7 +11603,7 @@ func (arg1 SwigcptrBaseFactory) BuildArmature__SWIG_0(arg2 string, arg3 string, 
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_BaseFactory_buildArmature__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_119)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_120)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_121)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_122)(unsafe.Pointer(&_swig_i_4)))))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_BaseFactory_buildArmature__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_155)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_156)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_157)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_158)(unsafe.Pointer(&_swig_i_4)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9506,7 +11625,7 @@ func (arg1 SwigcptrBaseFactory) BuildArmature__SWIG_1(arg2 string, arg3 string, 
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_BaseFactory_buildArmature__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_123)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_124)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_125)(unsafe.Pointer(&_swig_i_3)))))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_BaseFactory_buildArmature__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_159)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_160)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_161)(unsafe.Pointer(&_swig_i_3)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9524,7 +11643,7 @@ func (arg1 SwigcptrBaseFactory) BuildArmature__SWIG_2(arg2 string, arg3 string) 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_BaseFactory_buildArmature__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_126)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_127)(unsafe.Pointer(&_swig_i_2)))))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_BaseFactory_buildArmature__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_162)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_163)(unsafe.Pointer(&_swig_i_2)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9538,7 +11657,7 @@ func (arg1 SwigcptrBaseFactory) BuildArmature__SWIG_3(arg2 string) (_swig_ret Ar
 	var swig_r Armature
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Armature)(SwigcptrArmature(C._wrap_BaseFactory_buildArmature__SWIG_3_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_128)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Armature)(SwigcptrArmature(C._wrap_BaseFactory_buildArmature__SWIG_3_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_164)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9562,12 +11681,12 @@ func (p SwigcptrBaseFactory) BuildArmature(a ...interface{}) Armature {
 	panic("No match for overloaded function call")
 }
 
-func (arg1 SwigcptrBaseFactory) ReplaceDisplay(arg2 Slot, arg3 DragonBones_DisplayData, arg4 int) {
+func (arg1 SwigcptrBaseFactory) ReplaceDisplay(arg2 Slot, arg3 DisplayData, arg4 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4
-	C._wrap_BaseFactory_replaceDisplay_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_BaseFactory_replaceDisplay_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3))
 }
 
 func (arg1 SwigcptrBaseFactory) ReplaceSlotDisplay__SWIG_0(arg2 string, arg3 string, arg4 string, arg5 string, arg6 Slot, arg7 int) (_swig_ret bool) {
@@ -9579,7 +11698,7 @@ func (arg1 SwigcptrBaseFactory) ReplaceSlotDisplay__SWIG_0(arg2 string, arg3 str
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6.Swigcptr()
 	_swig_i_6 := arg7
-	swig_r = (bool)(C._wrap_BaseFactory_replaceSlotDisplay__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_129)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_130)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_131)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_132)(unsafe.Pointer(&_swig_i_4)), C.uintptr_t(_swig_i_5), C.swig_intgo(_swig_i_6)))
+	swig_r = (bool)(C._wrap_BaseFactory_replaceSlotDisplay__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_165)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_166)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_167)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_168)(unsafe.Pointer(&_swig_i_4)), C.uintptr_t(_swig_i_5), C.swig_intgo(_swig_i_6)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9603,7 +11722,7 @@ func (arg1 SwigcptrBaseFactory) ReplaceSlotDisplay__SWIG_1(arg2 string, arg3 str
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6.Swigcptr()
-	swig_r = (bool)(C._wrap_BaseFactory_replaceSlotDisplay__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_133)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_134)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_135)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_136)(unsafe.Pointer(&_swig_i_4)), C.uintptr_t(_swig_i_5)))
+	swig_r = (bool)(C._wrap_BaseFactory_replaceSlotDisplay__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_169)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_170)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_171)(unsafe.Pointer(&_swig_i_3)), *(*C.swig_type_172)(unsafe.Pointer(&_swig_i_4)), C.uintptr_t(_swig_i_5)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9637,7 +11756,7 @@ func (arg1 SwigcptrBaseFactory) ReplaceSlotDisplayList(arg2 string, arg3 string,
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5.Swigcptr()
-	swig_r = (bool)(C._wrap_BaseFactory_replaceSlotDisplayList_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_137)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_138)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_139)(unsafe.Pointer(&_swig_i_3)), C.uintptr_t(_swig_i_4)))
+	swig_r = (bool)(C._wrap_BaseFactory_replaceSlotDisplayList_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_173)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_174)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_175)(unsafe.Pointer(&_swig_i_3)), C.uintptr_t(_swig_i_4)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9657,7 +11776,7 @@ func (arg1 SwigcptrBaseFactory) ReplaceSkin__SWIG_0(arg2 Armature, arg3 DragonBo
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5.Swigcptr()
-	swig_r = (bool)(C._wrap_BaseFactory_replaceSkin__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C._Bool(_swig_i_3), C.uintptr_t(_swig_i_4)))
+	swig_r = (bool)(C._wrap_BaseFactory_replaceSkin__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C._Bool(_swig_i_3), C.uintptr_t(_swig_i_4)))
 	return swig_r
 }
 
@@ -9667,7 +11786,7 @@ func (arg1 SwigcptrBaseFactory) ReplaceSkin__SWIG_1(arg2 Armature, arg3 DragonBo
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_BaseFactory_replaceSkin__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C._Bool(_swig_i_3)))
+	swig_r = (bool)(C._wrap_BaseFactory_replaceSkin__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C._Bool(_swig_i_3)))
 	return swig_r
 }
 
@@ -9676,7 +11795,7 @@ func (arg1 SwigcptrBaseFactory) ReplaceSkin__SWIG_2(arg2 Armature, arg3 DragonBo
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (bool)(C._wrap_BaseFactory_replaceSkin__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2)))
+	swig_r = (bool)(C._wrap_BaseFactory_replaceSkin__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2)))
 	return swig_r
 }
 
@@ -9700,7 +11819,7 @@ func (arg1 SwigcptrBaseFactory) ReplaceAnimation__SWIG_0(arg2 Armature, arg3 Arm
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4
-	swig_r = (bool)(C._wrap_BaseFactory_replaceAnimation__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C._Bool(_swig_i_3)))
+	swig_r = (bool)(C._wrap_BaseFactory_replaceAnimation__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C._Bool(_swig_i_3)))
 	return swig_r
 }
 
@@ -9709,7 +11828,7 @@ func (arg1 SwigcptrBaseFactory) ReplaceAnimation__SWIG_1(arg2 Armature, arg3 Arm
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (bool)(C._wrap_BaseFactory_replaceAnimation__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2)))
+	swig_r = (bool)(C._wrap_BaseFactory_replaceAnimation__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2)))
 	return swig_r
 }
 
@@ -9727,21 +11846,21 @@ func (p SwigcptrBaseFactory) ReplaceAnimation(a ...interface{}) bool {
 func (arg1 SwigcptrBaseFactory) GetAllTextureAtlasData() (_swig_ret Std_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	var swig_r Std_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_BaseFactory_getAllTextureAtlasData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_BaseFactory_getAllTextureAtlasData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrBaseFactory) GetAllDragonBonesData() (_swig_ret Std_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) {
 	var swig_r Std_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_BaseFactory_getAllDragonBonesData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_)(SwigcptrStd_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_(C._wrap_BaseFactory_getAllDragonBonesData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrBaseFactory) GetClock() (_swig_ret WorldClock) {
 	var swig_r WorldClock
 	_swig_i_0 := arg1
-	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_BaseFactory_getClock_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_BaseFactory_getClock_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -9751,7 +11870,7 @@ func (arg1 SwigcptrBaseFactory) ChangeSkin__SWIG_0(arg2 Armature, arg3 DragonBon
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (bool)(C._wrap_BaseFactory_changeSkin__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3)))
+	swig_r = (bool)(C._wrap_BaseFactory_changeSkin__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3)))
 	return swig_r
 }
 
@@ -9760,7 +11879,7 @@ func (arg1 SwigcptrBaseFactory) ChangeSkin__SWIG_1(arg2 Armature, arg3 DragonBon
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (bool)(C._wrap_BaseFactory_changeSkin__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2)))
+	swig_r = (bool)(C._wrap_BaseFactory_changeSkin__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2)))
 	return swig_r
 }
 
@@ -9792,7 +11911,7 @@ type BaseFactory interface {
 	GetArmatureData(a ...interface{}) ArmatureData
 	Clear(a ...interface{})
 	BuildArmature(a ...interface{}) Armature
-	ReplaceDisplay(arg2 Slot, arg3 DragonBones_DisplayData, arg4 int)
+	ReplaceDisplay(arg2 Slot, arg3 DisplayData, arg4 int)
 	ReplaceSlotDisplay(a ...interface{}) bool
 	ReplaceSlotDisplayList(arg2 string, arg3 string, arg4 string, arg5 Slot) (_swig_ret bool)
 	ReplaceSkin(a ...interface{}) bool
@@ -9815,7 +11934,7 @@ func (p SwigcptrBuildArmaturePackage) SwigIsBuildArmaturePackage() {
 func (arg1 SwigcptrBuildArmaturePackage) SetDataName(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BuildArmaturePackage_dataName_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_142)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_BuildArmaturePackage_dataName_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_178)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9824,7 +11943,7 @@ func (arg1 SwigcptrBuildArmaturePackage) SetDataName(arg2 string) {
 func (arg1 SwigcptrBuildArmaturePackage) GetDataName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_BuildArmaturePackage_dataName_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_BuildArmaturePackage_dataName_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -9834,7 +11953,7 @@ func (arg1 SwigcptrBuildArmaturePackage) GetDataName() (_swig_ret string) {
 func (arg1 SwigcptrBuildArmaturePackage) SetTextureAtlasName(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_BuildArmaturePackage_textureAtlasName_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_144)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_BuildArmaturePackage_textureAtlasName_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_180)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -9843,7 +11962,7 @@ func (arg1 SwigcptrBuildArmaturePackage) SetTextureAtlasName(arg2 string) {
 func (arg1 SwigcptrBuildArmaturePackage) GetTextureAtlasName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_BuildArmaturePackage_textureAtlasName_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_BuildArmaturePackage_textureAtlasName_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -9853,51 +11972,51 @@ func (arg1 SwigcptrBuildArmaturePackage) GetTextureAtlasName() (_swig_ret string
 func (arg1 SwigcptrBuildArmaturePackage) SetData(arg2 DragonBonesData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_BuildArmaturePackage_data_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_BuildArmaturePackage_data_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrBuildArmaturePackage) GetData() (_swig_ret DragonBonesData) {
 	var swig_r DragonBonesData
 	_swig_i_0 := arg1
-	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_BuildArmaturePackage_data_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBonesData)(SwigcptrDragonBonesData(C._wrap_BuildArmaturePackage_data_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrBuildArmaturePackage) SetArmature(arg2 ArmatureData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_BuildArmaturePackage_armature_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_BuildArmaturePackage_armature_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrBuildArmaturePackage) GetArmature() (_swig_ret ArmatureData) {
 	var swig_r ArmatureData
 	_swig_i_0 := arg1
-	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_BuildArmaturePackage_armature_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (ArmatureData)(SwigcptrArmatureData(C._wrap_BuildArmaturePackage_armature_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrBuildArmaturePackage) SetSkin(arg2 DragonBones_SkinData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_BuildArmaturePackage_skin_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_BuildArmaturePackage_skin_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrBuildArmaturePackage) GetSkin() (_swig_ret DragonBones_SkinData) {
 	var swig_r DragonBones_SkinData
 	_swig_i_0 := arg1
-	swig_r = (DragonBones_SkinData)(SwigcptrDragonBones_SkinData(C._wrap_BuildArmaturePackage_skin_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (DragonBones_SkinData)(SwigcptrDragonBones_SkinData(C._wrap_BuildArmaturePackage_skin_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewBuildArmaturePackage() (_swig_ret BuildArmaturePackage) {
 	var swig_r BuildArmaturePackage
-	swig_r = (BuildArmaturePackage)(SwigcptrBuildArmaturePackage(C._wrap_new_BuildArmaturePackage_wrapper_0168c02bcda14bda()))
+	swig_r = (BuildArmaturePackage)(SwigcptrBuildArmaturePackage(C._wrap_new_BuildArmaturePackage_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func DeleteBuildArmaturePackage(arg1 BuildArmaturePackage) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_BuildArmaturePackage_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_BuildArmaturePackage_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 type BuildArmaturePackage interface {
@@ -9927,65 +12046,65 @@ func (p SwigcptrRectangle) SwigIsRectangle() {
 func (arg1 SwigcptrRectangle) SetX(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Rectangle_x_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Rectangle_x_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrRectangle) GetX() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Rectangle_x_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Rectangle_x_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrRectangle) SetY(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Rectangle_y_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Rectangle_y_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrRectangle) GetY() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Rectangle_y_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Rectangle_y_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrRectangle) SetWidth(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Rectangle_width_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Rectangle_width_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrRectangle) GetWidth() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Rectangle_width_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Rectangle_width_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrRectangle) SetHeight(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Rectangle_height_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Rectangle_height_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrRectangle) GetHeight() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Rectangle_height_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Rectangle_height_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewRectangle__SWIG_0() (_swig_ret Rectangle) {
 	var swig_r Rectangle
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_new_Rectangle__SWIG_0_wrapper_0168c02bcda14bda()))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_new_Rectangle__SWIG_0_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func NewRectangle__SWIG_1(arg1 Rectangle) (_swig_ret Rectangle) {
 	var swig_r Rectangle
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_new_Rectangle__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Rectangle)(SwigcptrRectangle(C._wrap_new_Rectangle__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -10002,18 +12121,18 @@ func NewRectangle(a ...interface{}) Rectangle {
 
 func DeleteRectangle(arg1 Rectangle) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Rectangle_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Rectangle_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrRectangle) OpEqual(arg2 Rectangle) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Rectangle_opEqual_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Rectangle_opEqual_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrRectangle) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_Rectangle_clear_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_Rectangle_clear_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 type Rectangle interface {
@@ -10042,135 +12161,135 @@ func (p SwigcptrTransform) SwigIsTransform() {
 
 func GetTransformPI() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_Transform_PI_get_wrapper_0168c02bcda14bda())
+	swig_r = (float32)(C._wrap_Transform_PI_get_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func GetTransformPI_D() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_Transform_PI_D_get_wrapper_0168c02bcda14bda())
+	swig_r = (float32)(C._wrap_Transform_PI_D_get_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func GetTransformPI_H() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_Transform_PI_H_get_wrapper_0168c02bcda14bda())
+	swig_r = (float32)(C._wrap_Transform_PI_H_get_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func GetTransformPI_Q() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_Transform_PI_Q_get_wrapper_0168c02bcda14bda())
+	swig_r = (float32)(C._wrap_Transform_PI_Q_get_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func GetTransformDEG_RAD() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_Transform_DEG_RAD_get_wrapper_0168c02bcda14bda())
+	swig_r = (float32)(C._wrap_Transform_DEG_RAD_get_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func GetTransformRAD_DEG() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_Transform_RAD_DEG_get_wrapper_0168c02bcda14bda())
+	swig_r = (float32)(C._wrap_Transform_RAD_DEG_get_wrapper_49f4652e7e4716be())
 	return swig_r
 }
 
 func TransformNormalizeRadian(arg1 float32) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Transform_normalizeRadian_wrapper_0168c02bcda14bda(C.float(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Transform_normalizeRadian_wrapper_49f4652e7e4716be(C.float(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTransform) SetX(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Transform_x_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Transform_x_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrTransform) GetX() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Transform_x_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Transform_x_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTransform) SetY(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Transform_y_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Transform_y_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrTransform) GetY() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Transform_y_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Transform_y_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTransform) SetSkew(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Transform_skew_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Transform_skew_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrTransform) GetSkew() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Transform_skew_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Transform_skew_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTransform) SetRotation(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Transform_rotation_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Transform_rotation_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrTransform) GetRotation() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Transform_rotation_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Transform_rotation_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTransform) SetScaleX(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Transform_scaleX_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Transform_scaleX_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrTransform) GetScaleX() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Transform_scaleX_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Transform_scaleX_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTransform) SetScaleY(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Transform_scaleY_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Transform_scaleY_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrTransform) GetScaleY() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Transform_scaleY_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Transform_scaleY_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewTransform__SWIG_0() (_swig_ret Transform) {
 	var swig_r Transform
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_new_Transform__SWIG_0_wrapper_0168c02bcda14bda()))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_new_Transform__SWIG_0_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func NewTransform__SWIG_1(arg1 Transform) (_swig_ret Transform) {
 	var swig_r Transform
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_new_Transform__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_new_Transform__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -10187,19 +12306,19 @@ func NewTransform(a ...interface{}) Transform {
 
 func DeleteTransform(arg1 Transform) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Transform_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Transform_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrTransform) OpEqual(arg2 Transform) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Transform_opEqual_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Transform_opEqual_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrTransform) Identity() (_swig_ret Transform) {
 	var swig_r Transform
 	_swig_i_0 := arg1
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_Transform_identity_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_Transform_identity_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -10207,7 +12326,7 @@ func (arg1 SwigcptrTransform) Add(arg2 Transform) (_swig_ret Transform) {
 	var swig_r Transform
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_Transform_add_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_Transform_add_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -10215,7 +12334,7 @@ func (arg1 SwigcptrTransform) Minus(arg2 Transform) (_swig_ret Transform) {
 	var swig_r Transform
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_Transform_minus_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_Transform_minus_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -10223,7 +12342,7 @@ func (arg1 SwigcptrTransform) FromMatrix(arg2 Matrix) (_swig_ret Transform) {
 	var swig_r Transform
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_Transform_fromMatrix_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_Transform_fromMatrix_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -10231,7 +12350,7 @@ func (arg1 SwigcptrTransform) ToMatrix(arg2 Matrix) (_swig_ret Transform) {
 	var swig_r Transform
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Transform)(SwigcptrTransform(C._wrap_Transform_toMatrix_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Transform)(SwigcptrTransform(C._wrap_Transform_toMatrix_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -10270,91 +12389,91 @@ func (p SwigcptrMatrix) SwigIsMatrix() {
 func (arg1 SwigcptrMatrix) SetA(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Matrix_a_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Matrix_a_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrMatrix) GetA() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Matrix_a_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Matrix_a_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrMatrix) SetB(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Matrix_b_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Matrix_b_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrMatrix) GetB() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Matrix_b_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Matrix_b_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrMatrix) SetC(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Matrix_c_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Matrix_c_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrMatrix) GetC() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Matrix_c_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Matrix_c_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrMatrix) SetD(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Matrix_d_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Matrix_d_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrMatrix) GetD() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Matrix_d_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Matrix_d_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrMatrix) SetTx(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Matrix_tx_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Matrix_tx_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrMatrix) GetTx() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Matrix_tx_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Matrix_tx_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrMatrix) SetTy(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Matrix_ty_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_Matrix_ty_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrMatrix) GetTy() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_Matrix_ty_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_Matrix_ty_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewMatrix__SWIG_0() (_swig_ret Matrix) {
 	var swig_r Matrix
-	swig_r = (Matrix)(SwigcptrMatrix(C._wrap_new_Matrix__SWIG_0_wrapper_0168c02bcda14bda()))
+	swig_r = (Matrix)(SwigcptrMatrix(C._wrap_new_Matrix__SWIG_0_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func NewMatrix__SWIG_1(arg1 Matrix) (_swig_ret Matrix) {
 	var swig_r Matrix
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Matrix)(SwigcptrMatrix(C._wrap_new_Matrix__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (Matrix)(SwigcptrMatrix(C._wrap_new_Matrix__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -10371,29 +12490,29 @@ func NewMatrix(a ...interface{}) Matrix {
 
 func DeleteMatrix(arg1 Matrix) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Matrix_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Matrix_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrMatrix) OpEqual(arg2 Matrix) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Matrix_opEqual_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Matrix_opEqual_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrMatrix) Identity() {
 	_swig_i_0 := arg1
-	C._wrap_Matrix_identity_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_Matrix_identity_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrMatrix) Concat(arg2 Matrix) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Matrix_concat_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Matrix_concat_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrMatrix) Invert() {
 	_swig_i_0 := arg1
-	C._wrap_Matrix_invert_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_Matrix_invert_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrMatrix) TransformPoint__SWIG_0(arg2 float32, arg3 float32, arg4 DragonBones_Point, arg5 bool) {
@@ -10402,7 +12521,7 @@ func (arg1 SwigcptrMatrix) TransformPoint__SWIG_0(arg2 float32, arg3 float32, ar
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5
-	C._wrap_Matrix_transformPoint__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C._Bool(_swig_i_4))
+	C._wrap_Matrix_transformPoint__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3), C._Bool(_swig_i_4))
 }
 
 func (arg1 SwigcptrMatrix) TransformPoint__SWIG_1(arg2 float32, arg3 float32, arg4 DragonBones_Point) {
@@ -10410,7 +12529,7 @@ func (arg1 SwigcptrMatrix) TransformPoint__SWIG_1(arg2 float32, arg3 float32, ar
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4.Swigcptr()
-	C._wrap_Matrix_transformPoint__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3))
+	C._wrap_Matrix_transformPoint__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.uintptr_t(_swig_i_3))
 }
 
 func (p SwigcptrMatrix) TransformPoint(a ...interface{}) {
@@ -10430,13 +12549,13 @@ func (arg1 SwigcptrMatrix) TransformRectangle__SWIG_0(arg2 Rectangle, arg3 bool)
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	C._wrap_Matrix_transformRectangle__SWIG_0_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2))
+	C._wrap_Matrix_transformRectangle__SWIG_0_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2))
 }
 
 func (arg1 SwigcptrMatrix) TransformRectangle__SWIG_1(arg2 Rectangle) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Matrix_transformRectangle__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Matrix_transformRectangle__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (p SwigcptrMatrix) TransformRectangle(a ...interface{}) {
@@ -10486,46 +12605,46 @@ func (p SwigcptrWorldClock) SwigIsWorldClock() {
 
 func GetWorldClockClock() (_swig_ret WorldClock) {
 	var swig_r WorldClock
-	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_WorldClock_clock_get_wrapper_0168c02bcda14bda()))
+	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_WorldClock_clock_get_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func (arg1 SwigcptrWorldClock) SetTime(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_WorldClock_time_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_WorldClock_time_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrWorldClock) GetTime() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_WorldClock_time_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_WorldClock_time_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrWorldClock) SetTimeScale(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_WorldClock_timeScale_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_WorldClock_timeScale_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrWorldClock) GetTimeScale() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_WorldClock_timeScale_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_WorldClock_timeScale_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewWorldClock__SWIG_0(arg1 float32) (_swig_ret WorldClock) {
 	var swig_r WorldClock
 	_swig_i_0 := arg1
-	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_new_WorldClock__SWIG_0_wrapper_0168c02bcda14bda(C.float(_swig_i_0))))
+	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_new_WorldClock__SWIG_0_wrapper_49f4652e7e4716be(C.float(_swig_i_0))))
 	return swig_r
 }
 
 func NewWorldClock__SWIG_1() (_swig_ret WorldClock) {
 	var swig_r WorldClock
-	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_new_WorldClock__SWIG_1_wrapper_0168c02bcda14bda()))
+	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_new_WorldClock__SWIG_1_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
@@ -10542,63 +12661,63 @@ func NewWorldClock(a ...interface{}) WorldClock {
 
 func DeleteWorldClock(arg1 WorldClock) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_WorldClock_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_WorldClock_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrWorldClock) AdvanceTime(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_WorldClock_advanceTime_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_WorldClock_advanceTime_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrWorldClock) Contains(arg2 IAnimatable) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (bool)(C._wrap_WorldClock_contains_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_WorldClock_contains_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
 func (arg1 SwigcptrWorldClock) Add(arg2 IAnimatable) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_WorldClock_add_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_WorldClock_add_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrWorldClock) Remove(arg2 IAnimatable) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_WorldClock_remove_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_WorldClock_remove_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrWorldClock) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_WorldClock_clear_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_WorldClock_clear_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrWorldClock) GetClock() (_swig_ret WorldClock) {
 	var swig_r WorldClock
 	_swig_i_0 := arg1
-	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_WorldClock_getClock_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_WorldClock_getClock_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrWorldClock) SetClock(arg2 WorldClock) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_WorldClock_setClock_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_WorldClock_setClock_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func WorldClockGetStaticClock() (_swig_ret WorldClock) {
 	var swig_r WorldClock
-	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_WorldClock_getStaticClock_wrapper_0168c02bcda14bda()))
+	swig_r = (WorldClock)(SwigcptrWorldClock(C._wrap_WorldClock_getStaticClock_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func (arg1 SwigcptrWorldClock) AddArmature(arg2 Armature) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_WorldClock_addArmature_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_WorldClock_addArmature_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (p SwigcptrWorldClock) SwigIsIAnimatable() {
@@ -10630,14 +12749,14 @@ type WorldClock interface {
 func GetSlotTypeIndex(arg1 SwigDirector_Slot) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (int64)(C._wrap_getSlotTypeIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_getSlotTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func GetTextureAtlasDataTypeIndex(arg1 SwigDirector_TextureAtlasData) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (int64)(C._wrap_getTextureAtlasDataTypeIndex_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_getTextureAtlasDataTypeIndex_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -10652,14 +12771,14 @@ func (p SwigcptrMapStringToTextureData) SwigIsMapStringToTextureData() {
 
 func NewMapStringToTextureData__SWIG_0() (_swig_ret MapStringToTextureData) {
 	var swig_r MapStringToTextureData
-	swig_r = (MapStringToTextureData)(SwigcptrMapStringToTextureData(C._wrap_new_mapStringToTextureData__SWIG_0_wrapper_0168c02bcda14bda()))
+	swig_r = (MapStringToTextureData)(SwigcptrMapStringToTextureData(C._wrap_new_mapStringToTextureData__SWIG_0_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func NewMapStringToTextureData__SWIG_1(arg1 MapStringToTextureData) (_swig_ret MapStringToTextureData) {
 	var swig_r MapStringToTextureData
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (MapStringToTextureData)(SwigcptrMapStringToTextureData(C._wrap_new_mapStringToTextureData__SWIG_1_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (MapStringToTextureData)(SwigcptrMapStringToTextureData(C._wrap_new_mapStringToTextureData__SWIG_1_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -10677,27 +12796,27 @@ func NewMapStringToTextureData(a ...interface{}) MapStringToTextureData {
 func (arg1 SwigcptrMapStringToTextureData) Size() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_mapStringToTextureData_size_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_mapStringToTextureData_size_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrMapStringToTextureData) Empty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_mapStringToTextureData_empty_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_mapStringToTextureData_empty_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrMapStringToTextureData) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_mapStringToTextureData_clear_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_mapStringToTextureData_clear_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrMapStringToTextureData) Get(arg2 string) (_swig_ret TextureData) {
 	var swig_r TextureData
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (TextureData)(SwigcptrTextureData(C._wrap_mapStringToTextureData_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_148)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (TextureData)(SwigcptrTextureData(C._wrap_mapStringToTextureData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_184)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -10708,7 +12827,7 @@ func (arg1 SwigcptrMapStringToTextureData) Set(arg2 string, arg3 TextureData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_mapStringToTextureData_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_149)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_mapStringToTextureData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_185)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -10717,7 +12836,7 @@ func (arg1 SwigcptrMapStringToTextureData) Set(arg2 string, arg3 TextureData) {
 func (arg1 SwigcptrMapStringToTextureData) Del(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_mapStringToTextureData_del_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_150)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_mapStringToTextureData_del_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_186)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -10727,7 +12846,7 @@ func (arg1 SwigcptrMapStringToTextureData) Has_key(arg2 string) (_swig_ret bool)
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_mapStringToTextureData_has_key_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_151)(unsafe.Pointer(&_swig_i_1))))
+	swig_r = (bool)(C._wrap_mapStringToTextureData_has_key_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_187)(unsafe.Pointer(&_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -10737,20 +12856,20 @@ func (arg1 SwigcptrMapStringToTextureData) Has_key(arg2 string) (_swig_ret bool)
 func (arg1 SwigcptrMapStringToTextureData) Keys() (_swig_ret VectorString) {
 	var swig_r VectorString
 	_swig_i_0 := arg1
-	swig_r = (VectorString)(SwigcptrVectorString(C._wrap_mapStringToTextureData_keys_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorString)(SwigcptrVectorString(C._wrap_mapStringToTextureData_keys_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrMapStringToTextureData) Values() (_swig_ret VectorTextureData) {
 	var swig_r VectorTextureData
 	_swig_i_0 := arg1
-	swig_r = (VectorTextureData)(SwigcptrVectorTextureData(C._wrap_mapStringToTextureData_values_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorTextureData)(SwigcptrVectorTextureData(C._wrap_mapStringToTextureData_values_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func DeleteMapStringToTextureData(arg1 MapStringToTextureData) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_mapStringToTextureData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_mapStringToTextureData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 type MapStringToTextureData interface {
@@ -10778,21 +12897,21 @@ func (p SwigcptrVectorString) SwigIsVectorString() {
 
 func NewVectorString__SWIG_0() (_swig_ret VectorString) {
 	var swig_r VectorString
-	swig_r = (VectorString)(SwigcptrVectorString(C._wrap_new_vectorString__SWIG_0_wrapper_0168c02bcda14bda()))
+	swig_r = (VectorString)(SwigcptrVectorString(C._wrap_new_vectorString__SWIG_0_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func NewVectorString__SWIG_1(arg1 int64) (_swig_ret VectorString) {
 	var swig_r VectorString
 	_swig_i_0 := arg1
-	swig_r = (VectorString)(SwigcptrVectorString(C._wrap_new_vectorString__SWIG_1_wrapper_0168c02bcda14bda(C.swig_type_152(_swig_i_0))))
+	swig_r = (VectorString)(SwigcptrVectorString(C._wrap_new_vectorString__SWIG_1_wrapper_49f4652e7e4716be(C.swig_type_188(_swig_i_0))))
 	return swig_r
 }
 
 func NewVectorString__SWIG_2(arg1 VectorString) (_swig_ret VectorString) {
 	var swig_r VectorString
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (VectorString)(SwigcptrVectorString(C._wrap_new_vectorString__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorString)(SwigcptrVectorString(C._wrap_new_vectorString__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -10817,39 +12936,39 @@ check_2:
 func (arg1 SwigcptrVectorString) Size() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_vectorString_size_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_vectorString_size_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorString) Capacity() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_vectorString_capacity_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_vectorString_capacity_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorString) Reserve(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vectorString_reserve_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_type_155(_swig_i_1))
+	C._wrap_vectorString_reserve_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_type_191(_swig_i_1))
 }
 
 func (arg1 SwigcptrVectorString) IsEmpty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_vectorString_isEmpty_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_vectorString_isEmpty_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorString) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_vectorString_clear_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_vectorString_clear_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrVectorString) Add(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vectorString_add_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), *(*C.swig_type_156)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_vectorString_add_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), *(*C.swig_type_192)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -10859,7 +12978,7 @@ func (arg1 SwigcptrVectorString) Get(arg2 int) (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r_p := C._wrap_vectorString_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	swig_r_p := C._wrap_vectorString_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -10870,7 +12989,7 @@ func (arg1 SwigcptrVectorString) Set(arg2 int, arg3 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_vectorString_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), *(*C.swig_type_158)(unsafe.Pointer(&_swig_i_2)))
+	C._wrap_vectorString_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), *(*C.swig_type_194)(unsafe.Pointer(&_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg3
 	}
@@ -10878,7 +12997,7 @@ func (arg1 SwigcptrVectorString) Set(arg2 int, arg3 string) {
 
 func DeleteVectorString(arg1 VectorString) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_vectorString_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_vectorString_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 type VectorString interface {
@@ -10905,21 +13024,21 @@ func (p SwigcptrVectorTextureData) SwigIsVectorTextureData() {
 
 func NewVectorTextureData__SWIG_0() (_swig_ret VectorTextureData) {
 	var swig_r VectorTextureData
-	swig_r = (VectorTextureData)(SwigcptrVectorTextureData(C._wrap_new_vectorTextureData__SWIG_0_wrapper_0168c02bcda14bda()))
+	swig_r = (VectorTextureData)(SwigcptrVectorTextureData(C._wrap_new_vectorTextureData__SWIG_0_wrapper_49f4652e7e4716be()))
 	return swig_r
 }
 
 func NewVectorTextureData__SWIG_1(arg1 int64) (_swig_ret VectorTextureData) {
 	var swig_r VectorTextureData
 	_swig_i_0 := arg1
-	swig_r = (VectorTextureData)(SwigcptrVectorTextureData(C._wrap_new_vectorTextureData__SWIG_1_wrapper_0168c02bcda14bda(C.swig_type_159(_swig_i_0))))
+	swig_r = (VectorTextureData)(SwigcptrVectorTextureData(C._wrap_new_vectorTextureData__SWIG_1_wrapper_49f4652e7e4716be(C.swig_type_195(_swig_i_0))))
 	return swig_r
 }
 
 func NewVectorTextureData__SWIG_2(arg1 VectorTextureData) (_swig_ret VectorTextureData) {
 	var swig_r VectorTextureData
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (VectorTextureData)(SwigcptrVectorTextureData(C._wrap_new_vectorTextureData__SWIG_2_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorTextureData)(SwigcptrVectorTextureData(C._wrap_new_vectorTextureData__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -10944,46 +13063,46 @@ check_2:
 func (arg1 SwigcptrVectorTextureData) Size() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_vectorTextureData_size_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_vectorTextureData_size_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorTextureData) Capacity() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_vectorTextureData_capacity_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_vectorTextureData_capacity_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorTextureData) Reserve(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vectorTextureData_reserve_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_type_162(_swig_i_1))
+	C._wrap_vectorTextureData_reserve_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_type_198(_swig_i_1))
 }
 
 func (arg1 SwigcptrVectorTextureData) IsEmpty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_vectorTextureData_isEmpty_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_vectorTextureData_isEmpty_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorTextureData) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_vectorTextureData_clear_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_vectorTextureData_clear_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrVectorTextureData) Add(arg2 TextureData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_vectorTextureData_add_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_vectorTextureData_add_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrVectorTextureData) Get(arg2 int) (_swig_ret TextureData) {
 	var swig_r TextureData
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (TextureData)(SwigcptrTextureData(C._wrap_vectorTextureData_get_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (TextureData)(SwigcptrTextureData(C._wrap_vectorTextureData_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -10991,12 +13110,12 @@ func (arg1 SwigcptrVectorTextureData) Set(arg2 int, arg3 TextureData) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_vectorTextureData_set_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_vectorTextureData_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func DeleteVectorTextureData(arg1 VectorTextureData) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_vectorTextureData_wrapper_0168c02bcda14bda(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_vectorTextureData_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
 }
 
 type VectorTextureData interface {
@@ -11012,84 +13131,288 @@ type VectorTextureData interface {
 	Set(arg2 int, arg3 TextureData)
 }
 
+type SwigcptrVectorFloat uintptr
+
+func (p SwigcptrVectorFloat) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrVectorFloat) SwigIsVectorFloat() {
+}
+
+func NewVectorFloat__SWIG_0() (_swig_ret VectorFloat) {
+	var swig_r VectorFloat
+	swig_r = (VectorFloat)(SwigcptrVectorFloat(C._wrap_new_vectorFloat__SWIG_0_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func NewVectorFloat__SWIG_1(arg1 int64) (_swig_ret VectorFloat) {
+	var swig_r VectorFloat
+	_swig_i_0 := arg1
+	swig_r = (VectorFloat)(SwigcptrVectorFloat(C._wrap_new_vectorFloat__SWIG_1_wrapper_49f4652e7e4716be(C.swig_type_199(_swig_i_0))))
+	return swig_r
+}
+
+func NewVectorFloat__SWIG_2(arg1 VectorFloat) (_swig_ret VectorFloat) {
+	var swig_r VectorFloat
+	_swig_i_0 := arg1.Swigcptr()
+	swig_r = (VectorFloat)(SwigcptrVectorFloat(C._wrap_new_vectorFloat__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewVectorFloat(a ...interface{}) VectorFloat {
+	argc := len(a)
+	if argc == 0 {
+		return NewVectorFloat__SWIG_0()
+	}
+	if argc == 1 {
+		if _, ok := a[0].(int64); !ok {
+			goto check_2
+		}
+		return NewVectorFloat__SWIG_1(a[0].(int64))
+	}
+check_2:
+	if argc == 1 {
+		return NewVectorFloat__SWIG_2(a[0].(VectorFloat))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrVectorFloat) Size() (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	swig_r = (int64)(C._wrap_vectorFloat_size_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVectorFloat) Capacity() (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	swig_r = (int64)(C._wrap_vectorFloat_capacity_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVectorFloat) Reserve(arg2 int64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vectorFloat_reserve_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_type_202(_swig_i_1))
+}
+
+func (arg1 SwigcptrVectorFloat) IsEmpty() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_vectorFloat_isEmpty_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVectorFloat) Clear() {
+	_swig_i_0 := arg1
+	C._wrap_vectorFloat_clear_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrVectorFloat) Add(arg2 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vectorFloat_add_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+}
+
+func (arg1 SwigcptrVectorFloat) Get(arg2 int) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float32)(C._wrap_vectorFloat_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVectorFloat) Set(arg2 int, arg3 float32) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_vectorFloat_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))
+}
+
+func DeleteVectorFloat(arg1 VectorFloat) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_vectorFloat_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+type VectorFloat interface {
+	Swigcptr() uintptr
+	SwigIsVectorFloat()
+	Size() (_swig_ret int64)
+	Capacity() (_swig_ret int64)
+	Reserve(arg2 int64)
+	IsEmpty() (_swig_ret bool)
+	Clear()
+	Add(arg2 float32)
+	Get(arg2 int) (_swig_ret float32)
+	Set(arg2 int, arg3 float32)
+}
+
+type SwigcptrVectorBone uintptr
+
+func (p SwigcptrVectorBone) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrVectorBone) SwigIsVectorBone() {
+}
+
+func NewVectorBone__SWIG_0() (_swig_ret VectorBone) {
+	var swig_r VectorBone
+	swig_r = (VectorBone)(SwigcptrVectorBone(C._wrap_new_vectorBone__SWIG_0_wrapper_49f4652e7e4716be()))
+	return swig_r
+}
+
+func NewVectorBone__SWIG_1(arg1 int64) (_swig_ret VectorBone) {
+	var swig_r VectorBone
+	_swig_i_0 := arg1
+	swig_r = (VectorBone)(SwigcptrVectorBone(C._wrap_new_vectorBone__SWIG_1_wrapper_49f4652e7e4716be(C.swig_type_203(_swig_i_0))))
+	return swig_r
+}
+
+func NewVectorBone__SWIG_2(arg1 VectorBone) (_swig_ret VectorBone) {
+	var swig_r VectorBone
+	_swig_i_0 := arg1.Swigcptr()
+	swig_r = (VectorBone)(SwigcptrVectorBone(C._wrap_new_vectorBone__SWIG_2_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewVectorBone(a ...interface{}) VectorBone {
+	argc := len(a)
+	if argc == 0 {
+		return NewVectorBone__SWIG_0()
+	}
+	if argc == 1 {
+		if _, ok := a[0].(int64); !ok {
+			goto check_2
+		}
+		return NewVectorBone__SWIG_1(a[0].(int64))
+	}
+check_2:
+	if argc == 1 {
+		return NewVectorBone__SWIG_2(a[0].(VectorBone))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrVectorBone) Size() (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	swig_r = (int64)(C._wrap_vectorBone_size_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVectorBone) Capacity() (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	swig_r = (int64)(C._wrap_vectorBone_capacity_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVectorBone) Reserve(arg2 int64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vectorBone_reserve_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_type_206(_swig_i_1))
+}
+
+func (arg1 SwigcptrVectorBone) IsEmpty() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_vectorBone_isEmpty_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVectorBone) Clear() {
+	_swig_i_0 := arg1
+	C._wrap_vectorBone_clear_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrVectorBone) Add(arg2 Bone) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_vectorBone_add_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrVectorBone) Get(arg2 int) (_swig_ret Bone) {
+	var swig_r Bone
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (Bone)(SwigcptrBone(C._wrap_vectorBone_get_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	return swig_r
+}
+
+func (arg1 SwigcptrVectorBone) Set(arg2 int, arg3 Bone) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3.Swigcptr()
+	C._wrap_vectorBone_set_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))
+}
+
+func DeleteVectorBone(arg1 VectorBone) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_vectorBone_wrapper_49f4652e7e4716be(C.uintptr_t(_swig_i_0))
+}
+
+type VectorBone interface {
+	Swigcptr() uintptr
+	SwigIsVectorBone()
+	Size() (_swig_ret int64)
+	Capacity() (_swig_ret int64)
+	Reserve(arg2 int64)
+	IsEmpty() (_swig_ret bool)
+	Clear()
+	Add(arg2 Bone)
+	Get(arg2 int) (_swig_ret Bone)
+	Set(arg2 int, arg3 Bone)
+}
+
+
+type SwigcptrStd_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_ uintptr
+type Std_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_ interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrStd_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrSwigDirector_TextureData uintptr
+type SwigDirector_TextureData interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrSwigDirector_TextureData) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrStd_vector_Sl_dragonBones_BoneData_Sm__Sg_ uintptr
+type Std_vector_Sl_dragonBones_BoneData_Sm__Sg_ interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrStd_vector_Sl_dragonBones_BoneData_Sm__Sg_) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrStd_vector_Sl_dragonBones_DisplayData_Sm__Sg_ uintptr
+type Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_ interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrStd_vector_Sl_dragonBones_DisplayData_Sm__Sg_) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrStd_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg_ uintptr
+type Std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg_ interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrStd_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg_) Swigcptr() uintptr {
+	return uintptr(p)
+}
 
 type SwigcptrDragonBones_Constraint uintptr
 type DragonBones_Constraint interface {
 	Swigcptr() uintptr;
 }
 func (p SwigcptrDragonBones_Constraint) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrStd_map_Sl_std_string_Sc_dragonBones_BoneData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ uintptr
-type Std_map_Sl_std_string_Sc_dragonBones_BoneData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrStd_map_Sl_std_string_Sc_dragonBones_BoneData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrStd_map_Sl_std_string_Sc_dragonBones_SlotData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ uintptr
-type Std_map_Sl_std_string_Sc_dragonBones_SlotData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrStd_map_Sl_std_string_Sc_dragonBones_SlotData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrStd_map_Sl_std_string_Sc_dragonBones_SkinData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ uintptr
-type Std_map_Sl_std_string_Sc_dragonBones_SkinData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrStd_map_Sl_std_string_Sc_dragonBones_SkinData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrStd_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_ uintptr
-type Std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_ interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrStd_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrStd_map_Sl_std_string_Sc_dragonBones_ConstraintData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ uintptr
-type Std_map_Sl_std_string_Sc_dragonBones_ConstraintData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrStd_map_Sl_std_string_Sc_dragonBones_ConstraintData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrDragonBones_ColorTransform uintptr
-type DragonBones_ColorTransform interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrDragonBones_ColorTransform) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrStd_vector_Sl_dragonBones_Slot_Sm__Sg_ uintptr
-type Std_vector_Sl_dragonBones_Slot_Sm__Sg_ interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrStd_vector_Sl_dragonBones_Slot_Sm__Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrSwigDirector_BaseFactory uintptr
-type SwigDirector_BaseFactory interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrSwigDirector_BaseFactory) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrDragonBones_UserData uintptr
-type DragonBones_UserData interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrDragonBones_UserData) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
@@ -11101,51 +13424,27 @@ func (p SwigcptrStd_vector_Sl_int_Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrSwigDirector_Slot uintptr
-type SwigDirector_Slot interface {
+type SwigcptrDragonBones_AnimationData uintptr
+type DragonBones_AnimationData interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrSwigDirector_Slot) Swigcptr() uintptr {
+func (p SwigcptrDragonBones_AnimationData) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrSwigDirector_TextureAtlasData uintptr
-type SwigDirector_TextureAtlasData interface {
+type SwigcptrDragonBones_ActionData uintptr
+type DragonBones_ActionData interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrSwigDirector_TextureAtlasData) Swigcptr() uintptr {
+func (p SwigcptrDragonBones_ActionData) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrDragonBones_CanvasData uintptr
-type DragonBones_CanvasData interface {
+type SwigcptrStd_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ uintptr
+type Std_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrDragonBones_CanvasData) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrDragonBones_BoundingBoxData uintptr
-type DragonBones_BoundingBoxData interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrDragonBones_BoundingBoxData) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrInt16_t uintptr
-type Int16_t interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrInt16_t) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrUint16_t uintptr
-type Uint16_t interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrUint16_t) Swigcptr() uintptr {
+func (p SwigcptrStd_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
@@ -11157,35 +13456,27 @@ func (p SwigcptrDragonBones_AnimationState) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrStd_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_ uintptr
-type Std_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_ interface {
+type SwigcptrDragonBones_UserData uintptr
+type DragonBones_UserData interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrStd_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_) Swigcptr() uintptr {
+func (p SwigcptrDragonBones_UserData) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrStd_function_Sl_void_Sp_dragonBones_EventObject_Sm__SP__Sg_ uintptr
-type Std_function_Sl_void_Sp_dragonBones_EventObject_Sm__SP__Sg_ interface {
+type SwigcptrSwigDirector_BaseFactory uintptr
+type SwigDirector_BaseFactory interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrStd_function_Sl_void_Sp_dragonBones_EventObject_Sm__SP__Sg_) Swigcptr() uintptr {
+func (p SwigcptrSwigDirector_BaseFactory) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrStd_vector_Sl_dragonBones_Constraint_Sm__Sg_ uintptr
-type Std_vector_Sl_dragonBones_Constraint_Sm__Sg_ interface {
+type SwigcptrDragonBones_ConstraintData uintptr
+type DragonBones_ConstraintData interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrStd_vector_Sl_dragonBones_Constraint_Sm__Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrDragonBones_EventObject uintptr
-type DragonBones_EventObject interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrDragonBones_EventObject) Swigcptr() uintptr {
+func (p SwigcptrDragonBones_ConstraintData) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
@@ -11197,11 +13488,35 @@ func (p SwigcptrStd_map_Sl_std_string_Sc_dragonBones_ArmatureData_Sm__Sc_std_les
 	return uintptr(p)
 }
 
-type SwigcptrStd_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ uintptr
-type Std_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ interface {
+type SwigcptrDragonBones_SkinData uintptr
+type DragonBones_SkinData interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrStd_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) Swigcptr() uintptr {
+func (p SwigcptrDragonBones_SkinData) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrDragonBones_CanvasData uintptr
+type DragonBones_CanvasData interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrDragonBones_CanvasData) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrSwigDirector_TextureAtlasData uintptr
+type SwigDirector_TextureAtlasData interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrSwigDirector_TextureAtlasData) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrDragonBones_BlendState uintptr
+type DragonBones_BlendState interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrDragonBones_BlendState) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
@@ -11221,19 +13536,27 @@ func (p SwigcptrStd_vector_Sl_dragonBones_ActionData_Sm__Sg_) Swigcptr() uintptr
 	return uintptr(p)
 }
 
-type SwigcptrDragonBones_DataParser uintptr
-type DragonBones_DataParser interface {
+type SwigcptrStd_map_Sl_std_string_Sc_dragonBones_SkinData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ uintptr
+type Std_map_Sl_std_string_Sc_dragonBones_SkinData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrDragonBones_DataParser) Swigcptr() uintptr {
+func (p SwigcptrStd_map_Sl_std_string_Sc_dragonBones_SkinData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrDragonBones_JSONDataParser uintptr
-type DragonBones_JSONDataParser interface {
+type SwigcptrStd_map_Sl_std_string_Sc_dragonBones_SlotData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ uintptr
+type Std_map_Sl_std_string_Sc_dragonBones_SlotData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrDragonBones_JSONDataParser) Swigcptr() uintptr {
+func (p SwigcptrStd_map_Sl_std_string_Sc_dragonBones_SlotData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrStd_map_Sl_std_string_Sc_dragonBones_BoneData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ uintptr
+type Std_map_Sl_std_string_Sc_dragonBones_BoneData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrStd_map_Sl_std_string_Sc_dragonBones_BoneData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
@@ -11245,99 +13568,35 @@ func (p SwigcptrDragonBones_BinaryDataParser) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrDragonBones_AnimationConfig uintptr
-type DragonBones_AnimationConfig interface {
+type SwigcptrDragonBones_JSONDataParser uintptr
+type DragonBones_JSONDataParser interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrDragonBones_AnimationConfig) Swigcptr() uintptr {
+func (p SwigcptrDragonBones_JSONDataParser) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrDragonBones_DisplayData uintptr
-type DragonBones_DisplayData interface {
+type SwigcptrDragonBones_DataParser uintptr
+type DragonBones_DataParser interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrDragonBones_DisplayData) Swigcptr() uintptr {
+func (p SwigcptrDragonBones_DataParser) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrDragonBones_MeshDisplayData uintptr
-type DragonBones_MeshDisplayData interface {
+type SwigcptrDragonBones_ColorTransform uintptr
+type DragonBones_ColorTransform interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrDragonBones_MeshDisplayData) Swigcptr() uintptr {
+func (p SwigcptrDragonBones_ColorTransform) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrSwigDirector_TextureData uintptr
-type SwigDirector_TextureData interface {
+type SwigcptrStd_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ uintptr
+type Std_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrSwigDirector_TextureData) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrStd_vector_Sl_float_Sg_ uintptr
-type Std_vector_Sl_float_Sg_ interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrStd_vector_Sl_float_Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrDragonBones_Bone uintptr
-type DragonBones_Bone interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrDragonBones_Bone) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrDragonBones_SkinData uintptr
-type DragonBones_SkinData interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrDragonBones_SkinData) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrStd_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_ uintptr
-type Std_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_ interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrStd_map_Sl_std_string_Sc_std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg__Sc_std_less_Sl_std_string_Sg__Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrStd_vector_Sl_dragonBones_DisplayData_Sm__Sg_ uintptr
-type Std_vector_Sl_dragonBones_DisplayData_Sm__Sg_ interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrStd_vector_Sl_dragonBones_DisplayData_Sm__Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrStd_vector_Sl_dragonBones_BoneData_Sm__Sg_ uintptr
-type Std_vector_Sl_dragonBones_BoneData_Sm__Sg_ interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrStd_vector_Sl_dragonBones_BoneData_Sm__Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrStd_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg_ uintptr
-type Std_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg_ interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrStd_vector_Sl_dragonBones_TextureAtlasData_Sm__Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrDragonBones_ConstraintData uintptr
-type DragonBones_ConstraintData interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrDragonBones_ConstraintData) Swigcptr() uintptr {
+func (p SwigcptrStd_map_Sl_std_string_Sc_dragonBones_DragonBonesData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
@@ -11349,27 +13608,43 @@ func (p SwigcptrStd_vector_Sl_dragonBones_AnimationState_Sm__Sg_) Swigcptr() uin
 	return uintptr(p)
 }
 
-type SwigcptrDragonBones_DeformVertices uintptr
-type DragonBones_DeformVertices interface {
+type SwigcptrStd_map_Sl_std_string_Sc_dragonBones_ConstraintData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ uintptr
+type Std_map_Sl_std_string_Sc_dragonBones_ConstraintData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrDragonBones_DeformVertices) Swigcptr() uintptr {
+func (p SwigcptrStd_map_Sl_std_string_Sc_dragonBones_ConstraintData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrStd_vector_Sl_dragonBones_Bone_Sm__Sg_ uintptr
-type Std_vector_Sl_dragonBones_Bone_Sm__Sg_ interface {
+type SwigcptrStd_vector_Sl_dragonBones_Constraint_Sm__Sg_ uintptr
+type Std_vector_Sl_dragonBones_Constraint_Sm__Sg_ interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrStd_vector_Sl_dragonBones_Bone_Sm__Sg_) Swigcptr() uintptr {
+func (p SwigcptrStd_vector_Sl_dragonBones_Constraint_Sm__Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrStd_vector_Sl_unsigned_SS_int_Sg_ uintptr
-type Std_vector_Sl_unsigned_SS_int_Sg_ interface {
+type SwigcptrUint16_t uintptr
+type Uint16_t interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrStd_vector_Sl_unsigned_SS_int_Sg_) Swigcptr() uintptr {
+func (p SwigcptrUint16_t) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrStd_function_Sl_void_Sp_dragonBones_EventObject_Sm__SP__Sg_ uintptr
+type Std_function_Sl_void_Sp_dragonBones_EventObject_Sm__SP__Sg_ interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrStd_function_Sl_void_Sp_dragonBones_EventObject_Sm__SP__Sg_) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrStd_vector_Sl_dragonBones_Slot_Sm__Sg_ uintptr
+type Std_vector_Sl_dragonBones_Slot_Sm__Sg_ interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrStd_vector_Sl_dragonBones_Slot_Sm__Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
@@ -11381,27 +13656,59 @@ func (p SwigcptrDragonBones_Point) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrStd_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ uintptr
-type Std_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_ interface {
+type SwigcptrDragonBones_EventObject uintptr
+type DragonBones_EventObject interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrStd_map_Sl_std_string_Sc_dragonBones_AnimationData_Sm__Sc_std_less_Sl_std_string_Sg__Sg_) Swigcptr() uintptr {
+func (p SwigcptrDragonBones_EventObject) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrDragonBones_AnimationData uintptr
-type DragonBones_AnimationData interface {
+type SwigcptrStd_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_ uintptr
+type Std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_ interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrDragonBones_AnimationData) Swigcptr() uintptr {
+func (p SwigcptrStd_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrDragonBones_ActionData uintptr
-type DragonBones_ActionData interface {
+type SwigcptrDragonBones_AnimationConfig uintptr
+type DragonBones_AnimationConfig interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrDragonBones_ActionData) Swigcptr() uintptr {
+func (p SwigcptrDragonBones_AnimationConfig) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrDragonBones_BoundingBoxData uintptr
+type DragonBones_BoundingBoxData interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrDragonBones_BoundingBoxData) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrSwigDirector_Slot uintptr
+type SwigDirector_Slot interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrSwigDirector_Slot) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrStd_vector_Sl_unsigned_SS_int_Sg_ uintptr
+type Std_vector_Sl_unsigned_SS_int_Sg_ interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrStd_vector_Sl_unsigned_SS_int_Sg_) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrStd_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_ uintptr
+type Std_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_ interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrStd_vector_Sl_std_pair_Sl_void_Sm__Sc_enum_SS_dragonBones_DisplayType_Sg__Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 

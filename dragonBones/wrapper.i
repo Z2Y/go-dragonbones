@@ -12,12 +12,13 @@
 
 %typemap(freearg) const char *rawData "";
 
-/*%typemap(in) const char *rawData
+%apply short { int16_t };
+
+%typemap(in) const char *rawData
 %{
-  printf("%llu\n", &$input);
   $1 = ($1_ltype)$input.p;
 %}
-*/
+
 
 %rename(opLess) operator <;
 %rename(opEqual) operator =;
@@ -37,8 +38,11 @@
 %include "IAnimatable.h"
 %include "Slot.h"
 %include "Armature.h"
+%include "Bone.h"
 %include "DragonBonesData.h"
 %include "TextureAtlasData.h"
+%include "DeformVertices.h"
+%include "DisplayData.h"
 %include "ArmatureData.h"
 %include "BaseFactory.h"
 %include "Rectangle.h"
@@ -68,3 +72,6 @@ std::size_t getTypeIndex(T*) {
 %template(mapStringToTextureData) std::map< std::string,dragonBones::TextureData *,std::less< std::string > >;
 %template(vectorString) std::vector<std::string>;
 %template(vectorTextureData) std::vector<dragonBones::TextureData *>;
+%template(vectorFloat) std::vector<float>;
+%template(vectorBone) std::vector<dragonBones::Bone*>;
+

@@ -18,6 +18,24 @@ type TextureAtlasDataFace interface {
 	IsTextureAtlas()
 }
 
+type DragonBonesData struct {
+	wrapper.DragonBonesData
+	binary *string
+}
+
+func NewDragonBonesData(data wrapper.DragonBonesData, binary *string) *DragonBonesData {
+	dragonBonesData := &DragonBonesData{DragonBonesData: data}
+	if len(*binary) > 4 &&
+		(*binary)[0] == 'D' ||
+		(*binary)[1] == 'B' ||
+		(*binary)[2] == 'D' ||
+		(*binary)[3] == 'T' {
+		dragonBonesData.binary = binary
+	}
+	boneObjectAdd(data.Swigcptr(), dragonBonesData)
+	return dragonBonesData
+}
+
 type TextureAtlasDataImpl struct {
 	wrapper.TextureAtlasData
 
@@ -65,6 +83,8 @@ func (tex *TextureAtlasDataImpl) setRenderTexture(texture *common.TextureResourc
 					Y: (y + height) / tex.TextureResource.Height,
 				},
 			}
+			textureImpl.Rotated = rotated
+			textureImpl.Parent = tex
 			textureImpl.TextureResource = &common.TextureResource{Texture: tex.TextureResource.Texture, Width: width, Height: height, Viewport: &viewport}
 		}
 	}
@@ -105,6 +125,7 @@ type TextureDataImpl struct {
 	wrapper.TextureData
 
 	TextureResource *common.TextureResource
+	Parent          *TextureAtlasDataImpl
 	Rotated         bool
 }
 

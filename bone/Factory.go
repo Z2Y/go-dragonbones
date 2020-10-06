@@ -4,12 +4,10 @@ import "C"
 
 import (
 	wrapper "dragonBones/dragonBones"
-	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
 	"path/filepath"
-	"runtime"
 	"unsafe"
 )
 
@@ -49,16 +47,17 @@ func (factory *DragonBoneFactory) SetAssetPath(base string) {
 	factory.DirectorInterface().(*overwrittenMethodsOnFactory).basePath = base
 }
 
-func (factory *DragonBoneFactory) LoadDragonBonesData(reader io.Reader, name string, scale float32) (wrapper.DragonBonesData, error) {
+func (factory *DragonBoneFactory) LoadDragonBonesData(reader io.Reader, name string, scale float32) (*DragonBonesData, error) {
 	bytes, err := ioutil.ReadAll(reader)
 
 	if err != nil {
 		return nil, err
 	}
 
-	runtime.SetFinalizer(&bytes, func(*[]uint8) { fmt.Printf("bytes final.\n") })
-	data := factory.ParseDragonBonesData(*(*string)(unsafe.Pointer(&bytes)), name, scale)
-	return data, nil
+	binary := *(*string)(unsafe.Pointer(&bytes))
+	data := factory.ParseDragonBonesData(binary, name, scale)
+	dragonBonesData := NewDragonBonesData(data, &binary)
+	return dragonBonesData, nil
 }
 
 func (factory *DragonBoneFactory) LoadTextureAtlasData(reader io.Reader, name string, scale float32) {
@@ -121,7 +120,9 @@ func (om *overwrittenMethodsOnFactory) X_buildArmature(dataPackage wrapper.Build
 func (om *overwrittenMethodsOnFactory) X_buildSlot(dataPackage wrapper.BuildArmaturePackage, slotData wrapper.SlotData, armature wrapper.Armature) wrapper.Slot {
 	slot := NewSlot()
 	sprite := NewSprite()
+	meshSprite := NewMeshSprite()
 	boneObjectAdd(uintptr(unsafe.Pointer(sprite)), sprite)
-	slot.Init(slotData, armature, uintptr(unsafe.Pointer(sprite)), uintptr(unsafe.Pointer(sprite)))
+	boneObjectAdd(uintptr(unsafe.Pointer(meshSprite)), meshSprite)
+	slot.Init(slotData, armature, uintptr(unsafe.Pointer(sprite)), uintptr(unsafe.Pointer(meshSprite)))
 	return slot
 }

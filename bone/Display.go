@@ -14,6 +14,7 @@ type IDisplay interface {
 	GetChildren() []IDisplay
 	RemoveFromParent()
 	UpdateTransform(force bool)
+	SetTransform(*engo.Matrix)
 	GetGlobalTransform() *engo.Matrix
 
 	Texture() *gl.Texture
@@ -90,7 +91,7 @@ func (d *Display) UpdateTransform(force bool) {
 	}
 
 	for _, child := range d.Children {
-		child.UpdateTransform(true)
+		child.UpdateTransform(d.transformDirty || force)
 	}
 	d.transformDirty = false
 }
