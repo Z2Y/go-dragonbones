@@ -120,7 +120,7 @@ func (om *overwrittenMethodsOnFactory) X_buildArmature(dataPackage wrapper.Build
 func (om *overwrittenMethodsOnFactory) X_buildSlot(dataPackage wrapper.BuildArmaturePackage, slotData wrapper.SlotData, armature wrapper.Armature) wrapper.Slot {
 	slot := NewSlot()
 	sprite := NewSprite()
-	meshSprite := NewMeshSprite()
+	meshSprite := NewSprite()
 	boneObjectAdd(uintptr(unsafe.Pointer(sprite)), sprite)
 	boneObjectAdd(uintptr(unsafe.Pointer(meshSprite)), meshSprite)
 	slot.Init(slotData, armature, uintptr(unsafe.Pointer(sprite)), uintptr(unsafe.Pointer(meshSprite)))

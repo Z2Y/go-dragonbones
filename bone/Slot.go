@@ -76,7 +76,6 @@ func (om *overwrittenMethodsOnSlot) X_addDisplay() {
 	if om.renderDisplay != nil {
 		display.AddChild(om.renderDisplay)
 	}
-	log.Println("Add Display", display)
 }
 
 func (om *overwrittenMethodsOnSlot) X_replaceDisplay(value uintptr, isArmatureDisplay bool) {
@@ -93,7 +92,6 @@ func (om *overwrittenMethodsOnSlot) X_removeDisplay() {
 }
 
 func (om *overwrittenMethodsOnSlot) X_updateZOrder() {
-
 }
 
 func (om *overwrittenMethodsOnSlot) X_updateFrame() {
@@ -114,9 +112,8 @@ func (om *overwrittenMethodsOnSlot) X_updateFrame() {
 		textureDataImpl := boneObjectLookup(textureData.Swigcptr()).(*TextureDataImpl)
 		switch frameDisplay := om.renderDisplay.(type) {
 		case *Sprite:
-			frameDisplay.setSpriteFrame(textureDataImpl.TextureResource)
-		case *MeshSprite:
 			if verticesData != nil {
+
 				data := verticesData.GetData()
 				offset := int(verticesData.GetOffset())
 				intArray := data.GetIntArray()
@@ -133,10 +130,10 @@ func (om *overwrittenMethodsOnSlot) X_updateFrame() {
 
 				log.Println(offset, vertexCount, triangleCount, *floatArray)
 				uvOffset := vertexOffset + int(vertexCount)*2
+
 				region := textureDataImpl.GetRegion()
 				regionX, regionY := region.GetX(), region.GetY()
 				regionWidth, regionHeight := region.GetWidth(), region.GetHeight()
-
 				textureAtlasWidth := textureDataImpl.Parent.TextureResource.Width
 				textureAtlasHeight := textureDataImpl.Parent.TextureResource.Height
 
@@ -171,15 +168,14 @@ func (om *overwrittenMethodsOnSlot) X_updateFrame() {
 				log.Println(regionX, regionY, regionWidth, regionHeight, textureAtlasWidth, textureAtlasHeight)
 				log.Println("Mesh:", frameDisplay.uvs, frameDisplay.indices, frameDisplay.vertices)
 				// panic("Mesh")
+			} else {
+				frameDisplay.setSpriteFrame(textureDataImpl.TextureResource)
+				frameDisplay.createTextureBuffer()
 			}
 		}
 	} else {
 		switch frameDisplay := om.renderDisplay.(type) {
 		case *Sprite:
-			frameDisplay.spriteFrame = nil
-			frameDisplay.Position = engo.Point{X: 0, Y: 0}
-			frameDisplay.Hidden = true
-		case *MeshSprite:
 			frameDisplay.spriteFrame = nil
 			frameDisplay.Position = engo.Point{X: 0, Y: 0}
 			frameDisplay.Hidden = true
@@ -200,7 +196,7 @@ func (om *overwrittenMethodsOnSlot) X_updateMesh() {
 
 	hasFFD := !deformVertices.IsEmpty()
 
-	meshDisplay := om.renderDisplay.(*MeshSprite)
+	meshDisplay := om.renderDisplay.(*Sprite)
 
 	if weightData.Swigcptr() != 0 {
 		data := verticesData.GetData()
@@ -288,7 +284,8 @@ func (om *overwrittenMethodsOnSlot) X_updateMesh() {
 }
 
 func (om *overwrittenMethodsOnSlot) X_updateVisible() {
-
+	visible := wrapper.SwigcptrSlot(om.slot.Swigcptr()).GetParent().GetVisible()
+	om.renderDisplay.SetVisible(visible && om.slot.GetVisible())
 }
 
 func (om *overwrittenMethodsOnSlot) X_updateBlendMode() {
@@ -318,7 +315,7 @@ func (om *overwrittenMethodsOnSlot) X_updateTransform() {
 	transformMatrix.Val[4] = d
 
 	switch frameDisplay := om.renderDisplay.(type) {
-	case *Sprite, *MeshSprite:
+	case *Sprite:
 		if om.textureScale != 1.0 {
 			transformMatrix.Val[0] *= om.textureScale
 			transformMatrix.Val[1] *= om.textureScale

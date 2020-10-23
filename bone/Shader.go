@@ -64,18 +64,6 @@ func (db *DragonBoneShader) DrawDisplay(iDisplay IDisplay) {
 
 	switch display := iDisplay.(type) {
 	case *Sprite:
-		if db.isRenderMesh {
-			db.wrappedShader.Pre()
-			db.isRenderMesh = false
-		}
-		if !display.Hidden && display.Drawable != nil {
-			db.wrappedShader.Draw(&display.RenderComponent, &display.SpaceComponent)
-		}
-	case *MeshSprite:
-		if !db.isRenderMesh {
-			db.wrappedShader.Post()
-			db.isRenderMesh = true
-		}
 		if !display.Hidden && display.Drawable != nil {
 			db.meshShader.Pre()
 			db.meshShader.Draw(display, &display.SpaceComponent)

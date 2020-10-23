@@ -19,6 +19,7 @@ type IDisplay interface {
 	UpdateTransform(force bool)
 	SetTransform(*engo.Matrix)
 	GetGlobalTransform() *engo.Matrix
+	SetVisible(bool)
 
 	Texture() *gl.Texture
 	Width() float32
@@ -49,6 +50,10 @@ func (d *Display) SetParent(p IDisplay) {
 func (d *Display) AddChild(child IDisplay) {
 	child.SetParent(d)
 	d.Children = append(d.Children, child)
+}
+
+func (d *Display) SetVisible(v bool) {
+	d.Hidden = !v
 }
 
 func (d *Display) RemoveChild(child IDisplay) {

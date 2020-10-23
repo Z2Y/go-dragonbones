@@ -164,7 +164,7 @@ func (s *basicMeshShader) PrepareCulling() {
 	s.cullingMatrix.Scale(engo.GetGlobalScale().X, engo.GetGlobalScale().Y)
 }
 
-func (s *basicMeshShader) Draw(mesh *MeshSprite, space *common.SpaceComponent) {
+func (s *basicMeshShader) Draw(mesh *Sprite, space *common.SpaceComponent) {
 	// If our texture (or any of its properties) has changed or we've reached the end of our buffer, flush before moving on.
 	engo.Gl.BindTexture(engo.Gl.TEXTURE_2D, mesh.Drawable.Texture())
 	engo.Gl.TexParameteri(engo.Gl.TEXTURE_2D, engo.Gl.TEXTURE_WRAP_S, engo.Gl.CLAMP_TO_EDGE)

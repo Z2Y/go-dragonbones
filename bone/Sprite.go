@@ -20,11 +20,50 @@ type Sprite struct {
 	Display
 
 	spriteFrame *common.TextureResource
+
+	uvs      []float32
+	indices  []uint16
+	vertices []float32
 }
 
 func NewSprite() *Sprite {
 	sprite := Sprite{}
 	return &sprite
+}
+
+func (sprite *Sprite) createTextureBuffer() {
+	if sprite.spriteFrame == nil {
+		panic("can't create buffer for empty sprite")
+	}
+	viewport := sprite.spriteFrame.Viewport
+	u, v, u2, v2 := viewport.Min.X, viewport.Min.Y, viewport.Max.X, viewport.Max.Y
+	sprite.vertices = make([]float32, 8)
+	sprite.uvs = make([]float32, 8)
+	sprite.indices = make([]uint16, 6)
+	sprite.indices[0] = 0
+	sprite.indices[1] = 1
+	sprite.indices[2] = 2
+	sprite.indices[3] = 0
+	sprite.indices[4] = 2
+	sprite.indices[5] = 3
+
+	sprite.uvs[0] = u
+	sprite.uvs[1] = v
+	sprite.uvs[2] = u2
+	sprite.uvs[3] = v
+	sprite.uvs[4] = u2
+	sprite.uvs[5] = v2
+	sprite.uvs[6] = u
+	sprite.uvs[7] = v2
+
+	sprite.vertices[0] = 0
+	sprite.vertices[1] = 0
+	sprite.vertices[2] = sprite.spriteFrame.Width
+	sprite.vertices[3] = 0
+	sprite.vertices[4] = sprite.spriteFrame.Width
+	sprite.vertices[5] = sprite.spriteFrame.Height
+	sprite.vertices[6] = 0
+	sprite.vertices[7] = sprite.spriteFrame.Height
 }
 
 func (sprite *Sprite) setSpriteFrame(textureData *common.TextureResource) {
